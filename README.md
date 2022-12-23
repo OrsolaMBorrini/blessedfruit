@@ -1,4 +1,4 @@
-# blessedfruit
+# Blessed Be the Fruit
 Final Project for the "Open Access and Digital Ethics" course, Monica Palmirani @ University of Bologna, MA "DHDK"
 
 The website is available at the following [link](https://orsolamborrini.github.io/blessedfruit/).
