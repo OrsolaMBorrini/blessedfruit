@@ -48,6 +48,31 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Underline animation
+--------------------------------------------------------------*/
+.underlined {
+  color: #444444;
+  flex: 1;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #c5dfc1 0, #c5dfc1 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+ 
+.underlined:hover {
+  background-size: 100% 100%;
+  color: #444444;
+}
+.underlined--offset {
+  background-position: 0 0.1em;
+  box-shadow: inset 0 -0.5em 0 0 #f6f2e7;
+}
+
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -1105,7 +1130,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #3498db;
+  color: #85a59b;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1141,11 +1166,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3498db;
+  border: 1px solid #557c70;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3498db;
+  background-color: #557c70;
 }
 
 .portfolio-details .portfolio-info {
