@@ -5,5 +5,5 @@ The website is available at the following [link](https://orsolamborrini.github.i
 
 ## Contributors
 - [Maddalena Ghiotto](mailto:maddalena.ghiotto@studio.unibo.it)
-- [Chloe Papadopoulou](mailto:chloe.papadopoulou@studio.unibo.it)
+- [Chloe Papadopoulou](mailto:chloi.papadopoulou@studio.unibo.it)
 - [Orsola Maria Borrini](mailto:orsolamaria.borrini@studio.unibo.it)
