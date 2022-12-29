@@ -1684,3 +1684,9 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+.footer-text {
+  padding-top:1em;
+  padding-left: 15em;
+  padding-right: 15em;
+}
