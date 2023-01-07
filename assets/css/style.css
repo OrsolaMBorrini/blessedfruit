@@ -1690,3 +1690,8 @@ section {
   padding-left: 15em;
   padding-right: 15em;
 }
+
+#pmgBead {
+    width: 20em;
+    padding: 1em;
+}
