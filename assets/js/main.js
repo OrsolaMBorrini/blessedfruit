@@ -246,6 +246,7 @@
    * Animation on scroll
    */
   window.addEventListener('load', () => {
+    reveal(2000);
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
@@ -261,46 +262,26 @@
 
 })()
 
-/* highlight animation */
-/*
-function reveal() {
-  var reveals = document.querySelectorAll('.underlined')
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add('active');
-    } else {
-      reveals[i].classList.remove('active');
-    }
-  }
-}
-
-//time_delay = setTimeout(reveal,3000); //this is type 'number'
-window.addEventListener('scroll', reveal);
-// to check the scroll position on page load
-setTimeout(reveal, 3000);
-reveal(); */
-
-/* --- HIGHLIGHT ANIMATION --- */
-var t;
+/* --- Highlight animation --- */
 
 $(window).scroll(function(){
-  clearTimeout(t);
-  t = setTimeout(function(){reveal();},1000);
+  reveal(200);
 })
 
-function reveal() {
-  var reveals = document.querySelectorAll('.underlined')
+function reveal(delay) {
+  var reveals = document.querySelectorAll('.underlined');
+  let position = window.scrollY;
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
     var elementVisible = 150;
     if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add('active');
+      setTimeout((function(){
+        this.classList.add('active');
+      }).bind(reveals[i]), delay);
     } else {
       reveals[i].classList.remove('active');
     }
   }
 }
+
