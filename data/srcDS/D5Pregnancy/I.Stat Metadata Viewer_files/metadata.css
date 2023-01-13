@@ -1,0 +1,296 @@
+
+body
+{
+	margin			: 0px 0px 0px 0px;
+	padding			: 0px 0px 0px 0px;
+	font-family		: Verdana, Arial, Helvetica, sans-serif;
+	font-size		: 10px;
+	font-weight		: bold;
+	background-color: White;
+	color			: #495D8E;
+	width			: 100%;
+	text-align		: center;
+} 
+
+p
+{
+	margin			: 3px 3px 3px 3px;
+	padding			: 3px 3px 3px 3px;
+}
+
+h1,h2,h3,h4,h5,h6,h7,h8,h9 { font-size: 10px; } 
+H1,H2,H3,H4,H5,H6,H7,H8,H9 { font-size: 10px; } 
+
+a:link		{ color:#0000FF; text-decoration:none}
+a:visited	{ color:#666666; text-decoration:none}
+a:hover		{ color:#ff0000; text-decoration:none}
+a:active	{ color:#ff0000; text-decoration:none}
+a:focus		{ color:#ff0000; text-decoration:none}
+
+table
+{
+	font-size : 10px;
+}
+
+.MetadataTitle
+{
+	margin			: 3px 3px 3px 3px;
+	padding			: 3px 3px 3px 3px;
+	background-color: #CFD9F2; 
+    cursor			: auto;
+}
+
+.MetadataGroupTitle
+{
+	margin			: 10px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+    cursor			: pointer;
+    display			: none;
+    border			: solid 1px #CFD9F2;	/* inset */
+    border-bottom	: dotted 1px #CFD9F2;
+}
+
+.MetadataGroupTitleToPrint
+{
+	margin			: 10px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+    display			: inline-block;
+    border			: solid 1px #CFD9F2;	/* inset */
+    border-bottom	: dotted 1px #CFD9F2;
+}
+
+.MetadataGroupTitleDisabled
+{
+	margin			: 10px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+    cursor			: pointer;
+    display			: inline-block;
+    border			: solid 1px #CFD9F2;	/* outset */
+}
+
+.MetadataGroupBlock
+{
+	margin			: 0px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+	display			: none;
+	border-left		: solid 1px #CFD9F2;	/* inset */
+	border-bottom	: solid 1px #CFD9F2;	/* inset */
+	border-right	: solid 1px #CFD9F2;	/* inset */
+}
+
+.MetadataGroupBlockToPrint
+{
+	margin			: 0px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+	display			: inline-block;
+	border-left		: solid 1px #CFD9F2;	/* inset */
+	border-bottom	: solid 1px #CFD9F2;	/* inset */
+	border-right	: solid 1px #CFD9F2;	/* inset */
+}
+
+.MetadataItemTitle
+{
+	margin			: 0px 0px 0px 0px;
+	padding			: 3px 3px 3px 3px;
+    cursor			: pointer;
+    display			: none;
+}
+
+.MetadataItemTitleToPrint
+{
+	margin			: 0px 0px 0px 0px;
+	padding			: 3px 3px 3px 3px;
+    display			: inline-block;
+}
+
+.MetadataItemTitleDisabled
+{
+	margin		: 0px 0px 0px 0px;
+	padding		: 3px 3px 3px 3px;
+    cursor		: pointer;
+    display		: inline-block;
+}
+
+.MetadataItemBlock
+{
+	margin		: 0px 0px 0px 0px;
+	padding		: 0px 3px 0px 3px;
+	text-align	: justify;
+	color 		: #495D8E; 
+    font-weight	: normal;
+	font-size	: 10px;
+	display		: none;
+}
+
+
+.MetadataErrorBlock a:link		{ color:#495D8E; font-size:12px; text-decoration:underline; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.MetadataErrorBlock a:visited	{ color:#495D8E; font-size:12px; text-decoration:underline; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.MetadataErrorBlock a:hover		{ color:#5b80ff; font-size:12px; text-decoration:underline; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.MetadataErrorBlock a:active	{ color:#495D8E; font-size:12px; text-decoration:underline; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.MetadataErrorBlock a:focus		{ color:#495D8E; font-size:12px; text-decoration:underline; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.MetadataItemBlockToPrint
+{
+	margin		: 0px 0px 0px 0px;
+	padding		: 3px 3px 3px 3px;
+	text-align	: justify;
+	color 		: #495D8E; 
+    font-weight	: normal;
+	font-size	: 10px;
+	display		: inline-block;
+}
+
+.MetadataErrorBlock
+{
+	margin		: 0px 0px 0px 0px;
+	padding		: 0px 0px 0px 0px;
+	text-align	: justify;
+	color 		: #495D8E; 
+	font-weight	: normal;
+	font-size	: 10px;
+	display		: inline-block;
+}
+
+.MetadataItemLinks
+{
+	margin		: 0px 0px 0px 0px;
+	padding		: 0px 0px 0px 0px;
+	text-align	: left;
+	color 		: #495D8E; 
+	font-size	: 10px;
+	font-weight	: bold;
+}
+
+.MetadataItemLinks UL
+{
+	padding			: 0px 0px 0px 0px;
+	LIST-STYLE-TYPE	: circle;
+}
+
+.MetadataItemLinks a:link	{ color:#495D8E; text-decoration:none; }
+.MetadataItemLinks a:visited{ color:#495D8E; text-decoration:none; }
+.MetadataItemLinks a:active	{ color:#495D8E; text-decoration:none; }
+.MetadataItemLinks a:hover	{ color:#5b80ff; text-decoration:underline; }
+
+.CopyOfXML
+{
+	DISPLAY:none;
+}
+
+.MetadataToolbar
+{
+	margin			: 0px 0px 0px 0px;
+	padding			: 0px 3px 0px 3px;
+	text-align		: right;
+}
+
+.MetadataToolbar IMG
+{
+	margin			: 0px 0px 0px 6px;
+	cursor			: pointer;
+}
+
+.RelatedMetadataLinks
+{
+	margin			: 10px 3px 0px 3px;
+	padding			: 3px 3px 3px 3px;
+	text-align		: left;
+	background-color: #CFD9F2; 
+    cursor			: auto;
+}
+
+.RelatedMetadataTitle
+{
+}
+
+.RelatedMetadataLinksList
+{
+	margin			: 5px 0px 5px 0px;
+	padding			: 0px 0px 0px 30px;
+	LIST-STYLE-TYPE	: circle;
+}
+
+.RelatedMetadataLinksList a:link	{ color:#495D8E; text-decoration:none; }
+.RelatedMetadataLinksList a:visited	{ color:#495D8E; text-decoration:none; }
+.RelatedMetadataLinksList a:active	{ color:#495D8E; text-decoration:none; }
+.RelatedMetadataLinksList a:hover	{ color:#5b80ff; text-decoration:underline; }
+
+#backtodotstat, #backtodotstat:hover, #backtodotstat:visited { color:#0078bb; font-weight:bold; text-decoration:underline; float:left; padding:3px 0 5px 5px; }
+
+.imgOpen {display:none;}
+
+/* Metadata styles for the user */
+.md_table
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+    width: 95%;
+    padding: 1px 1px 1px 1px;
+}
+.md_table td
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+
+    padding: 3px 3px 3px 3px;
+}
+
+table
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+    width: 95%;
+	padding: 1px 1px 1px 1px;
+}
+tr.md_colheader
+{
+	text-align:center;
+    font-size: 10px;
+    color: #213973;
+    background-color:#CFD9F2;
+    vertical-align: middle;
+    padding:2px;
+    border:1px solid #CCCCCC;
+	font-weight: bold;
+}
+td.md_rowheader
+{
+    text-align: center;
+    font-size: 10px;
+    color: #804000;
+    background-color: #FFF2AA;
+    vertical-align: middle;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+}
+
+td.md_cellheader
+{
+    text-align:center;
+    font-size: 10px;
+    color: #495D8E;
+    background-color:#CFD9F2;
+    vertical-align:top;
+    padding:2px;
+    border:1px solid #CCCCCC;
+}
+td.md_cell
+{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+
+	padding: 3px 3px 3px 3px;
+}
