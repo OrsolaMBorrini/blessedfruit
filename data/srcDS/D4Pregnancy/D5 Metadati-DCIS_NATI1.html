@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+                    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=charset=utf-8">
+                        <style type="text/css">
+						#introtable {
+								display:none;
+							}
+                            .Cl-TitleTable {
+                                border-collapse: collapse;
+                                width: 50%;
+                                margin-left: 25%;
+                                background-color: #da0d14;/*#ffcc99;*/
+                                text-align: center;
+	                            color:#FFFFFF;
+                            }
+
+                            .Cl-TitleSummary {
+                                text-align: center;
+                                border: solid black 1pt;
+                                background-color: #da0d14;/*#ffcc99;*/
+                                color: #000000;
+                                /*padding: 2pt 6.45pt 2pt 6.45pt;*/
+                                vertical-align: top;
+	                            color:#FFFFFF;
+                            }
+
+                            .Cl-SubTitleSummary {
+                                text-align: center;
+                                border: solid black 1pt;
+                                border-bottom: none;
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                                /*padding: 1pt 6.45pt 1pt 6.45pt;*/
+                                height: 15pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-MainTable {
+                                border-collapse: collapse;
+                                width: 100%;
+                            }
+
+                            .Cl-SummaryTable {
+                                border-collapse: collapse;
+                                width: 50%;
+                                border-spacing:0px;
+                            }
+
+                            .Cl-SummaryItem {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                height: 15pt;
+                                vertical-align: top;
+                                border-top: none;
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                            }
+
+                            .Cl-HeaderAttributeTable {
+                                width :100%;
+                            }
+
+                            .Cl-AttributeTable {
+                                width: 100%;
+                                border-collapse: collapse;
+                                border: none;
+                            }
+
+                            .DocCommon, P.DocCommon {
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                                MARGIN: 0;
+                                text-align: right;
+	                            color: #FFFFFF !important;
+                            }
+
+                            LI.DocCommon {
+                                FONT-SIZE: 11pt;
+                                MARGIN: 0;
+                            }
+
+                            DIV.DocCommon {
+                                FONT-SIZE: 11pt;
+                                MARGIN: 0;
+                            }
+
+                            .TblBottom {
+                                border-collapse: collapse;
+                                border: none;
+                            }
+
+                            .Cl-Level1 {
+                                border: solid black 1pt;
+                                background-color: #da0d14;/*#ffcc99;*/
+                                color: #000000;
+                                padding: 2pt 6.45pt 2pt 6.45pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-Level1, .Cl-Level1-NoBorder {
+                                FONT-SIZE: 16pt;
+                                font-weight: bold;
+                                text-align: left;
+                                margin: 0;
+	                            color:#FFFFFF;
+                            }
+
+                            .Cl-Level2 {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                background-color: #c7c4c4;/*#ffffcc;*/
+                                /*vertical-align: top;*/
+                            }
+
+                            .Cl-Level2 {
+                                FONT-SIZE: 11pt;
+                                font-weight: bold;
+                                width: 206px;
+                            }
+
+                            .Cl-Content {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                height: 15pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-Content {
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                            }
+
+                            .Cl-AttributeAttachedFileDownloadButton {
+                                background-color: transparent;
+                                border: 0;
+                                cursor: pointer;
+                            }
+
+                            .Cl-DownloadReportLink {
+                                cursor: pointer;tra
+                            }
+
+                            a:link,
+                            a:visited,
+                            a:hover,
+                            a:active {
+                              /*text-decoration: none; */
+                              color: #333;
+                            }
+                        </style>
+                    </head > <body id="report-body" onload="renderData()">
+<div class="container-fluid" id="containerRep">
+  
+
+  
+
+  <div class="row">
+    <p class="col-12" id="target">
+    <table class="Cl-TitleTable" id="introtable">
+      <tbody><tr>
+        <td><b>ID</b>: DCIS_NATI1</td>
+      </tr>
+      <tr>
+        <td><b>Target</b>: FULL_ISMS_TOPMETA</td>
+      </tr>
+      <tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">IT1:DF_DIFF_REPORT(1.0)</span></td></tr>
+    </tbody></table>
+    <br>
+    <table class="Cl-MainTable">
+      <tbody>
+      <tr>
+        <td>
+          <table class="Cl-SummaryTable">
+            <tbody>
+            <tr>
+              <td class="Cl-TitleSummary">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="Cl-SubTitleSummary"><b>&nbsp;</b></td>
+            </tr>
+            <tr>
+              <td class="Cl-SummaryItem">
+                <span id="SOURCE_ITEMS-h1">1.</span>
+                <a class="Cl-SummaryItemLink" href="#link_SOURCE_ITEMS">SOURCE ITEMS</a> <br>
+
+                <!--
+    <a id="DATA_SOURCE-i1" class="Cl-SummaryItemLink" href="#link_DATA_SOURCE">Data source(s) used</a>
+    <br>
+    <a id="DATA_SOURCE_LINK-i1" class="Cl-SummaryItemLink" href="#link_DATA_SOURCE_LINK">Data source(s) used - Link/s</a>
+    <br>
+  -->
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <a class="Cl-DownloadReportLink" id="download-report-button" onclick="DownloadReport()">Download Report</a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="SOURCE_ITEMS-l1">
+        <a name="SOURCE_ITEMS"></a><a name="link_SOURCE_ITEMS"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder">
+              <span id="SOURCE_ITEMS-r1">1.</span>
+              <a name="link_SOURCE_ITEMS">SOURCE ITEMS</a>
+            </td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="DATA_SOURCE-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="DATA_SOURCE-r1">1.1.</span>
+        <a name="link_DATA_SOURCE">Data source(s) used</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="DATA_SOURCE-r2"><strong>Live births registered in the population register:</strong> Individual and total survey of live births resident in the municipality at the population register in which the same are registered. It contains variables of socio-demographic interest about newborn (gender, date and place of birth, citizenship) and his mother and father (date of birth, citizenship, marital status) and about the head of family data (address, total components in his family, minors components in his family)<br>Others data sources used:<br><strong>Migration and calculation of yearly resident population</strong><br><strong>Resident municipal population by age, sex and marital status</strong><br><strong>Migration and calculation of foreign resident population and structure by citizenship</strong><br><strong>Municipal resident foreign population by sex and year of birth</strong></div>
+      </td>
+    </tr>
+  
+  
+    <tr id="DATA_SOURCE_LINK-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="DATA_SOURCE_LINK-r1">1.2.</span>
+        <a name="link_DATA_SOURCE_LINK">Data source(s) used - Link/s</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="DATA_SOURCE_LINK-r2">Live births registered in the population register[http://siqual.istat.it/SIQual/visualizza.do?id=0019100&amp;refresh=true&amp;language=EN], Migration and calculation of yearly resident population[http://siqual.istat.it/SIQual/visualizza.do?id=5000088&amp;refresh=true&amp;language=EN], Resident municipal population by age, sex and marital status[http://siqual.istat.it/SIQual/visualizza.do?id=0019900&amp;refresh=true&amp;language=EN], Migration and calculation of foreign resident population and structure by citizenship[http://siqual.istat.it/SIQual/visualizza.do?id=0019700&amp;refresh=true&amp;language=EN], Municipal resident foreign population by sex and year of birth[http://siqual.istat.it/SIQual/visualizza.do?id=7779937&amp;refresh=true&amp;language=EN]</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+  </p>
+  </div>
+</div>
+
+</body></html > 

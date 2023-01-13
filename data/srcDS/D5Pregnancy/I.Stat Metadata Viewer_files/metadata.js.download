@@ -1,0 +1,237 @@
+function OpenAll(OpenItems) {
+    if (OpenItems == null)
+        OpenItems = true;
+
+    try {
+        var aDivs = document.getElementsByTagName("DIV");
+
+        // MetadataItemBlock
+        for (var i = 0; i < aDivs.length; i++) {
+            if (aDivs[i].className == "MetadataItemBlock" || aDivs[i].className == "MetadataItemTitle" || aDivs[i].className == "MetadataItemTitleDisabled" || aDivs[i].className == "MetadataGroupBlock" || aDivs[i].className == "MetadataGroupTitle" || aDivs[i].className == "MetadataGroupTitleDisabled") {
+                if (aDivs[i].className == "MetadataItemBlock")
+                    aDivs[i].style.display = (OpenItems) ? "none" : "block";
+
+                else if (aDivs[i].className == "MetadataItemTitle")
+                    aDivs[i].style.display = (OpenItems) ? "none" : "block";
+
+                else if (aDivs[i].className == "MetadataItemTitleDisabled")
+                    aDivs[i].style.display = (OpenItems) ? "block" : "none";
+
+                else if (aDivs[i].className == "MetadataGroupBlock")
+                    aDivs[i].style.display = (OpenItems) ? "none" : "block";
+
+                else if (aDivs[i].className == "MetadataGroupTitle")
+                    aDivs[i].style.display = (OpenItems) ? "none" : "block";
+
+                else if (aDivs[i].className == "MetadataGroupTitleDisabled")
+                    aDivs[i].style.display = (OpenItems) ? "block" : "none";
+            }
+        }
+    }
+    catch (ex) {
+    }
+}
+function CloseAll() {
+    OpenAll(false);
+}
+function ChangeLanguage() {
+    var sCurrentURL = document.location.href;
+    var aURL = sCurrentURL.split("?");
+
+    var sPageURL = aURL[0];
+    var sURL = sPageURL;
+
+    if (aURL.length > 1) {
+        var sQueryString = aURL[1];
+
+        var aURLParams = aURL[1].split("&");
+        var sArgsSeparator = "?";
+        var aURLParts;
+        var bLangWasAdded = false;
+
+        for (var iParams = 0; iParams < aURLParams.length; iParams++) {
+            aURLParts = aURLParams[iParams].split("=");
+
+            if (aURLParts[0].toLowerCase() == "lang") {
+                if (aURLParts.length > 1) {
+                    if (aURLParts[1].toLowerCase() == "fr")
+                        sURL += sArgsSeparator + "lang=en";
+                    else
+                        sURL += sArgsSeparator + "lang=fr";
+                }
+                else
+                    sURL += sArgsSeparator + "lang=fr";
+
+                bLangWasAdded = true;
+            }
+            else if (aURLParts[1])
+                sURL += sArgsSeparator + aURLParts[0] + "=" + aURLParts[1];
+            else
+                sURL += sArgsSeparator + aURLParts[0];
+
+            if (sArgsSeparator == "?")
+                sArgsSeparator = "&";
+        }
+
+        if (!bLangWasAdded)
+            sURL += sArgsSeparator + "lang=fr";
+    }
+    else
+        sURL += "?lang=fr";
+
+    document.location.href = sURL;
+}
+function SendEmail(ToSupport) {
+    //MailTo Syntax from: http://www.ianr.unl.edu/internet/mailto.html
+
+    try {
+        //URL Escapes http://www.javascripter.net/faq/escape.htm
+        var sCurrentURL = escape(document.location.href);
+
+        var sNewURL = "mailto:?subject=OECD.Stat Metadata&body=%0AMetadata link: <" + sCurrentURL + ">. %0A%0A %0A%0A";
+        if (ToSupport && ToSupport == true)
+            sNewURL = "mailto:oecddotstat@oecd.org?subject=Error report, OECD.Stat Metadata&body=%0A Using OECD.Stat Metadata application, I've come accross an error at this address: <" + sCurrentURL + "> %0A%0A %0A%0A";
+
+        document.location.href = sNewURL;
+    }
+    catch (ex) {
+    }
+}
+function Print() {
+    try {
+        //URL Escapes http://www.javascripter.net/faq/escape.htm
+        var sCurrentURL = escape(document.location.href);
+
+        var sNewURL = "./PrinterFriendly.aspx?SourceURL=" + sCurrentURL;
+
+        var oWindow = window.open(sNewURL, "Printer_Friendly_OECD_Metadata", "width=600,height=400,location=0,menubar=1,resizable=1,scrollbars=1,status=1,titlebar=1,toolbar=0");
+        oWindow.focus();
+    }
+    catch (ex) {
+    }
+}
+
+function Enlarge() {
+    try {
+        var sUrl = document.location.toString();
+        var aUrl = sUrl.split("?");
+        var sQuerystring = "";
+        if (aUrl[1]) {
+            var aQuerystring = aUrl[1].split("&");
+            for (var i = 0; i < aQuerystring.length; i++) {
+                if (aQuerystring[i] != "backtodotstat=false") {
+                    sQuerystring += aQuerystring[i];
+                    if (i != aQuerystring.length - 1) {
+                        sQuerystring += "&";
+                    }
+                }
+            }
+        }
+        sUrl = aUrl[0] + "?" + sQuerystring
+        window.open(sUrl);
+    }
+    catch (ex) {
+    }
+}
+
+function CloseThisWindow() {
+    try {
+        window.close();
+    }
+    catch (ex) {
+    }
+}
+
+function initMetaData() {
+    $('.imgAllTreeClosed').bind('click', function () {
+        CloseAll();
+    });
+    $('.imgAllTreeOpened').bind('click', function () {
+        OpenAll();
+    });
+    $('.imgLanguage').bind('click', function () {
+        ChangeLanguage();
+    });
+    $('.imgEmail').bind('click', function () {
+        SendEmail();
+    });
+    $('.imgPrint').bind('click', function () {
+        Print();
+    });
+    $('.imgOpen').bind('click', function () {
+        Enlarge();
+    });
+    $('.imgClose').bind('click', function () {
+        CloseThisWindow();
+    });
+    OpenAll(false);
+}
+
+$(document).ready(function () {
+    initMetaData();
+});
+
+function Close(sender) {
+    sender.style.display = "none";
+
+    if (sender.className == "MetadataGroupTitle") {
+        sender = sender.previousSibling;
+        while (sender != null && sender.className != "MetadataGroupTitleDisabled") {
+            sender = sender.previousSibling;
+        }
+        sender.style.display = "block";
+
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataGroupBlock") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "none";
+    }
+
+    if (sender.className == "MetadataItemTitle") {
+        sender = sender.previousSibling;
+        while (sender != null && sender.className != "MetadataItemTitleDisabled") {
+            sender = sender.previousSibling;
+        }
+        sender.style.display = "block";
+
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataItemBlock") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "none";
+    }
+
+}
+
+function Open(sender) {
+    sender.style.display = "none";
+
+    if (sender.className == "MetadataGroupTitleDisabled") {
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataGroupTitle") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "block";
+
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataGroupBlock") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "block";
+    }
+
+    if (sender.className == "MetadataItemTitleDisabled") {
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataItemTitle") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "block";
+
+        sender = sender.nextSibling;
+        while (sender != null && sender.className != "MetadataItemBlock") {
+            sender = sender.nextSibling;
+        }
+        sender.style.display = "block";
+    }
+}
