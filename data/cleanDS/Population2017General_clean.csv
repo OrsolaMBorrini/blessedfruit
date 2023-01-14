@@ -1,0 +1,6061 @@
+Region code,Region,Age,Sex,Population
+ITC1,Piemonte,0,Total,30680
+ITC1,Piemonte,0,Males,15597
+ITC1,Piemonte,0,Females,15083
+ITC1,Piemonte,1,Total,31895
+ITC1,Piemonte,1,Males,16306
+ITC1,Piemonte,1,Females,15589
+ITC1,Piemonte,2,Total,32793
+ITC1,Piemonte,2,Males,17115
+ITC1,Piemonte,2,Females,15678
+ITC1,Piemonte,3,Total,34333
+ITC1,Piemonte,3,Males,17539
+ITC1,Piemonte,3,Females,16794
+ITC1,Piemonte,4,Total,35154
+ITC1,Piemonte,4,Males,18066
+ITC1,Piemonte,4,Females,17088
+ITC1,Piemonte,5,Total,36574
+ITC1,Piemonte,5,Males,18799
+ITC1,Piemonte,5,Females,17775
+ITC1,Piemonte,6,Total,36821
+ITC1,Piemonte,6,Males,19188
+ITC1,Piemonte,6,Females,17633
+ITC1,Piemonte,7,Total,37682
+ITC1,Piemonte,7,Males,19433
+ITC1,Piemonte,7,Females,18249
+ITC1,Piemonte,8,Total,38798
+ITC1,Piemonte,8,Males,19946
+ITC1,Piemonte,8,Females,18852
+ITC1,Piemonte,9,Total,39068
+ITC1,Piemonte,9,Males,20184
+ITC1,Piemonte,9,Females,18884
+ITC1,Piemonte,10,Total,38957
+ITC1,Piemonte,10,Males,20053
+ITC1,Piemonte,10,Females,18904
+ITC1,Piemonte,11,Total,38409
+ITC1,Piemonte,11,Males,19773
+ITC1,Piemonte,11,Females,18636
+ITC1,Piemonte,12,Total,38139
+ITC1,Piemonte,12,Males,19662
+ITC1,Piemonte,12,Females,18477
+ITC1,Piemonte,13,Total,38069
+ITC1,Piemonte,13,Males,19728
+ITC1,Piemonte,13,Females,18341
+ITC1,Piemonte,14,Total,38192
+ITC1,Piemonte,14,Males,19719
+ITC1,Piemonte,14,Females,18473
+ITC1,Piemonte,15,Total,37597
+ITC1,Piemonte,15,Males,19171
+ITC1,Piemonte,15,Females,18426
+ITC1,Piemonte,16,Total,37662
+ITC1,Piemonte,16,Males,19387
+ITC1,Piemonte,16,Females,18275
+ITC1,Piemonte,17,Total,39004
+ITC1,Piemonte,17,Males,20218
+ITC1,Piemonte,17,Females,18786
+ITC1,Piemonte,18,Total,38476
+ITC1,Piemonte,18,Males,20252
+ITC1,Piemonte,18,Females,18224
+ITC1,Piemonte,19,Total,39537
+ITC1,Piemonte,19,Males,21038
+ITC1,Piemonte,19,Females,18499
+ITC1,Piemonte,20,Total,39132
+ITC1,Piemonte,20,Males,20533
+ITC1,Piemonte,20,Females,18599
+ITC1,Piemonte,21,Total,38802
+ITC1,Piemonte,21,Males,20561
+ITC1,Piemonte,21,Females,18241
+ITC1,Piemonte,22,Total,38659
+ITC1,Piemonte,22,Males,20301
+ITC1,Piemonte,22,Females,18358
+ITC1,Piemonte,23,Total,39042
+ITC1,Piemonte,23,Males,20262
+ITC1,Piemonte,23,Females,18780
+ITC1,Piemonte,24,Total,39599
+ITC1,Piemonte,24,Males,20495
+ITC1,Piemonte,24,Females,19104
+ITC1,Piemonte,25,Total,40899
+ITC1,Piemonte,25,Males,21168
+ITC1,Piemonte,25,Females,19731
+ITC1,Piemonte,26,Total,41399
+ITC1,Piemonte,26,Males,21323
+ITC1,Piemonte,26,Females,20076
+ITC1,Piemonte,27,Total,42648
+ITC1,Piemonte,27,Males,22068
+ITC1,Piemonte,27,Females,20580
+ITC1,Piemonte,28,Total,42205
+ITC1,Piemonte,28,Males,21678
+ITC1,Piemonte,28,Females,20527
+ITC1,Piemonte,29,Total,43514
+ITC1,Piemonte,29,Males,22298
+ITC1,Piemonte,29,Females,21216
+ITC1,Piemonte,30,Total,42581
+ITC1,Piemonte,30,Males,21514
+ITC1,Piemonte,30,Females,21067
+ITC1,Piemonte,31,Total,43662
+ITC1,Piemonte,31,Males,22253
+ITC1,Piemonte,31,Females,21409
+ITC1,Piemonte,32,Total,44869
+ITC1,Piemonte,32,Males,22612
+ITC1,Piemonte,32,Females,22257
+ITC1,Piemonte,33,Total,45317
+ITC1,Piemonte,33,Males,22710
+ITC1,Piemonte,33,Females,22607
+ITC1,Piemonte,34,Total,46747
+ITC1,Piemonte,34,Males,23507
+ITC1,Piemonte,34,Females,23240
+ITC1,Piemonte,35,Total,48691
+ITC1,Piemonte,35,Males,24489
+ITC1,Piemonte,35,Females,24202
+ITC1,Piemonte,36,Total,48820
+ITC1,Piemonte,36,Males,24414
+ITC1,Piemonte,36,Females,24406
+ITC1,Piemonte,37,Total,50303
+ITC1,Piemonte,37,Males,25136
+ITC1,Piemonte,37,Females,25167
+ITC1,Piemonte,38,Total,51665
+ITC1,Piemonte,38,Males,25990
+ITC1,Piemonte,38,Females,25675
+ITC1,Piemonte,39,Total,55307
+ITC1,Piemonte,39,Males,27672
+ITC1,Piemonte,39,Females,27635
+ITC1,Piemonte,40,Total,58256
+ITC1,Piemonte,40,Males,28938
+ITC1,Piemonte,40,Females,29318
+ITC1,Piemonte,41,Total,61021
+ITC1,Piemonte,41,Males,30331
+ITC1,Piemonte,41,Females,30690
+ITC1,Piemonte,42,Total,64585
+ITC1,Piemonte,42,Males,32089
+ITC1,Piemonte,42,Females,32496
+ITC1,Piemonte,43,Total,67425
+ITC1,Piemonte,43,Males,33689
+ITC1,Piemonte,43,Females,33736
+ITC1,Piemonte,44,Total,67366
+ITC1,Piemonte,44,Males,33870
+ITC1,Piemonte,44,Females,33496
+ITC1,Piemonte,45,Total,69155
+ITC1,Piemonte,45,Males,34589
+ITC1,Piemonte,45,Females,34566
+ITC1,Piemonte,46,Total,70192
+ITC1,Piemonte,46,Males,34808
+ITC1,Piemonte,46,Females,35384
+ITC1,Piemonte,47,Total,69620
+ITC1,Piemonte,47,Males,34649
+ITC1,Piemonte,47,Females,34971
+ITC1,Piemonte,48,Total,72051
+ITC1,Piemonte,48,Males,35826
+ITC1,Piemonte,48,Females,36225
+ITC1,Piemonte,49,Total,71536
+ITC1,Piemonte,49,Males,35517
+ITC1,Piemonte,49,Females,36019
+ITC1,Piemonte,50,Total,71584
+ITC1,Piemonte,50,Males,35437
+ITC1,Piemonte,50,Females,36147
+ITC1,Piemonte,51,Total,72028
+ITC1,Piemonte,51,Males,35827
+ITC1,Piemonte,51,Females,36201
+ITC1,Piemonte,52,Total,71809
+ITC1,Piemonte,52,Males,35561
+ITC1,Piemonte,52,Females,36248
+ITC1,Piemonte,53,Total,72793
+ITC1,Piemonte,53,Males,35838
+ITC1,Piemonte,53,Females,36955
+ITC1,Piemonte,54,Total,67958
+ITC1,Piemonte,54,Males,33433
+ITC1,Piemonte,54,Females,34525
+ITC1,Piemonte,55,Total,65482
+ITC1,Piemonte,55,Males,32003
+ITC1,Piemonte,55,Females,33479
+ITC1,Piemonte,56,Total,64752
+ITC1,Piemonte,56,Males,31636
+ITC1,Piemonte,56,Females,33116
+ITC1,Piemonte,57,Total,62609
+ITC1,Piemonte,57,Males,30497
+ITC1,Piemonte,57,Females,32112
+ITC1,Piemonte,58,Total,61245
+ITC1,Piemonte,58,Males,30129
+ITC1,Piemonte,58,Females,31116
+ITC1,Piemonte,59,Total,59429
+ITC1,Piemonte,59,Males,29045
+ITC1,Piemonte,59,Females,30384
+ITC1,Piemonte,60,Total,59185
+ITC1,Piemonte,60,Males,28889
+ITC1,Piemonte,60,Females,30296
+ITC1,Piemonte,61,Total,57927
+ITC1,Piemonte,61,Males,28122
+ITC1,Piemonte,61,Females,29805
+ITC1,Piemonte,62,Total,56811
+ITC1,Piemonte,62,Males,27618
+ITC1,Piemonte,62,Females,29193
+ITC1,Piemonte,63,Total,56009
+ITC1,Piemonte,63,Males,26961
+ITC1,Piemonte,63,Females,29048
+ITC1,Piemonte,64,Total,54051
+ITC1,Piemonte,64,Males,26158
+ITC1,Piemonte,64,Females,27893
+ITC1,Piemonte,65,Total,53937
+ITC1,Piemonte,65,Males,26142
+ITC1,Piemonte,65,Females,27795
+ITC1,Piemonte,66,Total,52986
+ITC1,Piemonte,66,Males,25297
+ITC1,Piemonte,66,Females,27689
+ITC1,Piemonte,67,Total,55262
+ITC1,Piemonte,67,Males,26274
+ITC1,Piemonte,67,Females,28988
+ITC1,Piemonte,68,Total,55580
+ITC1,Piemonte,68,Males,26533
+ITC1,Piemonte,68,Females,29047
+ITC1,Piemonte,69,Total,58424
+ITC1,Piemonte,69,Males,27761
+ITC1,Piemonte,69,Females,30663
+ITC1,Piemonte,70,Total,56996
+ITC1,Piemonte,70,Males,27100
+ITC1,Piemonte,70,Females,29896
+ITC1,Piemonte,71,Total,55411
+ITC1,Piemonte,71,Males,26188
+ITC1,Piemonte,71,Females,29223
+ITC1,Piemonte,72,Total,42190
+ITC1,Piemonte,72,Males,19812
+ITC1,Piemonte,72,Females,22378
+ITC1,Piemonte,73,Total,45018
+ITC1,Piemonte,73,Males,20935
+ITC1,Piemonte,73,Females,24083
+ITC1,Piemonte,74,Total,44495
+ITC1,Piemonte,74,Males,20269
+ITC1,Piemonte,74,Females,24226
+ITC1,Piemonte,75,Total,44743
+ITC1,Piemonte,75,Males,20389
+ITC1,Piemonte,75,Females,24354
+ITC1,Piemonte,76,Total,44767
+ITC1,Piemonte,76,Males,20067
+ITC1,Piemonte,76,Females,24700
+ITC1,Piemonte,77,Total,48591
+ITC1,Piemonte,77,Males,21742
+ITC1,Piemonte,77,Females,26849
+ITC1,Piemonte,78,Total,47653
+ITC1,Piemonte,78,Males,21017
+ITC1,Piemonte,78,Females,26636
+ITC1,Piemonte,79,Total,45677
+ITC1,Piemonte,79,Males,20026
+ITC1,Piemonte,79,Females,25651
+ITC1,Piemonte,80,Total,41056
+ITC1,Piemonte,80,Males,17684
+ITC1,Piemonte,80,Females,23372
+ITC1,Piemonte,81,Total,37014
+ITC1,Piemonte,81,Males,15761
+ITC1,Piemonte,81,Females,21253
+ITC1,Piemonte,82,Total,36119
+ITC1,Piemonte,82,Males,14917
+ITC1,Piemonte,82,Females,21202
+ITC1,Piemonte,83,Total,32917
+ITC1,Piemonte,83,Males,13174
+ITC1,Piemonte,83,Females,19743
+ITC1,Piemonte,84,Total,29907
+ITC1,Piemonte,84,Males,11494
+ITC1,Piemonte,84,Females,18413
+ITC1,Piemonte,85,Total,27967
+ITC1,Piemonte,85,Males,10411
+ITC1,Piemonte,85,Females,17556
+ITC1,Piemonte,86,Total,25607
+ITC1,Piemonte,86,Males,9198
+ITC1,Piemonte,86,Females,16409
+ITC1,Piemonte,87,Total,24208
+ITC1,Piemonte,87,Males,8503
+ITC1,Piemonte,87,Females,15705
+ITC1,Piemonte,88,Total,20048
+ITC1,Piemonte,88,Males,6698
+ITC1,Piemonte,88,Females,13350
+ITC1,Piemonte,89,Total,16709
+ITC1,Piemonte,89,Males,5231
+ITC1,Piemonte,89,Females,11478
+ITC1,Piemonte,90,Total,14274
+ITC1,Piemonte,90,Males,4217
+ITC1,Piemonte,90,Females,10057
+ITC1,Piemonte,91,Total,11487
+ITC1,Piemonte,91,Males,3152
+ITC1,Piemonte,91,Females,8335
+ITC1,Piemonte,92,Total,9249
+ITC1,Piemonte,92,Males,2407
+ITC1,Piemonte,92,Females,6842
+ITC1,Piemonte,93,Total,7118
+ITC1,Piemonte,93,Males,1781
+ITC1,Piemonte,93,Females,5337
+ITC1,Piemonte,94,Total,5593
+ITC1,Piemonte,94,Males,1357
+ITC1,Piemonte,94,Females,4236
+ITC1,Piemonte,95,Total,4324
+ITC1,Piemonte,95,Males,886
+ITC1,Piemonte,95,Females,3438
+ITC1,Piemonte,96,Total,3177
+ITC1,Piemonte,96,Males,617
+ITC1,Piemonte,96,Females,2560
+ITC1,Piemonte,97,Total,2090
+ITC1,Piemonte,97,Males,406
+ITC1,Piemonte,97,Females,1684
+ITC1,Piemonte,98,Total,993
+ITC1,Piemonte,98,Males,154
+ITC1,Piemonte,98,Females,839
+ITC1,Piemonte,99,Total,511
+ITC1,Piemonte,99,Males,83
+ITC1,Piemonte,99,Females,428
+ITC1,Piemonte,100 and over,Total,1233
+ITC1,Piemonte,100 and over,Males,172
+ITC1,Piemonte,100 and over,Females,1061
+ITC2,Valle D'Aosta/Vallée D'Aoste,0,Total,899
+ITC2,Valle D'Aosta/Vallée D'Aoste,0,Males,478
+ITC2,Valle D'Aosta/Vallée D'Aoste,0,Females,421
+ITC2,Valle D'Aosta/Vallée D'Aoste,1,Total,963
+ITC2,Valle D'Aosta/Vallée D'Aoste,1,Males,508
+ITC2,Valle D'Aosta/Vallée D'Aoste,1,Females,455
+ITC2,Valle D'Aosta/Vallée D'Aoste,2,Total,982
+ITC2,Valle D'Aosta/Vallée D'Aoste,2,Males,506
+ITC2,Valle D'Aosta/Vallée D'Aoste,2,Females,476
+ITC2,Valle D'Aosta/Vallée D'Aoste,3,Total,1067
+ITC2,Valle D'Aosta/Vallée D'Aoste,3,Males,554
+ITC2,Valle D'Aosta/Vallée D'Aoste,3,Females,513
+ITC2,Valle D'Aosta/Vallée D'Aoste,4,Total,1044
+ITC2,Valle D'Aosta/Vallée D'Aoste,4,Males,515
+ITC2,Valle D'Aosta/Vallée D'Aoste,4,Females,529
+ITC2,Valle D'Aosta/Vallée D'Aoste,5,Total,1136
+ITC2,Valle D'Aosta/Vallée D'Aoste,5,Males,583
+ITC2,Valle D'Aosta/Vallée D'Aoste,5,Females,553
+ITC2,Valle D'Aosta/Vallée D'Aoste,6,Total,1192
+ITC2,Valle D'Aosta/Vallée D'Aoste,6,Males,612
+ITC2,Valle D'Aosta/Vallée D'Aoste,6,Females,580
+ITC2,Valle D'Aosta/Vallée D'Aoste,7,Total,1158
+ITC2,Valle D'Aosta/Vallée D'Aoste,7,Males,578
+ITC2,Valle D'Aosta/Vallée D'Aoste,7,Females,580
+ITC2,Valle D'Aosta/Vallée D'Aoste,8,Total,1243
+ITC2,Valle D'Aosta/Vallée D'Aoste,8,Males,643
+ITC2,Valle D'Aosta/Vallée D'Aoste,8,Females,600
+ITC2,Valle D'Aosta/Vallée D'Aoste,9,Total,1222
+ITC2,Valle D'Aosta/Vallée D'Aoste,9,Males,630
+ITC2,Valle D'Aosta/Vallée D'Aoste,9,Females,592
+ITC2,Valle D'Aosta/Vallée D'Aoste,10,Total,1218
+ITC2,Valle D'Aosta/Vallée D'Aoste,10,Males,632
+ITC2,Valle D'Aosta/Vallée D'Aoste,10,Females,586
+ITC2,Valle D'Aosta/Vallée D'Aoste,11,Total,1230
+ITC2,Valle D'Aosta/Vallée D'Aoste,11,Males,649
+ITC2,Valle D'Aosta/Vallée D'Aoste,11,Females,581
+ITC2,Valle D'Aosta/Vallée D'Aoste,12,Total,1152
+ITC2,Valle D'Aosta/Vallée D'Aoste,12,Males,587
+ITC2,Valle D'Aosta/Vallée D'Aoste,12,Females,565
+ITC2,Valle D'Aosta/Vallée D'Aoste,13,Total,1170
+ITC2,Valle D'Aosta/Vallée D'Aoste,13,Males,590
+ITC2,Valle D'Aosta/Vallée D'Aoste,13,Females,580
+ITC2,Valle D'Aosta/Vallée D'Aoste,14,Total,1189
+ITC2,Valle D'Aosta/Vallée D'Aoste,14,Males,599
+ITC2,Valle D'Aosta/Vallée D'Aoste,14,Females,590
+ITC2,Valle D'Aosta/Vallée D'Aoste,15,Total,1121
+ITC2,Valle D'Aosta/Vallée D'Aoste,15,Males,604
+ITC2,Valle D'Aosta/Vallée D'Aoste,15,Females,517
+ITC2,Valle D'Aosta/Vallée D'Aoste,16,Total,1174
+ITC2,Valle D'Aosta/Vallée D'Aoste,16,Males,618
+ITC2,Valle D'Aosta/Vallée D'Aoste,16,Females,556
+ITC2,Valle D'Aosta/Vallée D'Aoste,17,Total,1216
+ITC2,Valle D'Aosta/Vallée D'Aoste,17,Males,635
+ITC2,Valle D'Aosta/Vallée D'Aoste,17,Females,581
+ITC2,Valle D'Aosta/Vallée D'Aoste,18,Total,1204
+ITC2,Valle D'Aosta/Vallée D'Aoste,18,Males,627
+ITC2,Valle D'Aosta/Vallée D'Aoste,18,Females,577
+ITC2,Valle D'Aosta/Vallée D'Aoste,19,Total,1178
+ITC2,Valle D'Aosta/Vallée D'Aoste,19,Males,618
+ITC2,Valle D'Aosta/Vallée D'Aoste,19,Females,560
+ITC2,Valle D'Aosta/Vallée D'Aoste,20,Total,1119
+ITC2,Valle D'Aosta/Vallée D'Aoste,20,Males,576
+ITC2,Valle D'Aosta/Vallée D'Aoste,20,Females,543
+ITC2,Valle D'Aosta/Vallée D'Aoste,21,Total,1211
+ITC2,Valle D'Aosta/Vallée D'Aoste,21,Males,637
+ITC2,Valle D'Aosta/Vallée D'Aoste,21,Females,574
+ITC2,Valle D'Aosta/Vallée D'Aoste,22,Total,1153
+ITC2,Valle D'Aosta/Vallée D'Aoste,22,Males,605
+ITC2,Valle D'Aosta/Vallée D'Aoste,22,Females,548
+ITC2,Valle D'Aosta/Vallée D'Aoste,23,Total,1126
+ITC2,Valle D'Aosta/Vallée D'Aoste,23,Males,571
+ITC2,Valle D'Aosta/Vallée D'Aoste,23,Females,555
+ITC2,Valle D'Aosta/Vallée D'Aoste,24,Total,1139
+ITC2,Valle D'Aosta/Vallée D'Aoste,24,Males,582
+ITC2,Valle D'Aosta/Vallée D'Aoste,24,Females,557
+ITC2,Valle D'Aosta/Vallée D'Aoste,25,Total,1225
+ITC2,Valle D'Aosta/Vallée D'Aoste,25,Males,643
+ITC2,Valle D'Aosta/Vallée D'Aoste,25,Females,582
+ITC2,Valle D'Aosta/Vallée D'Aoste,26,Total,1161
+ITC2,Valle D'Aosta/Vallée D'Aoste,26,Males,598
+ITC2,Valle D'Aosta/Vallée D'Aoste,26,Females,563
+ITC2,Valle D'Aosta/Vallée D'Aoste,27,Total,1246
+ITC2,Valle D'Aosta/Vallée D'Aoste,27,Males,617
+ITC2,Valle D'Aosta/Vallée D'Aoste,27,Females,629
+ITC2,Valle D'Aosta/Vallée D'Aoste,28,Total,1222
+ITC2,Valle D'Aosta/Vallée D'Aoste,28,Males,637
+ITC2,Valle D'Aosta/Vallée D'Aoste,28,Females,585
+ITC2,Valle D'Aosta/Vallée D'Aoste,29,Total,1294
+ITC2,Valle D'Aosta/Vallée D'Aoste,29,Males,666
+ITC2,Valle D'Aosta/Vallée D'Aoste,29,Females,628
+ITC2,Valle D'Aosta/Vallée D'Aoste,30,Total,1244
+ITC2,Valle D'Aosta/Vallée D'Aoste,30,Males,630
+ITC2,Valle D'Aosta/Vallée D'Aoste,30,Females,614
+ITC2,Valle D'Aosta/Vallée D'Aoste,31,Total,1245
+ITC2,Valle D'Aosta/Vallée D'Aoste,31,Males,601
+ITC2,Valle D'Aosta/Vallée D'Aoste,31,Females,644
+ITC2,Valle D'Aosta/Vallée D'Aoste,32,Total,1280
+ITC2,Valle D'Aosta/Vallée D'Aoste,32,Males,652
+ITC2,Valle D'Aosta/Vallée D'Aoste,32,Females,628
+ITC2,Valle D'Aosta/Vallée D'Aoste,33,Total,1315
+ITC2,Valle D'Aosta/Vallée D'Aoste,33,Males,660
+ITC2,Valle D'Aosta/Vallée D'Aoste,33,Females,655
+ITC2,Valle D'Aosta/Vallée D'Aoste,34,Total,1399
+ITC2,Valle D'Aosta/Vallée D'Aoste,34,Males,709
+ITC2,Valle D'Aosta/Vallée D'Aoste,34,Females,690
+ITC2,Valle D'Aosta/Vallée D'Aoste,35,Total,1392
+ITC2,Valle D'Aosta/Vallée D'Aoste,35,Males,673
+ITC2,Valle D'Aosta/Vallée D'Aoste,35,Females,719
+ITC2,Valle D'Aosta/Vallée D'Aoste,36,Total,1334
+ITC2,Valle D'Aosta/Vallée D'Aoste,36,Males,669
+ITC2,Valle D'Aosta/Vallée D'Aoste,36,Females,665
+ITC2,Valle D'Aosta/Vallée D'Aoste,37,Total,1457
+ITC2,Valle D'Aosta/Vallée D'Aoste,37,Males,772
+ITC2,Valle D'Aosta/Vallée D'Aoste,37,Females,685
+ITC2,Valle D'Aosta/Vallée D'Aoste,38,Total,1432
+ITC2,Valle D'Aosta/Vallée D'Aoste,38,Males,734
+ITC2,Valle D'Aosta/Vallée D'Aoste,38,Females,698
+ITC2,Valle D'Aosta/Vallée D'Aoste,39,Total,1693
+ITC2,Valle D'Aosta/Vallée D'Aoste,39,Males,869
+ITC2,Valle D'Aosta/Vallée D'Aoste,39,Females,824
+ITC2,Valle D'Aosta/Vallée D'Aoste,40,Total,1633
+ITC2,Valle D'Aosta/Vallée D'Aoste,40,Males,830
+ITC2,Valle D'Aosta/Vallée D'Aoste,40,Females,803
+ITC2,Valle D'Aosta/Vallée D'Aoste,41,Total,1772
+ITC2,Valle D'Aosta/Vallée D'Aoste,41,Males,851
+ITC2,Valle D'Aosta/Vallée D'Aoste,41,Females,921
+ITC2,Valle D'Aosta/Vallée D'Aoste,42,Total,1862
+ITC2,Valle D'Aosta/Vallée D'Aoste,42,Males,918
+ITC2,Valle D'Aosta/Vallée D'Aoste,42,Females,944
+ITC2,Valle D'Aosta/Vallée D'Aoste,43,Total,1954
+ITC2,Valle D'Aosta/Vallée D'Aoste,43,Males,1001
+ITC2,Valle D'Aosta/Vallée D'Aoste,43,Females,953
+ITC2,Valle D'Aosta/Vallée D'Aoste,44,Total,2003
+ITC2,Valle D'Aosta/Vallée D'Aoste,44,Males,998
+ITC2,Valle D'Aosta/Vallée D'Aoste,44,Females,1005
+ITC2,Valle D'Aosta/Vallée D'Aoste,45,Total,2027
+ITC2,Valle D'Aosta/Vallée D'Aoste,45,Males,986
+ITC2,Valle D'Aosta/Vallée D'Aoste,45,Females,1041
+ITC2,Valle D'Aosta/Vallée D'Aoste,46,Total,2108
+ITC2,Valle D'Aosta/Vallée D'Aoste,46,Males,1031
+ITC2,Valle D'Aosta/Vallée D'Aoste,46,Females,1077
+ITC2,Valle D'Aosta/Vallée D'Aoste,47,Total,2069
+ITC2,Valle D'Aosta/Vallée D'Aoste,47,Males,1015
+ITC2,Valle D'Aosta/Vallée D'Aoste,47,Females,1054
+ITC2,Valle D'Aosta/Vallée D'Aoste,48,Total,2219
+ITC2,Valle D'Aosta/Vallée D'Aoste,48,Males,1081
+ITC2,Valle D'Aosta/Vallée D'Aoste,48,Females,1138
+ITC2,Valle D'Aosta/Vallée D'Aoste,49,Total,2128
+ITC2,Valle D'Aosta/Vallée D'Aoste,49,Males,1046
+ITC2,Valle D'Aosta/Vallée D'Aoste,49,Females,1082
+ITC2,Valle D'Aosta/Vallée D'Aoste,50,Total,2187
+ITC2,Valle D'Aosta/Vallée D'Aoste,50,Males,1077
+ITC2,Valle D'Aosta/Vallée D'Aoste,50,Females,1110
+ITC2,Valle D'Aosta/Vallée D'Aoste,51,Total,2223
+ITC2,Valle D'Aosta/Vallée D'Aoste,51,Males,1113
+ITC2,Valle D'Aosta/Vallée D'Aoste,51,Females,1110
+ITC2,Valle D'Aosta/Vallée D'Aoste,52,Total,2158
+ITC2,Valle D'Aosta/Vallée D'Aoste,52,Males,1085
+ITC2,Valle D'Aosta/Vallée D'Aoste,52,Females,1073
+ITC2,Valle D'Aosta/Vallée D'Aoste,53,Total,2297
+ITC2,Valle D'Aosta/Vallée D'Aoste,53,Males,1170
+ITC2,Valle D'Aosta/Vallée D'Aoste,53,Females,1127
+ITC2,Valle D'Aosta/Vallée D'Aoste,54,Total,2103
+ITC2,Valle D'Aosta/Vallée D'Aoste,54,Males,1067
+ITC2,Valle D'Aosta/Vallée D'Aoste,54,Females,1036
+ITC2,Valle D'Aosta/Vallée D'Aoste,55,Total,1929
+ITC2,Valle D'Aosta/Vallée D'Aoste,55,Males,942
+ITC2,Valle D'Aosta/Vallée D'Aoste,55,Females,987
+ITC2,Valle D'Aosta/Vallée D'Aoste,56,Total,1940
+ITC2,Valle D'Aosta/Vallée D'Aoste,56,Males,998
+ITC2,Valle D'Aosta/Vallée D'Aoste,56,Females,942
+ITC2,Valle D'Aosta/Vallée D'Aoste,57,Total,1780
+ITC2,Valle D'Aosta/Vallée D'Aoste,57,Males,868
+ITC2,Valle D'Aosta/Vallée D'Aoste,57,Females,912
+ITC2,Valle D'Aosta/Vallée D'Aoste,58,Total,1868
+ITC2,Valle D'Aosta/Vallée D'Aoste,58,Males,914
+ITC2,Valle D'Aosta/Vallée D'Aoste,58,Females,954
+ITC2,Valle D'Aosta/Vallée D'Aoste,59,Total,1679
+ITC2,Valle D'Aosta/Vallée D'Aoste,59,Males,826
+ITC2,Valle D'Aosta/Vallée D'Aoste,59,Females,853
+ITC2,Valle D'Aosta/Vallée D'Aoste,60,Total,1681
+ITC2,Valle D'Aosta/Vallée D'Aoste,60,Males,829
+ITC2,Valle D'Aosta/Vallée D'Aoste,60,Females,852
+ITC2,Valle D'Aosta/Vallée D'Aoste,61,Total,1632
+ITC2,Valle D'Aosta/Vallée D'Aoste,61,Males,819
+ITC2,Valle D'Aosta/Vallée D'Aoste,61,Females,813
+ITC2,Valle D'Aosta/Vallée D'Aoste,62,Total,1650
+ITC2,Valle D'Aosta/Vallée D'Aoste,62,Males,768
+ITC2,Valle D'Aosta/Vallée D'Aoste,62,Females,882
+ITC2,Valle D'Aosta/Vallée D'Aoste,63,Total,1619
+ITC2,Valle D'Aosta/Vallée D'Aoste,63,Males,783
+ITC2,Valle D'Aosta/Vallée D'Aoste,63,Females,836
+ITC2,Valle D'Aosta/Vallée D'Aoste,64,Total,1589
+ITC2,Valle D'Aosta/Vallée D'Aoste,64,Males,809
+ITC2,Valle D'Aosta/Vallée D'Aoste,64,Females,780
+ITC2,Valle D'Aosta/Vallée D'Aoste,65,Total,1508
+ITC2,Valle D'Aosta/Vallée D'Aoste,65,Males,762
+ITC2,Valle D'Aosta/Vallée D'Aoste,65,Females,746
+ITC2,Valle D'Aosta/Vallée D'Aoste,66,Total,1534
+ITC2,Valle D'Aosta/Vallée D'Aoste,66,Males,754
+ITC2,Valle D'Aosta/Vallée D'Aoste,66,Females,780
+ITC2,Valle D'Aosta/Vallée D'Aoste,67,Total,1539
+ITC2,Valle D'Aosta/Vallée D'Aoste,67,Males,759
+ITC2,Valle D'Aosta/Vallée D'Aoste,67,Females,780
+ITC2,Valle D'Aosta/Vallée D'Aoste,68,Total,1595
+ITC2,Valle D'Aosta/Vallée D'Aoste,68,Males,760
+ITC2,Valle D'Aosta/Vallée D'Aoste,68,Females,835
+ITC2,Valle D'Aosta/Vallée D'Aoste,69,Total,1612
+ITC2,Valle D'Aosta/Vallée D'Aoste,69,Males,765
+ITC2,Valle D'Aosta/Vallée D'Aoste,69,Females,847
+ITC2,Valle D'Aosta/Vallée D'Aoste,70,Total,1538
+ITC2,Valle D'Aosta/Vallée D'Aoste,70,Males,790
+ITC2,Valle D'Aosta/Vallée D'Aoste,70,Females,748
+ITC2,Valle D'Aosta/Vallée D'Aoste,71,Total,1475
+ITC2,Valle D'Aosta/Vallée D'Aoste,71,Males,713
+ITC2,Valle D'Aosta/Vallée D'Aoste,71,Females,762
+ITC2,Valle D'Aosta/Vallée D'Aoste,72,Total,1116
+ITC2,Valle D'Aosta/Vallée D'Aoste,72,Males,511
+ITC2,Valle D'Aosta/Vallée D'Aoste,72,Females,605
+ITC2,Valle D'Aosta/Vallée D'Aoste,73,Total,1201
+ITC2,Valle D'Aosta/Vallée D'Aoste,73,Males,601
+ITC2,Valle D'Aosta/Vallée D'Aoste,73,Females,600
+ITC2,Valle D'Aosta/Vallée D'Aoste,74,Total,1256
+ITC2,Valle D'Aosta/Vallée D'Aoste,74,Males,619
+ITC2,Valle D'Aosta/Vallée D'Aoste,74,Females,637
+ITC2,Valle D'Aosta/Vallée D'Aoste,75,Total,1266
+ITC2,Valle D'Aosta/Vallée D'Aoste,75,Males,607
+ITC2,Valle D'Aosta/Vallée D'Aoste,75,Females,659
+ITC2,Valle D'Aosta/Vallée D'Aoste,76,Total,1259
+ITC2,Valle D'Aosta/Vallée D'Aoste,76,Males,572
+ITC2,Valle D'Aosta/Vallée D'Aoste,76,Females,687
+ITC2,Valle D'Aosta/Vallée D'Aoste,77,Total,1292
+ITC2,Valle D'Aosta/Vallée D'Aoste,77,Males,577
+ITC2,Valle D'Aosta/Vallée D'Aoste,77,Females,715
+ITC2,Valle D'Aosta/Vallée D'Aoste,78,Total,1221
+ITC2,Valle D'Aosta/Vallée D'Aoste,78,Males,551
+ITC2,Valle D'Aosta/Vallée D'Aoste,78,Females,670
+ITC2,Valle D'Aosta/Vallée D'Aoste,79,Total,1220
+ITC2,Valle D'Aosta/Vallée D'Aoste,79,Males,534
+ITC2,Valle D'Aosta/Vallée D'Aoste,79,Females,686
+ITC2,Valle D'Aosta/Vallée D'Aoste,80,Total,1033
+ITC2,Valle D'Aosta/Vallée D'Aoste,80,Males,428
+ITC2,Valle D'Aosta/Vallée D'Aoste,80,Females,605
+ITC2,Valle D'Aosta/Vallée D'Aoste,81,Total,944
+ITC2,Valle D'Aosta/Vallée D'Aoste,81,Males,392
+ITC2,Valle D'Aosta/Vallée D'Aoste,81,Females,552
+ITC2,Valle D'Aosta/Vallée D'Aoste,82,Total,882
+ITC2,Valle D'Aosta/Vallée D'Aoste,82,Males,360
+ITC2,Valle D'Aosta/Vallée D'Aoste,82,Females,522
+ITC2,Valle D'Aosta/Vallée D'Aoste,83,Total,794
+ITC2,Valle D'Aosta/Vallée D'Aoste,83,Males,297
+ITC2,Valle D'Aosta/Vallée D'Aoste,83,Females,497
+ITC2,Valle D'Aosta/Vallée D'Aoste,84,Total,792
+ITC2,Valle D'Aosta/Vallée D'Aoste,84,Males,299
+ITC2,Valle D'Aosta/Vallée D'Aoste,84,Females,493
+ITC2,Valle D'Aosta/Vallée D'Aoste,85,Total,683
+ITC2,Valle D'Aosta/Vallée D'Aoste,85,Males,249
+ITC2,Valle D'Aosta/Vallée D'Aoste,85,Females,434
+ITC2,Valle D'Aosta/Vallée D'Aoste,86,Total,650
+ITC2,Valle D'Aosta/Vallée D'Aoste,86,Males,236
+ITC2,Valle D'Aosta/Vallée D'Aoste,86,Females,414
+ITC2,Valle D'Aosta/Vallée D'Aoste,87,Total,650
+ITC2,Valle D'Aosta/Vallée D'Aoste,87,Males,214
+ITC2,Valle D'Aosta/Vallée D'Aoste,87,Females,436
+ITC2,Valle D'Aosta/Vallée D'Aoste,88,Total,524
+ITC2,Valle D'Aosta/Vallée D'Aoste,88,Males,179
+ITC2,Valle D'Aosta/Vallée D'Aoste,88,Females,345
+ITC2,Valle D'Aosta/Vallée D'Aoste,89,Total,462
+ITC2,Valle D'Aosta/Vallée D'Aoste,89,Males,138
+ITC2,Valle D'Aosta/Vallée D'Aoste,89,Females,324
+ITC2,Valle D'Aosta/Vallée D'Aoste,90,Total,371
+ITC2,Valle D'Aosta/Vallée D'Aoste,90,Males,98
+ITC2,Valle D'Aosta/Vallée D'Aoste,90,Females,273
+ITC2,Valle D'Aosta/Vallée D'Aoste,91,Total,322
+ITC2,Valle D'Aosta/Vallée D'Aoste,91,Males,84
+ITC2,Valle D'Aosta/Vallée D'Aoste,91,Females,238
+ITC2,Valle D'Aosta/Vallée D'Aoste,92,Total,251
+ITC2,Valle D'Aosta/Vallée D'Aoste,92,Males,80
+ITC2,Valle D'Aosta/Vallée D'Aoste,92,Females,171
+ITC2,Valle D'Aosta/Vallée D'Aoste,93,Total,167
+ITC2,Valle D'Aosta/Vallée D'Aoste,93,Males,42
+ITC2,Valle D'Aosta/Vallée D'Aoste,93,Females,125
+ITC2,Valle D'Aosta/Vallée D'Aoste,94,Total,144
+ITC2,Valle D'Aosta/Vallée D'Aoste,94,Males,29
+ITC2,Valle D'Aosta/Vallée D'Aoste,94,Females,115
+ITC2,Valle D'Aosta/Vallée D'Aoste,95,Total,129
+ITC2,Valle D'Aosta/Vallée D'Aoste,95,Males,21
+ITC2,Valle D'Aosta/Vallée D'Aoste,95,Females,108
+ITC2,Valle D'Aosta/Vallée D'Aoste,96,Total,101
+ITC2,Valle D'Aosta/Vallée D'Aoste,96,Males,15
+ITC2,Valle D'Aosta/Vallée D'Aoste,96,Females,86
+ITC2,Valle D'Aosta/Vallée D'Aoste,97,Total,54
+ITC2,Valle D'Aosta/Vallée D'Aoste,97,Males,10
+ITC2,Valle D'Aosta/Vallée D'Aoste,97,Females,44
+ITC2,Valle D'Aosta/Vallée D'Aoste,98,Total,27
+ITC2,Valle D'Aosta/Vallée D'Aoste,98,Males,8
+ITC2,Valle D'Aosta/Vallée D'Aoste,98,Females,19
+ITC2,Valle D'Aosta/Vallée D'Aoste,99,Total,15
+ITC2,Valle D'Aosta/Vallée D'Aoste,99,Males,2
+ITC2,Valle D'Aosta/Vallée D'Aoste,99,Females,13
+ITC2,Valle D'Aosta/Vallée D'Aoste,100 and over,Total,31
+ITC2,Valle D'Aosta/Vallée D'Aoste,100 and over,Males,4
+ITC2,Valle D'Aosta/Vallée D'Aoste,100 and over,Females,27
+ITC4,Lombardia,0,Total,78624
+ITC4,Lombardia,0,Males,40556
+ITC4,Lombardia,0,Females,38068
+ITC4,Lombardia,1,Total,81383
+ITC4,Lombardia,1,Males,41598
+ITC4,Lombardia,1,Females,39785
+ITC4,Lombardia,2,Total,84340
+ITC4,Lombardia,2,Males,43467
+ITC4,Lombardia,2,Females,40873
+ITC4,Lombardia,3,Total,86607
+ITC4,Lombardia,3,Males,44345
+ITC4,Lombardia,3,Females,42262
+ITC4,Lombardia,4,Total,88250
+ITC4,Lombardia,4,Males,45458
+ITC4,Lombardia,4,Females,42792
+ITC4,Lombardia,5,Total,91805
+ITC4,Lombardia,5,Males,47224
+ITC4,Lombardia,5,Females,44581
+ITC4,Lombardia,6,Total,93570
+ITC4,Lombardia,6,Males,48218
+ITC4,Lombardia,6,Females,45352
+ITC4,Lombardia,7,Total,96400
+ITC4,Lombardia,7,Males,49888
+ITC4,Lombardia,7,Females,46512
+ITC4,Lombardia,8,Total,98525
+ITC4,Lombardia,8,Males,50724
+ITC4,Lombardia,8,Females,47801
+ITC4,Lombardia,9,Total,98414
+ITC4,Lombardia,9,Males,50575
+ITC4,Lombardia,9,Females,47839
+ITC4,Lombardia,10,Total,97252
+ITC4,Lombardia,10,Males,50080
+ITC4,Lombardia,10,Females,47172
+ITC4,Lombardia,11,Total,97555
+ITC4,Lombardia,11,Males,50351
+ITC4,Lombardia,11,Females,47204
+ITC4,Lombardia,12,Total,95218
+ITC4,Lombardia,12,Males,49144
+ITC4,Lombardia,12,Females,46074
+ITC4,Lombardia,13,Total,95411
+ITC4,Lombardia,13,Males,48838
+ITC4,Lombardia,13,Females,46573
+ITC4,Lombardia,14,Total,93443
+ITC4,Lombardia,14,Males,48300
+ITC4,Lombardia,14,Females,45143
+ITC4,Lombardia,15,Total,92120
+ITC4,Lombardia,15,Males,47597
+ITC4,Lombardia,15,Females,44523
+ITC4,Lombardia,16,Total,93096
+ITC4,Lombardia,16,Males,48057
+ITC4,Lombardia,16,Females,45039
+ITC4,Lombardia,17,Total,94419
+ITC4,Lombardia,17,Males,48983
+ITC4,Lombardia,17,Females,45436
+ITC4,Lombardia,18,Total,93007
+ITC4,Lombardia,18,Males,48544
+ITC4,Lombardia,18,Females,44463
+ITC4,Lombardia,19,Total,93792
+ITC4,Lombardia,19,Males,49730
+ITC4,Lombardia,19,Females,44062
+ITC4,Lombardia,20,Total,93488
+ITC4,Lombardia,20,Males,49239
+ITC4,Lombardia,20,Females,44249
+ITC4,Lombardia,21,Total,92906
+ITC4,Lombardia,21,Males,48728
+ITC4,Lombardia,21,Females,44178
+ITC4,Lombardia,22,Total,91546
+ITC4,Lombardia,22,Males,47821
+ITC4,Lombardia,22,Females,43725
+ITC4,Lombardia,23,Total,92043
+ITC4,Lombardia,23,Males,47726
+ITC4,Lombardia,23,Females,44317
+ITC4,Lombardia,24,Total,93757
+ITC4,Lombardia,24,Males,48206
+ITC4,Lombardia,24,Females,45551
+ITC4,Lombardia,25,Total,97198
+ITC4,Lombardia,25,Males,49980
+ITC4,Lombardia,25,Females,47218
+ITC4,Lombardia,26,Total,98203
+ITC4,Lombardia,26,Males,50141
+ITC4,Lombardia,26,Females,48062
+ITC4,Lombardia,27,Total,101437
+ITC4,Lombardia,27,Males,51712
+ITC4,Lombardia,27,Females,49725
+ITC4,Lombardia,28,Total,102620
+ITC4,Lombardia,28,Males,51825
+ITC4,Lombardia,28,Females,50795
+ITC4,Lombardia,29,Total,106289
+ITC4,Lombardia,29,Males,54137
+ITC4,Lombardia,29,Females,52152
+ITC4,Lombardia,30,Total,105112
+ITC4,Lombardia,30,Males,53158
+ITC4,Lombardia,30,Females,51954
+ITC4,Lombardia,31,Total,106547
+ITC4,Lombardia,31,Males,53909
+ITC4,Lombardia,31,Females,52638
+ITC4,Lombardia,32,Total,110977
+ITC4,Lombardia,32,Males,55853
+ITC4,Lombardia,32,Females,55124
+ITC4,Lombardia,33,Total,113783
+ITC4,Lombardia,33,Males,57616
+ITC4,Lombardia,33,Females,56167
+ITC4,Lombardia,34,Total,117305
+ITC4,Lombardia,34,Males,59080
+ITC4,Lombardia,34,Females,58225
+ITC4,Lombardia,35,Total,122098
+ITC4,Lombardia,35,Males,61653
+ITC4,Lombardia,35,Females,60445
+ITC4,Lombardia,36,Total,123263
+ITC4,Lombardia,36,Males,62267
+ITC4,Lombardia,36,Females,60996
+ITC4,Lombardia,37,Total,126126
+ITC4,Lombardia,37,Males,63732
+ITC4,Lombardia,37,Females,62394
+ITC4,Lombardia,38,Total,129477
+ITC4,Lombardia,38,Males,65346
+ITC4,Lombardia,38,Females,64131
+ITC4,Lombardia,39,Total,137135
+ITC4,Lombardia,39,Males,69572
+ITC4,Lombardia,39,Females,67563
+ITC4,Lombardia,40,Total,143299
+ITC4,Lombardia,40,Males,72649
+ITC4,Lombardia,40,Females,70650
+ITC4,Lombardia,41,Total,148849
+ITC4,Lombardia,41,Males,75425
+ITC4,Lombardia,41,Females,73424
+ITC4,Lombardia,42,Total,158823
+ITC4,Lombardia,42,Males,80321
+ITC4,Lombardia,42,Females,78502
+ITC4,Lombardia,43,Total,163934
+ITC4,Lombardia,43,Males,83198
+ITC4,Lombardia,43,Females,80736
+ITC4,Lombardia,44,Total,163911
+ITC4,Lombardia,44,Males,82747
+ITC4,Lombardia,44,Females,81164
+ITC4,Lombardia,45,Total,165357
+ITC4,Lombardia,45,Males,83957
+ITC4,Lombardia,45,Females,81400
+ITC4,Lombardia,46,Total,165603
+ITC4,Lombardia,46,Males,84257
+ITC4,Lombardia,46,Females,81346
+ITC4,Lombardia,47,Total,164208
+ITC4,Lombardia,47,Males,83286
+ITC4,Lombardia,47,Females,80922
+ITC4,Lombardia,48,Total,168421
+ITC4,Lombardia,48,Males,84980
+ITC4,Lombardia,48,Females,83441
+ITC4,Lombardia,49,Total,167660
+ITC4,Lombardia,49,Males,84812
+ITC4,Lombardia,49,Females,82848
+ITC4,Lombardia,50,Total,167131
+ITC4,Lombardia,50,Males,84074
+ITC4,Lombardia,50,Females,83057
+ITC4,Lombardia,51,Total,170236
+ITC4,Lombardia,51,Males,86049
+ITC4,Lombardia,51,Females,84187
+ITC4,Lombardia,52,Total,168882
+ITC4,Lombardia,52,Males,84914
+ITC4,Lombardia,52,Females,83968
+ITC4,Lombardia,53,Total,167598
+ITC4,Lombardia,53,Males,84233
+ITC4,Lombardia,53,Females,83365
+ITC4,Lombardia,54,Total,156739
+ITC4,Lombardia,54,Males,77945
+ITC4,Lombardia,54,Females,78794
+ITC4,Lombardia,55,Total,148605
+ITC4,Lombardia,55,Males,73622
+ITC4,Lombardia,55,Females,74983
+ITC4,Lombardia,56,Total,144066
+ITC4,Lombardia,56,Males,71185
+ITC4,Lombardia,56,Females,72881
+ITC4,Lombardia,57,Total,138977
+ITC4,Lombardia,57,Males,68448
+ITC4,Lombardia,57,Females,70529
+ITC4,Lombardia,58,Total,135020
+ITC4,Lombardia,58,Males,65983
+ITC4,Lombardia,58,Females,69037
+ITC4,Lombardia,59,Total,128563
+ITC4,Lombardia,59,Males,62978
+ITC4,Lombardia,59,Females,65585
+ITC4,Lombardia,60,Total,126028
+ITC4,Lombardia,60,Males,61466
+ITC4,Lombardia,60,Females,64562
+ITC4,Lombardia,61,Total,123713
+ITC4,Lombardia,61,Males,60234
+ITC4,Lombardia,61,Females,63479
+ITC4,Lombardia,62,Total,120042
+ITC4,Lombardia,62,Males,57672
+ITC4,Lombardia,62,Females,62370
+ITC4,Lombardia,63,Total,117500
+ITC4,Lombardia,63,Males,56675
+ITC4,Lombardia,63,Females,60825
+ITC4,Lombardia,64,Total,113453
+ITC4,Lombardia,64,Males,54800
+ITC4,Lombardia,64,Females,58653
+ITC4,Lombardia,65,Total,112882
+ITC4,Lombardia,65,Males,54101
+ITC4,Lombardia,65,Females,58781
+ITC4,Lombardia,66,Total,111595
+ITC4,Lombardia,66,Males,53093
+ITC4,Lombardia,66,Females,58502
+ITC4,Lombardia,67,Total,116001
+ITC4,Lombardia,67,Males,55354
+ITC4,Lombardia,67,Females,60647
+ITC4,Lombardia,68,Total,116902
+ITC4,Lombardia,68,Males,55599
+ITC4,Lombardia,68,Females,61303
+ITC4,Lombardia,69,Total,120676
+ITC4,Lombardia,69,Males,57034
+ITC4,Lombardia,69,Females,63642
+ITC4,Lombardia,70,Total,116543
+ITC4,Lombardia,70,Males,54965
+ITC4,Lombardia,70,Females,61578
+ITC4,Lombardia,71,Total,119524
+ITC4,Lombardia,71,Males,56071
+ITC4,Lombardia,71,Females,63453
+ITC4,Lombardia,72,Total,87655
+ITC4,Lombardia,72,Males,40885
+ITC4,Lombardia,72,Females,46770
+ITC4,Lombardia,73,Total,93279
+ITC4,Lombardia,73,Males,42871
+ITC4,Lombardia,73,Females,50408
+ITC4,Lombardia,74,Total,91531
+ITC4,Lombardia,74,Males,41603
+ITC4,Lombardia,74,Females,49928
+ITC4,Lombardia,75,Total,92592
+ITC4,Lombardia,75,Males,41821
+ITC4,Lombardia,75,Females,50771
+ITC4,Lombardia,76,Total,93823
+ITC4,Lombardia,76,Males,41808
+ITC4,Lombardia,76,Females,52015
+ITC4,Lombardia,77,Total,100601
+ITC4,Lombardia,77,Males,44839
+ITC4,Lombardia,77,Females,55762
+ITC4,Lombardia,78,Total,97086
+ITC4,Lombardia,78,Males,42798
+ITC4,Lombardia,78,Females,54288
+ITC4,Lombardia,79,Total,92141
+ITC4,Lombardia,79,Males,39848
+ITC4,Lombardia,79,Females,52293
+ITC4,Lombardia,80,Total,81016
+ITC4,Lombardia,80,Males,34313
+ITC4,Lombardia,80,Females,46703
+ITC4,Lombardia,81,Total,71940
+ITC4,Lombardia,81,Males,29700
+ITC4,Lombardia,81,Females,42240
+ITC4,Lombardia,82,Total,71157
+ITC4,Lombardia,82,Males,28599
+ITC4,Lombardia,82,Females,42558
+ITC4,Lombardia,83,Total,64494
+ITC4,Lombardia,83,Males,25162
+ITC4,Lombardia,83,Females,39332
+ITC4,Lombardia,84,Total,58784
+ITC4,Lombardia,84,Males,22171
+ITC4,Lombardia,84,Females,36613
+ITC4,Lombardia,85,Total,54235
+ITC4,Lombardia,85,Males,19784
+ITC4,Lombardia,85,Females,34451
+ITC4,Lombardia,86,Total,49155
+ITC4,Lombardia,86,Males,17341
+ITC4,Lombardia,86,Females,31814
+ITC4,Lombardia,87,Total,45206
+ITC4,Lombardia,87,Males,15015
+ITC4,Lombardia,87,Females,30191
+ITC4,Lombardia,88,Total,37910
+ITC4,Lombardia,88,Males,12029
+ITC4,Lombardia,88,Females,25881
+ITC4,Lombardia,89,Total,32253
+ITC4,Lombardia,89,Males,9626
+ITC4,Lombardia,89,Females,22627
+ITC4,Lombardia,90,Total,27137
+ITC4,Lombardia,90,Males,7581
+ITC4,Lombardia,90,Females,19556
+ITC4,Lombardia,91,Total,22000
+ITC4,Lombardia,91,Males,5852
+ITC4,Lombardia,91,Females,16148
+ITC4,Lombardia,92,Total,17970
+ITC4,Lombardia,92,Males,4394
+ITC4,Lombardia,92,Females,13576
+ITC4,Lombardia,93,Total,14388
+ITC4,Lombardia,93,Males,3224
+ITC4,Lombardia,93,Females,11164
+ITC4,Lombardia,94,Total,11285
+ITC4,Lombardia,94,Males,2494
+ITC4,Lombardia,94,Females,8791
+ITC4,Lombardia,95,Total,8143
+ITC4,Lombardia,95,Males,1597
+ITC4,Lombardia,95,Females,6546
+ITC4,Lombardia,96,Total,6178
+ITC4,Lombardia,96,Males,1127
+ITC4,Lombardia,96,Females,5051
+ITC4,Lombardia,97,Total,4312
+ITC4,Lombardia,97,Males,744
+ITC4,Lombardia,97,Females,3568
+ITC4,Lombardia,98,Total,1994
+ITC4,Lombardia,98,Males,306
+ITC4,Lombardia,98,Females,1688
+ITC4,Lombardia,99,Total,1020
+ITC4,Lombardia,99,Males,155
+ITC4,Lombardia,99,Females,865
+ITC4,Lombardia,100 and over,Total,2395
+ITC4,Lombardia,100 and over,Males,277
+ITC4,Lombardia,100 and over,Females,2118
+ITDA,Trentino-Alto Adige/Südtirol,0,Total,9844
+ITDA,Trentino-Alto Adige/Südtirol,0,Males,5070
+ITDA,Trentino-Alto Adige/Südtirol,0,Females,4774
+ITDA,Trentino-Alto Adige/Südtirol,1,Total,10155
+ITDA,Trentino-Alto Adige/Südtirol,1,Males,5185
+ITDA,Trentino-Alto Adige/Südtirol,1,Females,4970
+ITDA,Trentino-Alto Adige/Südtirol,2,Total,10234
+ITDA,Trentino-Alto Adige/Südtirol,2,Males,5250
+ITDA,Trentino-Alto Adige/Südtirol,2,Females,4984
+ITDA,Trentino-Alto Adige/Südtirol,3,Total,10505
+ITDA,Trentino-Alto Adige/Südtirol,3,Males,5404
+ITDA,Trentino-Alto Adige/Südtirol,3,Females,5101
+ITDA,Trentino-Alto Adige/Südtirol,4,Total,10543
+ITDA,Trentino-Alto Adige/Südtirol,4,Males,5431
+ITDA,Trentino-Alto Adige/Südtirol,4,Females,5112
+ITDA,Trentino-Alto Adige/Südtirol,5,Total,10753
+ITDA,Trentino-Alto Adige/Südtirol,5,Males,5540
+ITDA,Trentino-Alto Adige/Südtirol,5,Females,5213
+ITDA,Trentino-Alto Adige/Südtirol,6,Total,10820
+ITDA,Trentino-Alto Adige/Südtirol,6,Males,5511
+ITDA,Trentino-Alto Adige/Südtirol,6,Females,5309
+ITDA,Trentino-Alto Adige/Südtirol,7,Total,10996
+ITDA,Trentino-Alto Adige/Südtirol,7,Males,5692
+ITDA,Trentino-Alto Adige/Südtirol,7,Females,5304
+ITDA,Trentino-Alto Adige/Südtirol,8,Total,10866
+ITDA,Trentino-Alto Adige/Südtirol,8,Males,5616
+ITDA,Trentino-Alto Adige/Südtirol,8,Females,5250
+ITDA,Trentino-Alto Adige/Südtirol,9,Total,11148
+ITDA,Trentino-Alto Adige/Südtirol,9,Males,5725
+ITDA,Trentino-Alto Adige/Südtirol,9,Females,5423
+ITDA,Trentino-Alto Adige/Südtirol,10,Total,11029
+ITDA,Trentino-Alto Adige/Südtirol,10,Males,5748
+ITDA,Trentino-Alto Adige/Südtirol,10,Females,5281
+ITDA,Trentino-Alto Adige/Südtirol,11,Total,11120
+ITDA,Trentino-Alto Adige/Südtirol,11,Males,5714
+ITDA,Trentino-Alto Adige/Südtirol,11,Females,5406
+ITDA,Trentino-Alto Adige/Südtirol,12,Total,11280
+ITDA,Trentino-Alto Adige/Südtirol,12,Males,5895
+ITDA,Trentino-Alto Adige/Südtirol,12,Females,5385
+ITDA,Trentino-Alto Adige/Südtirol,13,Total,11378
+ITDA,Trentino-Alto Adige/Südtirol,13,Males,5866
+ITDA,Trentino-Alto Adige/Südtirol,13,Females,5512
+ITDA,Trentino-Alto Adige/Südtirol,14,Total,11136
+ITDA,Trentino-Alto Adige/Südtirol,14,Males,5774
+ITDA,Trentino-Alto Adige/Südtirol,14,Females,5362
+ITDA,Trentino-Alto Adige/Südtirol,15,Total,11034
+ITDA,Trentino-Alto Adige/Südtirol,15,Males,5697
+ITDA,Trentino-Alto Adige/Südtirol,15,Females,5337
+ITDA,Trentino-Alto Adige/Südtirol,16,Total,11337
+ITDA,Trentino-Alto Adige/Südtirol,16,Males,5927
+ITDA,Trentino-Alto Adige/Südtirol,16,Females,5410
+ITDA,Trentino-Alto Adige/Südtirol,17,Total,11603
+ITDA,Trentino-Alto Adige/Südtirol,17,Males,5957
+ITDA,Trentino-Alto Adige/Südtirol,17,Females,5646
+ITDA,Trentino-Alto Adige/Südtirol,18,Total,11597
+ITDA,Trentino-Alto Adige/Südtirol,18,Males,5993
+ITDA,Trentino-Alto Adige/Südtirol,18,Females,5604
+ITDA,Trentino-Alto Adige/Südtirol,19,Total,11783
+ITDA,Trentino-Alto Adige/Südtirol,19,Males,6075
+ITDA,Trentino-Alto Adige/Südtirol,19,Females,5708
+ITDA,Trentino-Alto Adige/Südtirol,20,Total,11741
+ITDA,Trentino-Alto Adige/Südtirol,20,Males,6166
+ITDA,Trentino-Alto Adige/Südtirol,20,Females,5575
+ITDA,Trentino-Alto Adige/Südtirol,21,Total,11695
+ITDA,Trentino-Alto Adige/Südtirol,21,Males,6050
+ITDA,Trentino-Alto Adige/Südtirol,21,Females,5645
+ITDA,Trentino-Alto Adige/Südtirol,22,Total,11458
+ITDA,Trentino-Alto Adige/Südtirol,22,Males,5999
+ITDA,Trentino-Alto Adige/Südtirol,22,Females,5459
+ITDA,Trentino-Alto Adige/Südtirol,23,Total,11591
+ITDA,Trentino-Alto Adige/Südtirol,23,Males,5968
+ITDA,Trentino-Alto Adige/Südtirol,23,Females,5623
+ITDA,Trentino-Alto Adige/Südtirol,24,Total,11481
+ITDA,Trentino-Alto Adige/Südtirol,24,Males,5860
+ITDA,Trentino-Alto Adige/Südtirol,24,Females,5621
+ITDA,Trentino-Alto Adige/Südtirol,25,Total,11950
+ITDA,Trentino-Alto Adige/Südtirol,25,Males,6156
+ITDA,Trentino-Alto Adige/Südtirol,25,Females,5794
+ITDA,Trentino-Alto Adige/Südtirol,26,Total,11861
+ITDA,Trentino-Alto Adige/Südtirol,26,Males,6114
+ITDA,Trentino-Alto Adige/Südtirol,26,Females,5747
+ITDA,Trentino-Alto Adige/Südtirol,27,Total,11878
+ITDA,Trentino-Alto Adige/Südtirol,27,Males,6142
+ITDA,Trentino-Alto Adige/Südtirol,27,Females,5736
+ITDA,Trentino-Alto Adige/Südtirol,28,Total,11826
+ITDA,Trentino-Alto Adige/Südtirol,28,Males,5987
+ITDA,Trentino-Alto Adige/Südtirol,28,Females,5839
+ITDA,Trentino-Alto Adige/Südtirol,29,Total,11792
+ITDA,Trentino-Alto Adige/Südtirol,29,Males,6012
+ITDA,Trentino-Alto Adige/Südtirol,29,Females,5780
+ITDA,Trentino-Alto Adige/Südtirol,30,Total,11662
+ITDA,Trentino-Alto Adige/Südtirol,30,Males,5876
+ITDA,Trentino-Alto Adige/Südtirol,30,Females,5786
+ITDA,Trentino-Alto Adige/Südtirol,31,Total,11752
+ITDA,Trentino-Alto Adige/Südtirol,31,Males,5985
+ITDA,Trentino-Alto Adige/Südtirol,31,Females,5767
+ITDA,Trentino-Alto Adige/Südtirol,32,Total,12062
+ITDA,Trentino-Alto Adige/Südtirol,32,Males,6119
+ITDA,Trentino-Alto Adige/Südtirol,32,Females,5943
+ITDA,Trentino-Alto Adige/Südtirol,33,Total,12136
+ITDA,Trentino-Alto Adige/Südtirol,33,Males,6199
+ITDA,Trentino-Alto Adige/Südtirol,33,Females,5937
+ITDA,Trentino-Alto Adige/Südtirol,34,Total,12492
+ITDA,Trentino-Alto Adige/Südtirol,34,Males,6323
+ITDA,Trentino-Alto Adige/Südtirol,34,Females,6169
+ITDA,Trentino-Alto Adige/Südtirol,35,Total,12857
+ITDA,Trentino-Alto Adige/Südtirol,35,Males,6479
+ITDA,Trentino-Alto Adige/Südtirol,35,Females,6378
+ITDA,Trentino-Alto Adige/Südtirol,36,Total,12850
+ITDA,Trentino-Alto Adige/Südtirol,36,Males,6513
+ITDA,Trentino-Alto Adige/Südtirol,36,Females,6337
+ITDA,Trentino-Alto Adige/Südtirol,37,Total,12951
+ITDA,Trentino-Alto Adige/Südtirol,37,Males,6539
+ITDA,Trentino-Alto Adige/Südtirol,37,Females,6412
+ITDA,Trentino-Alto Adige/Südtirol,38,Total,13018
+ITDA,Trentino-Alto Adige/Südtirol,38,Males,6442
+ITDA,Trentino-Alto Adige/Südtirol,38,Females,6576
+ITDA,Trentino-Alto Adige/Südtirol,39,Total,13816
+ITDA,Trentino-Alto Adige/Südtirol,39,Males,6921
+ITDA,Trentino-Alto Adige/Südtirol,39,Females,6895
+ITDA,Trentino-Alto Adige/Südtirol,40,Total,13859
+ITDA,Trentino-Alto Adige/Südtirol,40,Males,6921
+ITDA,Trentino-Alto Adige/Südtirol,40,Females,6938
+ITDA,Trentino-Alto Adige/Südtirol,41,Total,14448
+ITDA,Trentino-Alto Adige/Südtirol,41,Males,7126
+ITDA,Trentino-Alto Adige/Südtirol,41,Females,7322
+ITDA,Trentino-Alto Adige/Südtirol,42,Total,15189
+ITDA,Trentino-Alto Adige/Südtirol,42,Males,7488
+ITDA,Trentino-Alto Adige/Südtirol,42,Females,7701
+ITDA,Trentino-Alto Adige/Südtirol,43,Total,16123
+ITDA,Trentino-Alto Adige/Südtirol,43,Males,8100
+ITDA,Trentino-Alto Adige/Südtirol,43,Females,8023
+ITDA,Trentino-Alto Adige/Südtirol,44,Total,16167
+ITDA,Trentino-Alto Adige/Südtirol,44,Males,7991
+ITDA,Trentino-Alto Adige/Südtirol,44,Females,8176
+ITDA,Trentino-Alto Adige/Südtirol,45,Total,16405
+ITDA,Trentino-Alto Adige/Südtirol,45,Males,8181
+ITDA,Trentino-Alto Adige/Südtirol,45,Females,8224
+ITDA,Trentino-Alto Adige/Südtirol,46,Total,16995
+ITDA,Trentino-Alto Adige/Südtirol,46,Males,8497
+ITDA,Trentino-Alto Adige/Südtirol,46,Females,8498
+ITDA,Trentino-Alto Adige/Südtirol,47,Total,16668
+ITDA,Trentino-Alto Adige/Südtirol,47,Males,8309
+ITDA,Trentino-Alto Adige/Südtirol,47,Females,8359
+ITDA,Trentino-Alto Adige/Südtirol,48,Total,17558
+ITDA,Trentino-Alto Adige/Südtirol,48,Males,8973
+ITDA,Trentino-Alto Adige/Südtirol,48,Females,8585
+ITDA,Trentino-Alto Adige/Südtirol,49,Total,17445
+ITDA,Trentino-Alto Adige/Südtirol,49,Males,8823
+ITDA,Trentino-Alto Adige/Südtirol,49,Females,8622
+ITDA,Trentino-Alto Adige/Südtirol,50,Total,17353
+ITDA,Trentino-Alto Adige/Südtirol,50,Males,8619
+ITDA,Trentino-Alto Adige/Südtirol,50,Females,8734
+ITDA,Trentino-Alto Adige/Südtirol,51,Total,17718
+ITDA,Trentino-Alto Adige/Südtirol,51,Males,8870
+ITDA,Trentino-Alto Adige/Südtirol,51,Females,8848
+ITDA,Trentino-Alto Adige/Südtirol,52,Total,17944
+ITDA,Trentino-Alto Adige/Südtirol,52,Males,9148
+ITDA,Trentino-Alto Adige/Südtirol,52,Females,8796
+ITDA,Trentino-Alto Adige/Südtirol,53,Total,17854
+ITDA,Trentino-Alto Adige/Südtirol,53,Males,9027
+ITDA,Trentino-Alto Adige/Südtirol,53,Females,8827
+ITDA,Trentino-Alto Adige/Südtirol,54,Total,16687
+ITDA,Trentino-Alto Adige/Südtirol,54,Males,8421
+ITDA,Trentino-Alto Adige/Südtirol,54,Females,8266
+ITDA,Trentino-Alto Adige/Südtirol,55,Total,15799
+ITDA,Trentino-Alto Adige/Südtirol,55,Males,7864
+ITDA,Trentino-Alto Adige/Südtirol,55,Females,7935
+ITDA,Trentino-Alto Adige/Südtirol,56,Total,15768
+ITDA,Trentino-Alto Adige/Südtirol,56,Males,7779
+ITDA,Trentino-Alto Adige/Südtirol,56,Females,7989
+ITDA,Trentino-Alto Adige/Südtirol,57,Total,15096
+ITDA,Trentino-Alto Adige/Südtirol,57,Males,7572
+ITDA,Trentino-Alto Adige/Südtirol,57,Females,7524
+ITDA,Trentino-Alto Adige/Südtirol,58,Total,14605
+ITDA,Trentino-Alto Adige/Südtirol,58,Males,7350
+ITDA,Trentino-Alto Adige/Südtirol,58,Females,7255
+ITDA,Trentino-Alto Adige/Südtirol,59,Total,13695
+ITDA,Trentino-Alto Adige/Südtirol,59,Males,6829
+ITDA,Trentino-Alto Adige/Südtirol,59,Females,6866
+ITDA,Trentino-Alto Adige/Südtirol,60,Total,13422
+ITDA,Trentino-Alto Adige/Südtirol,60,Males,6519
+ITDA,Trentino-Alto Adige/Südtirol,60,Females,6903
+ITDA,Trentino-Alto Adige/Südtirol,61,Total,13020
+ITDA,Trentino-Alto Adige/Südtirol,61,Males,6473
+ITDA,Trentino-Alto Adige/Südtirol,61,Females,6547
+ITDA,Trentino-Alto Adige/Südtirol,62,Total,12439
+ITDA,Trentino-Alto Adige/Südtirol,62,Males,6166
+ITDA,Trentino-Alto Adige/Südtirol,62,Females,6273
+ITDA,Trentino-Alto Adige/Südtirol,63,Total,12020
+ITDA,Trentino-Alto Adige/Südtirol,63,Males,5925
+ITDA,Trentino-Alto Adige/Südtirol,63,Females,6095
+ITDA,Trentino-Alto Adige/Südtirol,64,Total,11808
+ITDA,Trentino-Alto Adige/Südtirol,64,Males,5760
+ITDA,Trentino-Alto Adige/Südtirol,64,Females,6048
+ITDA,Trentino-Alto Adige/Südtirol,65,Total,11478
+ITDA,Trentino-Alto Adige/Südtirol,65,Males,5589
+ITDA,Trentino-Alto Adige/Südtirol,65,Females,5889
+ITDA,Trentino-Alto Adige/Südtirol,66,Total,11196
+ITDA,Trentino-Alto Adige/Südtirol,66,Males,5522
+ITDA,Trentino-Alto Adige/Südtirol,66,Females,5674
+ITDA,Trentino-Alto Adige/Südtirol,67,Total,11554
+ITDA,Trentino-Alto Adige/Südtirol,67,Males,5581
+ITDA,Trentino-Alto Adige/Südtirol,67,Females,5973
+ITDA,Trentino-Alto Adige/Südtirol,68,Total,11023
+ITDA,Trentino-Alto Adige/Südtirol,68,Males,5397
+ITDA,Trentino-Alto Adige/Südtirol,68,Females,5626
+ITDA,Trentino-Alto Adige/Südtirol,69,Total,11366
+ITDA,Trentino-Alto Adige/Südtirol,69,Males,5555
+ITDA,Trentino-Alto Adige/Südtirol,69,Females,5811
+ITDA,Trentino-Alto Adige/Südtirol,70,Total,11009
+ITDA,Trentino-Alto Adige/Südtirol,70,Males,5217
+ITDA,Trentino-Alto Adige/Südtirol,70,Females,5792
+ITDA,Trentino-Alto Adige/Südtirol,71,Total,11778
+ITDA,Trentino-Alto Adige/Südtirol,71,Males,5548
+ITDA,Trentino-Alto Adige/Südtirol,71,Females,6230
+ITDA,Trentino-Alto Adige/Südtirol,72,Total,8351
+ITDA,Trentino-Alto Adige/Südtirol,72,Males,3975
+ITDA,Trentino-Alto Adige/Südtirol,72,Females,4376
+ITDA,Trentino-Alto Adige/Südtirol,73,Total,9546
+ITDA,Trentino-Alto Adige/Südtirol,73,Males,4459
+ITDA,Trentino-Alto Adige/Südtirol,73,Females,5087
+ITDA,Trentino-Alto Adige/Südtirol,74,Total,10046
+ITDA,Trentino-Alto Adige/Südtirol,74,Males,4690
+ITDA,Trentino-Alto Adige/Südtirol,74,Females,5356
+ITDA,Trentino-Alto Adige/Südtirol,75,Total,9844
+ITDA,Trentino-Alto Adige/Südtirol,75,Males,4550
+ITDA,Trentino-Alto Adige/Südtirol,75,Females,5294
+ITDA,Trentino-Alto Adige/Südtirol,76,Total,9769
+ITDA,Trentino-Alto Adige/Südtirol,76,Males,4462
+ITDA,Trentino-Alto Adige/Südtirol,76,Females,5307
+ITDA,Trentino-Alto Adige/Südtirol,77,Total,9291
+ITDA,Trentino-Alto Adige/Südtirol,77,Males,4158
+ITDA,Trentino-Alto Adige/Südtirol,77,Females,5133
+ITDA,Trentino-Alto Adige/Südtirol,78,Total,8829
+ITDA,Trentino-Alto Adige/Südtirol,78,Males,3918
+ITDA,Trentino-Alto Adige/Südtirol,78,Females,4911
+ITDA,Trentino-Alto Adige/Südtirol,79,Total,8249
+ITDA,Trentino-Alto Adige/Südtirol,79,Males,3638
+ITDA,Trentino-Alto Adige/Südtirol,79,Females,4611
+ITDA,Trentino-Alto Adige/Südtirol,80,Total,7340
+ITDA,Trentino-Alto Adige/Südtirol,80,Males,3191
+ITDA,Trentino-Alto Adige/Südtirol,80,Females,4149
+ITDA,Trentino-Alto Adige/Südtirol,81,Total,6692
+ITDA,Trentino-Alto Adige/Südtirol,81,Males,2767
+ITDA,Trentino-Alto Adige/Südtirol,81,Females,3925
+ITDA,Trentino-Alto Adige/Südtirol,82,Total,6476
+ITDA,Trentino-Alto Adige/Südtirol,82,Males,2611
+ITDA,Trentino-Alto Adige/Südtirol,82,Females,3865
+ITDA,Trentino-Alto Adige/Südtirol,83,Total,6072
+ITDA,Trentino-Alto Adige/Südtirol,83,Males,2403
+ITDA,Trentino-Alto Adige/Südtirol,83,Females,3669
+ITDA,Trentino-Alto Adige/Südtirol,84,Total,5692
+ITDA,Trentino-Alto Adige/Südtirol,84,Males,2239
+ITDA,Trentino-Alto Adige/Südtirol,84,Females,3453
+ITDA,Trentino-Alto Adige/Südtirol,85,Total,5228
+ITDA,Trentino-Alto Adige/Südtirol,85,Males,1974
+ITDA,Trentino-Alto Adige/Südtirol,85,Females,3254
+ITDA,Trentino-Alto Adige/Südtirol,86,Total,4795
+ITDA,Trentino-Alto Adige/Südtirol,86,Males,1769
+ITDA,Trentino-Alto Adige/Südtirol,86,Females,3026
+ITDA,Trentino-Alto Adige/Südtirol,87,Total,4630
+ITDA,Trentino-Alto Adige/Südtirol,87,Males,1603
+ITDA,Trentino-Alto Adige/Südtirol,87,Females,3027
+ITDA,Trentino-Alto Adige/Südtirol,88,Total,3798
+ITDA,Trentino-Alto Adige/Südtirol,88,Males,1238
+ITDA,Trentino-Alto Adige/Südtirol,88,Females,2560
+ITDA,Trentino-Alto Adige/Südtirol,89,Total,3365
+ITDA,Trentino-Alto Adige/Südtirol,89,Males,1080
+ITDA,Trentino-Alto Adige/Südtirol,89,Females,2285
+ITDA,Trentino-Alto Adige/Südtirol,90,Total,2869
+ITDA,Trentino-Alto Adige/Südtirol,90,Males,867
+ITDA,Trentino-Alto Adige/Südtirol,90,Females,2002
+ITDA,Trentino-Alto Adige/Südtirol,91,Total,2399
+ITDA,Trentino-Alto Adige/Südtirol,91,Males,676
+ITDA,Trentino-Alto Adige/Südtirol,91,Females,1723
+ITDA,Trentino-Alto Adige/Südtirol,92,Total,2011
+ITDA,Trentino-Alto Adige/Südtirol,92,Males,531
+ITDA,Trentino-Alto Adige/Südtirol,92,Females,1480
+ITDA,Trentino-Alto Adige/Südtirol,93,Total,1609
+ITDA,Trentino-Alto Adige/Südtirol,93,Males,381
+ITDA,Trentino-Alto Adige/Südtirol,93,Females,1228
+ITDA,Trentino-Alto Adige/Südtirol,94,Total,1421
+ITDA,Trentino-Alto Adige/Südtirol,94,Males,312
+ITDA,Trentino-Alto Adige/Südtirol,94,Females,1109
+ITDA,Trentino-Alto Adige/Südtirol,95,Total,1091
+ITDA,Trentino-Alto Adige/Südtirol,95,Males,230
+ITDA,Trentino-Alto Adige/Südtirol,95,Females,861
+ITDA,Trentino-Alto Adige/Südtirol,96,Total,716
+ITDA,Trentino-Alto Adige/Südtirol,96,Males,141
+ITDA,Trentino-Alto Adige/Südtirol,96,Females,575
+ITDA,Trentino-Alto Adige/Südtirol,97,Total,532
+ITDA,Trentino-Alto Adige/Südtirol,97,Males,103
+ITDA,Trentino-Alto Adige/Südtirol,97,Females,429
+ITDA,Trentino-Alto Adige/Südtirol,98,Total,249
+ITDA,Trentino-Alto Adige/Südtirol,98,Males,41
+ITDA,Trentino-Alto Adige/Südtirol,98,Females,208
+ITDA,Trentino-Alto Adige/Südtirol,99,Total,103
+ITDA,Trentino-Alto Adige/Südtirol,99,Males,11
+ITDA,Trentino-Alto Adige/Südtirol,99,Females,92
+ITDA,Trentino-Alto Adige/Südtirol,100 and over,Total,206
+ITDA,Trentino-Alto Adige/Südtirol,100 and over,Males,32
+ITDA,Trentino-Alto Adige/Südtirol,100 and over,Females,174
+ITD3,Veneto,0,Total,36479
+ITD3,Veneto,0,Males,18821
+ITD3,Veneto,0,Females,17658
+ITD3,Veneto,1,Total,37834
+ITD3,Veneto,1,Males,19507
+ITD3,Veneto,1,Females,18327
+ITD3,Veneto,2,Total,38991
+ITD3,Veneto,2,Males,19921
+ITD3,Veneto,2,Females,19070
+ITD3,Veneto,3,Total,40452
+ITD3,Veneto,3,Males,20640
+ITD3,Veneto,3,Females,19812
+ITD3,Veneto,4,Total,41422
+ITD3,Veneto,4,Males,21250
+ITD3,Veneto,4,Females,20172
+ITD3,Veneto,5,Total,43589
+ITD3,Veneto,5,Males,22360
+ITD3,Veneto,5,Females,21229
+ITD3,Veneto,6,Total,44408
+ITD3,Veneto,6,Males,22732
+ITD3,Veneto,6,Females,21676
+ITD3,Veneto,7,Total,45788
+ITD3,Veneto,7,Males,23550
+ITD3,Veneto,7,Females,22238
+ITD3,Veneto,8,Total,46487
+ITD3,Veneto,8,Males,23951
+ITD3,Veneto,8,Females,22536
+ITD3,Veneto,9,Total,47479
+ITD3,Veneto,9,Males,24346
+ITD3,Veneto,9,Females,23133
+ITD3,Veneto,10,Total,46867
+ITD3,Veneto,10,Males,23974
+ITD3,Veneto,10,Females,22893
+ITD3,Veneto,11,Total,46949
+ITD3,Veneto,11,Males,24164
+ITD3,Veneto,11,Females,22785
+ITD3,Veneto,12,Total,46559
+ITD3,Veneto,12,Males,24036
+ITD3,Veneto,12,Females,22523
+ITD3,Veneto,13,Total,47185
+ITD3,Veneto,13,Males,24294
+ITD3,Veneto,13,Females,22891
+ITD3,Veneto,14,Total,46217
+ITD3,Veneto,14,Males,23678
+ITD3,Veneto,14,Females,22539
+ITD3,Veneto,15,Total,45685
+ITD3,Veneto,15,Males,23625
+ITD3,Veneto,15,Females,22060
+ITD3,Veneto,16,Total,45397
+ITD3,Veneto,16,Males,23458
+ITD3,Veneto,16,Females,21939
+ITD3,Veneto,17,Total,47220
+ITD3,Veneto,17,Males,24382
+ITD3,Veneto,17,Females,22838
+ITD3,Veneto,18,Total,46375
+ITD3,Veneto,18,Males,23807
+ITD3,Veneto,18,Females,22568
+ITD3,Veneto,19,Total,46981
+ITD3,Veneto,19,Males,24530
+ITD3,Veneto,19,Females,22451
+ITD3,Veneto,20,Total,46973
+ITD3,Veneto,20,Males,24463
+ITD3,Veneto,20,Females,22510
+ITD3,Veneto,21,Total,46461
+ITD3,Veneto,21,Males,24277
+ITD3,Veneto,21,Females,22184
+ITD3,Veneto,22,Total,45644
+ITD3,Veneto,22,Males,23949
+ITD3,Veneto,22,Females,21695
+ITD3,Veneto,23,Total,45896
+ITD3,Veneto,23,Males,23753
+ITD3,Veneto,23,Females,22143
+ITD3,Veneto,24,Total,46400
+ITD3,Veneto,24,Males,23622
+ITD3,Veneto,24,Females,22778
+ITD3,Veneto,25,Total,48250
+ITD3,Veneto,25,Males,24759
+ITD3,Veneto,25,Females,23491
+ITD3,Veneto,26,Total,48012
+ITD3,Veneto,26,Males,24341
+ITD3,Veneto,26,Females,23671
+ITD3,Veneto,27,Total,49241
+ITD3,Veneto,27,Males,25129
+ITD3,Veneto,27,Females,24112
+ITD3,Veneto,28,Total,48964
+ITD3,Veneto,28,Males,24678
+ITD3,Veneto,28,Females,24286
+ITD3,Veneto,29,Total,50337
+ITD3,Veneto,29,Males,25195
+ITD3,Veneto,29,Females,25142
+ITD3,Veneto,30,Total,48523
+ITD3,Veneto,30,Males,24507
+ITD3,Veneto,30,Females,24016
+ITD3,Veneto,31,Total,49349
+ITD3,Veneto,31,Males,24551
+ITD3,Veneto,31,Females,24798
+ITD3,Veneto,32,Total,52001
+ITD3,Veneto,32,Males,25876
+ITD3,Veneto,32,Females,26125
+ITD3,Veneto,33,Total,52191
+ITD3,Veneto,33,Males,25925
+ITD3,Veneto,33,Females,26266
+ITD3,Veneto,34,Total,53407
+ITD3,Veneto,34,Males,26810
+ITD3,Veneto,34,Females,26597
+ITD3,Veneto,35,Total,55439
+ITD3,Veneto,35,Males,27416
+ITD3,Veneto,35,Females,28023
+ITD3,Veneto,36,Total,56739
+ITD3,Veneto,36,Males,28373
+ITD3,Veneto,36,Females,28366
+ITD3,Veneto,37,Total,58435
+ITD3,Veneto,37,Males,29569
+ITD3,Veneto,37,Females,28866
+ITD3,Veneto,38,Total,61048
+ITD3,Veneto,38,Males,30672
+ITD3,Veneto,38,Females,30376
+ITD3,Veneto,39,Total,65307
+ITD3,Veneto,39,Males,32743
+ITD3,Veneto,39,Females,32564
+ITD3,Veneto,40,Total,67761
+ITD3,Veneto,40,Males,33825
+ITD3,Veneto,40,Females,33936
+ITD3,Veneto,41,Total,71024
+ITD3,Veneto,41,Males,35736
+ITD3,Veneto,41,Females,35288
+ITD3,Veneto,42,Total,74637
+ITD3,Veneto,42,Males,37638
+ITD3,Veneto,42,Females,36999
+ITD3,Veneto,43,Total,79501
+ITD3,Veneto,43,Males,40029
+ITD3,Veneto,43,Females,39472
+ITD3,Veneto,44,Total,78881
+ITD3,Veneto,44,Males,39759
+ITD3,Veneto,44,Females,39122
+ITD3,Veneto,45,Total,80162
+ITD3,Veneto,45,Males,40776
+ITD3,Veneto,45,Females,39386
+ITD3,Veneto,46,Total,81203
+ITD3,Veneto,46,Males,40866
+ITD3,Veneto,46,Females,40337
+ITD3,Veneto,47,Total,81340
+ITD3,Veneto,47,Males,41069
+ITD3,Veneto,47,Females,40271
+ITD3,Veneto,48,Total,83548
+ITD3,Veneto,48,Males,42183
+ITD3,Veneto,48,Females,41365
+ITD3,Veneto,49,Total,82581
+ITD3,Veneto,49,Males,41475
+ITD3,Veneto,49,Females,41106
+ITD3,Veneto,50,Total,83227
+ITD3,Veneto,50,Males,41923
+ITD3,Veneto,50,Females,41304
+ITD3,Veneto,51,Total,83953
+ITD3,Veneto,51,Males,42153
+ITD3,Veneto,51,Females,41800
+ITD3,Veneto,52,Total,83987
+ITD3,Veneto,52,Males,42227
+ITD3,Veneto,52,Females,41760
+ITD3,Veneto,53,Total,84616
+ITD3,Veneto,53,Males,42068
+ITD3,Veneto,53,Females,42548
+ITD3,Veneto,54,Total,79137
+ITD3,Veneto,54,Males,39426
+ITD3,Veneto,54,Females,39711
+ITD3,Veneto,55,Total,76254
+ITD3,Veneto,55,Males,37971
+ITD3,Veneto,55,Females,38283
+ITD3,Veneto,56,Total,74573
+ITD3,Veneto,56,Males,36983
+ITD3,Veneto,56,Females,37590
+ITD3,Veneto,57,Total,70482
+ITD3,Veneto,57,Males,34825
+ITD3,Veneto,57,Females,35657
+ITD3,Veneto,58,Total,70021
+ITD3,Veneto,58,Males,34618
+ITD3,Veneto,58,Females,35403
+ITD3,Veneto,59,Total,65620
+ITD3,Veneto,59,Males,32225
+ITD3,Veneto,59,Females,33395
+ITD3,Veneto,60,Total,64191
+ITD3,Veneto,60,Males,31541
+ITD3,Veneto,60,Females,32650
+ITD3,Veneto,61,Total,63020
+ITD3,Veneto,61,Males,30692
+ITD3,Veneto,61,Females,32328
+ITD3,Veneto,62,Total,60632
+ITD3,Veneto,62,Males,29455
+ITD3,Veneto,62,Females,31177
+ITD3,Veneto,63,Total,59586
+ITD3,Veneto,63,Males,29155
+ITD3,Veneto,63,Females,30431
+ITD3,Veneto,64,Total,57537
+ITD3,Veneto,64,Males,28175
+ITD3,Veneto,64,Females,29362
+ITD3,Veneto,65,Total,56502
+ITD3,Veneto,65,Males,27397
+ITD3,Veneto,65,Females,29105
+ITD3,Veneto,66,Total,55564
+ITD3,Veneto,66,Males,27075
+ITD3,Veneto,66,Females,28489
+ITD3,Veneto,67,Total,57824
+ITD3,Veneto,67,Males,27649
+ITD3,Veneto,67,Females,30175
+ITD3,Veneto,68,Total,56878
+ITD3,Veneto,68,Males,27420
+ITD3,Veneto,68,Females,29458
+ITD3,Veneto,69,Total,58329
+ITD3,Veneto,69,Males,27882
+ITD3,Veneto,69,Females,30447
+ITD3,Veneto,70,Total,56845
+ITD3,Veneto,70,Males,27092
+ITD3,Veneto,70,Females,29753
+ITD3,Veneto,71,Total,61221
+ITD3,Veneto,71,Males,29111
+ITD3,Veneto,71,Females,32110
+ITD3,Veneto,72,Total,41639
+ITD3,Veneto,72,Males,19397
+ITD3,Veneto,72,Females,22242
+ITD3,Veneto,73,Total,47926
+ITD3,Veneto,73,Males,22417
+ITD3,Veneto,73,Females,25509
+ITD3,Veneto,74,Total,48497
+ITD3,Veneto,74,Males,22332
+ITD3,Veneto,74,Females,26165
+ITD3,Veneto,75,Total,46639
+ITD3,Veneto,75,Males,21263
+ITD3,Veneto,75,Females,25376
+ITD3,Veneto,76,Total,45825
+ITD3,Veneto,76,Males,20891
+ITD3,Veneto,76,Females,24934
+ITD3,Veneto,77,Total,47742
+ITD3,Veneto,77,Males,21400
+ITD3,Veneto,77,Females,26342
+ITD3,Veneto,78,Total,46005
+ITD3,Veneto,78,Males,20737
+ITD3,Veneto,78,Females,25268
+ITD3,Veneto,79,Total,43493
+ITD3,Veneto,79,Males,18904
+ITD3,Veneto,79,Females,24589
+ITD3,Veneto,80,Total,38582
+ITD3,Veneto,80,Males,16498
+ITD3,Veneto,80,Females,22084
+ITD3,Veneto,81,Total,34966
+ITD3,Veneto,81,Males,14394
+ITD3,Veneto,81,Females,20572
+ITD3,Veneto,82,Total,34232
+ITD3,Veneto,82,Males,14035
+ITD3,Veneto,82,Females,20197
+ITD3,Veneto,83,Total,31685
+ITD3,Veneto,83,Males,12596
+ITD3,Veneto,83,Females,19089
+ITD3,Veneto,84,Total,27766
+ITD3,Veneto,84,Males,10648
+ITD3,Veneto,84,Females,17118
+ITD3,Veneto,85,Total,25995
+ITD3,Veneto,85,Males,9406
+ITD3,Veneto,85,Females,16589
+ITD3,Veneto,86,Total,23646
+ITD3,Veneto,86,Males,8306
+ITD3,Veneto,86,Females,15340
+ITD3,Veneto,87,Total,22413
+ITD3,Veneto,87,Males,7440
+ITD3,Veneto,87,Females,14973
+ITD3,Veneto,88,Total,18283
+ITD3,Veneto,88,Males,5876
+ITD3,Veneto,88,Females,12407
+ITD3,Veneto,89,Total,16445
+ITD3,Veneto,89,Males,4850
+ITD3,Veneto,89,Females,11595
+ITD3,Veneto,90,Total,14315
+ITD3,Veneto,90,Males,4007
+ITD3,Veneto,90,Females,10308
+ITD3,Veneto,91,Total,11604
+ITD3,Veneto,91,Males,3082
+ITD3,Veneto,91,Females,8522
+ITD3,Veneto,92,Total,9494
+ITD3,Veneto,92,Males,2342
+ITD3,Veneto,92,Females,7152
+ITD3,Veneto,93,Total,7416
+ITD3,Veneto,93,Males,1755
+ITD3,Veneto,93,Females,5661
+ITD3,Veneto,94,Total,6099
+ITD3,Veneto,94,Males,1377
+ITD3,Veneto,94,Females,4722
+ITD3,Veneto,95,Total,4410
+ITD3,Veneto,95,Males,912
+ITD3,Veneto,95,Females,3498
+ITD3,Veneto,96,Total,3196
+ITD3,Veneto,96,Males,573
+ITD3,Veneto,96,Females,2623
+ITD3,Veneto,97,Total,2256
+ITD3,Veneto,97,Males,386
+ITD3,Veneto,97,Females,1870
+ITD3,Veneto,98,Total,1009
+ITD3,Veneto,98,Males,170
+ITD3,Veneto,98,Females,839
+ITD3,Veneto,99,Total,543
+ITD3,Veneto,99,Males,98
+ITD3,Veneto,99,Females,445
+ITD3,Veneto,100 and over,Total,1197
+ITD3,Veneto,100 and over,Males,155
+ITD3,Veneto,100 and over,Females,1042
+ITD4,Friuli-Venezia Giulia,0,Total,8115
+ITD4,Friuli-Venezia Giulia,0,Males,4119
+ITD4,Friuli-Venezia Giulia,0,Females,3996
+ITD4,Friuli-Venezia Giulia,1,Total,8496
+ITD4,Friuli-Venezia Giulia,1,Males,4377
+ITD4,Friuli-Venezia Giulia,1,Females,4119
+ITD4,Friuli-Venezia Giulia,2,Total,8591
+ITD4,Friuli-Venezia Giulia,2,Males,4392
+ITD4,Friuli-Venezia Giulia,2,Females,4199
+ITD4,Friuli-Venezia Giulia,3,Total,9158
+ITD4,Friuli-Venezia Giulia,3,Males,4751
+ITD4,Friuli-Venezia Giulia,3,Females,4407
+ITD4,Friuli-Venezia Giulia,4,Total,9365
+ITD4,Friuli-Venezia Giulia,4,Males,4833
+ITD4,Friuli-Venezia Giulia,4,Females,4532
+ITD4,Friuli-Venezia Giulia,5,Total,9782
+ITD4,Friuli-Venezia Giulia,5,Males,4969
+ITD4,Friuli-Venezia Giulia,5,Females,4813
+ITD4,Friuli-Venezia Giulia,6,Total,9956
+ITD4,Friuli-Venezia Giulia,6,Males,5199
+ITD4,Friuli-Venezia Giulia,6,Females,4757
+ITD4,Friuli-Venezia Giulia,7,Total,10385
+ITD4,Friuli-Venezia Giulia,7,Males,5322
+ITD4,Friuli-Venezia Giulia,7,Females,5063
+ITD4,Friuli-Venezia Giulia,8,Total,10510
+ITD4,Friuli-Venezia Giulia,8,Males,5355
+ITD4,Friuli-Venezia Giulia,8,Females,5155
+ITD4,Friuli-Venezia Giulia,9,Total,10459
+ITD4,Friuli-Venezia Giulia,9,Males,5417
+ITD4,Friuli-Venezia Giulia,9,Females,5042
+ITD4,Friuli-Venezia Giulia,10,Total,10655
+ITD4,Friuli-Venezia Giulia,10,Males,5410
+ITD4,Friuli-Venezia Giulia,10,Females,5245
+ITD4,Friuli-Venezia Giulia,11,Total,10639
+ITD4,Friuli-Venezia Giulia,11,Males,5412
+ITD4,Friuli-Venezia Giulia,11,Females,5227
+ITD4,Friuli-Venezia Giulia,12,Total,10422
+ITD4,Friuli-Venezia Giulia,12,Males,5411
+ITD4,Friuli-Venezia Giulia,12,Females,5011
+ITD4,Friuli-Venezia Giulia,13,Total,10486
+ITD4,Friuli-Venezia Giulia,13,Males,5319
+ITD4,Friuli-Venezia Giulia,13,Females,5167
+ITD4,Friuli-Venezia Giulia,14,Total,10421
+ITD4,Friuli-Venezia Giulia,14,Males,5423
+ITD4,Friuli-Venezia Giulia,14,Females,4998
+ITD4,Friuli-Venezia Giulia,15,Total,10287
+ITD4,Friuli-Venezia Giulia,15,Males,5285
+ITD4,Friuli-Venezia Giulia,15,Females,5002
+ITD4,Friuli-Venezia Giulia,16,Total,10424
+ITD4,Friuli-Venezia Giulia,16,Males,5419
+ITD4,Friuli-Venezia Giulia,16,Females,5005
+ITD4,Friuli-Venezia Giulia,17,Total,10699
+ITD4,Friuli-Venezia Giulia,17,Males,5502
+ITD4,Friuli-Venezia Giulia,17,Females,5197
+ITD4,Friuli-Venezia Giulia,18,Total,10321
+ITD4,Friuli-Venezia Giulia,18,Males,5384
+ITD4,Friuli-Venezia Giulia,18,Females,4937
+ITD4,Friuli-Venezia Giulia,19,Total,10438
+ITD4,Friuli-Venezia Giulia,19,Males,5491
+ITD4,Friuli-Venezia Giulia,19,Females,4947
+ITD4,Friuli-Venezia Giulia,20,Total,10292
+ITD4,Friuli-Venezia Giulia,20,Males,5403
+ITD4,Friuli-Venezia Giulia,20,Females,4889
+ITD4,Friuli-Venezia Giulia,21,Total,10590
+ITD4,Friuli-Venezia Giulia,21,Males,5585
+ITD4,Friuli-Venezia Giulia,21,Females,5005
+ITD4,Friuli-Venezia Giulia,22,Total,10238
+ITD4,Friuli-Venezia Giulia,22,Males,5376
+ITD4,Friuli-Venezia Giulia,22,Females,4862
+ITD4,Friuli-Venezia Giulia,23,Total,10290
+ITD4,Friuli-Venezia Giulia,23,Males,5359
+ITD4,Friuli-Venezia Giulia,23,Females,4931
+ITD4,Friuli-Venezia Giulia,24,Total,10523
+ITD4,Friuli-Venezia Giulia,24,Males,5498
+ITD4,Friuli-Venezia Giulia,24,Females,5025
+ITD4,Friuli-Venezia Giulia,25,Total,11182
+ITD4,Friuli-Venezia Giulia,25,Males,5790
+ITD4,Friuli-Venezia Giulia,25,Females,5392
+ITD4,Friuli-Venezia Giulia,26,Total,11149
+ITD4,Friuli-Venezia Giulia,26,Males,5663
+ITD4,Friuli-Venezia Giulia,26,Females,5486
+ITD4,Friuli-Venezia Giulia,27,Total,11432
+ITD4,Friuli-Venezia Giulia,27,Males,5865
+ITD4,Friuli-Venezia Giulia,27,Females,5567
+ITD4,Friuli-Venezia Giulia,28,Total,11460
+ITD4,Friuli-Venezia Giulia,28,Males,5872
+ITD4,Friuli-Venezia Giulia,28,Females,5588
+ITD4,Friuli-Venezia Giulia,29,Total,11833
+ITD4,Friuli-Venezia Giulia,29,Males,6021
+ITD4,Friuli-Venezia Giulia,29,Females,5812
+ITD4,Friuli-Venezia Giulia,30,Total,11299
+ITD4,Friuli-Venezia Giulia,30,Males,5682
+ITD4,Friuli-Venezia Giulia,30,Females,5617
+ITD4,Friuli-Venezia Giulia,31,Total,11693
+ITD4,Friuli-Venezia Giulia,31,Males,5919
+ITD4,Friuli-Venezia Giulia,31,Females,5774
+ITD4,Friuli-Venezia Giulia,32,Total,12256
+ITD4,Friuli-Venezia Giulia,32,Males,6135
+ITD4,Friuli-Venezia Giulia,32,Females,6121
+ITD4,Friuli-Venezia Giulia,33,Total,12458
+ITD4,Friuli-Venezia Giulia,33,Males,6386
+ITD4,Friuli-Venezia Giulia,33,Females,6072
+ITD4,Friuli-Venezia Giulia,34,Total,12547
+ITD4,Friuli-Venezia Giulia,34,Males,6410
+ITD4,Friuli-Venezia Giulia,34,Females,6137
+ITD4,Friuli-Venezia Giulia,35,Total,13308
+ITD4,Friuli-Venezia Giulia,35,Males,6781
+ITD4,Friuli-Venezia Giulia,35,Females,6527
+ITD4,Friuli-Venezia Giulia,36,Total,13388
+ITD4,Friuli-Venezia Giulia,36,Males,6874
+ITD4,Friuli-Venezia Giulia,36,Females,6514
+ITD4,Friuli-Venezia Giulia,37,Total,13849
+ITD4,Friuli-Venezia Giulia,37,Males,7061
+ITD4,Friuli-Venezia Giulia,37,Females,6788
+ITD4,Friuli-Venezia Giulia,38,Total,14298
+ITD4,Friuli-Venezia Giulia,38,Males,7349
+ITD4,Friuli-Venezia Giulia,38,Females,6949
+ITD4,Friuli-Venezia Giulia,39,Total,15596
+ITD4,Friuli-Venezia Giulia,39,Males,8003
+ITD4,Friuli-Venezia Giulia,39,Females,7593
+ITD4,Friuli-Venezia Giulia,40,Total,15809
+ITD4,Friuli-Venezia Giulia,40,Males,8045
+ITD4,Friuli-Venezia Giulia,40,Females,7764
+ITD4,Friuli-Venezia Giulia,41,Total,16799
+ITD4,Friuli-Venezia Giulia,41,Males,8397
+ITD4,Friuli-Venezia Giulia,41,Females,8402
+ITD4,Friuli-Venezia Giulia,42,Total,17779
+ITD4,Friuli-Venezia Giulia,42,Males,8982
+ITD4,Friuli-Venezia Giulia,42,Females,8797
+ITD4,Friuli-Venezia Giulia,43,Total,19239
+ITD4,Friuli-Venezia Giulia,43,Males,9712
+ITD4,Friuli-Venezia Giulia,43,Females,9527
+ITD4,Friuli-Venezia Giulia,44,Total,19074
+ITD4,Friuli-Venezia Giulia,44,Males,9496
+ITD4,Friuli-Venezia Giulia,44,Females,9578
+ITD4,Friuli-Venezia Giulia,45,Total,19715
+ITD4,Friuli-Venezia Giulia,45,Males,9899
+ITD4,Friuli-Venezia Giulia,45,Females,9816
+ITD4,Friuli-Venezia Giulia,46,Total,19746
+ITD4,Friuli-Venezia Giulia,46,Males,9854
+ITD4,Friuli-Venezia Giulia,46,Females,9892
+ITD4,Friuli-Venezia Giulia,47,Total,19925
+ITD4,Friuli-Venezia Giulia,47,Males,9846
+ITD4,Friuli-Venezia Giulia,47,Females,10079
+ITD4,Friuli-Venezia Giulia,48,Total,20104
+ITD4,Friuli-Venezia Giulia,48,Males,10133
+ITD4,Friuli-Venezia Giulia,48,Females,9971
+ITD4,Friuli-Venezia Giulia,49,Total,19984
+ITD4,Friuli-Venezia Giulia,49,Males,10097
+ITD4,Friuli-Venezia Giulia,49,Females,9887
+ITD4,Friuli-Venezia Giulia,50,Total,20246
+ITD4,Friuli-Venezia Giulia,50,Males,10043
+ITD4,Friuli-Venezia Giulia,50,Females,10203
+ITD4,Friuli-Venezia Giulia,51,Total,20266
+ITD4,Friuli-Venezia Giulia,51,Males,10069
+ITD4,Friuli-Venezia Giulia,51,Females,10197
+ITD4,Friuli-Venezia Giulia,52,Total,20534
+ITD4,Friuli-Venezia Giulia,52,Males,10296
+ITD4,Friuli-Venezia Giulia,52,Females,10238
+ITD4,Friuli-Venezia Giulia,53,Total,20922
+ITD4,Friuli-Venezia Giulia,53,Males,10471
+ITD4,Friuli-Venezia Giulia,53,Females,10451
+ITD4,Friuli-Venezia Giulia,54,Total,19796
+ITD4,Friuli-Venezia Giulia,54,Males,9762
+ITD4,Friuli-Venezia Giulia,54,Females,10034
+ITD4,Friuli-Venezia Giulia,55,Total,18725
+ITD4,Friuli-Venezia Giulia,55,Males,9341
+ITD4,Friuli-Venezia Giulia,55,Females,9384
+ITD4,Friuli-Venezia Giulia,56,Total,18256
+ITD4,Friuli-Venezia Giulia,56,Males,9161
+ITD4,Friuli-Venezia Giulia,56,Females,9095
+ITD4,Friuli-Venezia Giulia,57,Total,17672
+ITD4,Friuli-Venezia Giulia,57,Males,8870
+ITD4,Friuli-Venezia Giulia,57,Females,8802
+ITD4,Friuli-Venezia Giulia,58,Total,17489
+ITD4,Friuli-Venezia Giulia,58,Males,8646
+ITD4,Friuli-Venezia Giulia,58,Females,8843
+ITD4,Friuli-Venezia Giulia,59,Total,16447
+ITD4,Friuli-Venezia Giulia,59,Males,7980
+ITD4,Friuli-Venezia Giulia,59,Females,8467
+ITD4,Friuli-Venezia Giulia,60,Total,16097
+ITD4,Friuli-Venezia Giulia,60,Males,7776
+ITD4,Friuli-Venezia Giulia,60,Females,8321
+ITD4,Friuli-Venezia Giulia,61,Total,15906
+ITD4,Friuli-Venezia Giulia,61,Males,7789
+ITD4,Friuli-Venezia Giulia,61,Females,8117
+ITD4,Friuli-Venezia Giulia,62,Total,15557
+ITD4,Friuli-Venezia Giulia,62,Males,7594
+ITD4,Friuli-Venezia Giulia,62,Females,7963
+ITD4,Friuli-Venezia Giulia,63,Total,15336
+ITD4,Friuli-Venezia Giulia,63,Males,7381
+ITD4,Friuli-Venezia Giulia,63,Females,7955
+ITD4,Friuli-Venezia Giulia,64,Total,15214
+ITD4,Friuli-Venezia Giulia,64,Males,7268
+ITD4,Friuli-Venezia Giulia,64,Females,7946
+ITD4,Friuli-Venezia Giulia,65,Total,15008
+ITD4,Friuli-Venezia Giulia,65,Males,7049
+ITD4,Friuli-Venezia Giulia,65,Females,7959
+ITD4,Friuli-Venezia Giulia,66,Total,14875
+ITD4,Friuli-Venezia Giulia,66,Males,7031
+ITD4,Friuli-Venezia Giulia,66,Females,7844
+ITD4,Friuli-Venezia Giulia,67,Total,15789
+ITD4,Friuli-Venezia Giulia,67,Males,7479
+ITD4,Friuli-Venezia Giulia,67,Females,8310
+ITD4,Friuli-Venezia Giulia,68,Total,15554
+ITD4,Friuli-Venezia Giulia,68,Males,7392
+ITD4,Friuli-Venezia Giulia,68,Females,8162
+ITD4,Friuli-Venezia Giulia,69,Total,16519
+ITD4,Friuli-Venezia Giulia,69,Males,7881
+ITD4,Friuli-Venezia Giulia,69,Females,8638
+ITD4,Friuli-Venezia Giulia,70,Total,16475
+ITD4,Friuli-Venezia Giulia,70,Males,7690
+ITD4,Friuli-Venezia Giulia,70,Females,8785
+ITD4,Friuli-Venezia Giulia,71,Total,17265
+ITD4,Friuli-Venezia Giulia,71,Males,8183
+ITD4,Friuli-Venezia Giulia,71,Females,9082
+ITD4,Friuli-Venezia Giulia,72,Total,11746
+ITD4,Friuli-Venezia Giulia,72,Males,5557
+ITD4,Friuli-Venezia Giulia,72,Females,6189
+ITD4,Friuli-Venezia Giulia,73,Total,13982
+ITD4,Friuli-Venezia Giulia,73,Males,6487
+ITD4,Friuli-Venezia Giulia,73,Females,7495
+ITD4,Friuli-Venezia Giulia,74,Total,13615
+ITD4,Friuli-Venezia Giulia,74,Males,6322
+ITD4,Friuli-Venezia Giulia,74,Females,7293
+ITD4,Friuli-Venezia Giulia,75,Total,13606
+ITD4,Friuli-Venezia Giulia,75,Males,6132
+ITD4,Friuli-Venezia Giulia,75,Females,7474
+ITD4,Friuli-Venezia Giulia,76,Total,13633
+ITD4,Friuli-Venezia Giulia,76,Males,6182
+ITD4,Friuli-Venezia Giulia,76,Females,7451
+ITD4,Friuli-Venezia Giulia,77,Total,14207
+ITD4,Friuli-Venezia Giulia,77,Males,6393
+ITD4,Friuli-Venezia Giulia,77,Females,7814
+ITD4,Friuli-Venezia Giulia,78,Total,13346
+ITD4,Friuli-Venezia Giulia,78,Males,5887
+ITD4,Friuli-Venezia Giulia,78,Females,7459
+ITD4,Friuli-Venezia Giulia,79,Total,12528
+ITD4,Friuli-Venezia Giulia,79,Males,5444
+ITD4,Friuli-Venezia Giulia,79,Females,7084
+ITD4,Friuli-Venezia Giulia,80,Total,11254
+ITD4,Friuli-Venezia Giulia,80,Males,4842
+ITD4,Friuli-Venezia Giulia,80,Females,6412
+ITD4,Friuli-Venezia Giulia,81,Total,10048
+ITD4,Friuli-Venezia Giulia,81,Males,4115
+ITD4,Friuli-Venezia Giulia,81,Females,5933
+ITD4,Friuli-Venezia Giulia,82,Total,9537
+ITD4,Friuli-Venezia Giulia,82,Males,3859
+ITD4,Friuli-Venezia Giulia,82,Females,5678
+ITD4,Friuli-Venezia Giulia,83,Total,8491
+ITD4,Friuli-Venezia Giulia,83,Males,3242
+ITD4,Friuli-Venezia Giulia,83,Females,5249
+ITD4,Friuli-Venezia Giulia,84,Total,7818
+ITD4,Friuli-Venezia Giulia,84,Males,2981
+ITD4,Friuli-Venezia Giulia,84,Females,4837
+ITD4,Friuli-Venezia Giulia,85,Total,7244
+ITD4,Friuli-Venezia Giulia,85,Males,2617
+ITD4,Friuli-Venezia Giulia,85,Females,4627
+ITD4,Friuli-Venezia Giulia,86,Total,6574
+ITD4,Friuli-Venezia Giulia,86,Males,2289
+ITD4,Friuli-Venezia Giulia,86,Females,4285
+ITD4,Friuli-Venezia Giulia,87,Total,6445
+ITD4,Friuli-Venezia Giulia,87,Males,2125
+ITD4,Friuli-Venezia Giulia,87,Females,4320
+ITD4,Friuli-Venezia Giulia,88,Total,5364
+ITD4,Friuli-Venezia Giulia,88,Males,1692
+ITD4,Friuli-Venezia Giulia,88,Females,3672
+ITD4,Friuli-Venezia Giulia,89,Total,4657
+ITD4,Friuli-Venezia Giulia,89,Males,1405
+ITD4,Friuli-Venezia Giulia,89,Females,3252
+ITD4,Friuli-Venezia Giulia,90,Total,4117
+ITD4,Friuli-Venezia Giulia,90,Males,1137
+ITD4,Friuli-Venezia Giulia,90,Females,2980
+ITD4,Friuli-Venezia Giulia,91,Total,3600
+ITD4,Friuli-Venezia Giulia,91,Males,898
+ITD4,Friuli-Venezia Giulia,91,Females,2702
+ITD4,Friuli-Venezia Giulia,92,Total,2957
+ITD4,Friuli-Venezia Giulia,92,Males,718
+ITD4,Friuli-Venezia Giulia,92,Females,2239
+ITD4,Friuli-Venezia Giulia,93,Total,2481
+ITD4,Friuli-Venezia Giulia,93,Males,563
+ITD4,Friuli-Venezia Giulia,93,Females,1918
+ITD4,Friuli-Venezia Giulia,94,Total,1945
+ITD4,Friuli-Venezia Giulia,94,Males,433
+ITD4,Friuli-Venezia Giulia,94,Females,1512
+ITD4,Friuli-Venezia Giulia,95,Total,1468
+ITD4,Friuli-Venezia Giulia,95,Males,293
+ITD4,Friuli-Venezia Giulia,95,Females,1175
+ITD4,Friuli-Venezia Giulia,96,Total,1257
+ITD4,Friuli-Venezia Giulia,96,Males,219
+ITD4,Friuli-Venezia Giulia,96,Females,1038
+ITD4,Friuli-Venezia Giulia,97,Total,846
+ITD4,Friuli-Venezia Giulia,97,Males,138
+ITD4,Friuli-Venezia Giulia,97,Females,708
+ITD4,Friuli-Venezia Giulia,98,Total,382
+ITD4,Friuli-Venezia Giulia,98,Males,63
+ITD4,Friuli-Venezia Giulia,98,Females,319
+ITD4,Friuli-Venezia Giulia,99,Total,175
+ITD4,Friuli-Venezia Giulia,99,Males,26
+ITD4,Friuli-Venezia Giulia,99,Females,149
+ITD4,Friuli-Venezia Giulia,100 and over,Total,420
+ITD4,Friuli-Venezia Giulia,100 and over,Males,53
+ITD4,Friuli-Venezia Giulia,100 and over,Females,367
+ITC3,Liguria,0,Total,9536
+ITC3,Liguria,0,Males,4934
+ITC3,Liguria,0,Females,4602
+ITC3,Liguria,1,Total,9854
+ITC3,Liguria,1,Males,5134
+ITC3,Liguria,1,Females,4720
+ITC3,Liguria,2,Total,10126
+ITC3,Liguria,2,Males,5156
+ITC3,Liguria,2,Females,4970
+ITC3,Liguria,3,Total,10800
+ITC3,Liguria,3,Males,5601
+ITC3,Liguria,3,Females,5199
+ITC3,Liguria,4,Total,10926
+ITC3,Liguria,4,Males,5659
+ITC3,Liguria,4,Females,5267
+ITC3,Liguria,5,Total,11508
+ITC3,Liguria,5,Males,5902
+ITC3,Liguria,5,Females,5606
+ITC3,Liguria,6,Total,11349
+ITC3,Liguria,6,Males,5836
+ITC3,Liguria,6,Females,5513
+ITC3,Liguria,7,Total,11832
+ITC3,Liguria,7,Males,6023
+ITC3,Liguria,7,Females,5809
+ITC3,Liguria,8,Total,12370
+ITC3,Liguria,8,Males,6215
+ITC3,Liguria,8,Females,6155
+ITC3,Liguria,9,Total,12634
+ITC3,Liguria,9,Males,6417
+ITC3,Liguria,9,Females,6217
+ITC3,Liguria,10,Total,12337
+ITC3,Liguria,10,Males,6472
+ITC3,Liguria,10,Females,5865
+ITC3,Liguria,11,Total,12545
+ITC3,Liguria,11,Males,6393
+ITC3,Liguria,11,Females,6152
+ITC3,Liguria,12,Total,12450
+ITC3,Liguria,12,Males,6467
+ITC3,Liguria,12,Females,5983
+ITC3,Liguria,13,Total,12535
+ITC3,Liguria,13,Males,6399
+ITC3,Liguria,13,Females,6136
+ITC3,Liguria,14,Total,12310
+ITC3,Liguria,14,Males,6378
+ITC3,Liguria,14,Females,5932
+ITC3,Liguria,15,Total,12595
+ITC3,Liguria,15,Males,6507
+ITC3,Liguria,15,Females,6088
+ITC3,Liguria,16,Total,12678
+ITC3,Liguria,16,Males,6478
+ITC3,Liguria,16,Females,6200
+ITC3,Liguria,17,Total,12937
+ITC3,Liguria,17,Males,6733
+ITC3,Liguria,17,Females,6204
+ITC3,Liguria,18,Total,12892
+ITC3,Liguria,18,Males,6866
+ITC3,Liguria,18,Females,6026
+ITC3,Liguria,19,Total,13181
+ITC3,Liguria,19,Males,7018
+ITC3,Liguria,19,Females,6163
+ITC3,Liguria,20,Total,13140
+ITC3,Liguria,20,Males,6935
+ITC3,Liguria,20,Females,6205
+ITC3,Liguria,21,Total,13392
+ITC3,Liguria,21,Males,7202
+ITC3,Liguria,21,Females,6190
+ITC3,Liguria,22,Total,13033
+ITC3,Liguria,22,Males,6845
+ITC3,Liguria,22,Females,6188
+ITC3,Liguria,23,Total,13079
+ITC3,Liguria,23,Males,6783
+ITC3,Liguria,23,Females,6296
+ITC3,Liguria,24,Total,13380
+ITC3,Liguria,24,Males,6957
+ITC3,Liguria,24,Females,6423
+ITC3,Liguria,25,Total,14135
+ITC3,Liguria,25,Males,7376
+ITC3,Liguria,25,Females,6759
+ITC3,Liguria,26,Total,13867
+ITC3,Liguria,26,Males,7065
+ITC3,Liguria,26,Females,6802
+ITC3,Liguria,27,Total,14054
+ITC3,Liguria,27,Males,7157
+ITC3,Liguria,27,Females,6897
+ITC3,Liguria,28,Total,13972
+ITC3,Liguria,28,Males,7080
+ITC3,Liguria,28,Females,6892
+ITC3,Liguria,29,Total,14355
+ITC3,Liguria,29,Males,7306
+ITC3,Liguria,29,Females,7049
+ITC3,Liguria,30,Total,13988
+ITC3,Liguria,30,Males,7218
+ITC3,Liguria,30,Females,6770
+ITC3,Liguria,31,Total,13918
+ITC3,Liguria,31,Males,7108
+ITC3,Liguria,31,Females,6810
+ITC3,Liguria,32,Total,14433
+ITC3,Liguria,32,Males,7328
+ITC3,Liguria,32,Females,7105
+ITC3,Liguria,33,Total,14522
+ITC3,Liguria,33,Males,7371
+ITC3,Liguria,33,Females,7151
+ITC3,Liguria,34,Total,14882
+ITC3,Liguria,34,Males,7606
+ITC3,Liguria,34,Females,7276
+ITC3,Liguria,35,Total,14881
+ITC3,Liguria,35,Males,7569
+ITC3,Liguria,35,Females,7312
+ITC3,Liguria,36,Total,15508
+ITC3,Liguria,36,Males,7779
+ITC3,Liguria,36,Females,7729
+ITC3,Liguria,37,Total,15357
+ITC3,Liguria,37,Males,7690
+ITC3,Liguria,37,Females,7667
+ITC3,Liguria,38,Total,16148
+ITC3,Liguria,38,Males,7924
+ITC3,Liguria,38,Females,8224
+ITC3,Liguria,39,Total,17403
+ITC3,Liguria,39,Males,8485
+ITC3,Liguria,39,Females,8918
+ITC3,Liguria,40,Total,18468
+ITC3,Liguria,40,Males,9068
+ITC3,Liguria,40,Females,9400
+ITC3,Liguria,41,Total,19611
+ITC3,Liguria,41,Males,9729
+ITC3,Liguria,41,Females,9882
+ITC3,Liguria,42,Total,21079
+ITC3,Liguria,42,Males,10436
+ITC3,Liguria,42,Females,10643
+ITC3,Liguria,43,Total,22461
+ITC3,Liguria,43,Males,11002
+ITC3,Liguria,43,Females,11459
+ITC3,Liguria,44,Total,22910
+ITC3,Liguria,44,Males,11371
+ITC3,Liguria,44,Females,11539
+ITC3,Liguria,45,Total,24186
+ITC3,Liguria,45,Males,11965
+ITC3,Liguria,45,Females,12221
+ITC3,Liguria,46,Total,24347
+ITC3,Liguria,46,Males,12069
+ITC3,Liguria,46,Females,12278
+ITC3,Liguria,47,Total,24565
+ITC3,Liguria,47,Males,12013
+ITC3,Liguria,47,Females,12552
+ITC3,Liguria,48,Total,25178
+ITC3,Liguria,48,Males,12388
+ITC3,Liguria,48,Females,12790
+ITC3,Liguria,49,Total,25484
+ITC3,Liguria,49,Males,12647
+ITC3,Liguria,49,Females,12837
+ITC3,Liguria,50,Total,25244
+ITC3,Liguria,50,Males,12240
+ITC3,Liguria,50,Females,13004
+ITC3,Liguria,51,Total,26370
+ITC3,Liguria,51,Males,12940
+ITC3,Liguria,51,Females,13430
+ITC3,Liguria,52,Total,26869
+ITC3,Liguria,52,Males,13185
+ITC3,Liguria,52,Females,13684
+ITC3,Liguria,53,Total,27119
+ITC3,Liguria,53,Males,13426
+ITC3,Liguria,53,Females,13693
+ITC3,Liguria,54,Total,25465
+ITC3,Liguria,54,Males,12392
+ITC3,Liguria,54,Females,13073
+ITC3,Liguria,55,Total,24527
+ITC3,Liguria,55,Males,11902
+ITC3,Liguria,55,Females,12625
+ITC3,Liguria,56,Total,23762
+ITC3,Liguria,56,Males,11537
+ITC3,Liguria,56,Females,12225
+ITC3,Liguria,57,Total,22952
+ITC3,Liguria,57,Males,11159
+ITC3,Liguria,57,Females,11793
+ITC3,Liguria,58,Total,22782
+ITC3,Liguria,58,Males,11035
+ITC3,Liguria,58,Females,11747
+ITC3,Liguria,59,Total,21768
+ITC3,Liguria,59,Males,10451
+ITC3,Liguria,59,Females,11317
+ITC3,Liguria,60,Total,21512
+ITC3,Liguria,60,Males,10474
+ITC3,Liguria,60,Females,11038
+ITC3,Liguria,61,Total,20947
+ITC3,Liguria,61,Males,10122
+ITC3,Liguria,61,Females,10825
+ITC3,Liguria,62,Total,20235
+ITC3,Liguria,62,Males,9667
+ITC3,Liguria,62,Females,10568
+ITC3,Liguria,63,Total,20226
+ITC3,Liguria,63,Males,9715
+ITC3,Liguria,63,Females,10511
+ITC3,Liguria,64,Total,19559
+ITC3,Liguria,64,Males,9300
+ITC3,Liguria,64,Females,10259
+ITC3,Liguria,65,Total,18945
+ITC3,Liguria,65,Males,9008
+ITC3,Liguria,65,Females,9937
+ITC3,Liguria,66,Total,18897
+ITC3,Liguria,66,Males,8859
+ITC3,Liguria,66,Females,10038
+ITC3,Liguria,67,Total,20188
+ITC3,Liguria,67,Males,9612
+ITC3,Liguria,67,Females,10576
+ITC3,Liguria,68,Total,20420
+ITC3,Liguria,68,Males,9480
+ITC3,Liguria,68,Females,10940
+ITC3,Liguria,69,Total,21576
+ITC3,Liguria,69,Males,10106
+ITC3,Liguria,69,Females,11470
+ITC3,Liguria,70,Total,22117
+ITC3,Liguria,70,Males,10228
+ITC3,Liguria,70,Females,11889
+ITC3,Liguria,71,Total,22203
+ITC3,Liguria,71,Males,10143
+ITC3,Liguria,71,Females,12060
+ITC3,Liguria,72,Total,16049
+ITC3,Liguria,72,Males,7359
+ITC3,Liguria,72,Females,8690
+ITC3,Liguria,73,Total,18042
+ITC3,Liguria,73,Males,8202
+ITC3,Liguria,73,Females,9840
+ITC3,Liguria,74,Total,17474
+ITC3,Liguria,74,Males,7903
+ITC3,Liguria,74,Females,9571
+ITC3,Liguria,75,Total,17921
+ITC3,Liguria,75,Males,7897
+ITC3,Liguria,75,Females,10024
+ITC3,Liguria,76,Total,18313
+ITC3,Liguria,76,Males,8068
+ITC3,Liguria,76,Females,10245
+ITC3,Liguria,77,Total,19522
+ITC3,Liguria,77,Males,8545
+ITC3,Liguria,77,Females,10977
+ITC3,Liguria,78,Total,18982
+ITC3,Liguria,78,Males,8186
+ITC3,Liguria,78,Females,10796
+ITC3,Liguria,79,Total,18327
+ITC3,Liguria,79,Males,7798
+ITC3,Liguria,79,Females,10529
+ITC3,Liguria,80,Total,16639
+ITC3,Liguria,80,Males,6954
+ITC3,Liguria,80,Females,9685
+ITC3,Liguria,81,Total,15071
+ITC3,Liguria,81,Males,6157
+ITC3,Liguria,81,Females,8914
+ITC3,Liguria,82,Total,14527
+ITC3,Liguria,82,Males,5818
+ITC3,Liguria,82,Females,8709
+ITC3,Liguria,83,Total,13305
+ITC3,Liguria,83,Males,5247
+ITC3,Liguria,83,Females,8058
+ITC3,Liguria,84,Total,12619
+ITC3,Liguria,84,Males,4869
+ITC3,Liguria,84,Females,7750
+ITC3,Liguria,85,Total,11800
+ITC3,Liguria,85,Males,4285
+ITC3,Liguria,85,Females,7515
+ITC3,Liguria,86,Total,10964
+ITC3,Liguria,86,Males,3905
+ITC3,Liguria,86,Females,7059
+ITC3,Liguria,87,Total,10435
+ITC3,Liguria,87,Males,3595
+ITC3,Liguria,87,Females,6840
+ITC3,Liguria,88,Total,8897
+ITC3,Liguria,88,Males,2950
+ITC3,Liguria,88,Females,5947
+ITC3,Liguria,89,Total,7505
+ITC3,Liguria,89,Males,2421
+ITC3,Liguria,89,Females,5084
+ITC3,Liguria,90,Total,6317
+ITC3,Liguria,90,Males,1933
+ITC3,Liguria,90,Females,4384
+ITC3,Liguria,91,Total,5255
+ITC3,Liguria,91,Males,1452
+ITC3,Liguria,91,Females,3803
+ITC3,Liguria,92,Total,4285
+ITC3,Liguria,92,Males,1141
+ITC3,Liguria,92,Females,3144
+ITC3,Liguria,93,Total,3471
+ITC3,Liguria,93,Males,885
+ITC3,Liguria,93,Females,2586
+ITC3,Liguria,94,Total,2736
+ITC3,Liguria,94,Males,619
+ITC3,Liguria,94,Females,2117
+ITC3,Liguria,95,Total,2100
+ITC3,Liguria,95,Males,467
+ITC3,Liguria,95,Females,1633
+ITC3,Liguria,96,Total,1522
+ITC3,Liguria,96,Males,329
+ITC3,Liguria,96,Females,1193
+ITC3,Liguria,97,Total,1128
+ITC3,Liguria,97,Males,221
+ITC3,Liguria,97,Females,907
+ITC3,Liguria,98,Total,499
+ITC3,Liguria,98,Males,81
+ITC3,Liguria,98,Females,418
+ITC3,Liguria,99,Total,322
+ITC3,Liguria,99,Males,44
+ITC3,Liguria,99,Females,278
+ITC3,Liguria,100 and over,Total,700
+ITC3,Liguria,100 and over,Males,89
+ITC3,Liguria,100 and over,Females,611
+ITD5,Emilia-Romagna,0,Total,33003
+ITD5,Emilia-Romagna,0,Males,17090
+ITD5,Emilia-Romagna,0,Females,15913
+ITD5,Emilia-Romagna,1,Total,34790
+ITD5,Emilia-Romagna,1,Males,17831
+ITD5,Emilia-Romagna,1,Females,16959
+ITD5,Emilia-Romagna,2,Total,36092
+ITD5,Emilia-Romagna,2,Males,18541
+ITD5,Emilia-Romagna,2,Females,17551
+ITD5,Emilia-Romagna,3,Total,37169
+ITD5,Emilia-Romagna,3,Males,19071
+ITD5,Emilia-Romagna,3,Females,18098
+ITD5,Emilia-Romagna,4,Total,38105
+ITD5,Emilia-Romagna,4,Males,19470
+ITD5,Emilia-Romagna,4,Females,18635
+ITD5,Emilia-Romagna,5,Total,39428
+ITD5,Emilia-Romagna,5,Males,20415
+ITD5,Emilia-Romagna,5,Females,19013
+ITD5,Emilia-Romagna,6,Total,40199
+ITD5,Emilia-Romagna,6,Males,20621
+ITD5,Emilia-Romagna,6,Females,19578
+ITD5,Emilia-Romagna,7,Total,41462
+ITD5,Emilia-Romagna,7,Males,21436
+ITD5,Emilia-Romagna,7,Females,20026
+ITD5,Emilia-Romagna,8,Total,42247
+ITD5,Emilia-Romagna,8,Males,21703
+ITD5,Emilia-Romagna,8,Females,20544
+ITD5,Emilia-Romagna,9,Total,41900
+ITD5,Emilia-Romagna,9,Males,21599
+ITD5,Emilia-Romagna,9,Females,20301
+ITD5,Emilia-Romagna,10,Total,41667
+ITD5,Emilia-Romagna,10,Males,21574
+ITD5,Emilia-Romagna,10,Females,20093
+ITD5,Emilia-Romagna,11,Total,41315
+ITD5,Emilia-Romagna,11,Males,21336
+ITD5,Emilia-Romagna,11,Females,19979
+ITD5,Emilia-Romagna,12,Total,40562
+ITD5,Emilia-Romagna,12,Males,20877
+ITD5,Emilia-Romagna,12,Females,19685
+ITD5,Emilia-Romagna,13,Total,40094
+ITD5,Emilia-Romagna,13,Males,20626
+ITD5,Emilia-Romagna,13,Females,19468
+ITD5,Emilia-Romagna,14,Total,39119
+ITD5,Emilia-Romagna,14,Males,20248
+ITD5,Emilia-Romagna,14,Females,18871
+ITD5,Emilia-Romagna,15,Total,39284
+ITD5,Emilia-Romagna,15,Males,20311
+ITD5,Emilia-Romagna,15,Females,18973
+ITD5,Emilia-Romagna,16,Total,39091
+ITD5,Emilia-Romagna,16,Males,20204
+ITD5,Emilia-Romagna,16,Females,18887
+ITD5,Emilia-Romagna,17,Total,39732
+ITD5,Emilia-Romagna,17,Males,20820
+ITD5,Emilia-Romagna,17,Females,18912
+ITD5,Emilia-Romagna,18,Total,38833
+ITD5,Emilia-Romagna,18,Males,20299
+ITD5,Emilia-Romagna,18,Females,18534
+ITD5,Emilia-Romagna,19,Total,39179
+ITD5,Emilia-Romagna,19,Males,21103
+ITD5,Emilia-Romagna,19,Females,18076
+ITD5,Emilia-Romagna,20,Total,39198
+ITD5,Emilia-Romagna,20,Males,20710
+ITD5,Emilia-Romagna,20,Females,18488
+ITD5,Emilia-Romagna,21,Total,38899
+ITD5,Emilia-Romagna,21,Males,20343
+ITD5,Emilia-Romagna,21,Females,18556
+ITD5,Emilia-Romagna,22,Total,38513
+ITD5,Emilia-Romagna,22,Males,20261
+ITD5,Emilia-Romagna,22,Females,18252
+ITD5,Emilia-Romagna,23,Total,39111
+ITD5,Emilia-Romagna,23,Males,20346
+ITD5,Emilia-Romagna,23,Females,18765
+ITD5,Emilia-Romagna,24,Total,39524
+ITD5,Emilia-Romagna,24,Males,20512
+ITD5,Emilia-Romagna,24,Females,19012
+ITD5,Emilia-Romagna,25,Total,41432
+ITD5,Emilia-Romagna,25,Males,21303
+ITD5,Emilia-Romagna,25,Females,20129
+ITD5,Emilia-Romagna,26,Total,42137
+ITD5,Emilia-Romagna,26,Males,21663
+ITD5,Emilia-Romagna,26,Females,20474
+ITD5,Emilia-Romagna,27,Total,43558
+ITD5,Emilia-Romagna,27,Males,22149
+ITD5,Emilia-Romagna,27,Females,21409
+ITD5,Emilia-Romagna,28,Total,43571
+ITD5,Emilia-Romagna,28,Males,21956
+ITD5,Emilia-Romagna,28,Females,21615
+ITD5,Emilia-Romagna,29,Total,44610
+ITD5,Emilia-Romagna,29,Males,22564
+ITD5,Emilia-Romagna,29,Females,22046
+ITD5,Emilia-Romagna,30,Total,44746
+ITD5,Emilia-Romagna,30,Males,22382
+ITD5,Emilia-Romagna,30,Females,22364
+ITD5,Emilia-Romagna,31,Total,45577
+ITD5,Emilia-Romagna,31,Males,22591
+ITD5,Emilia-Romagna,31,Females,22986
+ITD5,Emilia-Romagna,32,Total,47684
+ITD5,Emilia-Romagna,32,Males,23774
+ITD5,Emilia-Romagna,32,Females,23910
+ITD5,Emilia-Romagna,33,Total,49118
+ITD5,Emilia-Romagna,33,Males,24479
+ITD5,Emilia-Romagna,33,Females,24639
+ITD5,Emilia-Romagna,34,Total,50313
+ITD5,Emilia-Romagna,34,Males,24962
+ITD5,Emilia-Romagna,34,Females,25351
+ITD5,Emilia-Romagna,35,Total,52094
+ITD5,Emilia-Romagna,35,Males,25929
+ITD5,Emilia-Romagna,35,Females,26165
+ITD5,Emilia-Romagna,36,Total,52748
+ITD5,Emilia-Romagna,36,Males,26344
+ITD5,Emilia-Romagna,36,Females,26404
+ITD5,Emilia-Romagna,37,Total,54942
+ITD5,Emilia-Romagna,37,Males,27546
+ITD5,Emilia-Romagna,37,Females,27396
+ITD5,Emilia-Romagna,38,Total,57216
+ITD5,Emilia-Romagna,38,Males,28373
+ITD5,Emilia-Romagna,38,Females,28843
+ITD5,Emilia-Romagna,39,Total,61073
+ITD5,Emilia-Romagna,39,Males,30447
+ITD5,Emilia-Romagna,39,Females,30626
+ITD5,Emilia-Romagna,40,Total,63733
+ITD5,Emilia-Romagna,40,Males,31754
+ITD5,Emilia-Romagna,40,Females,31979
+ITD5,Emilia-Romagna,41,Total,66961
+ITD5,Emilia-Romagna,41,Males,33413
+ITD5,Emilia-Romagna,41,Females,33548
+ITD5,Emilia-Romagna,42,Total,70572
+ITD5,Emilia-Romagna,42,Males,35185
+ITD5,Emilia-Romagna,42,Females,35387
+ITD5,Emilia-Romagna,43,Total,73658
+ITD5,Emilia-Romagna,43,Males,37019
+ITD5,Emilia-Romagna,43,Females,36639
+ITD5,Emilia-Romagna,44,Total,73800
+ITD5,Emilia-Romagna,44,Males,36883
+ITD5,Emilia-Romagna,44,Females,36917
+ITD5,Emilia-Romagna,45,Total,74027
+ITD5,Emilia-Romagna,45,Males,37142
+ITD5,Emilia-Romagna,45,Females,36885
+ITD5,Emilia-Romagna,46,Total,74557
+ITD5,Emilia-Romagna,46,Males,37317
+ITD5,Emilia-Romagna,46,Females,37240
+ITD5,Emilia-Romagna,47,Total,73514
+ITD5,Emilia-Romagna,47,Males,36580
+ITD5,Emilia-Romagna,47,Females,36934
+ITD5,Emilia-Romagna,48,Total,74401
+ITD5,Emilia-Romagna,48,Males,37045
+ITD5,Emilia-Romagna,48,Females,37356
+ITD5,Emilia-Romagna,49,Total,73993
+ITD5,Emilia-Romagna,49,Males,36987
+ITD5,Emilia-Romagna,49,Females,37006
+ITD5,Emilia-Romagna,50,Total,72854
+ITD5,Emilia-Romagna,50,Males,36402
+ITD5,Emilia-Romagna,50,Females,36452
+ITD5,Emilia-Romagna,51,Total,73554
+ITD5,Emilia-Romagna,51,Males,36738
+ITD5,Emilia-Romagna,51,Females,36816
+ITD5,Emilia-Romagna,52,Total,72550
+ITD5,Emilia-Romagna,52,Males,36057
+ITD5,Emilia-Romagna,52,Females,36493
+ITD5,Emilia-Romagna,53,Total,73913
+ITD5,Emilia-Romagna,53,Males,36638
+ITD5,Emilia-Romagna,53,Females,37275
+ITD5,Emilia-Romagna,54,Total,68982
+ITD5,Emilia-Romagna,54,Males,34041
+ITD5,Emilia-Romagna,54,Females,34941
+ITD5,Emilia-Romagna,55,Total,66707
+ITD5,Emilia-Romagna,55,Males,32616
+ITD5,Emilia-Romagna,55,Females,34091
+ITD5,Emilia-Romagna,56,Total,65245
+ITD5,Emilia-Romagna,56,Males,31816
+ITD5,Emilia-Romagna,56,Females,33429
+ITD5,Emilia-Romagna,57,Total,63191
+ITD5,Emilia-Romagna,57,Males,30657
+ITD5,Emilia-Romagna,57,Females,32534
+ITD5,Emilia-Romagna,58,Total,61750
+ITD5,Emilia-Romagna,58,Males,29930
+ITD5,Emilia-Romagna,58,Females,31820
+ITD5,Emilia-Romagna,59,Total,58710
+ITD5,Emilia-Romagna,59,Males,28403
+ITD5,Emilia-Romagna,59,Females,30307
+ITD5,Emilia-Romagna,60,Total,58415
+ITD5,Emilia-Romagna,60,Males,28138
+ITD5,Emilia-Romagna,60,Females,30277
+ITD5,Emilia-Romagna,61,Total,57426
+ITD5,Emilia-Romagna,61,Males,27646
+ITD5,Emilia-Romagna,61,Females,29780
+ITD5,Emilia-Romagna,62,Total,55024
+ITD5,Emilia-Romagna,62,Males,26413
+ITD5,Emilia-Romagna,62,Females,28611
+ITD5,Emilia-Romagna,63,Total,53514
+ITD5,Emilia-Romagna,63,Males,25355
+ITD5,Emilia-Romagna,63,Females,28159
+ITD5,Emilia-Romagna,64,Total,51125
+ITD5,Emilia-Romagna,64,Males,24276
+ITD5,Emilia-Romagna,64,Females,26849
+ITD5,Emilia-Romagna,65,Total,50300
+ITD5,Emilia-Romagna,65,Males,23597
+ITD5,Emilia-Romagna,65,Females,26703
+ITD5,Emilia-Romagna,66,Total,49728
+ITD5,Emilia-Romagna,66,Males,23517
+ITD5,Emilia-Romagna,66,Females,26211
+ITD5,Emilia-Romagna,67,Total,51903
+ITD5,Emilia-Romagna,67,Males,24339
+ITD5,Emilia-Romagna,67,Females,27564
+ITD5,Emilia-Romagna,68,Total,52441
+ITD5,Emilia-Romagna,68,Males,24726
+ITD5,Emilia-Romagna,68,Females,27715
+ITD5,Emilia-Romagna,69,Total,55265
+ITD5,Emilia-Romagna,69,Males,26013
+ITD5,Emilia-Romagna,69,Females,29252
+ITD5,Emilia-Romagna,70,Total,54799
+ITD5,Emilia-Romagna,70,Males,26073
+ITD5,Emilia-Romagna,70,Females,28726
+ITD5,Emilia-Romagna,71,Total,55367
+ITD5,Emilia-Romagna,71,Males,26007
+ITD5,Emilia-Romagna,71,Females,29360
+ITD5,Emilia-Romagna,72,Total,38937
+ITD5,Emilia-Romagna,72,Males,18025
+ITD5,Emilia-Romagna,72,Females,20912
+ITD5,Emilia-Romagna,73,Total,43258
+ITD5,Emilia-Romagna,73,Males,20126
+ITD5,Emilia-Romagna,73,Females,23132
+ITD5,Emilia-Romagna,74,Total,42739
+ITD5,Emilia-Romagna,74,Males,19798
+ITD5,Emilia-Romagna,74,Females,22941
+ITD5,Emilia-Romagna,75,Total,41695
+ITD5,Emilia-Romagna,75,Males,19130
+ITD5,Emilia-Romagna,75,Females,22565
+ITD5,Emilia-Romagna,76,Total,42343
+ITD5,Emilia-Romagna,76,Males,19315
+ITD5,Emilia-Romagna,76,Females,23028
+ITD5,Emilia-Romagna,77,Total,45693
+ITD5,Emilia-Romagna,77,Males,20303
+ITD5,Emilia-Romagna,77,Females,25390
+ITD5,Emilia-Romagna,78,Total,44401
+ITD5,Emilia-Romagna,78,Males,19638
+ITD5,Emilia-Romagna,78,Females,24763
+ITD5,Emilia-Romagna,79,Total,43544
+ITD5,Emilia-Romagna,79,Males,19081
+ITD5,Emilia-Romagna,79,Females,24463
+ITD5,Emilia-Romagna,80,Total,38686
+ITD5,Emilia-Romagna,80,Males,16926
+ITD5,Emilia-Romagna,80,Females,21760
+ITD5,Emilia-Romagna,81,Total,34597
+ITD5,Emilia-Romagna,81,Males,14632
+ITD5,Emilia-Romagna,81,Females,19965
+ITD5,Emilia-Romagna,82,Total,35270
+ITD5,Emilia-Romagna,82,Males,14859
+ITD5,Emilia-Romagna,82,Females,20411
+ITD5,Emilia-Romagna,83,Total,33202
+ITD5,Emilia-Romagna,83,Males,13573
+ITD5,Emilia-Romagna,83,Females,19629
+ITD5,Emilia-Romagna,84,Total,29603
+ITD5,Emilia-Romagna,84,Males,11951
+ITD5,Emilia-Romagna,84,Females,17652
+ITD5,Emilia-Romagna,85,Total,26532
+ITD5,Emilia-Romagna,85,Males,10320
+ITD5,Emilia-Romagna,85,Females,16212
+ITD5,Emilia-Romagna,86,Total,25062
+ITD5,Emilia-Romagna,86,Males,9444
+ITD5,Emilia-Romagna,86,Females,15618
+ITD5,Emilia-Romagna,87,Total,23644
+ITD5,Emilia-Romagna,87,Males,8489
+ITD5,Emilia-Romagna,87,Females,15155
+ITD5,Emilia-Romagna,88,Total,19757
+ITD5,Emilia-Romagna,88,Males,6916
+ITD5,Emilia-Romagna,88,Females,12841
+ITD5,Emilia-Romagna,89,Total,17481
+ITD5,Emilia-Romagna,89,Males,5790
+ITD5,Emilia-Romagna,89,Females,11691
+ITD5,Emilia-Romagna,90,Total,15079
+ITD5,Emilia-Romagna,90,Males,4698
+ITD5,Emilia-Romagna,90,Females,10381
+ITD5,Emilia-Romagna,91,Total,12360
+ITD5,Emilia-Romagna,91,Males,3618
+ITD5,Emilia-Romagna,91,Females,8742
+ITD5,Emilia-Romagna,92,Total,10649
+ITD5,Emilia-Romagna,92,Males,2877
+ITD5,Emilia-Romagna,92,Females,7772
+ITD5,Emilia-Romagna,93,Total,8473
+ITD5,Emilia-Romagna,93,Males,2249
+ITD5,Emilia-Romagna,93,Females,6224
+ITD5,Emilia-Romagna,94,Total,6842
+ITD5,Emilia-Romagna,94,Males,1689
+ITD5,Emilia-Romagna,94,Females,5153
+ITD5,Emilia-Romagna,95,Total,4998
+ITD5,Emilia-Romagna,95,Males,1174
+ITD5,Emilia-Romagna,95,Females,3824
+ITD5,Emilia-Romagna,96,Total,3825
+ITD5,Emilia-Romagna,96,Males,862
+ITD5,Emilia-Romagna,96,Females,2963
+ITD5,Emilia-Romagna,97,Total,2648
+ITD5,Emilia-Romagna,97,Males,573
+ITD5,Emilia-Romagna,97,Females,2075
+ITD5,Emilia-Romagna,98,Total,1270
+ITD5,Emilia-Romagna,98,Males,269
+ITD5,Emilia-Romagna,98,Females,1001
+ITD5,Emilia-Romagna,99,Total,652
+ITD5,Emilia-Romagna,99,Males,122
+ITD5,Emilia-Romagna,99,Females,530
+ITD5,Emilia-Romagna,100 and over,Total,1366
+ITD5,Emilia-Romagna,100 and over,Males,200
+ITD5,Emilia-Romagna,100 and over,Females,1166
+ITE1,Toscana,0,Total,25942
+ITE1,Toscana,0,Males,13403
+ITE1,Toscana,0,Females,12539
+ITE1,Toscana,1,Total,26943
+ITE1,Toscana,1,Males,13794
+ITE1,Toscana,1,Females,13149
+ITE1,Toscana,2,Total,27418
+ITE1,Toscana,2,Males,14259
+ITE1,Toscana,2,Females,13159
+ITE1,Toscana,3,Total,29013
+ITE1,Toscana,3,Males,14891
+ITE1,Toscana,3,Females,14122
+ITE1,Toscana,4,Total,29344
+ITE1,Toscana,4,Males,15164
+ITE1,Toscana,4,Females,14180
+ITE1,Toscana,5,Total,31176
+ITE1,Toscana,5,Males,15906
+ITE1,Toscana,5,Females,15270
+ITE1,Toscana,6,Total,31516
+ITE1,Toscana,6,Males,16152
+ITE1,Toscana,6,Females,15364
+ITE1,Toscana,7,Total,32577
+ITE1,Toscana,7,Males,16742
+ITE1,Toscana,7,Females,15835
+ITE1,Toscana,8,Total,32654
+ITE1,Toscana,8,Males,16814
+ITE1,Toscana,8,Females,15840
+ITE1,Toscana,9,Total,33674
+ITE1,Toscana,9,Males,17496
+ITE1,Toscana,9,Females,16178
+ITE1,Toscana,10,Total,33396
+ITE1,Toscana,10,Males,17318
+ITE1,Toscana,10,Females,16078
+ITE1,Toscana,11,Total,33082
+ITE1,Toscana,11,Males,17037
+ITE1,Toscana,11,Females,16045
+ITE1,Toscana,12,Total,32912
+ITE1,Toscana,12,Males,17034
+ITE1,Toscana,12,Females,15878
+ITE1,Toscana,13,Total,32890
+ITE1,Toscana,13,Males,17023
+ITE1,Toscana,13,Females,15867
+ITE1,Toscana,14,Total,32079
+ITE1,Toscana,14,Males,16595
+ITE1,Toscana,14,Females,15484
+ITE1,Toscana,15,Total,32312
+ITE1,Toscana,15,Males,16702
+ITE1,Toscana,15,Females,15610
+ITE1,Toscana,16,Total,32122
+ITE1,Toscana,16,Males,16524
+ITE1,Toscana,16,Females,15598
+ITE1,Toscana,17,Total,32522
+ITE1,Toscana,17,Males,16871
+ITE1,Toscana,17,Females,15651
+ITE1,Toscana,18,Total,31829
+ITE1,Toscana,18,Males,16823
+ITE1,Toscana,18,Females,15006
+ITE1,Toscana,19,Total,32798
+ITE1,Toscana,19,Males,17566
+ITE1,Toscana,19,Females,15232
+ITE1,Toscana,20,Total,32603
+ITE1,Toscana,20,Males,17282
+ITE1,Toscana,20,Females,15321
+ITE1,Toscana,21,Total,32397
+ITE1,Toscana,21,Males,17100
+ITE1,Toscana,21,Females,15297
+ITE1,Toscana,22,Total,32056
+ITE1,Toscana,22,Males,16868
+ITE1,Toscana,22,Females,15188
+ITE1,Toscana,23,Total,32347
+ITE1,Toscana,23,Males,16763
+ITE1,Toscana,23,Females,15584
+ITE1,Toscana,24,Total,32915
+ITE1,Toscana,24,Males,17138
+ITE1,Toscana,24,Females,15777
+ITE1,Toscana,25,Total,34668
+ITE1,Toscana,25,Males,17790
+ITE1,Toscana,25,Females,16878
+ITE1,Toscana,26,Total,34779
+ITE1,Toscana,26,Males,17852
+ITE1,Toscana,26,Females,16927
+ITE1,Toscana,27,Total,36323
+ITE1,Toscana,27,Males,18658
+ITE1,Toscana,27,Females,17665
+ITE1,Toscana,28,Total,36173
+ITE1,Toscana,28,Males,18377
+ITE1,Toscana,28,Females,17796
+ITE1,Toscana,29,Total,37704
+ITE1,Toscana,29,Males,19069
+ITE1,Toscana,29,Females,18635
+ITE1,Toscana,30,Total,36955
+ITE1,Toscana,30,Males,18554
+ITE1,Toscana,30,Females,18401
+ITE1,Toscana,31,Total,37170
+ITE1,Toscana,31,Males,18332
+ITE1,Toscana,31,Females,18838
+ITE1,Toscana,32,Total,39003
+ITE1,Toscana,32,Males,19319
+ITE1,Toscana,32,Females,19684
+ITE1,Toscana,33,Total,39603
+ITE1,Toscana,33,Males,19720
+ITE1,Toscana,33,Females,19883
+ITE1,Toscana,34,Total,40860
+ITE1,Toscana,34,Males,20213
+ITE1,Toscana,34,Females,20647
+ITE1,Toscana,35,Total,42101
+ITE1,Toscana,35,Males,21031
+ITE1,Toscana,35,Females,21070
+ITE1,Toscana,36,Total,42798
+ITE1,Toscana,36,Males,21235
+ITE1,Toscana,36,Females,21563
+ITE1,Toscana,37,Total,44135
+ITE1,Toscana,37,Males,22076
+ITE1,Toscana,37,Females,22059
+ITE1,Toscana,38,Total,46273
+ITE1,Toscana,38,Males,22991
+ITE1,Toscana,38,Females,23282
+ITE1,Toscana,39,Total,49258
+ITE1,Toscana,39,Males,24389
+ITE1,Toscana,39,Females,24869
+ITE1,Toscana,40,Total,51114
+ITE1,Toscana,40,Males,25301
+ITE1,Toscana,40,Females,25813
+ITE1,Toscana,41,Total,53688
+ITE1,Toscana,41,Males,26437
+ITE1,Toscana,41,Females,27251
+ITE1,Toscana,42,Total,56450
+ITE1,Toscana,42,Males,27746
+ITE1,Toscana,42,Females,28704
+ITE1,Toscana,43,Total,59148
+ITE1,Toscana,43,Males,29117
+ITE1,Toscana,43,Females,30031
+ITE1,Toscana,44,Total,59580
+ITE1,Toscana,44,Males,29283
+ITE1,Toscana,44,Females,30297
+ITE1,Toscana,45,Total,60102
+ITE1,Toscana,45,Males,29766
+ITE1,Toscana,45,Females,30336
+ITE1,Toscana,46,Total,60623
+ITE1,Toscana,46,Males,29875
+ITE1,Toscana,46,Females,30748
+ITE1,Toscana,47,Total,59529
+ITE1,Toscana,47,Males,29676
+ITE1,Toscana,47,Females,29853
+ITE1,Toscana,48,Total,61186
+ITE1,Toscana,48,Males,30217
+ITE1,Toscana,48,Females,30969
+ITE1,Toscana,49,Total,60334
+ITE1,Toscana,49,Males,29515
+ITE1,Toscana,49,Females,30819
+ITE1,Toscana,50,Total,60753
+ITE1,Toscana,50,Males,29662
+ITE1,Toscana,50,Females,31091
+ITE1,Toscana,51,Total,61511
+ITE1,Toscana,51,Males,30325
+ITE1,Toscana,51,Females,31186
+ITE1,Toscana,52,Total,61454
+ITE1,Toscana,52,Males,30223
+ITE1,Toscana,52,Females,31231
+ITE1,Toscana,53,Total,62077
+ITE1,Toscana,53,Males,30349
+ITE1,Toscana,53,Females,31728
+ITE1,Toscana,54,Total,58056
+ITE1,Toscana,54,Males,28355
+ITE1,Toscana,54,Females,29701
+ITE1,Toscana,55,Total,55964
+ITE1,Toscana,55,Males,27264
+ITE1,Toscana,55,Females,28700
+ITE1,Toscana,56,Total,54766
+ITE1,Toscana,56,Males,26424
+ITE1,Toscana,56,Females,28342
+ITE1,Toscana,57,Total,53104
+ITE1,Toscana,57,Males,25860
+ITE1,Toscana,57,Females,27244
+ITE1,Toscana,58,Total,51779
+ITE1,Toscana,58,Males,25241
+ITE1,Toscana,58,Females,26538
+ITE1,Toscana,59,Total,49863
+ITE1,Toscana,59,Males,23785
+ITE1,Toscana,59,Females,26078
+ITE1,Toscana,60,Total,48825
+ITE1,Toscana,60,Males,23355
+ITE1,Toscana,60,Females,25470
+ITE1,Toscana,61,Total,48018
+ITE1,Toscana,61,Males,22970
+ITE1,Toscana,61,Females,25048
+ITE1,Toscana,62,Total,47076
+ITE1,Toscana,62,Males,22357
+ITE1,Toscana,62,Females,24719
+ITE1,Toscana,63,Total,46583
+ITE1,Toscana,63,Males,22015
+ITE1,Toscana,63,Females,24568
+ITE1,Toscana,64,Total,44204
+ITE1,Toscana,64,Males,21132
+ITE1,Toscana,64,Females,23072
+ITE1,Toscana,65,Total,43840
+ITE1,Toscana,65,Males,20831
+ITE1,Toscana,65,Females,23009
+ITE1,Toscana,66,Total,43579
+ITE1,Toscana,66,Males,20855
+ITE1,Toscana,66,Females,22724
+ITE1,Toscana,67,Total,44881
+ITE1,Toscana,67,Males,21385
+ITE1,Toscana,67,Females,23496
+ITE1,Toscana,68,Total,46830
+ITE1,Toscana,68,Males,22110
+ITE1,Toscana,68,Females,24720
+ITE1,Toscana,69,Total,49797
+ITE1,Toscana,69,Males,23518
+ITE1,Toscana,69,Females,26279
+ITE1,Toscana,70,Total,49577
+ITE1,Toscana,70,Males,23211
+ITE1,Toscana,70,Females,26366
+ITE1,Toscana,71,Total,49704
+ITE1,Toscana,71,Males,23265
+ITE1,Toscana,71,Females,26439
+ITE1,Toscana,72,Total,38452
+ITE1,Toscana,72,Males,17819
+ITE1,Toscana,72,Females,20633
+ITE1,Toscana,73,Total,38130
+ITE1,Toscana,73,Males,17641
+ITE1,Toscana,73,Females,20489
+ITE1,Toscana,74,Total,38076
+ITE1,Toscana,74,Males,17439
+ITE1,Toscana,74,Females,20637
+ITE1,Toscana,75,Total,36220
+ITE1,Toscana,75,Males,16476
+ITE1,Toscana,75,Females,19744
+ITE1,Toscana,76,Total,37119
+ITE1,Toscana,76,Males,16598
+ITE1,Toscana,76,Females,20521
+ITE1,Toscana,77,Total,41018
+ITE1,Toscana,77,Males,18080
+ITE1,Toscana,77,Females,22938
+ITE1,Toscana,78,Total,39178
+ITE1,Toscana,78,Males,17341
+ITE1,Toscana,78,Females,21837
+ITE1,Toscana,79,Total,38821
+ITE1,Toscana,79,Males,17058
+ITE1,Toscana,79,Females,21763
+ITE1,Toscana,80,Total,34353
+ITE1,Toscana,80,Males,14705
+ITE1,Toscana,80,Females,19648
+ITE1,Toscana,81,Total,30676
+ITE1,Toscana,81,Males,12992
+ITE1,Toscana,81,Females,17684
+ITE1,Toscana,82,Total,30512
+ITE1,Toscana,82,Males,12703
+ITE1,Toscana,82,Females,17809
+ITE1,Toscana,83,Total,27466
+ITE1,Toscana,83,Males,11224
+ITE1,Toscana,83,Females,16242
+ITE1,Toscana,84,Total,25523
+ITE1,Toscana,84,Males,10163
+ITE1,Toscana,84,Females,15360
+ITE1,Toscana,85,Total,23150
+ITE1,Toscana,85,Males,8886
+ITE1,Toscana,85,Females,14264
+ITE1,Toscana,86,Total,22057
+ITE1,Toscana,86,Males,8241
+ITE1,Toscana,86,Females,13816
+ITE1,Toscana,87,Total,20722
+ITE1,Toscana,87,Males,7381
+ITE1,Toscana,87,Females,13341
+ITE1,Toscana,88,Total,17252
+ITE1,Toscana,88,Males,5873
+ITE1,Toscana,88,Females,11379
+ITE1,Toscana,89,Total,15286
+ITE1,Toscana,89,Males,4903
+ITE1,Toscana,89,Females,10383
+ITE1,Toscana,90,Total,13128
+ITE1,Toscana,90,Males,4119
+ITE1,Toscana,90,Females,9009
+ITE1,Toscana,91,Total,10754
+ITE1,Toscana,91,Males,3220
+ITE1,Toscana,91,Females,7534
+ITE1,Toscana,92,Total,8811
+ITE1,Toscana,92,Males,2417
+ITE1,Toscana,92,Females,6394
+ITE1,Toscana,93,Total,7169
+ITE1,Toscana,93,Males,1901
+ITE1,Toscana,93,Females,5268
+ITE1,Toscana,94,Total,5618
+ITE1,Toscana,94,Males,1393
+ITE1,Toscana,94,Females,4225
+ITE1,Toscana,95,Total,4172
+ITE1,Toscana,95,Males,956
+ITE1,Toscana,95,Females,3216
+ITE1,Toscana,96,Total,3166
+ITE1,Toscana,96,Males,724
+ITE1,Toscana,96,Females,2442
+ITE1,Toscana,97,Total,2292
+ITE1,Toscana,97,Males,452
+ITE1,Toscana,97,Females,1840
+ITE1,Toscana,98,Total,1042
+ITE1,Toscana,98,Males,204
+ITE1,Toscana,98,Females,838
+ITE1,Toscana,99,Total,474
+ITE1,Toscana,99,Males,103
+ITE1,Toscana,99,Females,371
+ITE1,Toscana,100 and over,Total,1096
+ITE1,Toscana,100 and over,Males,168
+ITE1,Toscana,100 and over,Females,928
+ITE2,Umbria,0,Total,6027
+ITE2,Umbria,0,Males,3075
+ITE2,Umbria,0,Females,2952
+ITE2,Umbria,1,Total,6335
+ITE2,Umbria,1,Males,3259
+ITE2,Umbria,1,Females,3076
+ITE2,Umbria,2,Total,6429
+ITE2,Umbria,2,Males,3293
+ITE2,Umbria,2,Females,3136
+ITE2,Umbria,3,Total,6851
+ITE2,Umbria,3,Males,3493
+ITE2,Umbria,3,Females,3358
+ITE2,Umbria,4,Total,7157
+ITE2,Umbria,4,Males,3691
+ITE2,Umbria,4,Females,3466
+ITE2,Umbria,5,Total,7471
+ITE2,Umbria,5,Males,3752
+ITE2,Umbria,5,Females,3719
+ITE2,Umbria,6,Total,7536
+ITE2,Umbria,6,Males,3845
+ITE2,Umbria,6,Females,3691
+ITE2,Umbria,7,Total,7730
+ITE2,Umbria,7,Males,3986
+ITE2,Umbria,7,Females,3744
+ITE2,Umbria,8,Total,7707
+ITE2,Umbria,8,Males,3985
+ITE2,Umbria,8,Females,3722
+ITE2,Umbria,9,Total,8153
+ITE2,Umbria,9,Males,4140
+ITE2,Umbria,9,Females,4013
+ITE2,Umbria,10,Total,8105
+ITE2,Umbria,10,Males,4192
+ITE2,Umbria,10,Females,3913
+ITE2,Umbria,11,Total,7948
+ITE2,Umbria,11,Males,4115
+ITE2,Umbria,11,Females,3833
+ITE2,Umbria,12,Total,7952
+ITE2,Umbria,12,Males,4110
+ITE2,Umbria,12,Females,3842
+ITE2,Umbria,13,Total,7721
+ITE2,Umbria,13,Males,3937
+ITE2,Umbria,13,Females,3784
+ITE2,Umbria,14,Total,7627
+ITE2,Umbria,14,Males,3999
+ITE2,Umbria,14,Females,3628
+ITE2,Umbria,15,Total,7621
+ITE2,Umbria,15,Males,3870
+ITE2,Umbria,15,Females,3751
+ITE2,Umbria,16,Total,7528
+ITE2,Umbria,16,Males,3874
+ITE2,Umbria,16,Females,3654
+ITE2,Umbria,17,Total,7722
+ITE2,Umbria,17,Males,3926
+ITE2,Umbria,17,Females,3796
+ITE2,Umbria,18,Total,7657
+ITE2,Umbria,18,Males,4108
+ITE2,Umbria,18,Females,3549
+ITE2,Umbria,19,Total,7756
+ITE2,Umbria,19,Males,4153
+ITE2,Umbria,19,Females,3603
+ITE2,Umbria,20,Total,7760
+ITE2,Umbria,20,Males,4104
+ITE2,Umbria,20,Females,3656
+ITE2,Umbria,21,Total,7789
+ITE2,Umbria,21,Males,4107
+ITE2,Umbria,21,Females,3682
+ITE2,Umbria,22,Total,7860
+ITE2,Umbria,22,Males,4090
+ITE2,Umbria,22,Females,3770
+ITE2,Umbria,23,Total,7881
+ITE2,Umbria,23,Males,4093
+ITE2,Umbria,23,Females,3788
+ITE2,Umbria,24,Total,8088
+ITE2,Umbria,24,Males,4172
+ITE2,Umbria,24,Females,3916
+ITE2,Umbria,25,Total,8554
+ITE2,Umbria,25,Males,4431
+ITE2,Umbria,25,Females,4123
+ITE2,Umbria,26,Total,8411
+ITE2,Umbria,26,Males,4336
+ITE2,Umbria,26,Females,4075
+ITE2,Umbria,27,Total,8686
+ITE2,Umbria,27,Males,4450
+ITE2,Umbria,27,Females,4236
+ITE2,Umbria,28,Total,8867
+ITE2,Umbria,28,Males,4526
+ITE2,Umbria,28,Females,4341
+ITE2,Umbria,29,Total,9260
+ITE2,Umbria,29,Males,4669
+ITE2,Umbria,29,Females,4591
+ITE2,Umbria,30,Total,8978
+ITE2,Umbria,30,Males,4520
+ITE2,Umbria,30,Females,4458
+ITE2,Umbria,31,Total,9202
+ITE2,Umbria,31,Males,4552
+ITE2,Umbria,31,Females,4650
+ITE2,Umbria,32,Total,9467
+ITE2,Umbria,32,Males,4660
+ITE2,Umbria,32,Females,4807
+ITE2,Umbria,33,Total,9556
+ITE2,Umbria,33,Males,4708
+ITE2,Umbria,33,Females,4848
+ITE2,Umbria,34,Total,10280
+ITE2,Umbria,34,Males,5122
+ITE2,Umbria,34,Females,5158
+ITE2,Umbria,35,Total,10181
+ITE2,Umbria,35,Males,5115
+ITE2,Umbria,35,Females,5066
+ITE2,Umbria,36,Total,10506
+ITE2,Umbria,36,Males,5248
+ITE2,Umbria,36,Females,5258
+ITE2,Umbria,37,Total,10537
+ITE2,Umbria,37,Males,5258
+ITE2,Umbria,37,Females,5279
+ITE2,Umbria,38,Total,10989
+ITE2,Umbria,38,Males,5464
+ITE2,Umbria,38,Females,5525
+ITE2,Umbria,39,Total,11513
+ITE2,Umbria,39,Males,5620
+ITE2,Umbria,39,Females,5893
+ITE2,Umbria,40,Total,12029
+ITE2,Umbria,40,Males,5966
+ITE2,Umbria,40,Females,6063
+ITE2,Umbria,41,Total,12494
+ITE2,Umbria,41,Males,6204
+ITE2,Umbria,41,Females,6290
+ITE2,Umbria,42,Total,13086
+ITE2,Umbria,42,Males,6374
+ITE2,Umbria,42,Females,6712
+ITE2,Umbria,43,Total,13650
+ITE2,Umbria,43,Males,6654
+ITE2,Umbria,43,Females,6996
+ITE2,Umbria,44,Total,13561
+ITE2,Umbria,44,Males,6678
+ITE2,Umbria,44,Females,6883
+ITE2,Umbria,45,Total,13462
+ITE2,Umbria,45,Males,6556
+ITE2,Umbria,45,Females,6906
+ITE2,Umbria,46,Total,13646
+ITE2,Umbria,46,Males,6634
+ITE2,Umbria,46,Females,7012
+ITE2,Umbria,47,Total,13473
+ITE2,Umbria,47,Males,6672
+ITE2,Umbria,47,Females,6801
+ITE2,Umbria,48,Total,13867
+ITE2,Umbria,48,Males,6739
+ITE2,Umbria,48,Females,7128
+ITE2,Umbria,49,Total,13836
+ITE2,Umbria,49,Males,6657
+ITE2,Umbria,49,Females,7179
+ITE2,Umbria,50,Total,13695
+ITE2,Umbria,50,Males,6589
+ITE2,Umbria,50,Females,7106
+ITE2,Umbria,51,Total,13721
+ITE2,Umbria,51,Males,6694
+ITE2,Umbria,51,Females,7027
+ITE2,Umbria,52,Total,14221
+ITE2,Umbria,52,Males,6951
+ITE2,Umbria,52,Females,7270
+ITE2,Umbria,53,Total,14271
+ITE2,Umbria,53,Males,6978
+ITE2,Umbria,53,Females,7293
+ITE2,Umbria,54,Total,13400
+ITE2,Umbria,54,Males,6380
+ITE2,Umbria,54,Females,7020
+ITE2,Umbria,55,Total,12978
+ITE2,Umbria,55,Males,6248
+ITE2,Umbria,55,Females,6730
+ITE2,Umbria,56,Total,12950
+ITE2,Umbria,56,Males,6308
+ITE2,Umbria,56,Females,6642
+ITE2,Umbria,57,Total,12813
+ITE2,Umbria,57,Males,6170
+ITE2,Umbria,57,Females,6643
+ITE2,Umbria,58,Total,12239
+ITE2,Umbria,58,Males,5871
+ITE2,Umbria,58,Females,6368
+ITE2,Umbria,59,Total,11552
+ITE2,Umbria,59,Males,5550
+ITE2,Umbria,59,Females,6002
+ITE2,Umbria,60,Total,11347
+ITE2,Umbria,60,Males,5423
+ITE2,Umbria,60,Females,5924
+ITE2,Umbria,61,Total,11500
+ITE2,Umbria,61,Males,5522
+ITE2,Umbria,61,Females,5978
+ITE2,Umbria,62,Total,11273
+ITE2,Umbria,62,Males,5408
+ITE2,Umbria,62,Females,5865
+ITE2,Umbria,63,Total,10979
+ITE2,Umbria,63,Males,5195
+ITE2,Umbria,63,Females,5784
+ITE2,Umbria,64,Total,10821
+ITE2,Umbria,64,Males,5200
+ITE2,Umbria,64,Females,5621
+ITE2,Umbria,65,Total,10218
+ITE2,Umbria,65,Males,4840
+ITE2,Umbria,65,Females,5378
+ITE2,Umbria,66,Total,10681
+ITE2,Umbria,66,Males,5080
+ITE2,Umbria,66,Females,5601
+ITE2,Umbria,67,Total,10784
+ITE2,Umbria,67,Males,5166
+ITE2,Umbria,67,Females,5618
+ITE2,Umbria,68,Total,11205
+ITE2,Umbria,68,Males,5363
+ITE2,Umbria,68,Females,5842
+ITE2,Umbria,69,Total,11952
+ITE2,Umbria,69,Males,5730
+ITE2,Umbria,69,Females,6222
+ITE2,Umbria,70,Total,11036
+ITE2,Umbria,70,Males,5277
+ITE2,Umbria,70,Females,5759
+ITE2,Umbria,71,Total,10576
+ITE2,Umbria,71,Males,4963
+ITE2,Umbria,71,Females,5613
+ITE2,Umbria,72,Total,8435
+ITE2,Umbria,72,Males,3926
+ITE2,Umbria,72,Females,4509
+ITE2,Umbria,73,Total,8917
+ITE2,Umbria,73,Males,4071
+ITE2,Umbria,73,Females,4846
+ITE2,Umbria,74,Total,9267
+ITE2,Umbria,74,Males,4314
+ITE2,Umbria,74,Females,4953
+ITE2,Umbria,75,Total,8536
+ITE2,Umbria,75,Males,3953
+ITE2,Umbria,75,Females,4583
+ITE2,Umbria,76,Total,8596
+ITE2,Umbria,76,Males,3938
+ITE2,Umbria,76,Females,4658
+ITE2,Umbria,77,Total,9452
+ITE2,Umbria,77,Males,4308
+ITE2,Umbria,77,Females,5144
+ITE2,Umbria,78,Total,9151
+ITE2,Umbria,78,Males,4031
+ITE2,Umbria,78,Females,5120
+ITE2,Umbria,79,Total,9193
+ITE2,Umbria,79,Males,4098
+ITE2,Umbria,79,Females,5095
+ITE2,Umbria,80,Total,8088
+ITE2,Umbria,80,Males,3405
+ITE2,Umbria,80,Females,4683
+ITE2,Umbria,81,Total,7274
+ITE2,Umbria,81,Males,3029
+ITE2,Umbria,81,Females,4245
+ITE2,Umbria,82,Total,7232
+ITE2,Umbria,82,Males,3016
+ITE2,Umbria,82,Females,4216
+ITE2,Umbria,83,Total,6869
+ITE2,Umbria,83,Males,2776
+ITE2,Umbria,83,Females,4093
+ITE2,Umbria,84,Total,6337
+ITE2,Umbria,84,Males,2515
+ITE2,Umbria,84,Females,3822
+ITE2,Umbria,85,Total,5543
+ITE2,Umbria,85,Males,2197
+ITE2,Umbria,85,Females,3346
+ITE2,Umbria,86,Total,5500
+ITE2,Umbria,86,Males,2047
+ITE2,Umbria,86,Females,3453
+ITE2,Umbria,87,Total,5152
+ITE2,Umbria,87,Males,1813
+ITE2,Umbria,87,Females,3339
+ITE2,Umbria,88,Total,4122
+ITE2,Umbria,88,Males,1358
+ITE2,Umbria,88,Females,2764
+ITE2,Umbria,89,Total,3607
+ITE2,Umbria,89,Males,1160
+ITE2,Umbria,89,Females,2447
+ITE2,Umbria,90,Total,3286
+ITE2,Umbria,90,Males,995
+ITE2,Umbria,90,Females,2291
+ITE2,Umbria,91,Total,2733
+ITE2,Umbria,91,Males,831
+ITE2,Umbria,91,Females,1902
+ITE2,Umbria,92,Total,2301
+ITE2,Umbria,92,Males,671
+ITE2,Umbria,92,Females,1630
+ITE2,Umbria,93,Total,1820
+ITE2,Umbria,93,Males,505
+ITE2,Umbria,93,Females,1315
+ITE2,Umbria,94,Total,1347
+ITE2,Umbria,94,Males,331
+ITE2,Umbria,94,Females,1016
+ITE2,Umbria,95,Total,1001
+ITE2,Umbria,95,Males,233
+ITE2,Umbria,95,Females,768
+ITE2,Umbria,96,Total,805
+ITE2,Umbria,96,Males,177
+ITE2,Umbria,96,Females,628
+ITE2,Umbria,97,Total,523
+ITE2,Umbria,97,Males,105
+ITE2,Umbria,97,Females,418
+ITE2,Umbria,98,Total,259
+ITE2,Umbria,98,Males,45
+ITE2,Umbria,98,Females,214
+ITE2,Umbria,99,Total,129
+ITE2,Umbria,99,Males,19
+ITE2,Umbria,99,Females,110
+ITE2,Umbria,100 and over,Total,288
+ITE2,Umbria,100 and over,Males,42
+ITE2,Umbria,100 and over,Females,246
+ITE3,Marche,0,Total,10624
+ITE3,Marche,0,Males,5456
+ITE3,Marche,0,Females,5168
+ITE3,Marche,1,Total,11386
+ITE3,Marche,1,Males,5877
+ITE3,Marche,1,Females,5509
+ITE3,Marche,2,Total,11840
+ITE3,Marche,2,Males,6015
+ITE3,Marche,2,Females,5825
+ITE3,Marche,3,Total,12235
+ITE3,Marche,3,Males,6284
+ITE3,Marche,3,Females,5951
+ITE3,Marche,4,Total,12523
+ITE3,Marche,4,Males,6527
+ITE3,Marche,4,Females,5996
+ITE3,Marche,5,Total,12880
+ITE3,Marche,5,Males,6640
+ITE3,Marche,5,Females,6240
+ITE3,Marche,6,Total,13513
+ITE3,Marche,6,Males,6871
+ITE3,Marche,6,Females,6642
+ITE3,Marche,7,Total,13701
+ITE3,Marche,7,Males,7090
+ITE3,Marche,7,Females,6611
+ITE3,Marche,8,Total,14071
+ITE3,Marche,8,Males,7241
+ITE3,Marche,8,Females,6830
+ITE3,Marche,9,Total,14111
+ITE3,Marche,9,Males,7277
+ITE3,Marche,9,Females,6834
+ITE3,Marche,10,Total,13909
+ITE3,Marche,10,Males,7163
+ITE3,Marche,10,Females,6746
+ITE3,Marche,11,Total,13747
+ITE3,Marche,11,Males,7066
+ITE3,Marche,11,Females,6681
+ITE3,Marche,12,Total,13685
+ITE3,Marche,12,Males,7017
+ITE3,Marche,12,Females,6668
+ITE3,Marche,13,Total,13678
+ITE3,Marche,13,Males,7108
+ITE3,Marche,13,Females,6570
+ITE3,Marche,14,Total,13558
+ITE3,Marche,14,Males,6946
+ITE3,Marche,14,Females,6612
+ITE3,Marche,15,Total,13638
+ITE3,Marche,15,Males,7085
+ITE3,Marche,15,Females,6553
+ITE3,Marche,16,Total,13520
+ITE3,Marche,16,Males,6945
+ITE3,Marche,16,Females,6575
+ITE3,Marche,17,Total,14035
+ITE3,Marche,17,Males,7381
+ITE3,Marche,17,Females,6654
+ITE3,Marche,18,Total,13998
+ITE3,Marche,18,Males,7269
+ITE3,Marche,18,Females,6729
+ITE3,Marche,19,Total,14375
+ITE3,Marche,19,Males,7673
+ITE3,Marche,19,Females,6702
+ITE3,Marche,20,Total,14183
+ITE3,Marche,20,Males,7442
+ITE3,Marche,20,Females,6741
+ITE3,Marche,21,Total,14113
+ITE3,Marche,21,Males,7452
+ITE3,Marche,21,Females,6661
+ITE3,Marche,22,Total,14260
+ITE3,Marche,22,Males,7485
+ITE3,Marche,22,Females,6775
+ITE3,Marche,23,Total,14157
+ITE3,Marche,23,Males,7368
+ITE3,Marche,23,Females,6789
+ITE3,Marche,24,Total,14595
+ITE3,Marche,24,Males,7508
+ITE3,Marche,24,Females,7087
+ITE3,Marche,25,Total,15212
+ITE3,Marche,25,Males,7822
+ITE3,Marche,25,Females,7390
+ITE3,Marche,26,Total,15280
+ITE3,Marche,26,Males,7941
+ITE3,Marche,26,Females,7339
+ITE3,Marche,27,Total,15588
+ITE3,Marche,27,Males,7937
+ITE3,Marche,27,Females,7651
+ITE3,Marche,28,Total,15439
+ITE3,Marche,28,Males,7832
+ITE3,Marche,28,Females,7607
+ITE3,Marche,29,Total,15741
+ITE3,Marche,29,Males,7894
+ITE3,Marche,29,Females,7847
+ITE3,Marche,30,Total,15390
+ITE3,Marche,30,Males,7805
+ITE3,Marche,30,Females,7585
+ITE3,Marche,31,Total,15934
+ITE3,Marche,31,Males,8093
+ITE3,Marche,31,Females,7841
+ITE3,Marche,32,Total,16324
+ITE3,Marche,32,Males,8112
+ITE3,Marche,32,Females,8212
+ITE3,Marche,33,Total,16477
+ITE3,Marche,33,Males,8264
+ITE3,Marche,33,Females,8213
+ITE3,Marche,34,Total,17016
+ITE3,Marche,34,Males,8456
+ITE3,Marche,34,Females,8560
+ITE3,Marche,35,Total,17781
+ITE3,Marche,35,Males,8893
+ITE3,Marche,35,Females,8888
+ITE3,Marche,36,Total,17922
+ITE3,Marche,36,Males,9013
+ITE3,Marche,36,Females,8909
+ITE3,Marche,37,Total,18632
+ITE3,Marche,37,Males,9360
+ITE3,Marche,37,Females,9272
+ITE3,Marche,38,Total,19488
+ITE3,Marche,38,Males,9683
+ITE3,Marche,38,Females,9805
+ITE3,Marche,39,Total,20761
+ITE3,Marche,39,Males,10421
+ITE3,Marche,39,Females,10340
+ITE3,Marche,40,Total,21342
+ITE3,Marche,40,Males,10564
+ITE3,Marche,40,Females,10778
+ITE3,Marche,41,Total,21938
+ITE3,Marche,41,Males,11029
+ITE3,Marche,41,Females,10909
+ITE3,Marche,42,Total,23090
+ITE3,Marche,42,Males,11446
+ITE3,Marche,42,Females,11644
+ITE3,Marche,43,Total,23616
+ITE3,Marche,43,Males,11875
+ITE3,Marche,43,Females,11741
+ITE3,Marche,44,Total,23283
+ITE3,Marche,44,Males,11540
+ITE3,Marche,44,Females,11743
+ITE3,Marche,45,Total,23594
+ITE3,Marche,45,Males,11772
+ITE3,Marche,45,Females,11822
+ITE3,Marche,46,Total,24332
+ITE3,Marche,46,Males,12019
+ITE3,Marche,46,Females,12313
+ITE3,Marche,47,Total,23638
+ITE3,Marche,47,Males,11776
+ITE3,Marche,47,Females,11862
+ITE3,Marche,48,Total,24489
+ITE3,Marche,48,Males,11963
+ITE3,Marche,48,Females,12526
+ITE3,Marche,49,Total,24222
+ITE3,Marche,49,Males,12006
+ITE3,Marche,49,Females,12216
+ITE3,Marche,50,Total,24237
+ITE3,Marche,50,Males,11884
+ITE3,Marche,50,Females,12353
+ITE3,Marche,51,Total,24423
+ITE3,Marche,51,Males,12052
+ITE3,Marche,51,Females,12371
+ITE3,Marche,52,Total,24252
+ITE3,Marche,52,Males,12067
+ITE3,Marche,52,Females,12185
+ITE3,Marche,53,Total,24922
+ITE3,Marche,53,Males,12359
+ITE3,Marche,53,Females,12563
+ITE3,Marche,54,Total,23647
+ITE3,Marche,54,Males,11596
+ITE3,Marche,54,Females,12051
+ITE3,Marche,55,Total,22510
+ITE3,Marche,55,Males,11249
+ITE3,Marche,55,Females,11261
+ITE3,Marche,56,Total,22759
+ITE3,Marche,56,Males,11238
+ITE3,Marche,56,Females,11521
+ITE3,Marche,57,Total,21890
+ITE3,Marche,57,Males,10675
+ITE3,Marche,57,Females,11215
+ITE3,Marche,58,Total,21325
+ITE3,Marche,58,Males,10255
+ITE3,Marche,58,Females,11070
+ITE3,Marche,59,Total,20738
+ITE3,Marche,59,Males,10034
+ITE3,Marche,59,Females,10704
+ITE3,Marche,60,Total,20263
+ITE3,Marche,60,Males,9762
+ITE3,Marche,60,Females,10501
+ITE3,Marche,61,Total,20367
+ITE3,Marche,61,Males,9708
+ITE3,Marche,61,Females,10659
+ITE3,Marche,62,Total,19616
+ITE3,Marche,62,Males,9353
+ITE3,Marche,62,Females,10263
+ITE3,Marche,63,Total,18888
+ITE3,Marche,63,Males,9106
+ITE3,Marche,63,Females,9782
+ITE3,Marche,64,Total,18384
+ITE3,Marche,64,Males,8802
+ITE3,Marche,64,Females,9582
+ITE3,Marche,65,Total,18237
+ITE3,Marche,65,Males,8847
+ITE3,Marche,65,Females,9390
+ITE3,Marche,66,Total,18571
+ITE3,Marche,66,Males,8892
+ITE3,Marche,66,Females,9679
+ITE3,Marche,67,Total,18857
+ITE3,Marche,67,Males,9105
+ITE3,Marche,67,Females,9752
+ITE3,Marche,68,Total,18156
+ITE3,Marche,68,Males,8674
+ITE3,Marche,68,Females,9482
+ITE3,Marche,69,Total,18710
+ITE3,Marche,69,Males,8911
+ITE3,Marche,69,Females,9799
+ITE3,Marche,70,Total,18042
+ITE3,Marche,70,Males,8655
+ITE3,Marche,70,Females,9387
+ITE3,Marche,71,Total,18063
+ITE3,Marche,71,Males,8484
+ITE3,Marche,71,Females,9579
+ITE3,Marche,72,Total,14864
+ITE3,Marche,72,Males,7060
+ITE3,Marche,72,Females,7804
+ITE3,Marche,73,Total,14345
+ITE3,Marche,73,Males,6657
+ITE3,Marche,73,Females,7688
+ITE3,Marche,74,Total,14979
+ITE3,Marche,74,Males,6988
+ITE3,Marche,74,Females,7991
+ITE3,Marche,75,Total,14116
+ITE3,Marche,75,Males,6466
+ITE3,Marche,75,Females,7650
+ITE3,Marche,76,Total,14030
+ITE3,Marche,76,Males,6292
+ITE3,Marche,76,Females,7738
+ITE3,Marche,77,Total,15798
+ITE3,Marche,77,Males,7034
+ITE3,Marche,77,Females,8764
+ITE3,Marche,78,Total,15956
+ITE3,Marche,78,Males,7128
+ITE3,Marche,78,Females,8828
+ITE3,Marche,79,Total,15817
+ITE3,Marche,79,Males,6935
+ITE3,Marche,79,Females,8882
+ITE3,Marche,80,Total,13932
+ITE3,Marche,80,Males,6095
+ITE3,Marche,80,Females,7837
+ITE3,Marche,81,Total,12587
+ITE3,Marche,81,Males,5249
+ITE3,Marche,81,Females,7338
+ITE3,Marche,82,Total,12787
+ITE3,Marche,82,Males,5282
+ITE3,Marche,82,Females,7505
+ITE3,Marche,83,Total,11709
+ITE3,Marche,83,Males,4821
+ITE3,Marche,83,Females,6888
+ITE3,Marche,84,Total,10747
+ITE3,Marche,84,Males,4250
+ITE3,Marche,84,Females,6497
+ITE3,Marche,85,Total,9381
+ITE3,Marche,85,Males,3616
+ITE3,Marche,85,Females,5765
+ITE3,Marche,86,Total,9293
+ITE3,Marche,86,Males,3479
+ITE3,Marche,86,Females,5814
+ITE3,Marche,87,Total,8572
+ITE3,Marche,87,Males,3117
+ITE3,Marche,87,Females,5455
+ITE3,Marche,88,Total,6981
+ITE3,Marche,88,Males,2483
+ITE3,Marche,88,Females,4498
+ITE3,Marche,89,Total,6318
+ITE3,Marche,89,Males,2112
+ITE3,Marche,89,Females,4206
+ITE3,Marche,90,Total,5585
+ITE3,Marche,90,Males,1741
+ITE3,Marche,90,Females,3844
+ITE3,Marche,91,Total,4661
+ITE3,Marche,91,Males,1344
+ITE3,Marche,91,Females,3317
+ITE3,Marche,92,Total,3939
+ITE3,Marche,92,Males,1111
+ITE3,Marche,92,Females,2828
+ITE3,Marche,93,Total,2904
+ITE3,Marche,93,Males,738
+ITE3,Marche,93,Females,2166
+ITE3,Marche,94,Total,2326
+ITE3,Marche,94,Males,617
+ITE3,Marche,94,Females,1709
+ITE3,Marche,95,Total,1702
+ITE3,Marche,95,Males,415
+ITE3,Marche,95,Females,1287
+ITE3,Marche,96,Total,1289
+ITE3,Marche,96,Males,293
+ITE3,Marche,96,Females,996
+ITE3,Marche,97,Total,947
+ITE3,Marche,97,Males,207
+ITE3,Marche,97,Females,740
+ITE3,Marche,98,Total,396
+ITE3,Marche,98,Males,88
+ITE3,Marche,98,Females,308
+ITE3,Marche,99,Total,219
+ITE3,Marche,99,Males,39
+ITE3,Marche,99,Females,180
+ITE3,Marche,100 and over,Total,430
+ITE3,Marche,100 and over,Males,62
+ITE3,Marche,100 and over,Females,368
+ITE4,Lazio,0,Total,44140
+ITE4,Lazio,0,Males,22749
+ITE4,Lazio,0,Females,21391
+ITE4,Lazio,1,Total,46953
+ITE4,Lazio,1,Males,24120
+ITE4,Lazio,1,Females,22833
+ITE4,Lazio,2,Total,47961
+ITE4,Lazio,2,Males,24418
+ITE4,Lazio,2,Females,23543
+ITE4,Lazio,3,Total,49796
+ITE4,Lazio,3,Males,25730
+ITE4,Lazio,3,Females,24066
+ITE4,Lazio,4,Total,50936
+ITE4,Lazio,4,Males,26182
+ITE4,Lazio,4,Females,24754
+ITE4,Lazio,5,Total,53440
+ITE4,Lazio,5,Males,27386
+ITE4,Lazio,5,Females,26054
+ITE4,Lazio,6,Total,53391
+ITE4,Lazio,6,Males,27467
+ITE4,Lazio,6,Females,25924
+ITE4,Lazio,7,Total,54508
+ITE4,Lazio,7,Males,28056
+ITE4,Lazio,7,Females,26452
+ITE4,Lazio,8,Total,54786
+ITE4,Lazio,8,Males,28323
+ITE4,Lazio,8,Females,26463
+ITE4,Lazio,9,Total,55129
+ITE4,Lazio,9,Males,28128
+ITE4,Lazio,9,Females,27001
+ITE4,Lazio,10,Total,55358
+ITE4,Lazio,10,Males,28621
+ITE4,Lazio,10,Females,26737
+ITE4,Lazio,11,Total,54887
+ITE4,Lazio,11,Males,28203
+ITE4,Lazio,11,Females,26684
+ITE4,Lazio,12,Total,53160
+ITE4,Lazio,12,Males,27371
+ITE4,Lazio,12,Females,25789
+ITE4,Lazio,13,Total,53442
+ITE4,Lazio,13,Males,27562
+ITE4,Lazio,13,Females,25880
+ITE4,Lazio,14,Total,52923
+ITE4,Lazio,14,Males,27148
+ITE4,Lazio,14,Females,25775
+ITE4,Lazio,15,Total,51980
+ITE4,Lazio,15,Males,26825
+ITE4,Lazio,15,Females,25155
+ITE4,Lazio,16,Total,52153
+ITE4,Lazio,16,Males,26887
+ITE4,Lazio,16,Females,25266
+ITE4,Lazio,17,Total,52892
+ITE4,Lazio,17,Males,27464
+ITE4,Lazio,17,Females,25428
+ITE4,Lazio,18,Total,52235
+ITE4,Lazio,18,Males,27195
+ITE4,Lazio,18,Females,25040
+ITE4,Lazio,19,Total,53457
+ITE4,Lazio,19,Males,28061
+ITE4,Lazio,19,Females,25396
+ITE4,Lazio,20,Total,53429
+ITE4,Lazio,20,Males,28045
+ITE4,Lazio,20,Females,25384
+ITE4,Lazio,21,Total,54022
+ITE4,Lazio,21,Males,28459
+ITE4,Lazio,21,Females,25563
+ITE4,Lazio,22,Total,54505
+ITE4,Lazio,22,Males,28788
+ITE4,Lazio,22,Females,25717
+ITE4,Lazio,23,Total,55283
+ITE4,Lazio,23,Males,28830
+ITE4,Lazio,23,Females,26453
+ITE4,Lazio,24,Total,56455
+ITE4,Lazio,24,Males,29096
+ITE4,Lazio,24,Females,27359
+ITE4,Lazio,25,Total,59105
+ITE4,Lazio,25,Males,30511
+ITE4,Lazio,25,Females,28594
+ITE4,Lazio,26,Total,58773
+ITE4,Lazio,26,Males,30142
+ITE4,Lazio,26,Females,28631
+ITE4,Lazio,27,Total,60813
+ITE4,Lazio,27,Males,31201
+ITE4,Lazio,27,Females,29612
+ITE4,Lazio,28,Total,60882
+ITE4,Lazio,28,Males,31046
+ITE4,Lazio,28,Females,29836
+ITE4,Lazio,29,Total,63043
+ITE4,Lazio,29,Males,31957
+ITE4,Lazio,29,Females,31086
+ITE4,Lazio,30,Total,62904
+ITE4,Lazio,30,Males,31610
+ITE4,Lazio,30,Females,31294
+ITE4,Lazio,31,Total,63172
+ITE4,Lazio,31,Males,31827
+ITE4,Lazio,31,Females,31345
+ITE4,Lazio,32,Total,66188
+ITE4,Lazio,32,Males,33185
+ITE4,Lazio,32,Females,33003
+ITE4,Lazio,33,Total,68399
+ITE4,Lazio,33,Males,34444
+ITE4,Lazio,33,Females,33955
+ITE4,Lazio,34,Total,70066
+ITE4,Lazio,34,Males,35394
+ITE4,Lazio,34,Females,34672
+ITE4,Lazio,35,Total,73007
+ITE4,Lazio,35,Males,36501
+ITE4,Lazio,35,Females,36506
+ITE4,Lazio,36,Total,73943
+ITE4,Lazio,36,Males,36575
+ITE4,Lazio,36,Females,37368
+ITE4,Lazio,37,Total,75571
+ITE4,Lazio,37,Males,37551
+ITE4,Lazio,37,Females,38020
+ITE4,Lazio,38,Total,78017
+ITE4,Lazio,38,Males,38664
+ITE4,Lazio,38,Females,39353
+ITE4,Lazio,39,Total,82416
+ITE4,Lazio,39,Males,40655
+ITE4,Lazio,39,Females,41761
+ITE4,Lazio,40,Total,84149
+ITE4,Lazio,40,Males,41569
+ITE4,Lazio,40,Females,42580
+ITE4,Lazio,41,Total,87533
+ITE4,Lazio,41,Males,42847
+ITE4,Lazio,41,Females,44686
+ITE4,Lazio,42,Total,91998
+ITE4,Lazio,42,Males,45026
+ITE4,Lazio,42,Females,46972
+ITE4,Lazio,43,Total,95928
+ITE4,Lazio,43,Males,46684
+ITE4,Lazio,43,Females,49244
+ITE4,Lazio,44,Total,95745
+ITE4,Lazio,44,Males,46708
+ITE4,Lazio,44,Females,49037
+ITE4,Lazio,45,Total,96900
+ITE4,Lazio,45,Males,47075
+ITE4,Lazio,45,Females,49825
+ITE4,Lazio,46,Total,96878
+ITE4,Lazio,46,Males,46995
+ITE4,Lazio,46,Females,49883
+ITE4,Lazio,47,Total,96789
+ITE4,Lazio,47,Males,47151
+ITE4,Lazio,47,Females,49638
+ITE4,Lazio,48,Total,98114
+ITE4,Lazio,48,Males,47456
+ITE4,Lazio,48,Females,50658
+ITE4,Lazio,49,Total,97067
+ITE4,Lazio,49,Males,46868
+ITE4,Lazio,49,Females,50199
+ITE4,Lazio,50,Total,97184
+ITE4,Lazio,50,Males,46700
+ITE4,Lazio,50,Females,50484
+ITE4,Lazio,51,Total,97612
+ITE4,Lazio,51,Males,47537
+ITE4,Lazio,51,Females,50075
+ITE4,Lazio,52,Total,97486
+ITE4,Lazio,52,Males,47361
+ITE4,Lazio,52,Females,50125
+ITE4,Lazio,53,Total,98981
+ITE4,Lazio,53,Males,47842
+ITE4,Lazio,53,Females,51139
+ITE4,Lazio,54,Total,92750
+ITE4,Lazio,54,Males,44717
+ITE4,Lazio,54,Females,48033
+ITE4,Lazio,55,Total,88636
+ITE4,Lazio,55,Males,42606
+ITE4,Lazio,55,Females,46030
+ITE4,Lazio,56,Total,86332
+ITE4,Lazio,56,Males,41439
+ITE4,Lazio,56,Females,44893
+ITE4,Lazio,57,Total,82609
+ITE4,Lazio,57,Males,39518
+ITE4,Lazio,57,Females,43091
+ITE4,Lazio,58,Total,80020
+ITE4,Lazio,58,Males,38126
+ITE4,Lazio,58,Females,41894
+ITE4,Lazio,59,Total,76615
+ITE4,Lazio,59,Males,36402
+ITE4,Lazio,59,Females,40213
+ITE4,Lazio,60,Total,75240
+ITE4,Lazio,60,Males,35764
+ITE4,Lazio,60,Females,39476
+ITE4,Lazio,61,Total,73360
+ITE4,Lazio,61,Males,34919
+ITE4,Lazio,61,Females,38441
+ITE4,Lazio,62,Total,71994
+ITE4,Lazio,62,Males,34154
+ITE4,Lazio,62,Females,37840
+ITE4,Lazio,63,Total,70554
+ITE4,Lazio,63,Males,33252
+ITE4,Lazio,63,Females,37302
+ITE4,Lazio,64,Total,66360
+ITE4,Lazio,64,Males,31238
+ITE4,Lazio,64,Females,35122
+ITE4,Lazio,65,Total,64583
+ITE4,Lazio,65,Males,30419
+ITE4,Lazio,65,Females,34164
+ITE4,Lazio,66,Total,63699
+ITE4,Lazio,66,Males,29750
+ITE4,Lazio,66,Females,33949
+ITE4,Lazio,67,Total,65260
+ITE4,Lazio,67,Males,30573
+ITE4,Lazio,67,Females,34687
+ITE4,Lazio,68,Total,64946
+ITE4,Lazio,68,Males,30354
+ITE4,Lazio,68,Females,34592
+ITE4,Lazio,69,Total,68289
+ITE4,Lazio,69,Males,31652
+ITE4,Lazio,69,Females,36637
+ITE4,Lazio,70,Total,67294
+ITE4,Lazio,70,Males,31311
+ITE4,Lazio,70,Females,35983
+ITE4,Lazio,71,Total,65227
+ITE4,Lazio,71,Males,29899
+ITE4,Lazio,71,Females,35328
+ITE4,Lazio,72,Total,50616
+ITE4,Lazio,72,Males,22975
+ITE4,Lazio,72,Females,27641
+ITE4,Lazio,73,Total,50495
+ITE4,Lazio,73,Males,22964
+ITE4,Lazio,73,Females,27531
+ITE4,Lazio,74,Total,52444
+ITE4,Lazio,74,Males,23353
+ITE4,Lazio,74,Females,29091
+ITE4,Lazio,75,Total,50371
+ITE4,Lazio,75,Males,22418
+ITE4,Lazio,75,Females,27953
+ITE4,Lazio,76,Total,50340
+ITE4,Lazio,76,Males,22304
+ITE4,Lazio,76,Females,28036
+ITE4,Lazio,77,Total,54573
+ITE4,Lazio,77,Males,23754
+ITE4,Lazio,77,Females,30819
+ITE4,Lazio,78,Total,51946
+ITE4,Lazio,78,Males,22542
+ITE4,Lazio,78,Females,29404
+ITE4,Lazio,79,Total,48998
+ITE4,Lazio,79,Males,20975
+ITE4,Lazio,79,Females,28023
+ITE4,Lazio,80,Total,44418
+ITE4,Lazio,80,Males,18737
+ITE4,Lazio,80,Females,25681
+ITE4,Lazio,81,Total,40293
+ITE4,Lazio,81,Males,16625
+ITE4,Lazio,81,Females,23668
+ITE4,Lazio,82,Total,39319
+ITE4,Lazio,82,Males,16081
+ITE4,Lazio,82,Females,23238
+ITE4,Lazio,83,Total,36051
+ITE4,Lazio,83,Males,14207
+ITE4,Lazio,83,Females,21844
+ITE4,Lazio,84,Total,32505
+ITE4,Lazio,84,Males,12672
+ITE4,Lazio,84,Females,19833
+ITE4,Lazio,85,Total,28939
+ITE4,Lazio,85,Males,10903
+ITE4,Lazio,85,Females,18036
+ITE4,Lazio,86,Total,26990
+ITE4,Lazio,86,Males,10034
+ITE4,Lazio,86,Females,16956
+ITE4,Lazio,87,Total,25522
+ITE4,Lazio,87,Males,9000
+ITE4,Lazio,87,Females,16522
+ITE4,Lazio,88,Total,20376
+ITE4,Lazio,88,Males,7095
+ITE4,Lazio,88,Females,13281
+ITE4,Lazio,89,Total,17321
+ITE4,Lazio,89,Males,5657
+ITE4,Lazio,89,Females,11664
+ITE4,Lazio,90,Total,14649
+ITE4,Lazio,90,Males,4474
+ITE4,Lazio,90,Females,10175
+ITE4,Lazio,91,Total,12218
+ITE4,Lazio,91,Males,3563
+ITE4,Lazio,91,Females,8655
+ITE4,Lazio,92,Total,9551
+ITE4,Lazio,92,Males,2718
+ITE4,Lazio,92,Females,6833
+ITE4,Lazio,93,Total,7741
+ITE4,Lazio,93,Males,2130
+ITE4,Lazio,93,Females,5611
+ITE4,Lazio,94,Total,6061
+ITE4,Lazio,94,Males,1497
+ITE4,Lazio,94,Females,4564
+ITE4,Lazio,95,Total,4477
+ITE4,Lazio,95,Males,1123
+ITE4,Lazio,95,Females,3354
+ITE4,Lazio,96,Total,3348
+ITE4,Lazio,96,Males,764
+ITE4,Lazio,96,Females,2584
+ITE4,Lazio,97,Total,2369
+ITE4,Lazio,97,Males,551
+ITE4,Lazio,97,Females,1818
+ITE4,Lazio,98,Total,1081
+ITE4,Lazio,98,Males,228
+ITE4,Lazio,98,Females,853
+ITE4,Lazio,99,Total,589
+ITE4,Lazio,99,Males,118
+ITE4,Lazio,99,Females,471
+ITE4,Lazio,100 and over,Total,1353
+ITE4,Lazio,100 and over,Males,200
+ITE4,Lazio,100 and over,Females,1153
+ITF1,Abruzzo,0,Total,9392
+ITF1,Abruzzo,0,Males,4840
+ITF1,Abruzzo,0,Females,4552
+ITF1,Abruzzo,1,Total,9900
+ITF1,Abruzzo,1,Males,5097
+ITF1,Abruzzo,1,Females,4803
+ITF1,Abruzzo,2,Total,10095
+ITF1,Abruzzo,2,Males,5198
+ITF1,Abruzzo,2,Females,4897
+ITF1,Abruzzo,3,Total,10275
+ITF1,Abruzzo,3,Males,5279
+ITF1,Abruzzo,3,Females,4996
+ITF1,Abruzzo,4,Total,10452
+ITF1,Abruzzo,4,Males,5389
+ITF1,Abruzzo,4,Females,5063
+ITF1,Abruzzo,5,Total,10971
+ITF1,Abruzzo,5,Males,5623
+ITF1,Abruzzo,5,Females,5348
+ITF1,Abruzzo,6,Total,11099
+ITF1,Abruzzo,6,Males,5800
+ITF1,Abruzzo,6,Females,5299
+ITF1,Abruzzo,7,Total,11510
+ITF1,Abruzzo,7,Males,5908
+ITF1,Abruzzo,7,Females,5602
+ITF1,Abruzzo,8,Total,11251
+ITF1,Abruzzo,8,Males,5785
+ITF1,Abruzzo,8,Females,5466
+ITF1,Abruzzo,9,Total,11659
+ITF1,Abruzzo,9,Males,6006
+ITF1,Abruzzo,9,Females,5653
+ITF1,Abruzzo,10,Total,11480
+ITF1,Abruzzo,10,Males,5842
+ITF1,Abruzzo,10,Females,5638
+ITF1,Abruzzo,11,Total,11338
+ITF1,Abruzzo,11,Males,5868
+ITF1,Abruzzo,11,Females,5470
+ITF1,Abruzzo,12,Total,11488
+ITF1,Abruzzo,12,Males,5867
+ITF1,Abruzzo,12,Females,5621
+ITF1,Abruzzo,13,Total,11494
+ITF1,Abruzzo,13,Males,5971
+ITF1,Abruzzo,13,Females,5523
+ITF1,Abruzzo,14,Total,11455
+ITF1,Abruzzo,14,Males,5920
+ITF1,Abruzzo,14,Females,5535
+ITF1,Abruzzo,15,Total,11306
+ITF1,Abruzzo,15,Males,5859
+ITF1,Abruzzo,15,Females,5447
+ITF1,Abruzzo,16,Total,11713
+ITF1,Abruzzo,16,Males,6015
+ITF1,Abruzzo,16,Females,5698
+ITF1,Abruzzo,17,Total,11878
+ITF1,Abruzzo,17,Males,6262
+ITF1,Abruzzo,17,Females,5616
+ITF1,Abruzzo,18,Total,11860
+ITF1,Abruzzo,18,Males,6203
+ITF1,Abruzzo,18,Females,5657
+ITF1,Abruzzo,19,Total,12305
+ITF1,Abruzzo,19,Males,6445
+ITF1,Abruzzo,19,Females,5860
+ITF1,Abruzzo,20,Total,12262
+ITF1,Abruzzo,20,Males,6469
+ITF1,Abruzzo,20,Females,5793
+ITF1,Abruzzo,21,Total,12449
+ITF1,Abruzzo,21,Males,6409
+ITF1,Abruzzo,21,Females,6040
+ITF1,Abruzzo,22,Total,12534
+ITF1,Abruzzo,22,Males,6539
+ITF1,Abruzzo,22,Females,5995
+ITF1,Abruzzo,23,Total,12992
+ITF1,Abruzzo,23,Males,6673
+ITF1,Abruzzo,23,Females,6319
+ITF1,Abruzzo,24,Total,13554
+ITF1,Abruzzo,24,Males,7018
+ITF1,Abruzzo,24,Females,6536
+ITF1,Abruzzo,25,Total,14097
+ITF1,Abruzzo,25,Males,7252
+ITF1,Abruzzo,25,Females,6845
+ITF1,Abruzzo,26,Total,14067
+ITF1,Abruzzo,26,Males,7201
+ITF1,Abruzzo,26,Females,6866
+ITF1,Abruzzo,27,Total,14407
+ITF1,Abruzzo,27,Males,7407
+ITF1,Abruzzo,27,Females,7000
+ITF1,Abruzzo,28,Total,14354
+ITF1,Abruzzo,28,Males,7410
+ITF1,Abruzzo,28,Females,6944
+ITF1,Abruzzo,29,Total,14694
+ITF1,Abruzzo,29,Males,7478
+ITF1,Abruzzo,29,Females,7216
+ITF1,Abruzzo,30,Total,14320
+ITF1,Abruzzo,30,Males,7219
+ITF1,Abruzzo,30,Females,7101
+ITF1,Abruzzo,31,Total,14672
+ITF1,Abruzzo,31,Males,7478
+ITF1,Abruzzo,31,Females,7194
+ITF1,Abruzzo,32,Total,15100
+ITF1,Abruzzo,32,Males,7613
+ITF1,Abruzzo,32,Females,7487
+ITF1,Abruzzo,33,Total,15365
+ITF1,Abruzzo,33,Males,7795
+ITF1,Abruzzo,33,Females,7570
+ITF1,Abruzzo,34,Total,15328
+ITF1,Abruzzo,34,Males,7816
+ITF1,Abruzzo,34,Females,7512
+ITF1,Abruzzo,35,Total,16043
+ITF1,Abruzzo,35,Males,8020
+ITF1,Abruzzo,35,Females,8023
+ITF1,Abruzzo,36,Total,15932
+ITF1,Abruzzo,36,Males,8006
+ITF1,Abruzzo,36,Females,7926
+ITF1,Abruzzo,37,Total,16321
+ITF1,Abruzzo,37,Males,8334
+ITF1,Abruzzo,37,Females,7987
+ITF1,Abruzzo,38,Total,16962
+ITF1,Abruzzo,38,Males,8571
+ITF1,Abruzzo,38,Females,8391
+ITF1,Abruzzo,39,Total,17681
+ITF1,Abruzzo,39,Males,8972
+ITF1,Abruzzo,39,Females,8709
+ITF1,Abruzzo,40,Total,17724
+ITF1,Abruzzo,40,Males,8996
+ITF1,Abruzzo,40,Females,8728
+ITF1,Abruzzo,41,Total,18622
+ITF1,Abruzzo,41,Males,9392
+ITF1,Abruzzo,41,Females,9230
+ITF1,Abruzzo,42,Total,19047
+ITF1,Abruzzo,42,Males,9380
+ITF1,Abruzzo,42,Females,9667
+ITF1,Abruzzo,43,Total,19844
+ITF1,Abruzzo,43,Males,10029
+ITF1,Abruzzo,43,Females,9815
+ITF1,Abruzzo,44,Total,19664
+ITF1,Abruzzo,44,Males,9687
+ITF1,Abruzzo,44,Females,9977
+ITF1,Abruzzo,45,Total,20158
+ITF1,Abruzzo,45,Males,9960
+ITF1,Abruzzo,45,Females,10198
+ITF1,Abruzzo,46,Total,20602
+ITF1,Abruzzo,46,Males,10064
+ITF1,Abruzzo,46,Females,10538
+ITF1,Abruzzo,47,Total,20237
+ITF1,Abruzzo,47,Males,9973
+ITF1,Abruzzo,47,Females,10264
+ITF1,Abruzzo,48,Total,21095
+ITF1,Abruzzo,48,Males,10450
+ITF1,Abruzzo,48,Females,10645
+ITF1,Abruzzo,49,Total,20917
+ITF1,Abruzzo,49,Males,10353
+ITF1,Abruzzo,49,Females,10564
+ITF1,Abruzzo,50,Total,21135
+ITF1,Abruzzo,50,Males,10332
+ITF1,Abruzzo,50,Females,10803
+ITF1,Abruzzo,51,Total,21282
+ITF1,Abruzzo,51,Males,10483
+ITF1,Abruzzo,51,Females,10799
+ITF1,Abruzzo,52,Total,21359
+ITF1,Abruzzo,52,Males,10513
+ITF1,Abruzzo,52,Females,10846
+ITF1,Abruzzo,53,Total,21493
+ITF1,Abruzzo,53,Males,10695
+ITF1,Abruzzo,53,Females,10798
+ITF1,Abruzzo,54,Total,20208
+ITF1,Abruzzo,54,Males,9904
+ITF1,Abruzzo,54,Females,10304
+ITF1,Abruzzo,55,Total,19437
+ITF1,Abruzzo,55,Males,9483
+ITF1,Abruzzo,55,Females,9954
+ITF1,Abruzzo,56,Total,19147
+ITF1,Abruzzo,56,Males,9195
+ITF1,Abruzzo,56,Females,9952
+ITF1,Abruzzo,57,Total,18828
+ITF1,Abruzzo,57,Males,9080
+ITF1,Abruzzo,57,Females,9748
+ITF1,Abruzzo,58,Total,18553
+ITF1,Abruzzo,58,Males,8934
+ITF1,Abruzzo,58,Females,9619
+ITF1,Abruzzo,59,Total,17839
+ITF1,Abruzzo,59,Males,8619
+ITF1,Abruzzo,59,Females,9220
+ITF1,Abruzzo,60,Total,17623
+ITF1,Abruzzo,60,Males,8509
+ITF1,Abruzzo,60,Females,9114
+ITF1,Abruzzo,61,Total,17324
+ITF1,Abruzzo,61,Males,8509
+ITF1,Abruzzo,61,Females,8815
+ITF1,Abruzzo,62,Total,17296
+ITF1,Abruzzo,62,Males,8314
+ITF1,Abruzzo,62,Females,8982
+ITF1,Abruzzo,63,Total,16964
+ITF1,Abruzzo,63,Males,8166
+ITF1,Abruzzo,63,Females,8798
+ITF1,Abruzzo,64,Total,15887
+ITF1,Abruzzo,64,Males,7628
+ITF1,Abruzzo,64,Females,8259
+ITF1,Abruzzo,65,Total,15776
+ITF1,Abruzzo,65,Males,7596
+ITF1,Abruzzo,65,Females,8180
+ITF1,Abruzzo,66,Total,15781
+ITF1,Abruzzo,66,Males,7458
+ITF1,Abruzzo,66,Females,8323
+ITF1,Abruzzo,67,Total,16292
+ITF1,Abruzzo,67,Males,7858
+ITF1,Abruzzo,67,Females,8434
+ITF1,Abruzzo,68,Total,16562
+ITF1,Abruzzo,68,Males,7949
+ITF1,Abruzzo,68,Females,8613
+ITF1,Abruzzo,69,Total,16749
+ITF1,Abruzzo,69,Males,7942
+ITF1,Abruzzo,69,Females,8807
+ITF1,Abruzzo,70,Total,15796
+ITF1,Abruzzo,70,Males,7599
+ITF1,Abruzzo,70,Females,8197
+ITF1,Abruzzo,71,Total,15251
+ITF1,Abruzzo,71,Males,7346
+ITF1,Abruzzo,71,Females,7905
+ITF1,Abruzzo,72,Total,11434
+ITF1,Abruzzo,72,Males,5348
+ITF1,Abruzzo,72,Females,6086
+ITF1,Abruzzo,73,Total,12247
+ITF1,Abruzzo,73,Males,5853
+ITF1,Abruzzo,73,Females,6394
+ITF1,Abruzzo,74,Total,11758
+ITF1,Abruzzo,74,Males,5453
+ITF1,Abruzzo,74,Females,6305
+ITF1,Abruzzo,75,Total,11310
+ITF1,Abruzzo,75,Males,5222
+ITF1,Abruzzo,75,Females,6088
+ITF1,Abruzzo,76,Total,11332
+ITF1,Abruzzo,76,Males,5255
+ITF1,Abruzzo,76,Females,6077
+ITF1,Abruzzo,77,Total,12808
+ITF1,Abruzzo,77,Males,5791
+ITF1,Abruzzo,77,Females,7017
+ITF1,Abruzzo,78,Total,12715
+ITF1,Abruzzo,78,Males,5660
+ITF1,Abruzzo,78,Females,7055
+ITF1,Abruzzo,79,Total,11446
+ITF1,Abruzzo,79,Males,5114
+ITF1,Abruzzo,79,Females,6332
+ITF1,Abruzzo,80,Total,11108
+ITF1,Abruzzo,80,Males,4889
+ITF1,Abruzzo,80,Females,6219
+ITF1,Abruzzo,81,Total,10184
+ITF1,Abruzzo,81,Males,4343
+ITF1,Abruzzo,81,Females,5841
+ITF1,Abruzzo,82,Total,10059
+ITF1,Abruzzo,82,Males,4200
+ITF1,Abruzzo,82,Females,5859
+ITF1,Abruzzo,83,Total,9298
+ITF1,Abruzzo,83,Males,3791
+ITF1,Abruzzo,83,Females,5507
+ITF1,Abruzzo,84,Total,8944
+ITF1,Abruzzo,84,Males,3527
+ITF1,Abruzzo,84,Females,5417
+ITF1,Abruzzo,85,Total,7733
+ITF1,Abruzzo,85,Males,3018
+ITF1,Abruzzo,85,Females,4715
+ITF1,Abruzzo,86,Total,7267
+ITF1,Abruzzo,86,Males,2713
+ITF1,Abruzzo,86,Females,4554
+ITF1,Abruzzo,87,Total,7041
+ITF1,Abruzzo,87,Males,2554
+ITF1,Abruzzo,87,Females,4487
+ITF1,Abruzzo,88,Total,5628
+ITF1,Abruzzo,88,Males,1951
+ITF1,Abruzzo,88,Females,3677
+ITF1,Abruzzo,89,Total,4916
+ITF1,Abruzzo,89,Males,1657
+ITF1,Abruzzo,89,Females,3259
+ITF1,Abruzzo,90,Total,4309
+ITF1,Abruzzo,90,Males,1364
+ITF1,Abruzzo,90,Females,2945
+ITF1,Abruzzo,91,Total,3400
+ITF1,Abruzzo,91,Males,1009
+ITF1,Abruzzo,91,Females,2391
+ITF1,Abruzzo,92,Total,2750
+ITF1,Abruzzo,92,Males,785
+ITF1,Abruzzo,92,Females,1965
+ITF1,Abruzzo,93,Total,2191
+ITF1,Abruzzo,93,Males,623
+ITF1,Abruzzo,93,Females,1568
+ITF1,Abruzzo,94,Total,1710
+ITF1,Abruzzo,94,Males,462
+ITF1,Abruzzo,94,Females,1248
+ITF1,Abruzzo,95,Total,1331
+ITF1,Abruzzo,95,Males,317
+ITF1,Abruzzo,95,Females,1014
+ITF1,Abruzzo,96,Total,1011
+ITF1,Abruzzo,96,Males,269
+ITF1,Abruzzo,96,Females,742
+ITF1,Abruzzo,97,Total,690
+ITF1,Abruzzo,97,Males,150
+ITF1,Abruzzo,97,Females,540
+ITF1,Abruzzo,98,Total,334
+ITF1,Abruzzo,98,Males,69
+ITF1,Abruzzo,98,Females,265
+ITF1,Abruzzo,99,Total,156
+ITF1,Abruzzo,99,Males,29
+ITF1,Abruzzo,99,Females,127
+ITF1,Abruzzo,100 and over,Total,402
+ITF1,Abruzzo,100 and over,Males,63
+ITF1,Abruzzo,100 and over,Females,339
+ITF2,Molise,0,Total,2080
+ITF2,Molise,0,Males,1108
+ITF2,Molise,0,Females,972
+ITF2,Molise,1,Total,2060
+ITF2,Molise,1,Males,1048
+ITF2,Molise,1,Females,1012
+ITF2,Molise,2,Total,2141
+ITF2,Molise,2,Males,1124
+ITF2,Molise,2,Females,1017
+ITF2,Molise,3,Total,2178
+ITF2,Molise,3,Males,1175
+ITF2,Molise,3,Females,1003
+ITF2,Molise,4,Total,2201
+ITF2,Molise,4,Males,1137
+ITF2,Molise,4,Females,1064
+ITF2,Molise,5,Total,2253
+ITF2,Molise,5,Males,1166
+ITF2,Molise,5,Females,1087
+ITF2,Molise,6,Total,2303
+ITF2,Molise,6,Males,1158
+ITF2,Molise,6,Females,1145
+ITF2,Molise,7,Total,2441
+ITF2,Molise,7,Males,1283
+ITF2,Molise,7,Females,1158
+ITF2,Molise,8,Total,2296
+ITF2,Molise,8,Males,1187
+ITF2,Molise,8,Females,1109
+ITF2,Molise,9,Total,2474
+ITF2,Molise,9,Males,1305
+ITF2,Molise,9,Females,1169
+ITF2,Molise,10,Total,2486
+ITF2,Molise,10,Males,1274
+ITF2,Molise,10,Females,1212
+ITF2,Molise,11,Total,2478
+ITF2,Molise,11,Males,1270
+ITF2,Molise,11,Females,1208
+ITF2,Molise,12,Total,2555
+ITF2,Molise,12,Males,1344
+ITF2,Molise,12,Females,1211
+ITF2,Molise,13,Total,2577
+ITF2,Molise,13,Males,1372
+ITF2,Molise,13,Females,1205
+ITF2,Molise,14,Total,2610
+ITF2,Molise,14,Males,1356
+ITF2,Molise,14,Females,1254
+ITF2,Molise,15,Total,2661
+ITF2,Molise,15,Males,1355
+ITF2,Molise,15,Females,1306
+ITF2,Molise,16,Total,2707
+ITF2,Molise,16,Males,1393
+ITF2,Molise,16,Females,1314
+ITF2,Molise,17,Total,2857
+ITF2,Molise,17,Males,1482
+ITF2,Molise,17,Females,1375
+ITF2,Molise,18,Total,2992
+ITF2,Molise,18,Males,1605
+ITF2,Molise,18,Females,1387
+ITF2,Molise,19,Total,3239
+ITF2,Molise,19,Males,1835
+ITF2,Molise,19,Females,1404
+ITF2,Molise,20,Total,3144
+ITF2,Molise,20,Males,1743
+ITF2,Molise,20,Females,1401
+ITF2,Molise,21,Total,3174
+ITF2,Molise,21,Males,1675
+ITF2,Molise,21,Females,1499
+ITF2,Molise,22,Total,3205
+ITF2,Molise,22,Males,1672
+ITF2,Molise,22,Females,1533
+ITF2,Molise,23,Total,3333
+ITF2,Molise,23,Males,1804
+ITF2,Molise,23,Females,1529
+ITF2,Molise,24,Total,3408
+ITF2,Molise,24,Males,1801
+ITF2,Molise,24,Females,1607
+ITF2,Molise,25,Total,3573
+ITF2,Molise,25,Males,1864
+ITF2,Molise,25,Females,1709
+ITF2,Molise,26,Total,3558
+ITF2,Molise,26,Males,1933
+ITF2,Molise,26,Females,1625
+ITF2,Molise,27,Total,3515
+ITF2,Molise,27,Males,1829
+ITF2,Molise,27,Females,1686
+ITF2,Molise,28,Total,3514
+ITF2,Molise,28,Males,1852
+ITF2,Molise,28,Females,1662
+ITF2,Molise,29,Total,3592
+ITF2,Molise,29,Males,1887
+ITF2,Molise,29,Females,1705
+ITF2,Molise,30,Total,3561
+ITF2,Molise,30,Males,1898
+ITF2,Molise,30,Females,1663
+ITF2,Molise,31,Total,3461
+ITF2,Molise,31,Males,1834
+ITF2,Molise,31,Females,1627
+ITF2,Molise,32,Total,3591
+ITF2,Molise,32,Males,1855
+ITF2,Molise,32,Females,1736
+ITF2,Molise,33,Total,3590
+ITF2,Molise,33,Males,1861
+ITF2,Molise,33,Females,1729
+ITF2,Molise,34,Total,3584
+ITF2,Molise,34,Males,1878
+ITF2,Molise,34,Females,1706
+ITF2,Molise,35,Total,3684
+ITF2,Molise,35,Males,1875
+ITF2,Molise,35,Females,1809
+ITF2,Molise,36,Total,3720
+ITF2,Molise,36,Males,1909
+ITF2,Molise,36,Females,1811
+ITF2,Molise,37,Total,3667
+ITF2,Molise,37,Males,1867
+ITF2,Molise,37,Females,1800
+ITF2,Molise,38,Total,3867
+ITF2,Molise,38,Males,1962
+ITF2,Molise,38,Females,1905
+ITF2,Molise,39,Total,3924
+ITF2,Molise,39,Males,1971
+ITF2,Molise,39,Females,1953
+ITF2,Molise,40,Total,4001
+ITF2,Molise,40,Males,2016
+ITF2,Molise,40,Females,1985
+ITF2,Molise,41,Total,4111
+ITF2,Molise,41,Males,2183
+ITF2,Molise,41,Females,1928
+ITF2,Molise,42,Total,4369
+ITF2,Molise,42,Males,2235
+ITF2,Molise,42,Females,2134
+ITF2,Molise,43,Total,4535
+ITF2,Molise,43,Males,2293
+ITF2,Molise,43,Females,2242
+ITF2,Molise,44,Total,4381
+ITF2,Molise,44,Males,2180
+ITF2,Molise,44,Females,2201
+ITF2,Molise,45,Total,4485
+ITF2,Molise,45,Males,2231
+ITF2,Molise,45,Females,2254
+ITF2,Molise,46,Total,4454
+ITF2,Molise,46,Males,2230
+ITF2,Molise,46,Females,2224
+ITF2,Molise,47,Total,4473
+ITF2,Molise,47,Males,2238
+ITF2,Molise,47,Females,2235
+ITF2,Molise,48,Total,4707
+ITF2,Molise,48,Males,2319
+ITF2,Molise,48,Females,2388
+ITF2,Molise,49,Total,4748
+ITF2,Molise,49,Males,2355
+ITF2,Molise,49,Females,2393
+ITF2,Molise,50,Total,4870
+ITF2,Molise,50,Males,2385
+ITF2,Molise,50,Females,2485
+ITF2,Molise,51,Total,4910
+ITF2,Molise,51,Males,2389
+ITF2,Molise,51,Females,2521
+ITF2,Molise,52,Total,4878
+ITF2,Molise,52,Males,2418
+ITF2,Molise,52,Females,2460
+ITF2,Molise,53,Total,5047
+ITF2,Molise,53,Males,2541
+ITF2,Molise,53,Females,2506
+ITF2,Molise,54,Total,4724
+ITF2,Molise,54,Males,2399
+ITF2,Molise,54,Females,2325
+ITF2,Molise,55,Total,4596
+ITF2,Molise,55,Males,2269
+ITF2,Molise,55,Females,2327
+ITF2,Molise,56,Total,4592
+ITF2,Molise,56,Males,2327
+ITF2,Molise,56,Females,2265
+ITF2,Molise,57,Total,4645
+ITF2,Molise,57,Males,2290
+ITF2,Molise,57,Females,2355
+ITF2,Molise,58,Total,4492
+ITF2,Molise,58,Males,2191
+ITF2,Molise,58,Females,2301
+ITF2,Molise,59,Total,4242
+ITF2,Molise,59,Males,2020
+ITF2,Molise,59,Females,2222
+ITF2,Molise,60,Total,4248
+ITF2,Molise,60,Males,2108
+ITF2,Molise,60,Females,2140
+ITF2,Molise,61,Total,4239
+ITF2,Molise,61,Males,2136
+ITF2,Molise,61,Females,2103
+ITF2,Molise,62,Total,4184
+ITF2,Molise,62,Males,2073
+ITF2,Molise,62,Females,2111
+ITF2,Molise,63,Total,4198
+ITF2,Molise,63,Males,2030
+ITF2,Molise,63,Females,2168
+ITF2,Molise,64,Total,3842
+ITF2,Molise,64,Males,1889
+ITF2,Molise,64,Females,1953
+ITF2,Molise,65,Total,3972
+ITF2,Molise,65,Males,1925
+ITF2,Molise,65,Females,2047
+ITF2,Molise,66,Total,3665
+ITF2,Molise,66,Males,1788
+ITF2,Molise,66,Females,1877
+ITF2,Molise,67,Total,3960
+ITF2,Molise,67,Males,1956
+ITF2,Molise,67,Females,2004
+ITF2,Molise,68,Total,4123
+ITF2,Molise,68,Males,2033
+ITF2,Molise,68,Females,2090
+ITF2,Molise,69,Total,4001
+ITF2,Molise,69,Males,1960
+ITF2,Molise,69,Females,2041
+ITF2,Molise,70,Total,3794
+ITF2,Molise,70,Males,1835
+ITF2,Molise,70,Females,1959
+ITF2,Molise,71,Total,3517
+ITF2,Molise,71,Males,1756
+ITF2,Molise,71,Females,1761
+ITF2,Molise,72,Total,2728
+ITF2,Molise,72,Males,1312
+ITF2,Molise,72,Females,1416
+ITF2,Molise,73,Total,2669
+ITF2,Molise,73,Males,1249
+ITF2,Molise,73,Females,1420
+ITF2,Molise,74,Total,2501
+ITF2,Molise,74,Males,1177
+ITF2,Molise,74,Females,1324
+ITF2,Molise,75,Total,2419
+ITF2,Molise,75,Males,1149
+ITF2,Molise,75,Females,1270
+ITF2,Molise,76,Total,2632
+ITF2,Molise,76,Males,1182
+ITF2,Molise,76,Females,1450
+ITF2,Molise,77,Total,2988
+ITF2,Molise,77,Males,1317
+ITF2,Molise,77,Females,1671
+ITF2,Molise,78,Total,3118
+ITF2,Molise,78,Males,1344
+ITF2,Molise,78,Females,1774
+ITF2,Molise,79,Total,2668
+ITF2,Molise,79,Males,1199
+ITF2,Molise,79,Females,1469
+ITF2,Molise,80,Total,2630
+ITF2,Molise,80,Males,1115
+ITF2,Molise,80,Females,1515
+ITF2,Molise,81,Total,2617
+ITF2,Molise,81,Males,1064
+ITF2,Molise,81,Females,1553
+ITF2,Molise,82,Total,2486
+ITF2,Molise,82,Males,1004
+ITF2,Molise,82,Females,1482
+ITF2,Molise,83,Total,2446
+ITF2,Molise,83,Males,1008
+ITF2,Molise,83,Females,1438
+ITF2,Molise,84,Total,2262
+ITF2,Molise,84,Males,873
+ITF2,Molise,84,Females,1389
+ITF2,Molise,85,Total,1967
+ITF2,Molise,85,Males,740
+ITF2,Molise,85,Females,1227
+ITF2,Molise,86,Total,1813
+ITF2,Molise,86,Males,678
+ITF2,Molise,86,Females,1135
+ITF2,Molise,87,Total,1823
+ITF2,Molise,87,Males,618
+ITF2,Molise,87,Females,1205
+ITF2,Molise,88,Total,1477
+ITF2,Molise,88,Males,515
+ITF2,Molise,88,Females,962
+ITF2,Molise,89,Total,1220
+ITF2,Molise,89,Males,390
+ITF2,Molise,89,Females,830
+ITF2,Molise,90,Total,1144
+ITF2,Molise,90,Males,353
+ITF2,Molise,90,Females,791
+ITF2,Molise,91,Total,914
+ITF2,Molise,91,Males,258
+ITF2,Molise,91,Females,656
+ITF2,Molise,92,Total,684
+ITF2,Molise,92,Males,190
+ITF2,Molise,92,Females,494
+ITF2,Molise,93,Total,571
+ITF2,Molise,93,Males,155
+ITF2,Molise,93,Females,416
+ITF2,Molise,94,Total,447
+ITF2,Molise,94,Males,112
+ITF2,Molise,94,Females,335
+ITF2,Molise,95,Total,364
+ITF2,Molise,95,Males,100
+ITF2,Molise,95,Females,264
+ITF2,Molise,96,Total,281
+ITF2,Molise,96,Males,75
+ITF2,Molise,96,Females,206
+ITF2,Molise,97,Total,195
+ITF2,Molise,97,Males,52
+ITF2,Molise,97,Females,143
+ITF2,Molise,98,Total,81
+ITF2,Molise,98,Males,18
+ITF2,Molise,98,Females,63
+ITF2,Molise,99,Total,50
+ITF2,Molise,99,Males,12
+ITF2,Molise,99,Females,38
+ITF2,Molise,100 and over,Total,112
+ITF2,Molise,100 and over,Males,27
+ITF2,Molise,100 and over,Females,85
+ITF3,Campania,0,Total,49592
+ITF3,Campania,0,Males,25360
+ITF3,Campania,0,Females,24232
+ITF3,Campania,1,Total,49726
+ITF3,Campania,1,Males,25549
+ITF3,Campania,1,Females,24177
+ITF3,Campania,2,Total,50330
+ITF3,Campania,2,Males,25826
+ITF3,Campania,2,Females,24504
+ITF3,Campania,3,Total,50997
+ITF3,Campania,3,Males,26356
+ITF3,Campania,3,Females,24641
+ITF3,Campania,4,Total,52078
+ITF3,Campania,4,Males,26579
+ITF3,Campania,4,Females,25499
+ITF3,Campania,5,Total,54429
+ITF3,Campania,5,Males,28121
+ITF3,Campania,5,Females,26308
+ITF3,Campania,6,Total,55539
+ITF3,Campania,6,Males,28628
+ITF3,Campania,6,Females,26911
+ITF3,Campania,7,Total,57222
+ITF3,Campania,7,Males,29648
+ITF3,Campania,7,Females,27574
+ITF3,Campania,8,Total,58849
+ITF3,Campania,8,Males,30135
+ITF3,Campania,8,Females,28714
+ITF3,Campania,9,Total,59534
+ITF3,Campania,9,Males,30419
+ITF3,Campania,9,Females,29115
+ITF3,Campania,10,Total,60722
+ITF3,Campania,10,Males,31041
+ITF3,Campania,10,Females,29681
+ITF3,Campania,11,Total,61085
+ITF3,Campania,11,Males,31578
+ITF3,Campania,11,Females,29507
+ITF3,Campania,12,Total,61653
+ITF3,Campania,12,Males,31719
+ITF3,Campania,12,Females,29934
+ITF3,Campania,13,Total,63788
+ITF3,Campania,13,Males,32848
+ITF3,Campania,13,Females,30940
+ITF3,Campania,14,Total,64500
+ITF3,Campania,14,Males,32932
+ITF3,Campania,14,Females,31568
+ITF3,Campania,15,Total,63952
+ITF3,Campania,15,Males,32782
+ITF3,Campania,15,Females,31170
+ITF3,Campania,16,Total,65506
+ITF3,Campania,16,Males,33838
+ITF3,Campania,16,Females,31668
+ITF3,Campania,17,Total,66833
+ITF3,Campania,17,Males,34478
+ITF3,Campania,17,Females,32355
+ITF3,Campania,18,Total,67494
+ITF3,Campania,18,Males,35039
+ITF3,Campania,18,Females,32455
+ITF3,Campania,19,Total,68425
+ITF3,Campania,19,Males,35911
+ITF3,Campania,19,Females,32514
+ITF3,Campania,20,Total,68370
+ITF3,Campania,20,Males,35775
+ITF3,Campania,20,Females,32595
+ITF3,Campania,21,Total,69233
+ITF3,Campania,21,Males,36035
+ITF3,Campania,21,Females,33198
+ITF3,Campania,22,Total,69528
+ITF3,Campania,22,Males,35634
+ITF3,Campania,22,Females,33894
+ITF3,Campania,23,Total,70706
+ITF3,Campania,23,Males,36412
+ITF3,Campania,23,Females,34294
+ITF3,Campania,24,Total,72189
+ITF3,Campania,24,Males,36881
+ITF3,Campania,24,Females,35308
+ITF3,Campania,25,Total,75502
+ITF3,Campania,25,Males,38525
+ITF3,Campania,25,Females,36977
+ITF3,Campania,26,Total,74536
+ITF3,Campania,26,Males,37870
+ITF3,Campania,26,Females,36666
+ITF3,Campania,27,Total,74070
+ITF3,Campania,27,Males,37600
+ITF3,Campania,27,Females,36470
+ITF3,Campania,28,Total,73428
+ITF3,Campania,28,Males,37119
+ITF3,Campania,28,Females,36309
+ITF3,Campania,29,Total,74070
+ITF3,Campania,29,Males,37260
+ITF3,Campania,29,Females,36810
+ITF3,Campania,30,Total,71361
+ITF3,Campania,30,Males,36200
+ITF3,Campania,30,Females,35161
+ITF3,Campania,31,Total,70469
+ITF3,Campania,31,Males,35566
+ITF3,Campania,31,Females,34903
+ITF3,Campania,32,Total,71860
+ITF3,Campania,32,Males,36534
+ITF3,Campania,32,Females,35326
+ITF3,Campania,33,Total,72586
+ITF3,Campania,33,Males,36295
+ITF3,Campania,33,Females,36291
+ITF3,Campania,34,Total,72922
+ITF3,Campania,34,Males,36515
+ITF3,Campania,34,Females,36407
+ITF3,Campania,35,Total,74443
+ITF3,Campania,35,Males,37526
+ITF3,Campania,35,Females,36917
+ITF3,Campania,36,Total,73575
+ITF3,Campania,36,Males,36644
+ITF3,Campania,36,Females,36931
+ITF3,Campania,37,Total,74246
+ITF3,Campania,37,Males,37153
+ITF3,Campania,37,Females,37093
+ITF3,Campania,38,Total,75994
+ITF3,Campania,38,Males,37788
+ITF3,Campania,38,Females,38206
+ITF3,Campania,39,Total,78100
+ITF3,Campania,39,Males,38674
+ITF3,Campania,39,Females,39426
+ITF3,Campania,40,Total,79600
+ITF3,Campania,40,Males,39436
+ITF3,Campania,40,Females,40164
+ITF3,Campania,41,Total,82616
+ITF3,Campania,41,Males,40897
+ITF3,Campania,41,Females,41719
+ITF3,Campania,42,Total,85419
+ITF3,Campania,42,Males,42441
+ITF3,Campania,42,Females,42978
+ITF3,Campania,43,Total,88469
+ITF3,Campania,43,Males,43436
+ITF3,Campania,43,Females,45033
+ITF3,Campania,44,Total,87115
+ITF3,Campania,44,Males,42528
+ITF3,Campania,44,Females,44587
+ITF3,Campania,45,Total,87623
+ITF3,Campania,45,Males,42770
+ITF3,Campania,45,Females,44853
+ITF3,Campania,46,Total,88193
+ITF3,Campania,46,Males,42734
+ITF3,Campania,46,Females,45459
+ITF3,Campania,47,Total,86766
+ITF3,Campania,47,Males,42029
+ITF3,Campania,47,Females,44737
+ITF3,Campania,48,Total,89123
+ITF3,Campania,48,Males,43436
+ITF3,Campania,48,Females,45687
+ITF3,Campania,49,Total,89104
+ITF3,Campania,49,Males,43177
+ITF3,Campania,49,Females,45927
+ITF3,Campania,50,Total,90080
+ITF3,Campania,50,Males,43552
+ITF3,Campania,50,Females,46528
+ITF3,Campania,51,Total,90743
+ITF3,Campania,51,Males,43956
+ITF3,Campania,51,Females,46787
+ITF3,Campania,52,Total,90577
+ITF3,Campania,52,Males,43987
+ITF3,Campania,52,Females,46590
+ITF3,Campania,53,Total,92527
+ITF3,Campania,53,Males,44827
+ITF3,Campania,53,Females,47700
+ITF3,Campania,54,Total,86805
+ITF3,Campania,54,Males,41713
+ITF3,Campania,54,Females,45092
+ITF3,Campania,55,Total,84760
+ITF3,Campania,55,Males,40566
+ITF3,Campania,55,Females,44194
+ITF3,Campania,56,Total,82887
+ITF3,Campania,56,Males,39731
+ITF3,Campania,56,Females,43156
+ITF3,Campania,57,Total,79350
+ITF3,Campania,57,Males,37916
+ITF3,Campania,57,Females,41434
+ITF3,Campania,58,Total,78137
+ITF3,Campania,58,Males,37581
+ITF3,Campania,58,Females,40556
+ITF3,Campania,59,Total,74105
+ITF3,Campania,59,Males,35525
+ITF3,Campania,59,Females,38580
+ITF3,Campania,60,Total,73063
+ITF3,Campania,60,Males,35079
+ITF3,Campania,60,Females,37984
+ITF3,Campania,61,Total,69679
+ITF3,Campania,61,Males,33258
+ITF3,Campania,61,Females,36421
+ITF3,Campania,62,Total,70444
+ITF3,Campania,62,Males,34033
+ITF3,Campania,62,Females,36411
+ITF3,Campania,63,Total,69415
+ITF3,Campania,63,Males,33136
+ITF3,Campania,63,Females,36279
+ITF3,Campania,64,Total,63579
+ITF3,Campania,64,Males,30588
+ITF3,Campania,64,Females,32991
+ITF3,Campania,65,Total,61487
+ITF3,Campania,65,Males,29553
+ITF3,Campania,65,Females,31934
+ITF3,Campania,66,Total,61383
+ITF3,Campania,66,Males,29613
+ITF3,Campania,66,Females,31770
+ITF3,Campania,67,Total,62313
+ITF3,Campania,67,Males,29875
+ITF3,Campania,67,Females,32438
+ITF3,Campania,68,Total,62149
+ITF3,Campania,68,Males,29546
+ITF3,Campania,68,Females,32603
+ITF3,Campania,69,Total,63189
+ITF3,Campania,69,Males,30071
+ITF3,Campania,69,Females,33118
+ITF3,Campania,70,Total,60634
+ITF3,Campania,70,Males,28618
+ITF3,Campania,70,Females,32016
+ITF3,Campania,71,Total,60791
+ITF3,Campania,71,Males,28668
+ITF3,Campania,71,Females,32123
+ITF3,Campania,72,Total,49273
+ITF3,Campania,72,Males,23111
+ITF3,Campania,72,Females,26162
+ITF3,Campania,73,Total,41816
+ITF3,Campania,73,Males,19344
+ITF3,Campania,73,Females,22472
+ITF3,Campania,74,Total,44704
+ITF3,Campania,74,Males,20211
+ITF3,Campania,74,Females,24493
+ITF3,Campania,75,Total,42377
+ITF3,Campania,75,Males,19097
+ITF3,Campania,75,Females,23280
+ITF3,Campania,76,Total,40102
+ITF3,Campania,76,Males,17580
+ITF3,Campania,76,Females,22522
+ITF3,Campania,77,Total,43473
+ITF3,Campania,77,Males,19040
+ITF3,Campania,77,Females,24433
+ITF3,Campania,78,Total,41762
+ITF3,Campania,78,Males,17987
+ITF3,Campania,78,Females,23775
+ITF3,Campania,79,Total,37803
+ITF3,Campania,79,Males,15994
+ITF3,Campania,79,Females,21809
+ITF3,Campania,80,Total,35088
+ITF3,Campania,80,Males,14622
+ITF3,Campania,80,Females,20466
+ITF3,Campania,81,Total,31710
+ITF3,Campania,81,Males,12789
+ITF3,Campania,81,Females,18921
+ITF3,Campania,82,Total,30948
+ITF3,Campania,82,Males,12377
+ITF3,Campania,82,Females,18571
+ITF3,Campania,83,Total,27748
+ITF3,Campania,83,Males,10787
+ITF3,Campania,83,Females,16961
+ITF3,Campania,84,Total,26339
+ITF3,Campania,84,Males,9982
+ITF3,Campania,84,Females,16357
+ITF3,Campania,85,Total,23560
+ITF3,Campania,85,Males,8806
+ITF3,Campania,85,Females,14754
+ITF3,Campania,86,Total,21188
+ITF3,Campania,86,Males,7600
+ITF3,Campania,86,Females,13588
+ITF3,Campania,87,Total,19553
+ITF3,Campania,87,Males,6681
+ITF3,Campania,87,Females,12872
+ITF3,Campania,88,Total,15798
+ITF3,Campania,88,Males,5320
+ITF3,Campania,88,Females,10478
+ITF3,Campania,89,Total,13355
+ITF3,Campania,89,Males,4215
+ITF3,Campania,89,Females,9140
+ITF3,Campania,90,Total,11042
+ITF3,Campania,90,Males,3334
+ITF3,Campania,90,Females,7708
+ITF3,Campania,91,Total,8739
+ITF3,Campania,91,Males,2602
+ITF3,Campania,91,Females,6137
+ITF3,Campania,92,Total,7010
+ITF3,Campania,92,Males,1885
+ITF3,Campania,92,Females,5125
+ITF3,Campania,93,Total,5299
+ITF3,Campania,93,Males,1378
+ITF3,Campania,93,Females,3921
+ITF3,Campania,94,Total,4127
+ITF3,Campania,94,Males,1054
+ITF3,Campania,94,Females,3073
+ITF3,Campania,95,Total,2946
+ITF3,Campania,95,Males,735
+ITF3,Campania,95,Females,2211
+ITF3,Campania,96,Total,2166
+ITF3,Campania,96,Males,512
+ITF3,Campania,96,Females,1654
+ITF3,Campania,97,Total,1482
+ITF3,Campania,97,Males,337
+ITF3,Campania,97,Females,1145
+ITF3,Campania,98,Total,642
+ITF3,Campania,98,Males,147
+ITF3,Campania,98,Females,495
+ITF3,Campania,99,Total,382
+ITF3,Campania,99,Males,99
+ITF3,Campania,99,Females,283
+ITF3,Campania,100 and over,Total,890
+ITF3,Campania,100 and over,Males,182
+ITF3,Campania,100 and over,Females,708
+ITF4,Puglia,0,Total,29773
+ITF4,Puglia,0,Males,15194
+ITF4,Puglia,0,Females,14579
+ITF4,Puglia,1,Total,30643
+ITF4,Puglia,1,Males,15769
+ITF4,Puglia,1,Females,14874
+ITF4,Puglia,2,Total,31106
+ITF4,Puglia,2,Males,15903
+ITF4,Puglia,2,Females,15203
+ITF4,Puglia,3,Total,32403
+ITF4,Puglia,3,Males,16754
+ITF4,Puglia,3,Females,15649
+ITF4,Puglia,4,Total,33177
+ITF4,Puglia,4,Males,17055
+ITF4,Puglia,4,Females,16122
+ITF4,Puglia,5,Total,34305
+ITF4,Puglia,5,Males,17709
+ITF4,Puglia,5,Females,16596
+ITF4,Puglia,6,Total,35419
+ITF4,Puglia,6,Males,18208
+ITF4,Puglia,6,Females,17211
+ITF4,Puglia,7,Total,36603
+ITF4,Puglia,7,Males,18794
+ITF4,Puglia,7,Females,17809
+ITF4,Puglia,8,Total,37042
+ITF4,Puglia,8,Males,19101
+ITF4,Puglia,8,Females,17941
+ITF4,Puglia,9,Total,37547
+ITF4,Puglia,9,Males,19344
+ITF4,Puglia,9,Females,18203
+ITF4,Puglia,10,Total,38002
+ITF4,Puglia,10,Males,19624
+ITF4,Puglia,10,Females,18378
+ITF4,Puglia,11,Total,38206
+ITF4,Puglia,11,Males,19532
+ITF4,Puglia,11,Females,18674
+ITF4,Puglia,12,Total,38892
+ITF4,Puglia,12,Males,20076
+ITF4,Puglia,12,Females,18816
+ITF4,Puglia,13,Total,40302
+ITF4,Puglia,13,Males,20481
+ITF4,Puglia,13,Females,19821
+ITF4,Puglia,14,Total,40657
+ITF4,Puglia,14,Males,20759
+ITF4,Puglia,14,Females,19898
+ITF4,Puglia,15,Total,40787
+ITF4,Puglia,15,Males,20814
+ITF4,Puglia,15,Females,19973
+ITF4,Puglia,16,Total,41925
+ITF4,Puglia,16,Males,21606
+ITF4,Puglia,16,Females,20319
+ITF4,Puglia,17,Total,42888
+ITF4,Puglia,17,Males,21999
+ITF4,Puglia,17,Females,20889
+ITF4,Puglia,18,Total,43049
+ITF4,Puglia,18,Males,22519
+ITF4,Puglia,18,Females,20530
+ITF4,Puglia,19,Total,43513
+ITF4,Puglia,19,Males,22745
+ITF4,Puglia,19,Females,20768
+ITF4,Puglia,20,Total,43469
+ITF4,Puglia,20,Males,22666
+ITF4,Puglia,20,Females,20803
+ITF4,Puglia,21,Total,43818
+ITF4,Puglia,21,Males,22730
+ITF4,Puglia,21,Females,21088
+ITF4,Puglia,22,Total,43869
+ITF4,Puglia,22,Males,22760
+ITF4,Puglia,22,Females,21109
+ITF4,Puglia,23,Total,44474
+ITF4,Puglia,23,Males,22987
+ITF4,Puglia,23,Females,21487
+ITF4,Puglia,24,Total,45876
+ITF4,Puglia,24,Males,23689
+ITF4,Puglia,24,Females,22187
+ITF4,Puglia,25,Total,47930
+ITF4,Puglia,25,Males,24690
+ITF4,Puglia,25,Females,23240
+ITF4,Puglia,26,Total,47021
+ITF4,Puglia,26,Males,24160
+ITF4,Puglia,26,Females,22861
+ITF4,Puglia,27,Total,46837
+ITF4,Puglia,27,Males,24111
+ITF4,Puglia,27,Females,22726
+ITF4,Puglia,28,Total,46194
+ITF4,Puglia,28,Males,23279
+ITF4,Puglia,28,Females,22915
+ITF4,Puglia,29,Total,47092
+ITF4,Puglia,29,Males,23948
+ITF4,Puglia,29,Females,23144
+ITF4,Puglia,30,Total,45936
+ITF4,Puglia,30,Males,23236
+ITF4,Puglia,30,Females,22700
+ITF4,Puglia,31,Total,45258
+ITF4,Puglia,31,Males,23019
+ITF4,Puglia,31,Females,22239
+ITF4,Puglia,32,Total,45202
+ITF4,Puglia,32,Males,22624
+ITF4,Puglia,32,Females,22578
+ITF4,Puglia,33,Total,46571
+ITF4,Puglia,33,Males,23117
+ITF4,Puglia,33,Females,23454
+ITF4,Puglia,34,Total,46835
+ITF4,Puglia,34,Males,23524
+ITF4,Puglia,34,Females,23311
+ITF4,Puglia,35,Total,48213
+ITF4,Puglia,35,Males,23853
+ITF4,Puglia,35,Females,24360
+ITF4,Puglia,36,Total,48831
+ITF4,Puglia,36,Males,24040
+ITF4,Puglia,36,Females,24791
+ITF4,Puglia,37,Total,50291
+ITF4,Puglia,37,Males,25042
+ITF4,Puglia,37,Females,25249
+ITF4,Puglia,38,Total,52855
+ITF4,Puglia,38,Males,26320
+ITF4,Puglia,38,Females,26535
+ITF4,Puglia,39,Total,54556
+ITF4,Puglia,39,Males,27215
+ITF4,Puglia,39,Females,27341
+ITF4,Puglia,40,Total,56840
+ITF4,Puglia,40,Males,28379
+ITF4,Puglia,40,Females,28461
+ITF4,Puglia,41,Total,58986
+ITF4,Puglia,41,Males,29229
+ITF4,Puglia,41,Females,29757
+ITF4,Puglia,42,Total,60543
+ITF4,Puglia,42,Males,30093
+ITF4,Puglia,42,Females,30450
+ITF4,Puglia,43,Total,62189
+ITF4,Puglia,43,Males,30490
+ITF4,Puglia,43,Females,31699
+ITF4,Puglia,44,Total,60170
+ITF4,Puglia,44,Males,29564
+ITF4,Puglia,44,Females,30606
+ITF4,Puglia,45,Total,59328
+ITF4,Puglia,45,Males,29243
+ITF4,Puglia,45,Females,30085
+ITF4,Puglia,46,Total,60721
+ITF4,Puglia,46,Males,29912
+ITF4,Puglia,46,Females,30809
+ITF4,Puglia,47,Total,60336
+ITF4,Puglia,47,Males,29695
+ITF4,Puglia,47,Females,30641
+ITF4,Puglia,48,Total,61909
+ITF4,Puglia,48,Males,30026
+ITF4,Puglia,48,Females,31883
+ITF4,Puglia,49,Total,62135
+ITF4,Puglia,49,Males,30154
+ITF4,Puglia,49,Females,31981
+ITF4,Puglia,50,Total,62861
+ITF4,Puglia,50,Males,30671
+ITF4,Puglia,50,Females,32190
+ITF4,Puglia,51,Total,63513
+ITF4,Puglia,51,Males,30905
+ITF4,Puglia,51,Females,32608
+ITF4,Puglia,52,Total,63382
+ITF4,Puglia,52,Males,30670
+ITF4,Puglia,52,Females,32712
+ITF4,Puglia,53,Total,64230
+ITF4,Puglia,53,Males,31155
+ITF4,Puglia,53,Females,33075
+ITF4,Puglia,54,Total,59790
+ITF4,Puglia,54,Males,28804
+ITF4,Puglia,54,Females,30986
+ITF4,Puglia,55,Total,58196
+ITF4,Puglia,55,Males,28042
+ITF4,Puglia,55,Females,30154
+ITF4,Puglia,56,Total,57604
+ITF4,Puglia,56,Males,27760
+ITF4,Puglia,56,Females,29844
+ITF4,Puglia,57,Total,56094
+ITF4,Puglia,57,Males,27087
+ITF4,Puglia,57,Females,29007
+ITF4,Puglia,58,Total,54714
+ITF4,Puglia,58,Males,26187
+ITF4,Puglia,58,Females,28527
+ITF4,Puglia,59,Total,51779
+ITF4,Puglia,59,Males,24462
+ITF4,Puglia,59,Females,27317
+ITF4,Puglia,60,Total,52478
+ITF4,Puglia,60,Males,25024
+ITF4,Puglia,60,Females,27454
+ITF4,Puglia,61,Total,51117
+ITF4,Puglia,61,Males,24324
+ITF4,Puglia,61,Females,26793
+ITF4,Puglia,62,Total,50492
+ITF4,Puglia,62,Males,24024
+ITF4,Puglia,62,Females,26468
+ITF4,Puglia,63,Total,49026
+ITF4,Puglia,63,Males,23478
+ITF4,Puglia,63,Females,25548
+ITF4,Puglia,64,Total,47368
+ITF4,Puglia,64,Males,22568
+ITF4,Puglia,64,Females,24800
+ITF4,Puglia,65,Total,45451
+ITF4,Puglia,65,Males,21632
+ITF4,Puglia,65,Females,23819
+ITF4,Puglia,66,Total,46906
+ITF4,Puglia,66,Males,22368
+ITF4,Puglia,66,Females,24538
+ITF4,Puglia,67,Total,48285
+ITF4,Puglia,67,Males,23033
+ITF4,Puglia,67,Females,25252
+ITF4,Puglia,68,Total,48082
+ITF4,Puglia,68,Males,22957
+ITF4,Puglia,68,Females,25125
+ITF4,Puglia,69,Total,50716
+ITF4,Puglia,69,Males,23969
+ITF4,Puglia,69,Females,26747
+ITF4,Puglia,70,Total,47465
+ITF4,Puglia,70,Males,22437
+ITF4,Puglia,70,Females,25028
+ITF4,Puglia,71,Total,46634
+ITF4,Puglia,71,Males,21762
+ITF4,Puglia,71,Females,24872
+ITF4,Puglia,72,Total,39187
+ITF4,Puglia,72,Males,18439
+ITF4,Puglia,72,Females,20748
+ITF4,Puglia,73,Total,35221
+ITF4,Puglia,73,Males,16274
+ITF4,Puglia,73,Females,18947
+ITF4,Puglia,74,Total,34870
+ITF4,Puglia,74,Males,16062
+ITF4,Puglia,74,Females,18808
+ITF4,Puglia,75,Total,35361
+ITF4,Puglia,75,Males,16188
+ITF4,Puglia,75,Females,19173
+ITF4,Puglia,76,Total,33204
+ITF4,Puglia,76,Males,15113
+ITF4,Puglia,76,Females,18091
+ITF4,Puglia,77,Total,35619
+ITF4,Puglia,77,Males,16044
+ITF4,Puglia,77,Females,19575
+ITF4,Puglia,78,Total,34649
+ITF4,Puglia,78,Males,15281
+ITF4,Puglia,78,Females,19368
+ITF4,Puglia,79,Total,32220
+ITF4,Puglia,79,Males,13981
+ITF4,Puglia,79,Females,18239
+ITF4,Puglia,80,Total,29930
+ITF4,Puglia,80,Males,12751
+ITF4,Puglia,80,Females,17179
+ITF4,Puglia,81,Total,27003
+ITF4,Puglia,81,Males,11333
+ITF4,Puglia,81,Females,15670
+ITF4,Puglia,82,Total,26288
+ITF4,Puglia,82,Males,10921
+ITF4,Puglia,82,Females,15367
+ITF4,Puglia,83,Total,24609
+ITF4,Puglia,83,Males,9896
+ITF4,Puglia,83,Females,14713
+ITF4,Puglia,84,Total,22292
+ITF4,Puglia,84,Males,8822
+ITF4,Puglia,84,Females,13470
+ITF4,Puglia,85,Total,20121
+ITF4,Puglia,85,Males,7736
+ITF4,Puglia,85,Females,12385
+ITF4,Puglia,86,Total,18426
+ITF4,Puglia,86,Males,6975
+ITF4,Puglia,86,Females,11451
+ITF4,Puglia,87,Total,17239
+ITF4,Puglia,87,Males,6289
+ITF4,Puglia,87,Females,10950
+ITF4,Puglia,88,Total,13980
+ITF4,Puglia,88,Males,4922
+ITF4,Puglia,88,Females,9058
+ITF4,Puglia,89,Total,12002
+ITF4,Puglia,89,Males,4049
+ITF4,Puglia,89,Females,7953
+ITF4,Puglia,90,Total,10298
+ITF4,Puglia,90,Males,3353
+ITF4,Puglia,90,Females,6945
+ITF4,Puglia,91,Total,8077
+ITF4,Puglia,91,Males,2512
+ITF4,Puglia,91,Females,5565
+ITF4,Puglia,92,Total,6365
+ITF4,Puglia,92,Males,1928
+ITF4,Puglia,92,Females,4437
+ITF4,Puglia,93,Total,4870
+ITF4,Puglia,93,Males,1460
+ITF4,Puglia,93,Females,3410
+ITF4,Puglia,94,Total,4002
+ITF4,Puglia,94,Males,1106
+ITF4,Puglia,94,Females,2896
+ITF4,Puglia,95,Total,2889
+ITF4,Puglia,95,Males,795
+ITF4,Puglia,95,Females,2094
+ITF4,Puglia,96,Total,2028
+ITF4,Puglia,96,Males,508
+ITF4,Puglia,96,Females,1520
+ITF4,Puglia,97,Total,1502
+ITF4,Puglia,97,Males,347
+ITF4,Puglia,97,Females,1155
+ITF4,Puglia,98,Total,711
+ITF4,Puglia,98,Males,161
+ITF4,Puglia,98,Females,550
+ITF4,Puglia,99,Total,421
+ITF4,Puglia,99,Males,102
+ITF4,Puglia,99,Females,319
+ITF4,Puglia,100 and over,Total,875
+ITF4,Puglia,100 and over,Males,172
+ITF4,Puglia,100 and over,Females,703
+ITF5,Basilicata,0,Total,3938
+ITF5,Basilicata,0,Males,2072
+ITF5,Basilicata,0,Females,1866
+ITF5,Basilicata,1,Total,3986
+ITF5,Basilicata,1,Males,2036
+ITF5,Basilicata,1,Females,1950
+ITF5,Basilicata,2,Total,4042
+ITF5,Basilicata,2,Males,2070
+ITF5,Basilicata,2,Females,1972
+ITF5,Basilicata,3,Total,4034
+ITF5,Basilicata,3,Males,2033
+ITF5,Basilicata,3,Females,2001
+ITF5,Basilicata,4,Total,4053
+ITF5,Basilicata,4,Males,2112
+ITF5,Basilicata,4,Females,1941
+ITF5,Basilicata,5,Total,4460
+ITF5,Basilicata,5,Males,2335
+ITF5,Basilicata,5,Females,2125
+ITF5,Basilicata,6,Total,4373
+ITF5,Basilicata,6,Males,2259
+ITF5,Basilicata,6,Females,2114
+ITF5,Basilicata,7,Total,4521
+ITF5,Basilicata,7,Males,2310
+ITF5,Basilicata,7,Females,2211
+ITF5,Basilicata,8,Total,4710
+ITF5,Basilicata,8,Males,2453
+ITF5,Basilicata,8,Females,2257
+ITF5,Basilicata,9,Total,4855
+ITF5,Basilicata,9,Males,2526
+ITF5,Basilicata,9,Females,2329
+ITF5,Basilicata,10,Total,4819
+ITF5,Basilicata,10,Males,2517
+ITF5,Basilicata,10,Females,2302
+ITF5,Basilicata,11,Total,4961
+ITF5,Basilicata,11,Males,2588
+ITF5,Basilicata,11,Females,2373
+ITF5,Basilicata,12,Total,4921
+ITF5,Basilicata,12,Males,2537
+ITF5,Basilicata,12,Females,2384
+ITF5,Basilicata,13,Total,5244
+ITF5,Basilicata,13,Males,2625
+ITF5,Basilicata,13,Females,2619
+ITF5,Basilicata,14,Total,5286
+ITF5,Basilicata,14,Males,2773
+ITF5,Basilicata,14,Females,2513
+ITF5,Basilicata,15,Total,5434
+ITF5,Basilicata,15,Males,2799
+ITF5,Basilicata,15,Females,2635
+ITF5,Basilicata,16,Total,5475
+ITF5,Basilicata,16,Males,2881
+ITF5,Basilicata,16,Females,2594
+ITF5,Basilicata,17,Total,5713
+ITF5,Basilicata,17,Males,3036
+ITF5,Basilicata,17,Females,2677
+ITF5,Basilicata,18,Total,5779
+ITF5,Basilicata,18,Males,3028
+ITF5,Basilicata,18,Females,2751
+ITF5,Basilicata,19,Total,5835
+ITF5,Basilicata,19,Males,3158
+ITF5,Basilicata,19,Females,2677
+ITF5,Basilicata,20,Total,5814
+ITF5,Basilicata,20,Males,3068
+ITF5,Basilicata,20,Females,2746
+ITF5,Basilicata,21,Total,5908
+ITF5,Basilicata,21,Males,3128
+ITF5,Basilicata,21,Females,2780
+ITF5,Basilicata,22,Total,5997
+ITF5,Basilicata,22,Males,3150
+ITF5,Basilicata,22,Females,2847
+ITF5,Basilicata,23,Total,6162
+ITF5,Basilicata,23,Males,3187
+ITF5,Basilicata,23,Females,2975
+ITF5,Basilicata,24,Total,6377
+ITF5,Basilicata,24,Males,3346
+ITF5,Basilicata,24,Females,3031
+ITF5,Basilicata,25,Total,6849
+ITF5,Basilicata,25,Males,3540
+ITF5,Basilicata,25,Females,3309
+ITF5,Basilicata,26,Total,6706
+ITF5,Basilicata,26,Males,3408
+ITF5,Basilicata,26,Females,3298
+ITF5,Basilicata,27,Total,6998
+ITF5,Basilicata,27,Males,3655
+ITF5,Basilicata,27,Females,3343
+ITF5,Basilicata,28,Total,6853
+ITF5,Basilicata,28,Males,3590
+ITF5,Basilicata,28,Females,3263
+ITF5,Basilicata,29,Total,6721
+ITF5,Basilicata,29,Males,3442
+ITF5,Basilicata,29,Females,3279
+ITF5,Basilicata,30,Total,6678
+ITF5,Basilicata,30,Males,3501
+ITF5,Basilicata,30,Females,3177
+ITF5,Basilicata,31,Total,6547
+ITF5,Basilicata,31,Males,3407
+ITF5,Basilicata,31,Females,3140
+ITF5,Basilicata,32,Total,6756
+ITF5,Basilicata,32,Males,3562
+ITF5,Basilicata,32,Females,3194
+ITF5,Basilicata,33,Total,6829
+ITF5,Basilicata,33,Males,3531
+ITF5,Basilicata,33,Females,3298
+ITF5,Basilicata,34,Total,6703
+ITF5,Basilicata,34,Males,3399
+ITF5,Basilicata,34,Females,3304
+ITF5,Basilicata,35,Total,6810
+ITF5,Basilicata,35,Males,3417
+ITF5,Basilicata,35,Females,3393
+ITF5,Basilicata,36,Total,6724
+ITF5,Basilicata,36,Males,3447
+ITF5,Basilicata,36,Females,3277
+ITF5,Basilicata,37,Total,6716
+ITF5,Basilicata,37,Males,3444
+ITF5,Basilicata,37,Females,3272
+ITF5,Basilicata,38,Total,6885
+ITF5,Basilicata,38,Males,3530
+ITF5,Basilicata,38,Females,3355
+ITF5,Basilicata,39,Total,7299
+ITF5,Basilicata,39,Males,3771
+ITF5,Basilicata,39,Females,3528
+ITF5,Basilicata,40,Total,7435
+ITF5,Basilicata,40,Males,3685
+ITF5,Basilicata,40,Females,3750
+ITF5,Basilicata,41,Total,7911
+ITF5,Basilicata,41,Males,4041
+ITF5,Basilicata,41,Females,3870
+ITF5,Basilicata,42,Total,8029
+ITF5,Basilicata,42,Males,3972
+ITF5,Basilicata,42,Females,4057
+ITF5,Basilicata,43,Total,8251
+ITF5,Basilicata,43,Males,4195
+ITF5,Basilicata,43,Females,4056
+ITF5,Basilicata,44,Total,8069
+ITF5,Basilicata,44,Males,4061
+ITF5,Basilicata,44,Females,4008
+ITF5,Basilicata,45,Total,8312
+ITF5,Basilicata,45,Males,4084
+ITF5,Basilicata,45,Females,4228
+ITF5,Basilicata,46,Total,8372
+ITF5,Basilicata,46,Males,4129
+ITF5,Basilicata,46,Females,4243
+ITF5,Basilicata,47,Total,8518
+ITF5,Basilicata,47,Males,4169
+ITF5,Basilicata,47,Females,4349
+ITF5,Basilicata,48,Total,8766
+ITF5,Basilicata,48,Males,4416
+ITF5,Basilicata,48,Females,4350
+ITF5,Basilicata,49,Total,8796
+ITF5,Basilicata,49,Males,4340
+ITF5,Basilicata,49,Females,4456
+ITF5,Basilicata,50,Total,9099
+ITF5,Basilicata,50,Males,4480
+ITF5,Basilicata,50,Females,4619
+ITF5,Basilicata,51,Total,8829
+ITF5,Basilicata,51,Males,4279
+ITF5,Basilicata,51,Females,4550
+ITF5,Basilicata,52,Total,8979
+ITF5,Basilicata,52,Males,4430
+ITF5,Basilicata,52,Females,4549
+ITF5,Basilicata,53,Total,9290
+ITF5,Basilicata,53,Males,4564
+ITF5,Basilicata,53,Females,4726
+ITF5,Basilicata,54,Total,8781
+ITF5,Basilicata,54,Males,4355
+ITF5,Basilicata,54,Females,4426
+ITF5,Basilicata,55,Total,8887
+ITF5,Basilicata,55,Males,4426
+ITF5,Basilicata,55,Females,4461
+ITF5,Basilicata,56,Total,8636
+ITF5,Basilicata,56,Males,4207
+ITF5,Basilicata,56,Females,4429
+ITF5,Basilicata,57,Total,8471
+ITF5,Basilicata,57,Males,4095
+ITF5,Basilicata,57,Females,4376
+ITF5,Basilicata,58,Total,8145
+ITF5,Basilicata,58,Males,3974
+ITF5,Basilicata,58,Females,4171
+ITF5,Basilicata,59,Total,7868
+ITF5,Basilicata,59,Males,3886
+ITF5,Basilicata,59,Females,3982
+ITF5,Basilicata,60,Total,7702
+ITF5,Basilicata,60,Males,3621
+ITF5,Basilicata,60,Females,4081
+ITF5,Basilicata,61,Total,7829
+ITF5,Basilicata,61,Males,3792
+ITF5,Basilicata,61,Females,4037
+ITF5,Basilicata,62,Total,7493
+ITF5,Basilicata,62,Males,3754
+ITF5,Basilicata,62,Females,3739
+ITF5,Basilicata,63,Total,7510
+ITF5,Basilicata,63,Males,3630
+ITF5,Basilicata,63,Females,3880
+ITF5,Basilicata,64,Total,6939
+ITF5,Basilicata,64,Males,3427
+ITF5,Basilicata,64,Females,3512
+ITF5,Basilicata,65,Total,6833
+ITF5,Basilicata,65,Males,3308
+ITF5,Basilicata,65,Females,3525
+ITF5,Basilicata,66,Total,6676
+ITF5,Basilicata,66,Males,3222
+ITF5,Basilicata,66,Females,3454
+ITF5,Basilicata,67,Total,6919
+ITF5,Basilicata,67,Males,3418
+ITF5,Basilicata,67,Females,3501
+ITF5,Basilicata,68,Total,6993
+ITF5,Basilicata,68,Males,3458
+ITF5,Basilicata,68,Females,3535
+ITF5,Basilicata,69,Total,7159
+ITF5,Basilicata,69,Males,3404
+ITF5,Basilicata,69,Females,3755
+ITF5,Basilicata,70,Total,6453
+ITF5,Basilicata,70,Males,3045
+ITF5,Basilicata,70,Females,3408
+ITF5,Basilicata,71,Total,5876
+ITF5,Basilicata,71,Males,2789
+ITF5,Basilicata,71,Females,3087
+ITF5,Basilicata,72,Total,4592
+ITF5,Basilicata,72,Males,2094
+ITF5,Basilicata,72,Females,2498
+ITF5,Basilicata,73,Total,4469
+ITF5,Basilicata,73,Males,2125
+ITF5,Basilicata,73,Females,2344
+ITF5,Basilicata,74,Total,4417
+ITF5,Basilicata,74,Males,2064
+ITF5,Basilicata,74,Females,2353
+ITF5,Basilicata,75,Total,4411
+ITF5,Basilicata,75,Males,1996
+ITF5,Basilicata,75,Females,2415
+ITF5,Basilicata,76,Total,4374
+ITF5,Basilicata,76,Males,1955
+ITF5,Basilicata,76,Females,2419
+ITF5,Basilicata,77,Total,5126
+ITF5,Basilicata,77,Males,2359
+ITF5,Basilicata,77,Females,2767
+ITF5,Basilicata,78,Total,5255
+ITF5,Basilicata,78,Males,2327
+ITF5,Basilicata,78,Females,2928
+ITF5,Basilicata,79,Total,4924
+ITF5,Basilicata,79,Males,2127
+ITF5,Basilicata,79,Females,2797
+ITF5,Basilicata,80,Total,4870
+ITF5,Basilicata,80,Males,2065
+ITF5,Basilicata,80,Females,2805
+ITF5,Basilicata,81,Total,4493
+ITF5,Basilicata,81,Males,1901
+ITF5,Basilicata,81,Females,2592
+ITF5,Basilicata,82,Total,4306
+ITF5,Basilicata,82,Males,1755
+ITF5,Basilicata,82,Females,2551
+ITF5,Basilicata,83,Total,4224
+ITF5,Basilicata,83,Males,1697
+ITF5,Basilicata,83,Females,2527
+ITF5,Basilicata,84,Total,3888
+ITF5,Basilicata,84,Males,1540
+ITF5,Basilicata,84,Females,2348
+ITF5,Basilicata,85,Total,3357
+ITF5,Basilicata,85,Males,1332
+ITF5,Basilicata,85,Females,2025
+ITF5,Basilicata,86,Total,3048
+ITF5,Basilicata,86,Males,1167
+ITF5,Basilicata,86,Females,1881
+ITF5,Basilicata,87,Total,2960
+ITF5,Basilicata,87,Males,1092
+ITF5,Basilicata,87,Females,1868
+ITF5,Basilicata,88,Total,2401
+ITF5,Basilicata,88,Males,886
+ITF5,Basilicata,88,Females,1515
+ITF5,Basilicata,89,Total,2050
+ITF5,Basilicata,89,Males,760
+ITF5,Basilicata,89,Females,1290
+ITF5,Basilicata,90,Total,1750
+ITF5,Basilicata,90,Males,622
+ITF5,Basilicata,90,Females,1128
+ITF5,Basilicata,91,Total,1407
+ITF5,Basilicata,91,Males,441
+ITF5,Basilicata,91,Females,966
+ITF5,Basilicata,92,Total,1072
+ITF5,Basilicata,92,Males,344
+ITF5,Basilicata,92,Females,728
+ITF5,Basilicata,93,Total,810
+ITF5,Basilicata,93,Males,274
+ITF5,Basilicata,93,Females,536
+ITF5,Basilicata,94,Total,690
+ITF5,Basilicata,94,Males,223
+ITF5,Basilicata,94,Females,467
+ITF5,Basilicata,95,Total,533
+ITF5,Basilicata,95,Males,161
+ITF5,Basilicata,95,Females,372
+ITF5,Basilicata,96,Total,394
+ITF5,Basilicata,96,Males,92
+ITF5,Basilicata,96,Females,302
+ITF5,Basilicata,97,Total,245
+ITF5,Basilicata,97,Males,64
+ITF5,Basilicata,97,Females,181
+ITF5,Basilicata,98,Total,115
+ITF5,Basilicata,98,Males,24
+ITF5,Basilicata,98,Females,91
+ITF5,Basilicata,99,Total,58
+ITF5,Basilicata,99,Males,11
+ITF5,Basilicata,99,Females,47
+ITF5,Basilicata,100 and over,Total,132
+ITF5,Basilicata,100 and over,Males,30
+ITF5,Basilicata,100 and over,Females,102
+ITF6,Calabria,0,Total,15480
+ITF6,Calabria,0,Males,7940
+ITF6,Calabria,0,Females,7540
+ITF6,Calabria,1,Total,15817
+ITF6,Calabria,1,Males,8142
+ITF6,Calabria,1,Females,7675
+ITF6,Calabria,2,Total,16034
+ITF6,Calabria,2,Males,8229
+ITF6,Calabria,2,Females,7805
+ITF6,Calabria,3,Total,16144
+ITF6,Calabria,3,Males,8346
+ITF6,Calabria,3,Females,7798
+ITF6,Calabria,4,Total,16215
+ITF6,Calabria,4,Males,8257
+ITF6,Calabria,4,Females,7958
+ITF6,Calabria,5,Total,16612
+ITF6,Calabria,5,Males,8606
+ITF6,Calabria,5,Females,8006
+ITF6,Calabria,6,Total,16815
+ITF6,Calabria,6,Males,8678
+ITF6,Calabria,6,Females,8137
+ITF6,Calabria,7,Total,17359
+ITF6,Calabria,7,Males,8853
+ITF6,Calabria,7,Females,8506
+ITF6,Calabria,8,Total,17593
+ITF6,Calabria,8,Males,9112
+ITF6,Calabria,8,Females,8481
+ITF6,Calabria,9,Total,17722
+ITF6,Calabria,9,Males,8941
+ITF6,Calabria,9,Females,8781
+ITF6,Calabria,10,Total,17813
+ITF6,Calabria,10,Males,9192
+ITF6,Calabria,10,Females,8621
+ITF6,Calabria,11,Total,18312
+ITF6,Calabria,11,Males,9488
+ITF6,Calabria,11,Females,8824
+ITF6,Calabria,12,Total,18159
+ITF6,Calabria,12,Males,9371
+ITF6,Calabria,12,Females,8788
+ITF6,Calabria,13,Total,18686
+ITF6,Calabria,13,Males,9665
+ITF6,Calabria,13,Females,9021
+ITF6,Calabria,14,Total,18764
+ITF6,Calabria,14,Males,9671
+ITF6,Calabria,14,Females,9093
+ITF6,Calabria,15,Total,18534
+ITF6,Calabria,15,Males,9613
+ITF6,Calabria,15,Females,8921
+ITF6,Calabria,16,Total,19297
+ITF6,Calabria,16,Males,9856
+ITF6,Calabria,16,Females,9441
+ITF6,Calabria,17,Total,19976
+ITF6,Calabria,17,Males,10396
+ITF6,Calabria,17,Females,9580
+ITF6,Calabria,18,Total,20165
+ITF6,Calabria,18,Males,10637
+ITF6,Calabria,18,Females,9528
+ITF6,Calabria,19,Total,20710
+ITF6,Calabria,19,Males,10852
+ITF6,Calabria,19,Females,9858
+ITF6,Calabria,20,Total,20397
+ITF6,Calabria,20,Males,10670
+ITF6,Calabria,20,Females,9727
+ITF6,Calabria,21,Total,21041
+ITF6,Calabria,21,Males,11040
+ITF6,Calabria,21,Females,10001
+ITF6,Calabria,22,Total,21459
+ITF6,Calabria,22,Males,11098
+ITF6,Calabria,22,Females,10361
+ITF6,Calabria,23,Total,21990
+ITF6,Calabria,23,Males,11463
+ITF6,Calabria,23,Females,10527
+ITF6,Calabria,24,Total,23098
+ITF6,Calabria,24,Males,11954
+ITF6,Calabria,24,Females,11144
+ITF6,Calabria,25,Total,23907
+ITF6,Calabria,25,Males,12189
+ITF6,Calabria,25,Females,11718
+ITF6,Calabria,26,Total,23784
+ITF6,Calabria,26,Males,12220
+ITF6,Calabria,26,Females,11564
+ITF6,Calabria,27,Total,24322
+ITF6,Calabria,27,Males,12549
+ITF6,Calabria,27,Females,11773
+ITF6,Calabria,28,Total,24653
+ITF6,Calabria,28,Males,12683
+ITF6,Calabria,28,Females,11970
+ITF6,Calabria,29,Total,25027
+ITF6,Calabria,29,Males,12807
+ITF6,Calabria,29,Females,12220
+ITF6,Calabria,30,Total,24519
+ITF6,Calabria,30,Males,12440
+ITF6,Calabria,30,Females,12079
+ITF6,Calabria,31,Total,24150
+ITF6,Calabria,31,Males,12324
+ITF6,Calabria,31,Females,11826
+ITF6,Calabria,32,Total,24123
+ITF6,Calabria,32,Males,12258
+ITF6,Calabria,32,Females,11865
+ITF6,Calabria,33,Total,24281
+ITF6,Calabria,33,Males,12532
+ITF6,Calabria,33,Females,11749
+ITF6,Calabria,34,Total,24103
+ITF6,Calabria,34,Males,12298
+ITF6,Calabria,34,Females,11805
+ITF6,Calabria,35,Total,24552
+ITF6,Calabria,35,Males,12343
+ITF6,Calabria,35,Females,12209
+ITF6,Calabria,36,Total,24409
+ITF6,Calabria,36,Males,12357
+ITF6,Calabria,36,Females,12052
+ITF6,Calabria,37,Total,24659
+ITF6,Calabria,37,Males,12457
+ITF6,Calabria,37,Females,12202
+ITF6,Calabria,38,Total,25178
+ITF6,Calabria,38,Males,12614
+ITF6,Calabria,38,Females,12564
+ITF6,Calabria,39,Total,25410
+ITF6,Calabria,39,Males,12819
+ITF6,Calabria,39,Females,12591
+ITF6,Calabria,40,Total,26071
+ITF6,Calabria,40,Males,12878
+ITF6,Calabria,40,Females,13193
+ITF6,Calabria,41,Total,27345
+ITF6,Calabria,41,Males,13603
+ITF6,Calabria,41,Females,13742
+ITF6,Calabria,42,Total,27122
+ITF6,Calabria,42,Males,13497
+ITF6,Calabria,42,Females,13625
+ITF6,Calabria,43,Total,27410
+ITF6,Calabria,43,Males,13469
+ITF6,Calabria,43,Females,13941
+ITF6,Calabria,44,Total,27371
+ITF6,Calabria,44,Males,13538
+ITF6,Calabria,44,Females,13833
+ITF6,Calabria,45,Total,27578
+ITF6,Calabria,45,Males,13422
+ITF6,Calabria,45,Females,14156
+ITF6,Calabria,46,Total,27979
+ITF6,Calabria,46,Males,13580
+ITF6,Calabria,46,Females,14399
+ITF6,Calabria,47,Total,27723
+ITF6,Calabria,47,Males,13469
+ITF6,Calabria,47,Females,14254
+ITF6,Calabria,48,Total,29245
+ITF6,Calabria,48,Males,14030
+ITF6,Calabria,48,Females,15215
+ITF6,Calabria,49,Total,28878
+ITF6,Calabria,49,Males,14000
+ITF6,Calabria,49,Females,14878
+ITF6,Calabria,50,Total,29144
+ITF6,Calabria,50,Males,14074
+ITF6,Calabria,50,Females,15070
+ITF6,Calabria,51,Total,29232
+ITF6,Calabria,51,Males,14050
+ITF6,Calabria,51,Females,15182
+ITF6,Calabria,52,Total,29000
+ITF6,Calabria,52,Males,14025
+ITF6,Calabria,52,Females,14975
+ITF6,Calabria,53,Total,30296
+ITF6,Calabria,53,Males,14647
+ITF6,Calabria,53,Females,15649
+ITF6,Calabria,54,Total,28632
+ITF6,Calabria,54,Males,13879
+ITF6,Calabria,54,Females,14753
+ITF6,Calabria,55,Total,28493
+ITF6,Calabria,55,Males,13725
+ITF6,Calabria,55,Females,14768
+ITF6,Calabria,56,Total,28252
+ITF6,Calabria,56,Males,13636
+ITF6,Calabria,56,Females,14616
+ITF6,Calabria,57,Total,27872
+ITF6,Calabria,57,Males,13499
+ITF6,Calabria,57,Females,14373
+ITF6,Calabria,58,Total,27180
+ITF6,Calabria,58,Males,13194
+ITF6,Calabria,58,Females,13986
+ITF6,Calabria,59,Total,25305
+ITF6,Calabria,59,Males,12283
+ITF6,Calabria,59,Females,13022
+ITF6,Calabria,60,Total,25969
+ITF6,Calabria,60,Males,12771
+ITF6,Calabria,60,Females,13198
+ITF6,Calabria,61,Total,25148
+ITF6,Calabria,61,Males,12238
+ITF6,Calabria,61,Females,12910
+ITF6,Calabria,62,Total,25001
+ITF6,Calabria,62,Males,12181
+ITF6,Calabria,62,Females,12820
+ITF6,Calabria,63,Total,24847
+ITF6,Calabria,63,Males,12176
+ITF6,Calabria,63,Females,12671
+ITF6,Calabria,64,Total,23359
+ITF6,Calabria,64,Males,11462
+ITF6,Calabria,64,Females,11897
+ITF6,Calabria,65,Total,22170
+ITF6,Calabria,65,Males,10848
+ITF6,Calabria,65,Females,11322
+ITF6,Calabria,66,Total,22563
+ITF6,Calabria,66,Males,10944
+ITF6,Calabria,66,Females,11619
+ITF6,Calabria,67,Total,22980
+ITF6,Calabria,67,Males,11187
+ITF6,Calabria,67,Females,11793
+ITF6,Calabria,68,Total,22960
+ITF6,Calabria,68,Males,11176
+ITF6,Calabria,68,Females,11784
+ITF6,Calabria,69,Total,23103
+ITF6,Calabria,69,Males,11113
+ITF6,Calabria,69,Females,11990
+ITF6,Calabria,70,Total,22418
+ITF6,Calabria,70,Males,10841
+ITF6,Calabria,70,Females,11577
+ITF6,Calabria,71,Total,20470
+ITF6,Calabria,71,Males,9815
+ITF6,Calabria,71,Females,10655
+ITF6,Calabria,72,Total,15846
+ITF6,Calabria,72,Males,7583
+ITF6,Calabria,72,Females,8263
+ITF6,Calabria,73,Total,15802
+ITF6,Calabria,73,Males,7619
+ITF6,Calabria,73,Females,8183
+ITF6,Calabria,74,Total,15617
+ITF6,Calabria,74,Males,7321
+ITF6,Calabria,74,Females,8296
+ITF6,Calabria,75,Total,15285
+ITF6,Calabria,75,Males,7162
+ITF6,Calabria,75,Females,8123
+ITF6,Calabria,76,Total,14638
+ITF6,Calabria,76,Males,6832
+ITF6,Calabria,76,Females,7806
+ITF6,Calabria,77,Total,16615
+ITF6,Calabria,77,Males,7623
+ITF6,Calabria,77,Females,8992
+ITF6,Calabria,78,Total,16050
+ITF6,Calabria,78,Males,7280
+ITF6,Calabria,78,Females,8770
+ITF6,Calabria,79,Total,14911
+ITF6,Calabria,79,Males,6534
+ITF6,Calabria,79,Females,8377
+ITF6,Calabria,80,Total,14024
+ITF6,Calabria,80,Males,6187
+ITF6,Calabria,80,Females,7837
+ITF6,Calabria,81,Total,13399
+ITF6,Calabria,81,Males,5669
+ITF6,Calabria,81,Females,7730
+ITF6,Calabria,82,Total,13111
+ITF6,Calabria,82,Males,5482
+ITF6,Calabria,82,Females,7629
+ITF6,Calabria,83,Total,12206
+ITF6,Calabria,83,Males,5035
+ITF6,Calabria,83,Females,7171
+ITF6,Calabria,84,Total,11701
+ITF6,Calabria,84,Males,4757
+ITF6,Calabria,84,Females,6944
+ITF6,Calabria,85,Total,10422
+ITF6,Calabria,85,Males,4021
+ITF6,Calabria,85,Females,6401
+ITF6,Calabria,86,Total,9308
+ITF6,Calabria,86,Males,3515
+ITF6,Calabria,86,Females,5793
+ITF6,Calabria,87,Total,8469
+ITF6,Calabria,87,Males,3136
+ITF6,Calabria,87,Females,5333
+ITF6,Calabria,88,Total,7069
+ITF6,Calabria,88,Males,2543
+ITF6,Calabria,88,Females,4526
+ITF6,Calabria,89,Total,5958
+ITF6,Calabria,89,Males,2090
+ITF6,Calabria,89,Females,3868
+ITF6,Calabria,90,Total,4947
+ITF6,Calabria,90,Males,1630
+ITF6,Calabria,90,Females,3317
+ITF6,Calabria,91,Total,4146
+ITF6,Calabria,91,Males,1339
+ITF6,Calabria,91,Females,2807
+ITF6,Calabria,92,Total,3322
+ITF6,Calabria,92,Males,1026
+ITF6,Calabria,92,Females,2296
+ITF6,Calabria,93,Total,2642
+ITF6,Calabria,93,Males,775
+ITF6,Calabria,93,Females,1867
+ITF6,Calabria,94,Total,2039
+ITF6,Calabria,94,Males,581
+ITF6,Calabria,94,Females,1458
+ITF6,Calabria,95,Total,1419
+ITF6,Calabria,95,Males,400
+ITF6,Calabria,95,Females,1019
+ITF6,Calabria,96,Total,1053
+ITF6,Calabria,96,Males,267
+ITF6,Calabria,96,Females,786
+ITF6,Calabria,97,Total,820
+ITF6,Calabria,97,Males,218
+ITF6,Calabria,97,Females,602
+ITF6,Calabria,98,Total,370
+ITF6,Calabria,98,Males,77
+ITF6,Calabria,98,Females,293
+ITF6,Calabria,99,Total,223
+ITF6,Calabria,99,Males,45
+ITF6,Calabria,99,Females,178
+ITF6,Calabria,100 and over,Total,460
+ITF6,Calabria,100 and over,Males,113
+ITF6,Calabria,100 and over,Females,347
+ITG1,Sicilia,0,Total,40859
+ITG1,Sicilia,0,Males,21092
+ITG1,Sicilia,0,Females,19767
+ITG1,Sicilia,1,Total,40853
+ITG1,Sicilia,1,Males,20873
+ITG1,Sicilia,1,Females,19980
+ITG1,Sicilia,2,Total,42282
+ITG1,Sicilia,2,Males,21721
+ITG1,Sicilia,2,Females,20561
+ITG1,Sicilia,3,Total,43375
+ITG1,Sicilia,3,Males,22288
+ITG1,Sicilia,3,Females,21087
+ITG1,Sicilia,4,Total,42785
+ITG1,Sicilia,4,Males,21904
+ITG1,Sicilia,4,Females,20881
+ITG1,Sicilia,5,Total,44911
+ITG1,Sicilia,5,Males,22914
+ITG1,Sicilia,5,Females,21997
+ITG1,Sicilia,6,Total,44964
+ITG1,Sicilia,6,Males,22961
+ITG1,Sicilia,6,Females,22003
+ITG1,Sicilia,7,Total,46374
+ITG1,Sicilia,7,Males,23655
+ITG1,Sicilia,7,Females,22719
+ITG1,Sicilia,8,Total,47445
+ITG1,Sicilia,8,Males,24390
+ITG1,Sicilia,8,Females,23055
+ITG1,Sicilia,9,Total,48376
+ITG1,Sicilia,9,Males,24830
+ITG1,Sicilia,9,Females,23546
+ITG1,Sicilia,10,Total,47961
+ITG1,Sicilia,10,Males,24563
+ITG1,Sicilia,10,Females,23398
+ITG1,Sicilia,11,Total,48873
+ITG1,Sicilia,11,Males,25413
+ITG1,Sicilia,11,Females,23460
+ITG1,Sicilia,12,Total,49844
+ITG1,Sicilia,12,Males,25688
+ITG1,Sicilia,12,Females,24156
+ITG1,Sicilia,13,Total,50775
+ITG1,Sicilia,13,Males,26115
+ITG1,Sicilia,13,Females,24660
+ITG1,Sicilia,14,Total,50690
+ITG1,Sicilia,14,Males,25991
+ITG1,Sicilia,14,Females,24699
+ITG1,Sicilia,15,Total,50732
+ITG1,Sicilia,15,Males,25985
+ITG1,Sicilia,15,Females,24747
+ITG1,Sicilia,16,Total,52010
+ITG1,Sicilia,16,Males,26944
+ITG1,Sicilia,16,Females,25066
+ITG1,Sicilia,17,Total,53512
+ITG1,Sicilia,17,Males,28240
+ITG1,Sicilia,17,Females,25272
+ITG1,Sicilia,18,Total,55091
+ITG1,Sicilia,18,Males,29001
+ITG1,Sicilia,18,Females,26090
+ITG1,Sicilia,19,Total,54603
+ITG1,Sicilia,19,Males,28696
+ITG1,Sicilia,19,Females,25907
+ITG1,Sicilia,20,Total,54601
+ITG1,Sicilia,20,Males,28521
+ITG1,Sicilia,20,Females,26080
+ITG1,Sicilia,21,Total,55095
+ITG1,Sicilia,21,Males,28567
+ITG1,Sicilia,21,Females,26528
+ITG1,Sicilia,22,Total,55747
+ITG1,Sicilia,22,Males,28737
+ITG1,Sicilia,22,Females,27010
+ITG1,Sicilia,23,Total,57266
+ITG1,Sicilia,23,Males,29571
+ITG1,Sicilia,23,Females,27695
+ITG1,Sicilia,24,Total,59503
+ITG1,Sicilia,24,Males,30390
+ITG1,Sicilia,24,Females,29113
+ITG1,Sicilia,25,Total,61912
+ITG1,Sicilia,25,Males,31692
+ITG1,Sicilia,25,Females,30220
+ITG1,Sicilia,26,Total,60912
+ITG1,Sicilia,26,Males,31083
+ITG1,Sicilia,26,Females,29829
+ITG1,Sicilia,27,Total,61376
+ITG1,Sicilia,27,Males,31305
+ITG1,Sicilia,27,Females,30071
+ITG1,Sicilia,28,Total,61036
+ITG1,Sicilia,28,Males,31036
+ITG1,Sicilia,28,Females,30000
+ITG1,Sicilia,29,Total,61077
+ITG1,Sicilia,29,Males,31148
+ITG1,Sicilia,29,Females,29929
+ITG1,Sicilia,30,Total,59195
+ITG1,Sicilia,30,Males,30055
+ITG1,Sicilia,30,Females,29140
+ITG1,Sicilia,31,Total,58912
+ITG1,Sicilia,31,Males,29973
+ITG1,Sicilia,31,Females,28939
+ITG1,Sicilia,32,Total,59132
+ITG1,Sicilia,32,Males,29810
+ITG1,Sicilia,32,Females,29322
+ITG1,Sicilia,33,Total,60244
+ITG1,Sicilia,33,Males,30235
+ITG1,Sicilia,33,Females,30009
+ITG1,Sicilia,34,Total,59424
+ITG1,Sicilia,34,Males,29912
+ITG1,Sicilia,34,Females,29512
+ITG1,Sicilia,35,Total,61123
+ITG1,Sicilia,35,Males,30624
+ITG1,Sicilia,35,Females,30499
+ITG1,Sicilia,36,Total,61047
+ITG1,Sicilia,36,Males,30455
+ITG1,Sicilia,36,Females,30592
+ITG1,Sicilia,37,Total,63061
+ITG1,Sicilia,37,Males,31453
+ITG1,Sicilia,37,Females,31608
+ITG1,Sicilia,38,Total,63813
+ITG1,Sicilia,38,Males,31670
+ITG1,Sicilia,38,Females,32143
+ITG1,Sicilia,39,Total,65633
+ITG1,Sicilia,39,Males,32708
+ITG1,Sicilia,39,Females,32925
+ITG1,Sicilia,40,Total,66522
+ITG1,Sicilia,40,Males,32923
+ITG1,Sicilia,40,Females,33599
+ITG1,Sicilia,41,Total,69780
+ITG1,Sicilia,41,Males,34632
+ITG1,Sicilia,41,Females,35148
+ITG1,Sicilia,42,Total,71465
+ITG1,Sicilia,42,Males,35461
+ITG1,Sicilia,42,Females,36004
+ITG1,Sicilia,43,Total,73897
+ITG1,Sicilia,43,Males,36397
+ITG1,Sicilia,43,Females,37500
+ITG1,Sicilia,44,Total,72498
+ITG1,Sicilia,44,Males,35607
+ITG1,Sicilia,44,Females,36891
+ITG1,Sicilia,45,Total,72784
+ITG1,Sicilia,45,Males,35721
+ITG1,Sicilia,45,Females,37063
+ITG1,Sicilia,46,Total,74344
+ITG1,Sicilia,46,Males,36176
+ITG1,Sicilia,46,Females,38168
+ITG1,Sicilia,47,Total,73662
+ITG1,Sicilia,47,Males,35658
+ITG1,Sicilia,47,Females,38004
+ITG1,Sicilia,48,Total,75950
+ITG1,Sicilia,48,Males,37095
+ITG1,Sicilia,48,Females,38855
+ITG1,Sicilia,49,Total,75002
+ITG1,Sicilia,49,Males,36453
+ITG1,Sicilia,49,Females,38549
+ITG1,Sicilia,50,Total,75727
+ITG1,Sicilia,50,Males,36835
+ITG1,Sicilia,50,Females,38892
+ITG1,Sicilia,51,Total,75227
+ITG1,Sicilia,51,Males,36435
+ITG1,Sicilia,51,Females,38792
+ITG1,Sicilia,52,Total,74585
+ITG1,Sicilia,52,Males,35980
+ITG1,Sicilia,52,Females,38605
+ITG1,Sicilia,53,Total,76605
+ITG1,Sicilia,53,Males,37191
+ITG1,Sicilia,53,Females,39414
+ITG1,Sicilia,54,Total,72451
+ITG1,Sicilia,54,Males,35019
+ITG1,Sicilia,54,Females,37432
+ITG1,Sicilia,55,Total,72174
+ITG1,Sicilia,55,Males,34630
+ITG1,Sicilia,55,Females,37544
+ITG1,Sicilia,56,Total,70345
+ITG1,Sicilia,56,Males,33712
+ITG1,Sicilia,56,Females,36633
+ITG1,Sicilia,57,Total,70498
+ITG1,Sicilia,57,Males,33595
+ITG1,Sicilia,57,Females,36903
+ITG1,Sicilia,58,Total,66846
+ITG1,Sicilia,58,Males,32103
+ITG1,Sicilia,58,Females,34743
+ITG1,Sicilia,59,Total,64651
+ITG1,Sicilia,59,Males,30874
+ITG1,Sicilia,59,Females,33777
+ITG1,Sicilia,60,Total,64562
+ITG1,Sicilia,60,Males,30759
+ITG1,Sicilia,60,Females,33803
+ITG1,Sicilia,61,Total,62961
+ITG1,Sicilia,61,Males,29919
+ITG1,Sicilia,61,Females,33042
+ITG1,Sicilia,62,Total,62650
+ITG1,Sicilia,62,Males,30124
+ITG1,Sicilia,62,Females,32526
+ITG1,Sicilia,63,Total,62035
+ITG1,Sicilia,63,Males,29357
+ITG1,Sicilia,63,Females,32678
+ITG1,Sicilia,64,Total,57120
+ITG1,Sicilia,64,Males,27155
+ITG1,Sicilia,64,Females,29965
+ITG1,Sicilia,65,Total,56381
+ITG1,Sicilia,65,Males,26686
+ITG1,Sicilia,65,Females,29695
+ITG1,Sicilia,66,Total,55816
+ITG1,Sicilia,66,Males,26661
+ITG1,Sicilia,66,Females,29155
+ITG1,Sicilia,67,Total,57460
+ITG1,Sicilia,67,Males,27303
+ITG1,Sicilia,67,Females,30157
+ITG1,Sicilia,68,Total,57579
+ITG1,Sicilia,68,Males,27183
+ITG1,Sicilia,68,Females,30396
+ITG1,Sicilia,69,Total,59247
+ITG1,Sicilia,69,Males,27994
+ITG1,Sicilia,69,Females,31253
+ITG1,Sicilia,70,Total,58201
+ITG1,Sicilia,70,Males,27368
+ITG1,Sicilia,70,Females,30833
+ITG1,Sicilia,71,Total,53044
+ITG1,Sicilia,71,Males,24700
+ITG1,Sicilia,71,Females,28344
+ITG1,Sicilia,72,Total,44557
+ITG1,Sicilia,72,Males,20816
+ITG1,Sicilia,72,Females,23741
+ITG1,Sicilia,73,Total,42494
+ITG1,Sicilia,73,Males,19577
+ITG1,Sicilia,73,Females,22917
+ITG1,Sicilia,74,Total,40231
+ITG1,Sicilia,74,Males,18386
+ITG1,Sicilia,74,Females,21845
+ITG1,Sicilia,75,Total,39432
+ITG1,Sicilia,75,Males,17719
+ITG1,Sicilia,75,Females,21713
+ITG1,Sicilia,76,Total,39112
+ITG1,Sicilia,76,Males,17392
+ITG1,Sicilia,76,Females,21720
+ITG1,Sicilia,77,Total,43842
+ITG1,Sicilia,77,Males,19243
+ITG1,Sicilia,77,Females,24599
+ITG1,Sicilia,78,Total,41560
+ITG1,Sicilia,78,Males,18196
+ITG1,Sicilia,78,Females,23364
+ITG1,Sicilia,79,Total,38893
+ITG1,Sicilia,79,Males,16709
+ITG1,Sicilia,79,Females,22184
+ITG1,Sicilia,80,Total,34261
+ITG1,Sicilia,80,Males,14602
+ITG1,Sicilia,80,Females,19659
+ITG1,Sicilia,81,Total,32608
+ITG1,Sicilia,81,Males,13709
+ITG1,Sicilia,81,Females,18899
+ITG1,Sicilia,82,Total,31367
+ITG1,Sicilia,82,Males,12885
+ITG1,Sicilia,82,Females,18482
+ITG1,Sicilia,83,Total,30127
+ITG1,Sicilia,83,Males,12210
+ITG1,Sicilia,83,Females,17917
+ITG1,Sicilia,84,Total,27879
+ITG1,Sicilia,84,Males,11141
+ITG1,Sicilia,84,Females,16738
+ITG1,Sicilia,85,Total,24097
+ITG1,Sicilia,85,Males,9231
+ITG1,Sicilia,85,Females,14866
+ITG1,Sicilia,86,Total,22088
+ITG1,Sicilia,86,Males,8207
+ITG1,Sicilia,86,Females,13881
+ITG1,Sicilia,87,Total,21212
+ITG1,Sicilia,87,Males,7685
+ITG1,Sicilia,87,Females,13527
+ITG1,Sicilia,88,Total,16645
+ITG1,Sicilia,88,Males,5797
+ITG1,Sicilia,88,Females,10848
+ITG1,Sicilia,89,Total,14271
+ITG1,Sicilia,89,Males,4865
+ITG1,Sicilia,89,Females,9406
+ITG1,Sicilia,90,Total,11437
+ITG1,Sicilia,90,Males,3849
+ITG1,Sicilia,90,Females,7588
+ITG1,Sicilia,91,Total,9754
+ITG1,Sicilia,91,Males,3051
+ITG1,Sicilia,91,Females,6703
+ITG1,Sicilia,92,Total,7562
+ITG1,Sicilia,92,Males,2281
+ITG1,Sicilia,92,Females,5281
+ITG1,Sicilia,93,Total,6214
+ITG1,Sicilia,93,Males,1754
+ITG1,Sicilia,93,Females,4460
+ITG1,Sicilia,94,Total,4440
+ITG1,Sicilia,94,Males,1275
+ITG1,Sicilia,94,Females,3165
+ITG1,Sicilia,95,Total,3411
+ITG1,Sicilia,95,Males,890
+ITG1,Sicilia,95,Females,2521
+ITG1,Sicilia,96,Total,2294
+ITG1,Sicilia,96,Males,605
+ITG1,Sicilia,96,Females,1689
+ITG1,Sicilia,97,Total,1665
+ITG1,Sicilia,97,Males,390
+ITG1,Sicilia,97,Females,1275
+ITG1,Sicilia,98,Total,815
+ITG1,Sicilia,98,Males,188
+ITG1,Sicilia,98,Females,627
+ITG1,Sicilia,99,Total,453
+ITG1,Sicilia,99,Males,103
+ITG1,Sicilia,99,Females,350
+ITG1,Sicilia,100 and over,Total,974
+ITG1,Sicilia,100 and over,Males,200
+ITG1,Sicilia,100 and over,Females,774
+ITG2,Sardegna,0,Total,10039
+ITG2,Sardegna,0,Males,5197
+ITG2,Sardegna,0,Females,4842
+ITG2,Sardegna,1,Total,10440
+ITG2,Sardegna,1,Males,5412
+ITG2,Sardegna,1,Females,5028
+ITG2,Sardegna,2,Total,10983
+ITG2,Sardegna,2,Males,5723
+ITG2,Sardegna,2,Females,5260
+ITG2,Sardegna,3,Total,11252
+ITG2,Sardegna,3,Males,5815
+ITG2,Sardegna,3,Females,5437
+ITG2,Sardegna,4,Total,11622
+ITG2,Sardegna,4,Males,5988
+ITG2,Sardegna,4,Females,5634
+ITG2,Sardegna,5,Total,12233
+ITG2,Sardegna,5,Males,6337
+ITG2,Sardegna,5,Females,5896
+ITG2,Sardegna,6,Total,12793
+ITG2,Sardegna,6,Males,6581
+ITG2,Sardegna,6,Females,6212
+ITG2,Sardegna,7,Total,13253
+ITG2,Sardegna,7,Males,6862
+ITG2,Sardegna,7,Females,6391
+ITG2,Sardegna,8,Total,13268
+ITG2,Sardegna,8,Males,6925
+ITG2,Sardegna,8,Females,6343
+ITG2,Sardegna,9,Total,13315
+ITG2,Sardegna,9,Males,6855
+ITG2,Sardegna,9,Females,6460
+ITG2,Sardegna,10,Total,13291
+ITG2,Sardegna,10,Males,6804
+ITG2,Sardegna,10,Females,6487
+ITG2,Sardegna,11,Total,13404
+ITG2,Sardegna,11,Males,6975
+ITG2,Sardegna,11,Females,6429
+ITG2,Sardegna,12,Total,13475
+ITG2,Sardegna,12,Males,7015
+ITG2,Sardegna,12,Females,6460
+ITG2,Sardegna,13,Total,13259
+ITG2,Sardegna,13,Males,6884
+ITG2,Sardegna,13,Females,6375
+ITG2,Sardegna,14,Total,13758
+ITG2,Sardegna,14,Males,7114
+ITG2,Sardegna,14,Females,6644
+ITG2,Sardegna,15,Total,13502
+ITG2,Sardegna,15,Males,6911
+ITG2,Sardegna,15,Females,6591
+ITG2,Sardegna,16,Total,13826
+ITG2,Sardegna,16,Males,7087
+ITG2,Sardegna,16,Females,6739
+ITG2,Sardegna,17,Total,14331
+ITG2,Sardegna,17,Males,7488
+ITG2,Sardegna,17,Females,6843
+ITG2,Sardegna,18,Total,14476
+ITG2,Sardegna,18,Males,7796
+ITG2,Sardegna,18,Females,6680
+ITG2,Sardegna,19,Total,14200
+ITG2,Sardegna,19,Males,7654
+ITG2,Sardegna,19,Females,6546
+ITG2,Sardegna,20,Total,14351
+ITG2,Sardegna,20,Males,7665
+ITG2,Sardegna,20,Females,6686
+ITG2,Sardegna,21,Total,14627
+ITG2,Sardegna,21,Males,7842
+ITG2,Sardegna,21,Females,6785
+ITG2,Sardegna,22,Total,15002
+ITG2,Sardegna,22,Males,8034
+ITG2,Sardegna,22,Females,6968
+ITG2,Sardegna,23,Total,15236
+ITG2,Sardegna,23,Males,8042
+ITG2,Sardegna,23,Females,7194
+ITG2,Sardegna,24,Total,15842
+ITG2,Sardegna,24,Males,8217
+ITG2,Sardegna,24,Females,7625
+ITG2,Sardegna,25,Total,16453
+ITG2,Sardegna,25,Males,8504
+ITG2,Sardegna,25,Females,7949
+ITG2,Sardegna,26,Total,16906
+ITG2,Sardegna,26,Males,8847
+ITG2,Sardegna,26,Females,8059
+ITG2,Sardegna,27,Total,17507
+ITG2,Sardegna,27,Males,9024
+ITG2,Sardegna,27,Females,8483
+ITG2,Sardegna,28,Total,17282
+ITG2,Sardegna,28,Males,9001
+ITG2,Sardegna,28,Females,8281
+ITG2,Sardegna,29,Total,17589
+ITG2,Sardegna,29,Males,9091
+ITG2,Sardegna,29,Females,8498
+ITG2,Sardegna,30,Total,17684
+ITG2,Sardegna,30,Males,9095
+ITG2,Sardegna,30,Females,8589
+ITG2,Sardegna,31,Total,17758
+ITG2,Sardegna,31,Males,9067
+ITG2,Sardegna,31,Females,8691
+ITG2,Sardegna,32,Total,18409
+ITG2,Sardegna,32,Males,9444
+ITG2,Sardegna,32,Females,8965
+ITG2,Sardegna,33,Total,18715
+ITG2,Sardegna,33,Males,9672
+ITG2,Sardegna,33,Females,9043
+ITG2,Sardegna,34,Total,19202
+ITG2,Sardegna,34,Males,9722
+ITG2,Sardegna,34,Females,9480
+ITG2,Sardegna,35,Total,20163
+ITG2,Sardegna,35,Males,10318
+ITG2,Sardegna,35,Females,9845
+ITG2,Sardegna,36,Total,20229
+ITG2,Sardegna,36,Males,10208
+ITG2,Sardegna,36,Females,10021
+ITG2,Sardegna,37,Total,21003
+ITG2,Sardegna,37,Males,10796
+ITG2,Sardegna,37,Females,10207
+ITG2,Sardegna,38,Total,21172
+ITG2,Sardegna,38,Males,10659
+ITG2,Sardegna,38,Females,10513
+ITG2,Sardegna,39,Total,23173
+ITG2,Sardegna,39,Males,11844
+ITG2,Sardegna,39,Females,11329
+ITG2,Sardegna,40,Total,23582
+ITG2,Sardegna,40,Males,12094
+ITG2,Sardegna,40,Females,11488
+ITG2,Sardegna,41,Total,24622
+ITG2,Sardegna,41,Males,12443
+ITG2,Sardegna,41,Females,12179
+ITG2,Sardegna,42,Total,25789
+ITG2,Sardegna,42,Males,13029
+ITG2,Sardegna,42,Females,12760
+ITG2,Sardegna,43,Total,26928
+ITG2,Sardegna,43,Males,13809
+ITG2,Sardegna,43,Females,13119
+ITG2,Sardegna,44,Total,26958
+ITG2,Sardegna,44,Males,13710
+ITG2,Sardegna,44,Females,13248
+ITG2,Sardegna,45,Total,26646
+ITG2,Sardegna,45,Males,13464
+ITG2,Sardegna,45,Females,13182
+ITG2,Sardegna,46,Total,26656
+ITG2,Sardegna,46,Males,13176
+ITG2,Sardegna,46,Females,13480
+ITG2,Sardegna,47,Total,26230
+ITG2,Sardegna,47,Males,13220
+ITG2,Sardegna,47,Females,13010
+ITG2,Sardegna,48,Total,27206
+ITG2,Sardegna,48,Males,13579
+ITG2,Sardegna,48,Females,13627
+ITG2,Sardegna,49,Total,26459
+ITG2,Sardegna,49,Males,13021
+ITG2,Sardegna,49,Females,13438
+ITG2,Sardegna,50,Total,27303
+ITG2,Sardegna,50,Males,13601
+ITG2,Sardegna,50,Females,13702
+ITG2,Sardegna,51,Total,27537
+ITG2,Sardegna,51,Males,13614
+ITG2,Sardegna,51,Females,13923
+ITG2,Sardegna,52,Total,27449
+ITG2,Sardegna,52,Males,13660
+ITG2,Sardegna,52,Females,13789
+ITG2,Sardegna,53,Total,28033
+ITG2,Sardegna,53,Males,13883
+ITG2,Sardegna,53,Females,14150
+ITG2,Sardegna,54,Total,26830
+ITG2,Sardegna,54,Males,13087
+ITG2,Sardegna,54,Females,13743
+ITG2,Sardegna,55,Total,26071
+ITG2,Sardegna,55,Males,12767
+ITG2,Sardegna,55,Females,13304
+ITG2,Sardegna,56,Total,25606
+ITG2,Sardegna,56,Males,12428
+ITG2,Sardegna,56,Females,13178
+ITG2,Sardegna,57,Total,24871
+ITG2,Sardegna,57,Males,12276
+ITG2,Sardegna,57,Females,12595
+ITG2,Sardegna,58,Total,24260
+ITG2,Sardegna,58,Males,11890
+ITG2,Sardegna,58,Females,12370
+ITG2,Sardegna,59,Total,23898
+ITG2,Sardegna,59,Males,11670
+ITG2,Sardegna,59,Females,12228
+ITG2,Sardegna,60,Total,23874
+ITG2,Sardegna,60,Males,11568
+ITG2,Sardegna,60,Females,12306
+ITG2,Sardegna,61,Total,23330
+ITG2,Sardegna,61,Males,11325
+ITG2,Sardegna,61,Females,12005
+ITG2,Sardegna,62,Total,22630
+ITG2,Sardegna,62,Males,10992
+ITG2,Sardegna,62,Females,11638
+ITG2,Sardegna,63,Total,22925
+ITG2,Sardegna,63,Males,11181
+ITG2,Sardegna,63,Females,11744
+ITG2,Sardegna,64,Total,21799
+ITG2,Sardegna,64,Males,10654
+ITG2,Sardegna,64,Females,11145
+ITG2,Sardegna,65,Total,21441
+ITG2,Sardegna,65,Males,10376
+ITG2,Sardegna,65,Females,11065
+ITG2,Sardegna,66,Total,21055
+ITG2,Sardegna,66,Males,10134
+ITG2,Sardegna,66,Females,10921
+ITG2,Sardegna,67,Total,21162
+ITG2,Sardegna,67,Males,10279
+ITG2,Sardegna,67,Females,10883
+ITG2,Sardegna,68,Total,20452
+ITG2,Sardegna,68,Males,9945
+ITG2,Sardegna,68,Females,10507
+ITG2,Sardegna,69,Total,20755
+ITG2,Sardegna,69,Males,9932
+ITG2,Sardegna,69,Females,10823
+ITG2,Sardegna,70,Total,19835
+ITG2,Sardegna,70,Males,9507
+ITG2,Sardegna,70,Females,10328
+ITG2,Sardegna,71,Total,18487
+ITG2,Sardegna,71,Males,8961
+ITG2,Sardegna,71,Females,9526
+ITG2,Sardegna,72,Total,17247
+ITG2,Sardegna,72,Males,8143
+ITG2,Sardegna,72,Females,9104
+ITG2,Sardegna,73,Total,16780
+ITG2,Sardegna,73,Males,7799
+ITG2,Sardegna,73,Females,8981
+ITG2,Sardegna,74,Total,16074
+ITG2,Sardegna,74,Males,7233
+ITG2,Sardegna,74,Females,8841
+ITG2,Sardegna,75,Total,16322
+ITG2,Sardegna,75,Males,7400
+ITG2,Sardegna,75,Females,8922
+ITG2,Sardegna,76,Total,15009
+ITG2,Sardegna,76,Males,6685
+ITG2,Sardegna,76,Females,8324
+ITG2,Sardegna,77,Total,16374
+ITG2,Sardegna,77,Males,7211
+ITG2,Sardegna,77,Females,9163
+ITG2,Sardegna,78,Total,15173
+ITG2,Sardegna,78,Males,6757
+ITG2,Sardegna,78,Females,8416
+ITG2,Sardegna,79,Total,13496
+ITG2,Sardegna,79,Males,5780
+ITG2,Sardegna,79,Females,7716
+ITG2,Sardegna,80,Total,12327
+ITG2,Sardegna,80,Males,5205
+ITG2,Sardegna,80,Females,7122
+ITG2,Sardegna,81,Total,11753
+ITG2,Sardegna,81,Males,4925
+ITG2,Sardegna,81,Females,6828
+ITG2,Sardegna,82,Total,10468
+ITG2,Sardegna,82,Males,4157
+ITG2,Sardegna,82,Females,6311
+ITG2,Sardegna,83,Total,10497
+ITG2,Sardegna,83,Males,4247
+ITG2,Sardegna,83,Females,6250
+ITG2,Sardegna,84,Total,9742
+ITG2,Sardegna,84,Males,3850
+ITG2,Sardegna,84,Females,5892
+ITG2,Sardegna,85,Total,8593
+ITG2,Sardegna,85,Males,3262
+ITG2,Sardegna,85,Females,5331
+ITG2,Sardegna,86,Total,7608
+ITG2,Sardegna,86,Males,2888
+ITG2,Sardegna,86,Females,4720
+ITG2,Sardegna,87,Total,7405
+ITG2,Sardegna,87,Males,2695
+ITG2,Sardegna,87,Females,4710
+ITG2,Sardegna,88,Total,6175
+ITG2,Sardegna,88,Males,2087
+ITG2,Sardegna,88,Females,4088
+ITG2,Sardegna,89,Total,5395
+ITG2,Sardegna,89,Males,1775
+ITG2,Sardegna,89,Females,3620
+ITG2,Sardegna,90,Total,4321
+ITG2,Sardegna,90,Males,1365
+ITG2,Sardegna,90,Females,2956
+ITG2,Sardegna,91,Total,3740
+ITG2,Sardegna,91,Males,1159
+ITG2,Sardegna,91,Females,2581
+ITG2,Sardegna,92,Total,2743
+ITG2,Sardegna,92,Males,804
+ITG2,Sardegna,92,Females,1939
+ITG2,Sardegna,93,Total,2351
+ITG2,Sardegna,93,Males,635
+ITG2,Sardegna,93,Females,1716
+ITG2,Sardegna,94,Total,1772
+ITG2,Sardegna,94,Males,505
+ITG2,Sardegna,94,Females,1267
+ITG2,Sardegna,95,Total,1318
+ITG2,Sardegna,95,Males,369
+ITG2,Sardegna,95,Females,949
+ITG2,Sardegna,96,Total,900
+ITG2,Sardegna,96,Males,231
+ITG2,Sardegna,96,Females,669
+ITG2,Sardegna,97,Total,711
+ITG2,Sardegna,97,Males,172
+ITG2,Sardegna,97,Females,539
+ITG2,Sardegna,98,Total,426
+ITG2,Sardegna,98,Males,104
+ITG2,Sardegna,98,Females,322
+ITG2,Sardegna,99,Total,194
+ITG2,Sardegna,99,Males,43
+ITG2,Sardegna,99,Females,151
+ITG2,Sardegna,100 and over,Total,424
+ITG2,Sardegna,100 and over,Males,93
+ITG2,Sardegna,100 and over,Females,331
