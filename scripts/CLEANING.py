@@ -77,7 +77,9 @@ import pprint
 os.getcwd() # print this to get current working directory to check which is the correct path. In my working environmet for some reason i am in "blessedfruit"
 
 path = "data/srcDS/D4Pregnancy/"
-dir = os.listdir(path)
+dir = os.listdir(path) #it's a list with the name of the files in the dir
+
+print(dir)  
 
 for file in dir:
     if file[-4:] == ".csv":
