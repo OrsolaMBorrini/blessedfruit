@@ -61,7 +61,7 @@ h6 {
   background-repeat: no-repeat;
   transition: background 0.5s;
 }
- 
+
 .underlined--offset {
   background-position: 0 0.1em;
   box-shadow: inset 0 -0.5em 0 0 #f6f2e7;
@@ -156,7 +156,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -281,7 +281,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
@@ -775,7 +775,7 @@ section {
   border-radius: 0px;
 }
 
-/* Analyses boxes */ 
+/* Analyses boxes */
 .analysis-box {
   padding: 30px;
   position: relative;
@@ -1727,3 +1727,10 @@ section {
     width: 20em;
     padding: 1em;
 }
+
+
+/*--------------------------------------------------------------
+# Visualisations
+
+----------------------- Maps ---------------------------------------*/
+#map { height: 180px; }
