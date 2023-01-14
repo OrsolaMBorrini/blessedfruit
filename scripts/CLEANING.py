@@ -62,6 +62,58 @@ def replaceRcode(path,rename):
 replaceRcode(general_2017,"2017General_clean")
 replaceRcode(selected_2017,"2017Selected_clean")
 
+
+# ==== D2
+# merge all datasets to create a unique dataset with different region
+import os
+from pandas import *
+
+ID_name_dict = { "ITC1" : "Piemonte",
+                "ITC2" : "Valle d'Aosta / Vallée d'Aoste",
+                "ITC3" : "Liguria",
+                "ITC4" : "Lombardia",
+                "ITDA" : "Trentino Alto Adige / Südtirol",
+                "ITD3" : "Veneto",
+                "ITD4" : "Friuli-Venezia Giulia",
+                "ITD5" : "Emilia-Romagna",
+                "ITE1" : "Toscana",
+                "ITE2" : "Umbria",
+                "ITE3" : "Marche",
+                "ITE4" : "Lazio",
+                "ITF1" : "Abruzzo",
+                "ITF2" : "Molise",
+                "ITF3" : "Campania",
+                "ITF4" : "Puglia",
+                "ITF5" : "Basilicata",
+                "ITF6" : "Calabria",
+                "ITG1" : "Sicilia",
+                "ITG2" : "Sardegna"
+                }
+
+def concatRegionalDS(path):
+    dir = os.listdir(path) # creates a list with the files in the directory
+    dfList = [] # empty list for dataframes we are going to concatenate
+
+    for csv in dir:
+
+            if csv[-4:] == ".csv": #checking that file is actually a csv
+                region = csv[5:9] # save the region of each csv by region code
+                df = read_csv(path+csv, keep_default_na=False)
+                df["ITTER107"] = region # add a region serie to the dataframe
+                df["Region"] = ID_name_dict[region]
+                dfList.append(df)
+                
+    population2018 = concat(dfList)
+
+    population2018 = population2018[["ITTER107", "Region", "Age", "Total males", "Total females", "Total"]]
+    population2018.to_csv(path[:-1] + ".csv", index=False)
+
+    return True
+
+path = "../data/srcDS/Population/Selected/D1-D2Population2019/"
+print(path[:-1])
+concatRegionalDS(path)
+
 # ==== D3
 d3 = read_csv("data/srcDS/D3.csv")
 # Dropping the columns with data in NL for clarity (we can also drop the 'MISURA_AVQ' column, knowing that we are talking of thousands value)
@@ -99,7 +151,7 @@ for file in dir:
         csvName = str(file)
         pregnancy = read_csv(path+csvName, keep_default_na=False)
         pregnancy = pregnancy[["Territorio","Classe di età", "Value"]]
-        pregnancy.to_csv("data/srcDS/D5Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
+        pregnancy.to_csv("data/srcDS/D5Pregnancy/cleanedDS/cleaned" + csvName, index=False) #cleaned needs to be put in the front or it will invalidate file format
         
 print(pregnancy) 
 
