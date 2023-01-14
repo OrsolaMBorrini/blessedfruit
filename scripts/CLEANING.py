@@ -103,10 +103,11 @@ def concatRegionalDS(path):
                 df["Region"] = ID_name_dict[region]
                 dfList.append(df)
                 
-    population2018 = concat(dfList)
+    concatDF = concat(dfList)
 
-    population2018 = population2018[["ITTER107", "Region", "Age", "Total males", "Total females", "Total"]]
-    population2018.to_csv(path[:-1] + ".csv", index=False)
+    concatDF = concatDF[["ITTER107", "Region", "Age", "Total males", "Total females", "Total"]]
+    concatDF.rename(columns={"Total males": "Males_value", "Total females": "Females_value", "Total": "Population_value"}, inplace=True)    
+    concatDF.to_csv(path[:-1] + ".csv", index=False)
 
     return True
 
