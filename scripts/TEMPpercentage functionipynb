@@ -1,0 +1,190 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c:\\Users\\ghiot\\Documents\\GitHub\\blessedfruit\\scripts\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Females_value</th>\n",
+       "      <th>Total</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>18470</td>\n",
+       "      <td>8781.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>18438</td>\n",
+       "      <td>8781.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>18293</td>\n",
+       "      <td>8781.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>18838</td>\n",
+       "      <td>8781.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>18327</td>\n",
+       "      <td>8781.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>235</th>\n",
+       "      <td>6759</td>\n",
+       "      <td>2667.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>236</th>\n",
+       "      <td>6955</td>\n",
+       "      <td>2667.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>237</th>\n",
+       "      <td>7182</td>\n",
+       "      <td>2667.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>238</th>\n",
+       "      <td>7563</td>\n",
+       "      <td>2667.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>239</th>\n",
+       "      <td>75197</td>\n",
+       "      <td>2667.0</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>240 rows × 2 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "     Females_value   Total\n",
+       "0            18470  8781.0\n",
+       "1            18438  8781.0\n",
+       "2            18293  8781.0\n",
+       "3            18838  8781.0\n",
+       "4            18327  8781.0\n",
+       "..             ...     ...\n",
+       "235           6759  2667.0\n",
+       "236           6955  2667.0\n",
+       "237           7182  2667.0\n",
+       "238           7563  2667.0\n",
+       "239          75197  2667.0\n",
+       "\n",
+       "[240 rows x 2 columns]"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# function to transform thousand values in percentages\n",
+    "# WORKS ONLY FOR POP 2018 - 2019\n",
+    "import os\n",
+    "from pandas import *\n",
+    "import pprint\n",
+    "\n",
+    "print(os.getcwd())\n",
+    "\n",
+    "DStotal = read_csv(\"../data/cleanDS/Population2018Selected_clean.csv\", keep_default_na=False)\n",
+    "DSpartial = read_csv(\"../data/mashupDS/PregnancyDS.csv\", keep_default_na=False)\n",
+    "labelTotal = \"Females_value\"\n",
+    "labelPartial = \"Total\"\n",
+    "\n",
+    "#def percentages(DStotal, DSpartial, labelTotal, labelPartial):\n",
+    "mergedDF = merge(DStotal, DSpartial, left_on=\"Region\", right_on=\"Territorio\", how=\"left\")\n",
+    "mergedDF = mergedDF[[labelTotal, labelPartial]]\n",
+    "\n",
+    "percentageList = []\n",
+    "\n",
+    "for idx, row in mergedDF.iterrows():\n",
+    "    num = mergedDF.at[idx, labelPartial]\n",
+    "    den = mergedDF.at[idx, labelTotal]\n",
+    "\n",
+    "    percentage = (num*100)/den\n",
+    "    percentageList.append(percentage)\n",
+    "\n",
+    "# put list in a serie\n",
+    "# create final dataframe\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.4"
+  },
+  "orig_nbformat": 4,
+  "vscode": {
+   "interpreter": {
+    "hash": "26de051ba29f2982a8de78e945f0abaf191376122a1563185a90213a26c5da77"
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
