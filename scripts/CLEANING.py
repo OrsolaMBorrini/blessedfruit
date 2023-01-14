@@ -2,7 +2,12 @@
 
 from pandas import *
 
-#D4
+
+# D3
+
+
+
+# D4
 import os, sys 
 import pprint
 
@@ -17,7 +22,7 @@ for file in dir:
         pregnancy.to_csv("../data/srcDS/D4Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
         
         
-#DS5
+# DS5
 path = "../data/srcDS/D5Pregnancy/"
 dir = os.listdir(path)
 
@@ -29,7 +34,7 @@ for file in dir:
         pregnancy.to_csv("../data/srcDS/D5Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
         
 
-#DS6
+# DS6
 path = "../data/srcDS/D6Pregnancy/"
 dir = os.listdir(path)
 
