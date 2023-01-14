@@ -2,6 +2,10 @@
 
 from pandas import *
 
+# D1
+# Change regions code to ITTER107 code (istat standard)
+
+
 
 # D3
 
