@@ -39,7 +39,6 @@ def addPercentageColumn(yearlyDF):
     return yearlyDF
 
 def createYearlyDF(genPopList,rightDF):
-    final_DF = DataFrame()
     for item in genPopList:
         if item["Time"][0] == 2017:
             d3_2017 = rightDF.drop(rightDF[(rightDF.TIME == 2018) | (rightDF.TIME == 2019)].index)
