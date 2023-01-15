@@ -70,10 +70,181 @@ print(MD1_17)
 '''
 # -------------------------------------------------------------------------------------------------------------------------------
 
+# ==== MD2 === #
+
+# reading the datasets 
+
+live_births = read_csv("../data/srcDS/D4Pregnancy/cleanedDS/cleanedD4-2017-Pregnancy.csv", keep_default_na=False,
+            dtype= {
+                "RESIDENCE_TERR":"string",
+                "CITIZENSHIP_MOTHER": "string",
+                "MOTHER_AGE" :"string",
+                "OBS_VALUE" : "int64"
+            })
+miscarriages = read_csv("../data/srcDS/D5Pregnancy/cleanedDS/cleanedD5-2017-Pregnancy.csv", keep_default_na=False,
+             dtype= {
+                "Territorio":"string",
+                "Classe di età": "string",
+                "Value" : "int64"
+            })
+abortions = read_csv("../data/srcDS/D6Pregnancy/cleanedDS/cleanedD6-2017-Pregnancy.csv", keep_default_na=False,
+             dtype= {
+                "Territorio dell'evento":"string",
+                "Età e classe di età": "string",
+                "Value" : "int64"
+            })
+
+# aggregating age groups for LIVE BIRTHS
+
+live_births = live_births.query("MOTHER_AGE != 'Y25'") 
+live_births = live_births.query("RESIDENCE_TERR != 'ITD1'")
+live_births = live_births.query("RESIDENCE_TERR != 'ITD2'") # create a df without data for Y25
+live_births = live_births[["RESIDENCE_TERR", "OBS_VALUE"]] #take out the column with mother_age so I can sum all of the values per region
+live_births = live_births.groupby("RESIDENCE_TERR", as_index=False).sum()
 
 
+# create a dictionary to map every region ID with the Region's name
+ID_name_dict = { "ITC1" : "Piemonte",
+                "ITC2" : "Valle d'Aosta / Vallée d'Aoste",
+                "ITC3" : "Liguria",
+                "ITC4" : "Lombardia",
+                "ITDA" : "Trentino Alto Adige / Südtirol",
+                "ITD3" : "Veneto",
+                "ITD4" : "Friuli-Venezia Giulia",
+                "ITD5" : "Emilia-Romagna",
+                "ITE1" : "Toscana",
+                "ITE2" : "Umbria",
+                "ITE3" : "Marche",
+                "ITE4" : "Lazio",
+                "ITF1" : "Abruzzo",
+                "ITF2" : "Molise",
+                "ITF3" : "Campania",
+                "ITF4" : "Puglia",
+                "ITF5" : "Basilicata",
+                "ITF6" : "Calabria",
+                "ITG1" : "Sicilia",
+                "ITG2" : "Sardegna"
+                }
+i = 0
+# add NL Region name to dataset
+
+region_name = []
+
+for idx, row in live_births.iterrows():
+    region_name.append(ID_name_dict[live_births.at[idx, "RESIDENCE_TERR"]])
+
+live_births["Region"] = region_name #maybe try inserting at idx 1 ??
+live_births.rename(columns = {"RESIDENCE_TERR" : "ITTER107", "OBS_VALUE" : "Live_births"}, inplace=True)
+
+# aggregating age groups for MISCARRIAGES
+miscarriages = miscarriages[["Territorio", "Value"]]
+miscarriages = miscarriages.groupby("Territorio", as_index=False).sum()
+
+region_code = []
+region_name = []
+
+for key, value in ID_name_dict.items():
+    region_name.append(value)
+    region_code.append(key)
+
+DF_ID_name = DataFrame({"ITTER107" : Series(region_code,  dtype="string"),  "Region": Series(region_name,  dtype="string")})
+
+miscarriages = merge(DF_ID_name, miscarriages, left_on="Region", right_on="Territorio")
+
+miscarriages.drop(["Territorio"], axis=1, inplace=True)
+miscarriages.rename(columns = {"Value" : "Miscarriages"}, inplace=True)
+
+# aggregating age groups for ABORTIONS
+
+abortions = abortions[["Territorio dell'evento", "Value"]]
+abortions = abortions.groupby("Territorio dell'evento", as_index=False).sum()
+
+region_code = []
+region_name = []
+
+for key, value in ID_name_dict.items():
+    region_name.append(value)
+    region_code.append(key)
+
+DF_ID_name = DataFrame({"ITTER107" : Series(region_code,  dtype="string"),  "Region": Series(region_name,  dtype="string")})
+abortions = merge(DF_ID_name, abortions, left_on="Region", right_on="Territorio dell'evento")
+
+abortions.drop(["Territorio dell'evento"], axis=1, inplace=True)
+abortions.rename(columns = { "Value" : "Abortions"}, inplace=True)
+
+PregnancyDS = merge(live_births, miscarriages, left_on= "ITTER107", right_on="ITTER107")
+PregnancyDS = merge(PregnancyDS, abortions, left_on= "ITTER107", right_on="ITTER107", how="left") #how="left" is because I don'7 have lazio's value rn
+
+total = PregnancyDS.sum(axis=1, numeric_only=True) # sums all pregnancies value per region
+PregnancyDS["Total"] = total
+
+PregnancyDS = PregnancyDS[["ITTER107", "Region", "Live_births", "Miscarriages", "Abortions", "Total"]]
+PregnancyDS.to_csv("../data/mashupDS/PregnancyDS.csv", index=False)
+
+# transform all absolute values in % values and save in separate DS
+
+# SELECTED POPULATION FILES
+sel_pop17 = read_csv("data/cleanDS/Population2017Selected_clean.csv")
+# only keep "Females" column
+sel_pop17 = sel_pop17.drop(sel_pop17[(sel_pop17.Sex == "Males") | (sel_pop17.Sex == "Total")].index)
+# Put together ages and sum value under column "Population"
+sel_pop17 = (sel_pop17.groupby(["Region code","Region"])["Population"].sum()).reset_index()
+sel_pop17["Time"] = 2017
+sel_pop17.rename(columns = {"Region code" : "ITTER107", "Population" : "Females"}, inplace=True)
+
+def selectedPop(path):
+    file = read_csv(path)
+    file.drop(["Males","Population"],axis=1,inplace=True)
+    file = (file.groupby(["ITTER107","Region"])["Females"].sum()).reset_index()
+    return file    
+
+pop18 = "data/cleanDS/Population2018Selected_clean.csv"
+pop19 = "data/cleanDS/Population2019Selected_clean.csv"
+
+sel_pop18 = selectedPop(pop18)
+sel_pop18["Time"] = 2018
+sel_pop19 = selectedPop(pop19)
+sel_pop19["Time"] = 2019
+
+#PERCENTAGES VALUES
+def getPercentage(num,pop):
+    return num * 100 / pop
+
+Total_perc = []
+Live_births_perc = []
+Miscarriages_perc = []
+Abortions_perc = []
+
+def percentages(DStotal, DSpartial):
+    mergedDF = merge(DStotal, DSpartial, left_on="ITTER107", right_on="ITTER107", how="left")
+    mergedDF = mergedDF[["ITTER107", "Region_x", "Females", "Live_births", "Miscarriages", "Abortions", "Total"]]
+
+    for idx, row in mergedDF.iterrows():
+        year = str(DStotal.at[idx, "Time"])
+
+        p_tot = getPercentage((mergedDF.at[idx, "Total"]), (mergedDF.at[idx, "Females"]))
+        p_lb = getPercentage((mergedDF.at[idx, "Live_births"]), (mergedDF.at[idx, "Females"]))
+        p_m = getPercentage((mergedDF.at[idx, "Miscarriages"]), (mergedDF.at[idx, "Females"]))
+        p_a = getPercentage((mergedDF.at[idx, "Abortions"]), (mergedDF.at[idx, "Females"]))
+
+        Total_perc.append(p_tot)
+        Live_births_perc.append(p_lb)
+        Miscarriages_perc.append(p_m)
+        Abortions_perc.append(p_a)
+
+    DSpartial["Live_births"] = Live_births_perc
+    DSpartial["Miscarriages"] = Miscarriages_perc
+    DSpartial["Abortions"] = Abortions_perc
+    DSpartial["Total"] = Total_perc
+    DSpartial["Time"] = year
+
+    DSpartial.to_csv("data/mashupDS/MD2-PERC-" + year + ".csv", index=False)
+    return True
 
 
+DSpartial = read_csv("data/mashupDS/MD2-ASS-2019.csv", keep_default_na=False)
+
+percentages(sel_pop19, DSpartial)
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # ==== MD3 ====

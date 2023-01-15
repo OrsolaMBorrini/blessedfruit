@@ -12,6 +12,7 @@ import pprint
 general_2017 = "data/srcDS/D1D2Population/General/2017General.csv"
 selected_2017 = "data/srcDS/D1D2Population/Selected/D1-D2Population2017.csv"
 
+
 def replaceRcode(path,rename):
     file = read_csv(path)
     for idx,row in file.iterrows():
@@ -127,7 +128,6 @@ d3.drop(["Data type","MISURA_AVQ","Measure","Select time","Flag Codes","Flags"],
 
 
 
-
 # ==== D4 ====
 os.getcwd() # print this to get current working directory to check which is the correct path. In my working environmet for some reason i am in "blessedfruit"
 
@@ -142,9 +142,7 @@ for file in dir:
         pregnancy = read_csv(path+csvName, keep_default_na=False)
         pregnancy = pregnancy[["RESIDENCE_TERR","CITIZENSHIP_MOTHER", "MOTHER_AGE", "OBS_VALUE"]]
         pregnancy.to_csv("data/srcDS/D4Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
-
-print(pregnancy) 
-        
+                
 
 
 
@@ -160,9 +158,7 @@ for file in dir:
         pregnancy = read_csv(path+csvName, keep_default_na=False)
         pregnancy = pregnancy[["Territorio","Classe di età", "Value"]]
         pregnancy.to_csv("data/srcDS/D5Pregnancy/cleanedDS/cleaned" + csvName, index=False) #cleaned needs to be put in the front or it will invalidate file format
-        
-
-
+       
 
 
 # ==== D6 ====
@@ -175,7 +171,7 @@ for file in dir:
         pregnancy = read_csv(path+csvName, keep_default_na=False)
         pregnancy = pregnancy[["Territorio dell'evento", "Età e classe di età", "Value"]]
         pregnancy.to_csv("data/srcDS/D6Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
-        print(pregnancy)
+        
 
 
 
