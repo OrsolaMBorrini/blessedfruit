@@ -27,12 +27,7 @@ gen_pop18["Time"] = 2018
 gen_pop19 = generalPop(pop19)
 gen_pop19["Time"] = 2019
 
-print(gen_pop17)
-print(gen_pop18)
-print(gen_pop19)
-
 d3_clean = read_csv("data/cleanDS/D3_clean.csv")
-print(d3_clean)
 
 def getPercentage(num,pop):
     return num * 100 / pop
@@ -50,17 +45,17 @@ def createYearlyDF(genPopList,rightDF):
             d3_2017 = rightDF.drop(rightDF[(rightDF.TIME == 2018) | (rightDF.TIME == 2019)].index)
             MD1_17 = (merge(item,d3_2017,left_on="Region code",right_on="ITTER107")).drop(["Territory","ITTER107","TIME"],axis=1)
             addPercentageColumn(MD1_17)
-            file_csv1 = MD1_17.to_csv("data/mashupDS/MD1_17.csv")
+            #MD1_17.to_csv("data/mashupDS/MD1_17.csv")
         elif item["Time"][0] == 2018:
             d3_2018 = rightDF.drop(rightDF[(rightDF.TIME == 2017) | (rightDF.TIME == 2019)].index)
             MD1_18 = (merge(item,d3_2018,left_on="ITTER107",right_on="ITTER107")).drop(["Territory","TIME"],axis=1)
             addPercentageColumn(MD1_18)
-            file_csv2 = MD1_18.to_csv("data/mashupDS/MD1_18.csv")
+            #MD1_18.to_csv("data/mashupDS/MD1_18.csv")
         elif item["Time"][0] == 2019:
             d3_2019 = rightDF.drop(rightDF[(rightDF.TIME == 2017) | (rightDF.TIME == 2018)].index)
             MD1_19 = (merge(item,d3_2019,left_on="ITTER107",right_on="ITTER107")).drop(["Territory","TIME"],axis=1)
             addPercentageColumn(MD1_19)
-            file_csv3 = MD1_19.to_csv("data/mashupDS/MD1_19.csv")
+            #MD1_19.to_csv("data/mashupDS/MD1_19.csv")
     return        
 
 createYearlyDF([gen_pop17,gen_pop18,gen_pop19],d3_clean)
