@@ -54,6 +54,7 @@ def createYearlyDF(genPopList,rightDF):
             d3_2019 = rightDF.drop(rightDF[(rightDF.TIME == 2017) | (rightDF.TIME == 2018)].index)
             MD1_19 = (merge(item,d3_2019,left_on="ITTER107",right_on="ITTER107")).drop(["Territory","TIME"],axis=1)
             addPercentageColumn(MD1_19)
+            print(MD1_19)
             #MD1_19.to_csv("data/mashupDS/MD1_19.csv")
     return        
 
