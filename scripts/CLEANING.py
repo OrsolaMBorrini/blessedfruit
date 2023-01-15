@@ -107,7 +107,7 @@ def concatRegionalDS(path):
     concatDF = concat(dfList)
 
     concatDF = concatDF[["ITTER107", "Region", "Age", "Total males", "Total females", "Total"]]
-    concatDF.rename(columns={"Total males": "Males_value", "Total females": "Females_value", "Total": "Population_value"}, inplace=True)    
+    concatDF.rename(columns={"Total males": "Males", "Total females": "Females", "Total": "Population"}, inplace=True)    
     concatDF.to_csv(path[:-1] + ".csv", index=False)
 
     return True
