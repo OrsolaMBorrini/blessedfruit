@@ -8,10 +8,10 @@ pop17 = read_csv("data/cleanDS/Population2017General_clean.csv")
 # Consider no distinction in gender (drop "Males" and "Females")
 pop17 = pop17.drop(pop17[(pop17.Sex == "Males") | (pop17.Sex == "Females")].index)
 # Put together ages and sum value under column "Population"
-gen_pop17 = (pop17.groupby(["Region code","Region"])["Population"].sum()).to_frame()
+gen_pop17 = (pop17.groupby(["Region code","Region"])["Population"].sum()).reset_index()
 gen_pop17["Time"] = 2017
 
-
+'''
 def generalPop(path):
     file = read_csv(path)
     file.drop(["Males","Females"],axis=1,inplace=True)
@@ -27,7 +27,9 @@ gen_pop19 = generalPop(pop19)
 gen_pop19["Time"] = 2019
 
 
-
+print(gen_pop18)
+print(gen_pop19)
+'''
 d3_clean = read_csv("data/cleanDS/D3_clean.csv")
 
 
