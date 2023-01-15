@@ -1,0 +1,61 @@
+ITTER107,Territory,TIME,Value
+ITC1,Piemonte,2017,7.6
+ITC1,Piemonte,2018,11.5
+ITC1,Piemonte,2019,10.3
+ITC2,Valle d'Aosta / Vallée d'Aoste,2017,11.8
+ITC2,Valle d'Aosta / Vallée d'Aoste,2018,13.6
+ITC2,Valle d'Aosta / Vallée d'Aoste,2019,9.7
+ITC3,Liguria,2017,13.5
+ITC3,Liguria,2018,12.6
+ITC3,Liguria,2019,6.6
+ITC4,Lombardia,2017,8.2
+ITC4,Lombardia,2018,9.9
+ITC4,Lombardia,2019,10.1
+ITDA,Trentino Alto Adige / Südtirol,2017,9.1
+ITDA,Trentino Alto Adige / Südtirol,2018,8.0
+ITDA,Trentino Alto Adige / Südtirol,2019,7.8
+ITD3,Veneto,2017,10.7
+ITD3,Veneto,2018,10.6
+ITD3,Veneto,2019,7.6
+ITD4,Friuli-Venezia Giulia,2017,7.3
+ITD4,Friuli-Venezia Giulia,2018,6.9
+ITD4,Friuli-Venezia Giulia,2019,7.4
+ITD5,Emilia-Romagna,2017,8.7
+ITD5,Emilia-Romagna,2018,9.1
+ITD5,Emilia-Romagna,2019,8.5
+ITE1,Toscana,2017,8.6
+ITE1,Toscana,2018,9.8
+ITE1,Toscana,2019,8.2
+ITE2,Umbria,2017,8.5
+ITE2,Umbria,2018,7.1
+ITE2,Umbria,2019,8.4
+ITE3,Marche,2017,5.0
+ITE3,Marche,2018,6.8
+ITE3,Marche,2019,5.6
+ITE4,Lazio,2017,8.4
+ITE4,Lazio,2018,8.5
+ITE4,Lazio,2019,10.2
+ITF1,Abruzzo,2017,7.7
+ITF1,Abruzzo,2018,6.9
+ITF1,Abruzzo,2019,4.2
+ITF2,Molise,2017,9.9
+ITF2,Molise,2018,8.0
+ITF2,Molise,2019,7.0
+ITF3,Campania,2017,17.7
+ITF3,Campania,2018,18.7
+ITF3,Campania,2019,15.7
+ITF4,Puglia,2017,13.6
+ITF4,Puglia,2018,13.0
+ITF4,Puglia,2019,14.4
+ITF5,Basilicata,2017,11.5
+ITF5,Basilicata,2018,8.0
+ITF5,Basilicata,2019,8.6
+ITF6,Calabria,2017,10.4
+ITF6,Calabria,2018,14.7
+ITF6,Calabria,2019,16.6
+ITG1,Sicilia,2017,17.4
+ITG1,Sicilia,2018,20.7
+ITG1,Sicilia,2019,20.1
+ITG2,Sardegna,2017,15.6
+ITG2,Sardegna,2018,16.5
+ITG2,Sardegna,2019,13.1

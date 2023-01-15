@@ -8,8 +8,8 @@ import pprint
 # ==== D1
 # Change regions code to ITTER107 code (istat standard)
 
-general_2017 = "data/srcDS/Population/General/2017General.csv"
-selected_2017 = "data/srcDS/Population/Selected/D1-D2Population2017.csv"
+general_2017 = "data/srcDS/D1D2Population/General/2017General.csv"
+selected_2017 = "data/srcDS/D1D2Population/Selected/D1-D2Population2017.csv"
 
 def replaceRcode(path,rename):
     file = read_csv(path)
@@ -57,7 +57,7 @@ def replaceRcode(path,rename):
             file.loc[idx, "Region code"] = "ITG2"
     
     # Create new clean CSV - undelete this line only if you want to RECREATE the cleaned csv file
-    #file.to_csv("data/cleanDS/Population"+rename+".csv", index=False)
+    # file.to_csv("data/cleanDS/"+rename+".csv", index=False)
 
 replaceRcode(general_2017,"2017General_clean")
 replaceRcode(selected_2017,"2017Selected_clean")
@@ -65,9 +65,6 @@ replaceRcode(selected_2017,"2017Selected_clean")
 
 # ==== D2
 # merge all datasets to create a unique dataset with different region
-import os
-from pandas import *
-
 ID_name_dict = { "ITC1" : "Piemonte",
                 "ITC2" : "Valle d'Aosta / Vallée d'Aoste",
                 "ITC3" : "Liguria",
@@ -111,7 +108,7 @@ def concatRegionalDS(path):
 
     return True
 
-path = "../data/srcDS/Population/Selected/D1-D2Population2019/"
+path = "data/srcDS/D1D2Population/Selected/D1-D2Population2019/"
 print(path[:-1])
 concatRegionalDS(path)
 
@@ -123,10 +120,7 @@ d3.drop(["Data type","MISURA_AVQ","Measure","Select time","Flag Codes","Flags"],
 #d3.to_csv("data/cleanDS/D3_clean.csv", index=False)
 
 
-# D4
-import os, sys 
-import pprint
-
+# ==== D4
 os.getcwd() # print this to get current working directory to check which is the correct path. In my working environmet for some reason i am in "blessedfruit"
 
 path = "data/srcDS/D4Pregnancy/"
@@ -156,8 +150,6 @@ for file in dir:
         
 print(pregnancy) 
 
-# D6
-path = "data/srcDS/D6Pregnancy/"
 # ==== D6
 path = "data/srcDS/D6Pregnancy/"
 dir = os.listdir(path)
@@ -171,3 +163,11 @@ for file in dir:
               
     
 print(pregnancy)
+
+# ==== D7
+d7 = read_csv("data/srcDS/D7.csv")
+# Dropping the columns with data in NL for clarity (we can also drop the 'MISURA_AVQ' column, knowing that we are talking of thousands value)
+d7.drop(["TIPO_DATO3","Data type","SEXISTAT1","Gender","CITTADMAD","Citizenship","Select time","Flag Codes","Flags"], axis=1, inplace=True)
+
+# Create new clean CSV for D3 - undelete this line only if you want to RECREATE the cleaned csv file
+d7.to_csv("data/cleanDS/D7_clean.csv", index=False)
