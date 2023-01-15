@@ -6,7 +6,6 @@ import sys
 import pprint
 
 
-
 # ==== D1 ====
 # Change regions code to ITTER107 code (istat standard)
 
@@ -150,6 +149,8 @@ print(pregnancy)
 
 
 # ==== D5 ====
+
+
 path = "data/srcDS/D5Pregnancy/"
 dir = os.listdir(path)
 
@@ -160,7 +161,6 @@ for file in dir:
         pregnancy = pregnancy[["Territorio","Classe di età", "Value"]]
         pregnancy.to_csv("data/srcDS/D5Pregnancy/cleanedDS/cleaned" + csvName, index=False) #cleaned needs to be put in the front or it will invalidate file format
         
-print(pregnancy) 
 
 
 
@@ -175,8 +175,8 @@ for file in dir:
         pregnancy = read_csv(path+csvName, keep_default_na=False)
         pregnancy = pregnancy[["Territorio dell'evento", "Età e classe di età", "Value"]]
         pregnancy.to_csv("data/srcDS/D6Pregnancy/cleanedDS/cleaned" + csvName,index=False) #cleaned needs to be put in the front or it will invalidate file format
-      
-print(pregnancy)
+        print(pregnancy)
+
 
 
 

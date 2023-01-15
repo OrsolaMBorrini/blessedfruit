@@ -10,6 +10,7 @@ Emilia-Romagna,15-19 anni,347
 Toscana,15-19 anni,327
 Umbria,15-19 anni,61
 Marche,15-19 anni,91
+Lazio,15-19 anni,511
 Abruzzo,15-19 anni,92
 Molise,15-19 anni,19
 Campania,15-19 anni,393
@@ -29,6 +30,7 @@ Emilia-Romagna,20-24 anni,1094
 Toscana,20-24 anni,870
 Umbria,20-24 anni,144
 Marche,20-24 anni,235
+Lazio,20-24 anni,1227
 Abruzzo,20-24 anni,243
 Molise,20-24 anni,65
 Campania,20-24 anni,1000
@@ -37,60 +39,3 @@ Basilicata,20-24 anni,87
 Calabria,20-24 anni,256
 Sicilia,20-24 anni,861
 Sardegna,20-24 anni,245
-Piemonte,25-29 anni,1231
-Valle d'Aosta / Vallée d'Aoste,25-29 anni,30
-Liguria,25-29 anni,440
-Lombardia,25-29 anni,2449
-Trentino Alto Adige / Südtirol,25-29 anni,264
-Veneto,25-29 anni,899
-Friuli-Venezia Giulia,25-29 anni,281
-Emilia-Romagna,25-29 anni,1355
-Toscana,25-29 anni,1056
-Umbria,25-29 anni,166
-Marche,25-29 anni,272
-Abruzzo,25-29 anni,292
-Molise,25-29 anni,53
-Campania,25-29 anni,1240
-Puglia,25-29 anni,1276
-Basilicata,25-29 anni,78
-Calabria,25-29 anni,331
-Sicilia,25-29 anni,1115
-Sardegna,25-29 anni,372
-Piemonte,fino a 14 anni,11
-Valle d'Aosta / Vallée d'Aoste,fino a 14 anni,0
-Liguria,fino a 14 anni,5
-Lombardia,fino a 14 anni,16
-Trentino Alto Adige / Südtirol,fino a 14 anni,1
-Veneto,fino a 14 anni,3
-Friuli-Venezia Giulia,fino a 14 anni,4
-Emilia-Romagna,fino a 14 anni,10
-Toscana,fino a 14 anni,6
-Umbria,fino a 14 anni,2
-Marche,fino a 14 anni,3
-Abruzzo,fino a 14 anni,3
-Molise,fino a 14 anni,0
-Campania,fino a 14 anni,13
-Puglia,fino a 14 anni,14
-Basilicata,fino a 14 anni,1
-Calabria,fino a 14 anni,4
-Sicilia,fino a 14 anni,14
-Sardegna,fino a 14 anni,0
-Piemonte,non indicato,0
-Valle d'Aosta / Vallée d'Aoste,non indicato,0
-Liguria,non indicato,4
-Lombardia,non indicato,9
-Trentino Alto Adige / Südtirol,non indicato,0
-Veneto,non indicato,0
-Friuli-Venezia Giulia,non indicato,0
-Emilia-Romagna,non indicato,0
-Toscana,non indicato,1
-Umbria,non indicato,8
-Marche,non indicato,0
-Abruzzo,non indicato,1
-Molise,non indicato,0
-Campania,non indicato,1
-Puglia,non indicato,1
-Basilicata,non indicato,1
-Calabria,non indicato,0
-Sicilia,non indicato,2
-Sardegna,non indicato,3
