@@ -162,7 +162,7 @@ MD3_2017 = (merge(youngF_pop17,MD3_2017,left_on="Region code",right_on="ITTER107
 for idx,row in MD3_2017.iterrows():
     result = (row["Value"] * row["Population_FEMALE"])/(row["Population_GENERAL"])
     MD3_2017.loc[idx,"Female Early Leavers"] = result
-MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
+#MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
 
 # row["Value"] : row["Population_GENERAL"] = % early leavers F : row["Population_FEMALE"]
 
@@ -174,7 +174,7 @@ MD3_2018 = (merge(youngF_pop18,MD3_2018,left_on="ITTER107",right_on="ITTER107",s
 for idx,row in MD3_2018.iterrows():
     result = (row["Value"] * row["Population_FEMALE"])/(row["Population_GENERAL"])
     MD3_2018.loc[idx,"Female Early Leavers"] = result
-MD3_2018.to_csv("data/mashupDS/MD3_18.csv")
+#MD3_2018.to_csv("data/mashupDS/MD3_18.csv")
 
 
 # --- 2019
@@ -184,6 +184,6 @@ MD3_2019 = (merge(youngF_pop19,MD3_2019,left_on="ITTER107",right_on="ITTER107",s
 for idx,row in MD3_2019.iterrows():
     result = (row["Value"] * row["Population_FEMALE"])/(row["Population_GENERAL"])
     MD3_2019.loc[idx,"Female Early Leavers"] = result
-MD3_2019.to_csv("data/mashupDS/MD3_19.csv")
+#MD3_2019.to_csv("data/mashupDS/MD3_19.csv")
 
 # -------------------------------------------------------------------------------------------------------------------------------
