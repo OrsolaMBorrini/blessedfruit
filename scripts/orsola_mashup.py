@@ -9,6 +9,7 @@ pop17 = read_csv("data/cleanDS/Population2017General_clean.csv")
 pop17 = pop17.drop(pop17[(pop17.Sex == "Males") | (pop17.Sex == "Females")].index)
 # Put together ages and sum value under column "Population"
 gen_pop17 = (pop17.groupby(["Region code","Region"])["Population"].sum()).to_frame()
+gen_pop17["Time"] = 2017
 
 
 def generalPop(path):
@@ -21,7 +22,11 @@ pop18 = "data/cleanDS/Population2018General_clean.csv"
 pop19 = "data/cleanDS/Population2019General_clean.csv"
 
 gen_pop18 = generalPop(pop18)
+gen_pop18["Time"] = 2018
 gen_pop19 = generalPop(pop19)
+gen_pop19["Time"] = 2019
+
+
 
 d3_clean = read_csv("data/cleanDS/D3_clean.csv")
 
