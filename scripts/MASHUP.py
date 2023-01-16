@@ -1,6 +1,7 @@
 import csv
 from pandas import *
 import functools as ft
+import re
 
 # ==== MD1 ====
 
@@ -74,20 +75,23 @@ print(MD1_17)
 
 # reading the datasets 
 
-live_births = read_csv("../data/srcDS/D4Pregnancy/cleanedDS/cleanedD4-2017-Pregnancy.csv", keep_default_na=False,
+pathD4 = "../data/srcDS/D4Pregnancy/cleanedDS/cleanedD4-2019-Pregnancy.csv"
+live_births = read_csv(pathD4, keep_default_na=False,
             dtype= {
                 "RESIDENCE_TERR":"string",
                 "CITIZENSHIP_MOTHER": "string",
                 "MOTHER_AGE" :"string",
                 "OBS_VALUE" : "int64"
             })
-miscarriages = read_csv("../data/srcDS/D5Pregnancy/cleanedDS/cleanedD5-2017-Pregnancy.csv", keep_default_na=False,
+pathD5 = "../data/srcDS/D5Pregnancy/cleanedDS/cleanedD5-2019-Pregnancy.csv"
+miscarriages = read_csv(pathD5, keep_default_na=False,
              dtype= {
                 "Territorio":"string",
                 "Classe di età": "string",
                 "Value" : "int64"
             })
-abortions = read_csv("../data/srcDS/D6Pregnancy/cleanedDS/cleanedD6-2017-Pregnancy.csv", keep_default_na=False,
+pathD6 = "../data/srcDS/D6Pregnancy/cleanedDS/cleanedD6-2019-Pregnancy.csv"
+abortions = read_csv(pathD6, keep_default_na=False,
              dtype= {
                 "Territorio dell'evento":"string",
                 "Età e classe di età": "string",
@@ -136,6 +140,22 @@ for idx, row in live_births.iterrows():
 live_births["Region"] = region_name #maybe try inserting at idx 1 ??
 live_births.rename(columns = {"RESIDENCE_TERR" : "ITTER107", "OBS_VALUE" : "Live_births"}, inplace=True)
 
+def addyear(pathyear, df):
+    if "Time" not in df.columns[0]:
+        year2017 = re.search("2017", pathyear)
+        year2018 = re.search("2018", pathyear)
+        year2019 = re.search("2019", pathyear)
+
+        years = [year2017, year2018, year2019]
+        for el in years:
+            if el is not None:
+                yr = el.group()
+                df["Time"] = yr
+                return yr
+        return False
+
+yr = addyear(pathD4, live_births)
+
 # aggregating age groups for MISCARRIAGES
 miscarriages = miscarriages[["Territorio", "Value"]]
 miscarriages = miscarriages.groupby("Territorio", as_index=False).sum()
@@ -153,6 +173,7 @@ miscarriages = merge(DF_ID_name, miscarriages, left_on="Region", right_on="Terri
 
 miscarriages.drop(["Territorio"], axis=1, inplace=True)
 miscarriages.rename(columns = {"Value" : "Miscarriages"}, inplace=True)
+yr = addyear(pathD5, miscarriages)
 
 # aggregating age groups for ABORTIONS
 
@@ -171,6 +192,7 @@ abortions = merge(DF_ID_name, abortions, left_on="Region", right_on="Territorio 
 
 abortions.drop(["Territorio dell'evento"], axis=1, inplace=True)
 abortions.rename(columns = { "Value" : "Abortions"}, inplace=True)
+yr = addyear(pathD6, abortions)
 
 PregnancyDS = merge(live_births, miscarriages, left_on= "ITTER107", right_on="ITTER107")
 PregnancyDS = merge(PregnancyDS, abortions, left_on= "ITTER107", right_on="ITTER107", how="left") #how="left" is because I don'7 have lazio's value rn
@@ -178,8 +200,8 @@ PregnancyDS = merge(PregnancyDS, abortions, left_on= "ITTER107", right_on="ITTER
 total = PregnancyDS.sum(axis=1, numeric_only=True) # sums all pregnancies value per region
 PregnancyDS["Total"] = total
 
-PregnancyDS = PregnancyDS[["ITTER107", "Region", "Live_births", "Miscarriages", "Abortions", "Total"]]
-PregnancyDS.to_csv("../data/mashupDS/PregnancyDS.csv", index=False)
+PregnancyDS = PregnancyDS[["ITTER107", "Region", "Live_births", "Miscarriages", "Abortions", "Total", "Time"]]
+PregnancyDS.to_csv("../data/mashupDS/MD2-ASS-" + yr + ".csv", index=False)
 
 # transform all absolute values in % values and save in separate DS
 
