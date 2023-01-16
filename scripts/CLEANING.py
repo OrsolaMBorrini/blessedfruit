@@ -1,5 +1,3 @@
-# there's some error in the path
-
 from pandas import *
 import os
 import sys
