@@ -127,8 +127,6 @@ d3.drop(["Data type","MISURA_AVQ","Measure","Select time","Flag Codes","Flags"],
 
 
 # ==== D4 ====
-os.getcwd() # print this to get current working directory to check which is the correct path. In my working environmet for some reason i am in "blessedfruit"
-
 path = "data/srcDS/D4Pregnancy/"
 dir = os.listdir(path) #it's a list with the name of the files in the dir
 
