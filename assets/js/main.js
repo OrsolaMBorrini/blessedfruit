@@ -284,13 +284,3 @@ function reveal(delay) {
     }
   }
 }
-
-/* --- Show & hide Analyses --- */
-function ShowAndHide(){
-  var x = document.getElementById('quality');
-  if (x.style.display == 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
