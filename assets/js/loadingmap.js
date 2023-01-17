@@ -1,60 +1,3 @@
-//
-// // fetch("italy-with-regions_1458.geojson")
-// // .then(response => response.json())
-// // .then(json => console.log(json));
-// // create a new map object and set the center and zoom level
-// var map = L.map('map').setView([41.8719, 12.5674], 5);
-//
-// // add a tile layer to the map
-// var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//     maxZoom: 19,
-//     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-// }).addTo(map);
-//
-// // add our js file containg a variable of the geojson coordinates
-// var geojson = L.geoJson(italy_regions, {
-//     style: function (feature) {
-//         return {
-//             fillColor: getColor(feature.properties.density),
-//             weight: 2,
-//             opacity: 1,
-//             color: 'white',
-//             dashArray: '3',
-//             fillOpacity: 0.7
-//         };
-//     },
-//     onEachFeature: function (feature, layer) {
-//         layer.bindPopup(feature.properties.name);
-//     }
-// }).addTo(map);
-// L.geoJson(italy_regions).addTo(map);
-//
-// function getColor(d) {
-//     return d > 2     ? '#800026' :
-//            d > 4     ? '#BD0026' :
-//            d > 6     ? '#E31A1C' :
-//            d > 8     ? '#FC4E2A' :
-//            d > 10    ? '#FD8D3C' :
-//            d > 12    ? '#FEB24C' :
-//            d > 14    ? '#FED976' :
-//                        '#FFEDA0';
-// }
-//
-//
-// function style(features) {
-//     return {
-//         fillColor: getColor(features.properties.value),
-//         weight: 2,
-//         opacity: 1,
-//         color: 'white',
-//         dashArray: '6',
-//         fillOpacity: 0.7
-//     };
-// }
-//
-// L.geoJson(italy_regions, {style: style}).addTo(map);
-// // zoom the map to the bounds of the regions
-// map.fitBounds(regions.getBounds());
 
 
 // Create a new instance of the map
@@ -103,32 +46,70 @@
                              '#580000';
       }
 
+      // Fetch the GeoJSON data
+      fetch("visualisations/maps/EL_17.geojson")
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(italianRegions) {
+          // Add our geojson file to the map, style with colors according to the value property
+          var geojson = L.geoJson(italianRegions, {
+            style: function(feature) {
+              return {
+                fillColor: getColor(feature.properties.value),
+                weight: 2,
+                opacity: 1,
+                color: "white",
+                dashArray: "2",
+                fillOpacity: 0.7
+              };
+            },
+            onEachFeature: function(feature, layer) {
+              // Add the click event to the layer
+              layer.on("click", function() {
+                // Change the style of the clicked layer to make it slightly larger
+                layer.setStyle({
+                  weight: 5,
+                  fillOpacity: 1
+                });
+                // Reset the style of all other layers to their original values
+                geojson.eachLayer(function(otherLayer) {
+                  if (otherLayer != layer) {
+                    otherLayer.setStyle({
+                      weight: 2,
+                      fillOpacity: 0.7
+                    });
+                  }
+                });
+              });
+              // Add the original popup content
+              layer.bindPopup(feature.properties.name + " - " + feature.properties.value.toString());
+            }
+          }).addTo(map);
+        });
 
-  // Fetch the GeoJSON data
-  fetch("visualisations/maps/EL_17.geojson")
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(italianRegions) {
-      // Add ourgeojson file to the map, style with colors according to the value property
-      var geojson = L.geoJson(italianRegions, {
-        style: function(feature) {
-          return {
-            fillColor: getColor(feature.properties.value),
-            weight: 2,
-            opacity: 1,
-            color: "white",
-            dashArray: "3",
-            fillOpacity: 0.7
-          };
-        },
-        onEachFeature: function(feature, layer) {
-          layer.bindPopup(feature.properties.name + " - " + feature.properties.value.toString());
-        }
-      }).addTo(map);
-    });
 
-
+    //
+    // var geojson = L.geoJson(italianRegions, {
+    //   style: function(feature) {
+    //     return {
+    //       fillColor: getColor(feature.properties.value),
+    //       weight: 2,
+    //       opacity: 1,
+    //       color: "white",
+    //       dashArray: "3",
+    //       fillOpacity: 0.7
+    //     };
+    //   },
+    //   onEachFeature: function(feature, layer) {
+    //     layer.on({
+    //       mouseover: function(e) {
+    //         map.fitBounds(e.target.getBounds());
+    //       }
+    //     });
+    //     layer.bindPopup(feature.properties.name + " - " + feature.properties.value.toString());
+    //   }
+    // }).addTo(map);
 //
 // // MD1_17
 //

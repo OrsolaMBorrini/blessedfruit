@@ -1733,5 +1733,6 @@ section {
 # Visualisations
 
 ----------------------- Maps ---------------------------------------*/
-#map { height: 600px;
+#map { height: 700px;
+       width:600px;
  }
