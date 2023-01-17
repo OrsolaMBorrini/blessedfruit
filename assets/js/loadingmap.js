@@ -14,7 +14,7 @@
       const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
       // get selected region
       const selectedRegion = this.getAttribute('data-value');
-      fetch(`blessedfruit/visualisations/piecharts_births/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
         .then(response => response.text())
         .then(html => {
           pregnancyPie.innerHTML = html;
@@ -31,15 +31,13 @@
       // get selected year
       const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
       const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
-      fetch(`blessedfruit/visualisations/piecharts_births/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
         .then(response => response.text())
         .then(html => {
           pregnancyPie.innerHTML = html;
         });
     });
   });
-
-
 
 
 // Create a new instance of the map
