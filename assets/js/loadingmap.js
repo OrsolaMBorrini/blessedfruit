@@ -76,18 +76,18 @@
 
   // // GetColor function  //
       function getColor(value) {
-          return value < 3     ? '#FFE6CB' :
-                 value < 6     ? '#faf0e6' :
-                 value < 8     ? '#D7BB9F' :
-                 value < 9    ? '#CB895E' :
-                 value < 12    ? '#BC4418' :
-                 value < 14    ? '#8D2A07' :
+          return value < 10     ? '#FFE6CB' :
+                 value < 15     ? '#faf0e6' :
+                 value < 20     ? '#D7BB9F' :
+                 value < 25   ? '#CB895E' :
+                 value < 30    ? '#BC4418' :
+                 value < 35    ? '#8D2A07' :
                  value < 16    ? '#580000' :
                              '#580000';
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/maps/EL_17.geojson")
+      fetch("/visualisations/scripts/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -96,7 +96,7 @@
           var geojson = L.geoJson(italianRegions, {
             style: function(feature) {
               return {
-                fillColor: getColor(feature.properties.value),
+                fillColor: getColor(feature.properties.relig_yes),
                 weight: 2,
                 opacity: 1,
                 color: "white",
@@ -123,7 +123,7 @@
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.value.toString());
+              layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
             }
           }).addTo(map);
         });

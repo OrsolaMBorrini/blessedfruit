@@ -1829,3 +1829,10 @@ section {
 #map { height: 700px;
        width:600px;
  }
+
+ .leaflet-container {
+   background-color:#f6f2e7 !important;
+ }
+ .leaflet-tile-container {
+   display:none;
+ }
