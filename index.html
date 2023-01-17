@@ -279,7 +279,33 @@
             VISUALIZATIONS HERE
           </p>
         <p> i could put a collapsible button for this here but i am braindead sorry bye </p>
-          <div id="map"></div>
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+
+            <li class="nav navbar-nav">
+              <label><input type="radio" name="year" value="2017" data-value='2017' checked class="active"> 2017</label>
+              <label><input type="radio" name="year" value="2018" data-value='2018'> 2018</label>
+              <label><input type="radio" name="year" value="2019" data-value='2019'> 2019</label>
+            </li>
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select Region <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="active"href="javascript:void(0);" data-value="Abruzzo">Abruzzo</a></li>
+                  <li><a href="javascript:void(0);" data-value="Basilicata">Basilicata</a></li>
+                  <li><a href="javascript:void(0);" data-value="Calabria">Calabria</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container" id="pregnancy-pie"></div>
+
+
+          <!-- <div id="map"></div> -->
 
 
         <div id='map1_17'></div>

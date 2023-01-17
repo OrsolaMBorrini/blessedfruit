@@ -280,6 +280,9 @@ h6 {
   }
 }
 
+.inline-block{
+  display:inline-block;
+}
 /**
 * Mobile Navigation
 */

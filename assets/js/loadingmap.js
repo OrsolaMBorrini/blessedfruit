@@ -1,3 +1,45 @@
+//PIES AND BROWSER MENU
+
+  const regionLinks = document.querySelectorAll('.dropdown-menu a[data-value]');
+  const yearButtons = document.querySelectorAll('input[type="radio"][data-value]');
+  const pregnancyPie = document.getElementById('pregnancy-pie');
+
+  regionLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      // remove active class from other links
+      regionLinks.forEach(l => l.classList.remove("active"))
+      // add active class to selected link
+      this.classList.add("active")
+      // get selected year
+      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
+      // get selected region
+      const selectedRegion = this.getAttribute('data-value');
+      fetch(`blessedfruit/visualisations/piecharts_births/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+        .then(response => response.text())
+        .then(html => {
+          pregnancyPie.innerHTML = html;
+        });
+    });
+  });
+
+  yearButtons.forEach(button => {
+    button.addEventListener('change', function() {
+      // remove active class from other buttons
+      yearButtons.forEach(b => b.classList.remove("active"))
+      // add active class to selected button
+      this.classList.add("active")
+      // get selected year
+      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
+      const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
+      fetch(`blessedfruit/visualisations/piecharts_births/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+        .then(response => response.text())
+        .then(html => {
+          pregnancyPie.innerHTML = html;
+        });
+    });
+  });
+
+
 
 
 // Create a new instance of the map
@@ -37,7 +79,7 @@
   // // GetColor function  //
       function getColor(value) {
           return value < 3     ? '#FFE6CB' :
-                 value < 6     ? '#BD0026' :
+                 value < 6     ? '#faf0e6' :
                  value < 8     ? '#D7BB9F' :
                  value < 9    ? '#CB895E' :
                  value < 12    ? '#BC4418' :
