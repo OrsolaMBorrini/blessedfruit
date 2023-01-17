@@ -742,6 +742,47 @@ section {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Results
+--------------------------------------------------------------*/
+
+#results-buttons {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+#results-buttons li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.results-item {
+  margin-bottom: 30px;
+}
+
+#results-buttons li:hover,
+#results-buttons li.filter-active {
+  color: #fff;
+  background: #557c70;
+}
+
+#results-flters li:last-child {
+  margin-right: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -862,6 +903,7 @@ section {
 
 .analysis-card {
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*--------------------------------------------------------------
