@@ -44,6 +44,7 @@
 $(document).ready(function() {
     var map = L.map('map').setView([42.5, 12.5], 6);
 
+
     // Add a tile layer to the map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -88,7 +89,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("/visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+      fetch("https://raw.githubusercontent.com/OrsolaMBorrini/blessedfruit/main/visualisations/scripts/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -127,8 +128,18 @@ $(document).ready(function() {
               layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
             }
           }).addTo(map);
+
+          // Zoom the map to fit the GeoJSON data
+
+           // Invalidate the map size to fix any issues with the map not displaying correctly
+           $('.map-li').on('click', function() {
+             map.invalidateSize();
+          });
+         });
+
+
         });
-      });
+      // });
 
 
 
