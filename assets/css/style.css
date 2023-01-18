@@ -1798,7 +1798,6 @@ section {
 
 #footer .credits {
   font-size: 13px;
-  padding-top: 5px;
   color: #222222;
 }
 
@@ -1816,7 +1815,6 @@ section {
 }
 
 .footer-text {
-  padding-top:1em;
   padding-left: 15em;
   padding-right: 15em;
 }
@@ -1826,6 +1824,11 @@ section {
     padding: 1em;
 }
 
+.footer-github {
+  padding-top:1em;
+  padding-left: 15em;
+  padding-right: 15em;
+}
 
 /*--------------------------------------------------------------
 # Visualisations
