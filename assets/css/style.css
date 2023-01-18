@@ -1826,13 +1826,14 @@ section {
 # Visualisations
 
 ----------------------- Maps ---------------------------------------*/
-#map { height: 700px;
-       width:600px;
+#map {
+  height: 700px;
+  width:600px;
+  overflow:hidden;
  }
 
- .leaflet-container {
+ /* .leaflet-container {
    background-color:#f6f2e7 !important;
  }
  .leaflet-tile-container {
-   display:none;
- }
+ } */

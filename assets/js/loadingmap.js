@@ -41,6 +41,7 @@
 
 
 // Create a new instance of the map
+$(document).ready(function() {
     var map = L.map('map').setView([42.5, 12.5], 6);
 
     // Add a tile layer to the map
@@ -87,7 +88,7 @@
       }
 
       // Fetch the GeoJSON data
-      fetch("/visualisations/scripts/pregnancy_religion_education_17.geojson")
+      fetch("/visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -127,6 +128,8 @@
             }
           }).addTo(map);
         });
+      });
+
 
 
     //
