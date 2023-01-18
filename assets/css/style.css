@@ -38,6 +38,11 @@ a:hover {
   text-decoration: none;
 }
 
+body a:hover {
+  color: #23463b;
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
