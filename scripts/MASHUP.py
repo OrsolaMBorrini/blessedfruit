@@ -2,6 +2,7 @@ import csv
 from pandas import *
 import functools as ft
 import re
+import os
 
 # ==== MD1 ====
 
@@ -74,8 +75,7 @@ print(MD1_17)
 # ==== MD2 === #
 
 # reading the datasets 
-
-pathD4 = "../data/srcDS/D4Pregnancy/cleanedDS/cleanedD4-2019-Pregnancy.csv"
+pathD4 = "data/cleanDS/D4-2017-Pregnancy_clean.csv"
 live_births = read_csv(pathD4, keep_default_na=False,
             dtype= {
                 "RESIDENCE_TERR":"string",
@@ -83,14 +83,14 @@ live_births = read_csv(pathD4, keep_default_na=False,
                 "MOTHER_AGE" :"string",
                 "OBS_VALUE" : "int64"
             })
-pathD5 = "../data/srcDS/D5Pregnancy/cleanedDS/cleanedD5-2019-Pregnancy.csv"
+pathD5 = "data/cleanDS/D5-2017-Pregnancy_clean.csv"
 miscarriages = read_csv(pathD5, keep_default_na=False,
              dtype= {
                 "Territorio":"string",
                 "Classe di età": "string",
                 "Value" : "int64"
             })
-pathD6 = "../data/srcDS/D6Pregnancy/cleanedDS/cleanedD6-2019-Pregnancy.csv"
+pathD6 = "data/cleanDS/D6-2017-Pregnancy_clean.csv"
 abortions = read_csv(pathD6, keep_default_na=False,
              dtype= {
                 "Territorio dell'evento":"string",
@@ -129,7 +129,6 @@ ID_name_dict = { "ITC1" : "Piemonte",
                 "ITG1" : "Sicilia",
                 "ITG2" : "Sardegna"
                 }
-i = 0
 # add NL Region name to dataset
 
 region_name = []
@@ -137,7 +136,7 @@ region_name = []
 for idx, row in live_births.iterrows():
     region_name.append(ID_name_dict[live_births.at[idx, "RESIDENCE_TERR"]])
 
-live_births["Region"] = region_name #maybe try inserting at idx 1 ??
+live_births["Region"] = region_name 
 live_births.rename(columns = {"RESIDENCE_TERR" : "ITTER107", "OBS_VALUE" : "Live_births"}, inplace=True)
 
 def addyear(pathyear, df):
@@ -155,6 +154,7 @@ def addyear(pathyear, df):
         return False
 
 yr = addyear(pathD4, live_births)
+print(live_births)
 
 # aggregating age groups for MISCARRIAGES
 miscarriages = miscarriages[["Territorio", "Value"]]
@@ -174,6 +174,7 @@ miscarriages = merge(DF_ID_name, miscarriages, left_on="Region", right_on="Terri
 miscarriages.drop(["Territorio"], axis=1, inplace=True)
 miscarriages.rename(columns = {"Value" : "Miscarriages"}, inplace=True)
 yr = addyear(pathD5, miscarriages)
+print(miscarriages)
 
 # aggregating age groups for ABORTIONS
 
@@ -193,6 +194,7 @@ abortions = merge(DF_ID_name, abortions, left_on="Region", right_on="Territorio 
 abortions.drop(["Territorio dell'evento"], axis=1, inplace=True)
 abortions.rename(columns = { "Value" : "Abortions"}, inplace=True)
 yr = addyear(pathD6, abortions)
+print(abortions)
 
 PregnancyDS = merge(live_births, miscarriages, left_on= "ITTER107", right_on="ITTER107")
 PregnancyDS = merge(PregnancyDS, abortions, left_on= "ITTER107", right_on="ITTER107", how="left") #how="left" is because I don'7 have lazio's value rn
@@ -201,7 +203,8 @@ total = PregnancyDS.sum(axis=1, numeric_only=True) # sums all pregnancies value 
 PregnancyDS["Total"] = total
 
 PregnancyDS = PregnancyDS[["ITTER107", "Region", "Live_births", "Miscarriages", "Abortions", "Total", "Time"]]
-PregnancyDS.to_csv("../data/mashupDS/MD2-ASS-" + yr + ".csv", index=False)
+print(PregnancyDS)
+PregnancyDS.to_csv("data/mashupDS/MD2-ASS-" + yr + ".csv", index=False)
 
 # transform all absolute values in % values and save in separate DS
 
@@ -259,12 +262,12 @@ def percentages(DStotal, DSpartial):
     DSpartial["Abortions"] = Abortions_perc
     DSpartial["Total"] = Total_perc
     DSpartial["Time"] = year
-
+    print(DSpartial)
     DSpartial.to_csv("data/mashupDS/MD2-PERC-" + year + ".csv", index=False)
     return True
 
 
-DSpartial = read_csv("data/mashupDS/MD2-ASS-2019.csv", keep_default_na=False)
+DSpartial = read_csv("data/mashupDS/MD2-ASS-2017.csv", keep_default_na=False)
 
 percentages(sel_pop19, DSpartial)
 
