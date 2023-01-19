@@ -227,7 +227,7 @@
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-file-earmark-bar-graph"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1.3"
+                    <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1.3"
                       class="purecounter"></span>
                     <p><strong>Datasets</strong>, between source ones and mashup ones, used to answer the research
                       question</p>
@@ -419,9 +419,51 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Source and mashup datasets</h2>
-          <p>We first gathered our data from <b>7 source datasets</b> retrieved on Istat's databases. Then, after a
-            cleaning phase in which we discarded all the data not interesting for our research, we proceeded with a
-            mashup phase in which we created the datasets used to answer our research question.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              As mentioned, our project comprises the use of <b>1 6different datasets</b>, between source ones and
+              mashup ones.
+            </p>
+            <p>
+              The <b>7 source datasets</b> have been downloaded in .csv
+              format from different databases belonging to Istat, the
+              Italian National Institute of Statistics. Specifically, we have used three different databases:
+              <ul>
+                <li><i class="ri-check-double-line"></i><b><a href="https://demo.istat.it/?l=en">demo: demographics in figures</a></b>: on resident population in the Italian municipalities and information on main demographic phenomena</li>
+                <li><i class="ri-check-double-line"></i><b><a href="http://dati.istat.it/?lang=en">I.Stat</a></b>: a datawarehouse organised by theme, presented in multidimensional tables and with a wide range of standard metadata</li>
+                <li><i class="ri-check-double-line"></i><b><a href="https://esploradati.istat.it/databrowser/#/en">IstatData</a></b>: the new database into which all
+                  I.Stat content will be gradually migrated</li>
+              </ul>
+              To make our project as accessible as possible, we have preferred
+              IstatData over I.Stat when doable.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              During the <span class="underlined underlined--offset"><b>download phase</b></span>, we have manually
+              filtered out everything that was not of interest for our
+              research, keeping only the data strictly related to our research question (we have, for example, discarded
+              any information related to marital status in the datasets regarding population).
+            </p>
+            <p>
+              Still, the source datasets went through an additional <span class="underlined underlined--offset"><b>clean
+                  up phase</b></span> in which we discarded duplicate (e.g.,
+              columns with different names and values but referring to the same information) and irrelevant data and,
+              when
+              necessary, added missing "coded data" to allow for an easier management of the datasets.
+            </p>
+            <p>
+              Finally, we proceeded with the <span class="underlined underlined--offset"><b>mashup phase</b></span>,
+              creating the final three main mashup datasets used to answer our
+              research question.<br>As with source and clean datasets, we distinguished between the
+              three years of our time span of interest: in this way, we ended up with <b>9 final mashup datasets</b> (three for
+              each
+              factor of interest).
+            </p>
+          </div>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
@@ -616,6 +658,8 @@
         <div class="row content">
           <div class="" data-aos="fade-up" data-aos-delay="150">
             <p>
+              The code for the clean up and mashup phases can be found in the appropriate documentation, freely
+              downloadable.
               <a href="https://github.com/OrsolaMBorrini/blessedfruit/blob/main/documentation/CLEAN.ipynb"
                 style="vertical-align: middle;" download><span class="material-symbols-outlined">download</span></a>
               Download the Jupyter Noteboook on the clean-up phase<br>

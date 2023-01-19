@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: #557c70;
+  color: #557c70; /* 557c70 */
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ a:hover {
 }
 
 body a:hover {
-  color: #23463b;
+  color: #23463b; /* 23463b */
   text-decoration: none;
 }
 
@@ -792,6 +792,39 @@ section {
 /*--------------------------------------------------------------
 # Datasets
 --------------------------------------------------------------*/
+.datasets .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.datasets .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.datasets .content ul li a {
+  color: #23463b; /* 557c70 */
+  text-decoration: none;
+}
+
+.datasets .content ul li a:hover {
+  color: #557c70;
+  text-decoration: none;
+}
+
+.datasets .content ul li+li {
+  margin-top: 10px;
+}
+
+.datasets .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #557c70;
+  line-height: 1;
+}
+
 .datasets .icon-box {
   /* display: flex; */
   padding: 20px;
@@ -1184,7 +1217,7 @@ section {
 
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 20px auto;
+  margin: 20px auto 20px auto;
   list-style: none;
   text-align: center;
 }
