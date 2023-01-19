@@ -1969,14 +1969,15 @@ section {
 # Visualisations
 
 ----------------------- Maps ---------------------------------------*/
-#map {
-  height: 700px;
-  width:600px;
+.map {
+  height: 500px;
+  width:500px;
+  padding:10px;
   overflow:hidden;
  }
 
  .leaflet-container {
-   background-color:#f6f2e7!important;
+   background-color: white!important;
  }
  .leaflet-tile-container {
    display:none;

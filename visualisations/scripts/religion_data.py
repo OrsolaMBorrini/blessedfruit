@@ -4,6 +4,89 @@ import numpy as np
 
 # print(rel_17)
 
+
+
+#CLEANING AND STANDARDIZING
+
+
+def viz_religion(csv_path,new_path):
+    df = read_csv(csv_path)
+    #remove the values for non-church goers
+    # df.loc[df["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
+    df.loc[df["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
+
+    df_relig= df[df["TIPO_DATO_AVQ"] != '6_NEVER_RELIG']
+    
+    df_relig.to_csv(new_path)
+    return df_relig
+
+#print(viz_religion('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv'))
+print(viz_religion('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv'))
+print(viz_religion('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv'))
+from pandas import *
+import scipy
+from scipy import stats
+def standardize_all(md1,md2,md3,path):
+    df1=read_csv(md1)
+    df2=read_csv(md2)
+    df3=read_csv(md3)
+
+    df3.rename(columns={"Region_GENERAL":"Region"}, inplace=True)
+
+    for index, row in df1.iterrows():
+        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
+            df1.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+
+    for index, row in df2.iterrows():
+        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
+            df2.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+
+    for index, row in df3.iterrows():
+        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
+            df3.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+
+
+    # df1.loc[df1["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
+    df1.loc[df1["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
+
+    
+    # df3.loc[df3["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
+    df3.loc[df3["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
+    merged_df = merge(df1, df2, on="ITTER107")
+    final_df= merge(merged_df, df3, on="ITTER107")
+
+
+    final_df=final_df[["ITTER107", 'Region', 'Population', 'Time_x', 'Percentage','Live_births', 'Miscarriages', 'Abortions', 'Total', 'Female Early Leavers']]
+    final_df.rename(columns={'Time_x': 'Time', 'Total': 'Total_Pregnancies', 'Percentage':'Religious_observation'}, inplace=True)
+    print(final_df["Total_Pregnancies"].values)
+
+    #make sure all numeric values have numeric type to prevent missing values after merge
+
+    final_df=final_df.astype({'Population':float, 'Time':float, 'Religious_observation':float,'Live_births':float, 'Miscarriages':float, 'Abortions':float, 'Total_Pregnancies':float, 'Female Early Leavers':float})
+
+    #there is a nan showing up, let's fix by giving it the mean value
+    final_df['Female Early Leavers'].fillna(final_df['Female Early Leavers'].mean(), inplace=True)
+    final_df['Total_Pregnancies'].fillna(final_df['Total_Pregnancies'].mean(), inplace=True)
+    final_df['Religious_observation'].fillna(final_df['Religious_observation'].mean(), inplace=True)
+
+    final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
+    final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
+    final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
+    print(final_df["Region"].values)
+
+
+    final_df.to_csv(path)
+
+    return True
+
+
+#print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2017.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','standardized_17.csv'))
+
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2018.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','standardized_18.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2019.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','standardized_19.csv'))
+
+
+
 def converter(o):
     if isinstance(o, np.int64): return int(o)  
     if isinstance(o, np.float64): return float(o)
@@ -12,6 +95,9 @@ def converter(o):
 
 
 def add_rel_data(json_file_path,csv_path,new_json_path):
+    df.loc[df["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
+    df.loc[df["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
+
     df=read_csv(csv_path)
 
     with open(json_file_path) as f:
@@ -35,14 +121,8 @@ def add_rel_data(json_file_path,csv_path,new_json_path):
 
     return True
 
+print(add_rel_data())
 
-
-# def viz_religion(csv_path,year):
-#     df = read_csv(csv_path)
-#     df_relig= df[df["TIPO_DATO_AVQ"] != '6_NEVER_RELIG']
-#     return df_relig
-
-# print(viz_religion('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_17.csv'))
 
 
 def add_pregnancy_data(json_file_path,csv_path,csv_path_absolute_values,new_json_path):

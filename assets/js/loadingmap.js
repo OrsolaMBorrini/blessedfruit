@@ -42,7 +42,7 @@
 
 // Create a new instance of the map
 $(document).ready(function() {
-    var map = L.map('map').setView([42.5, 12.5], 6);
+    var map = L.map('map_17_rel').setView([42.5, 12.5], 6);
 
 
     // Add a tile layer to the map
@@ -78,18 +78,18 @@ $(document).ready(function() {
 
   // // GetColor function  //
       function getColor(value) {
-          return value < 10     ? '#FFE6CB' :
-                 value < 15     ? '#faf0e6' :
-                 value < 20     ? '#D7BB9F' :
-                 value < 25   ? '#CB895E' :
-                 value < 30    ? '#BC4418' :
-                 value < 35    ? '#8D2A07' :
-                 value < 16    ? '#580000' :
-                             '#580000';
+          return value < 3     ? '#FFE6CB' :
+                 value < 6     ? '#faf0e6' :
+                 value < 9     ? '#D7BB9F' :
+                 value < 12   ? '#CB895E' :
+                 value < 15    ? '#BC4418' :
+                 value < 18    ? '#8D2A07' :
+                 value < 21    ? '#580000' :
+                             '#BC4418';
       }
 
       // Fetch the GeoJSON data
-      fetch("https://raw.githubusercontent.com/OrsolaMBorrini/blessedfruit/main/visualisations/scripts/pregnancy_religion_education_17.geojson")
+      fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -98,7 +98,7 @@ $(document).ready(function() {
           var geojson = L.geoJson(italianRegions, {
             style: function(feature) {
               return {
-                fillColor: getColor(feature.properties.relig_yes),
+                fillColor: getColor(feature.properties.pregnancy_total),
                 weight: 2,
                 opacity: 1,
                 color: "white",
@@ -125,7 +125,7 @@ $(document).ready(function() {
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
+              layer.bindPopup(feature.properties.name + " - " + feature.properties.pregnancy_total);
             }
           }).addTo(map);
 

@@ -39,6 +39,11 @@
 
   <!-- VISUALISATION -->
 
+  <!-- Plotly -->
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
   <!-- Leaflet source -->
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -282,6 +287,18 @@
             This section shows the results of the project (main visualizations)
             VISUALIZATIONS HERE
           </p>
+          <div class="showcase__section" id="bubble">
+            <div class="spacer --small"></div>
+            <div id="bubbleplots">
+              <div class="bubbleplot" data-num="0">
+                <div class="plot" id="plotdiv"></div>
+                <div class="control-row">
+                  Country: <select class="countrydata">
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
           <!--
@@ -348,6 +365,20 @@
                 <div class="analysis-box-title">
                   <h2 class="analysis-title">MAP FOR 2017 HERE</h2>
 
+<<<<<<< Updated upstream
+=======
+                  </div>
+                              <div class="map" id="map_17_rel"></div>
+                              <div id="line-graph-17"></div>
+
+        </div>
+        <div class ="col-md-4 col-lg-4 d-flex mb-5 mb-lg-0">
+                    <div id="map_17_preg"></div>
+        </div>                  <div class ="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                                      <div id="map_17_edu"></div>
+        </div>
+                  <p class="description">idk if we want to write something here</p>
+>>>>>>> Stashed changes
                 </div>
                 <div id="map"></div>
 
@@ -356,6 +387,7 @@
             </div>
           </div>
 
+<<<<<<< Updated upstream
           <!-- 2018 MAP -->
           <div class="container collapse analysis-card" id="second_year" data-bs-parent="#results">
             <div class="align-items-stretch mb-5 mb-lg-0">
@@ -363,12 +395,27 @@
                 <!-- MAP FOR 2018 HERE INSIDE OF div analysis-box -->
                 <div class="analysis-box-title">
                   <h2 class="analysis-title">MAP FOR 2018 HERE</h2>
+=======
+            <!-- 2018 MAP -->
+            <div class="container collapse analysis-card" id="second_year" data-bs-parent="#results">
+              <div class="align-items-stretch mb-5 mb-lg-0">
+                <div class="analysis-box">
+                  <!-- MAP FOR 2018 HERE INSIDE OF div analysis-box -->
+                  <div class="analysis-box-title">
+                    <h2 class="analysis-title">MAP FOR 2018 HERE</h2>
+                  </div>
+                        <div id="line-graph-18"></div>
+                  <p class="description">idk if we want to write something here</p>
+
+
+>>>>>>> Stashed changes
                 </div>
                 <p class="description">idk if we want to write something here</p>
               </div>
             </div>
           </div>
 
+<<<<<<< Updated upstream
           <!-- 2019 MAP -->
           <div class="container collapse analysis-card" id="third_year" data-bs-parent="#results">
             <div class="align-items-stretch mb-5 mb-lg-0">
@@ -376,6 +423,18 @@
                 <!-- MAP FOR 2019 HERE INSIDE OF div analysis-box -->
                 <div class="analysis-box-title">
                   <h2 class="analysis-title">MAP FOR 2019 HERE</h2>
+=======
+            <!-- 2019 MAP -->
+            <div class="container collapse analysis-card" id="third_year" data-bs-parent="#results">
+              <div class="align-items-stretch mb-5 mb-lg-0">
+                <div class="analysis-box">
+                  <!-- MAP FOR 2019 HERE INSIDE OF div analysis-box -->
+                  <div class="analysis-box-title">
+                    <h2 class="analysis-title">MAP FOR 2019 HERE</h2>
+                  </div>
+                  <div id="line-graph-19"></div>
+                  <p class="description">idk if we want to write something here</p>
+>>>>>>> Stashed changes
                 </div>
                 <p class="description">idk if we want to write something here</p>
               </div>
@@ -2388,6 +2447,12 @@
   <!-- Leaflet js for maps -->
   <script src="assets/js/loadingmap.js"></script>
   <script src="assets/js/italy_regions.js"></script>
+  <script src="assets/js/plotly_graphs/STANDARDIZED_17.js"></script>
+  <script src="assets/js/plotly_graphs/STANDARDIZED_18.js"></script>
+  <script src="assets/js/plotly_graphs/STANDARDIZED_19.js"></script>
+  <script src="assets/js/plotly_graphs/time-series.js"></script>
+
+
 
 
 
