@@ -870,7 +870,7 @@ section {
 } */
 
 /*--------------------------------------------------------------
-# Analyses Section
+# Analyses (ex-services) Section
 --------------------------------------------------------------*/
 .services .icon-box {
   padding: 30px;
@@ -937,6 +937,7 @@ section {
   line-height: 1;
   color: #557c70;
 }
+/* End analyses boxes */
 
 .services .icon {
   margin: 0 auto 20px auto;
@@ -999,6 +1000,19 @@ section {
   border: #557c70 solid 2px;
   border-radius: 8px;
   z-index: 2;
+}
+
+.table-light {
+  color: #3c5950;
+  border-bottom: 2px solid #3c5950;
+}
+
+.table>:not(caption)>*>* {
+  background-color: transparent;
+}
+
+.table-hover>tbody>tr:hover>* {
+  background-color: #effaf6;
 }
 
 /*--------------------------------------------------------------
