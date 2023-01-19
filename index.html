@@ -748,70 +748,85 @@
               <i class="bi bi-patch-check"></i>
               <h2 class="analysis-title">Quality analysis</h2>
             </div>
-            <p class="description">Following the National Guidelines for the Improvement of Public Information Assets
-              and its four factors: accuracy, completeness, coherence and promptness.</p>
-            <table class="table table-hover">
-              <thead class="table-light">
-                <tr>
-                  <th scope="col">ID Dataset</th>
-                  <th scope="col">Accuracy</th>
-                  <th scope="col">Coherence</th>
-                  <th scope="col">Completeness</th>
-                  <th scope="col">Timeliness</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">D1 - Population 2017</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
+            <p class="analysis-text">
+              Following the Italian <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/aspettiorg.html#qualita-dei-dati"><b>National Guidelines</b></a> ("Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico"), developed in the context of the Data & Analytics
+              Framework project by AgID and the Digital Transformation Team, we have performed a quality analysis of our source datasets <span class="underlined--bg underlined--offset--bg"><b>to ensure
+              their good condition and their suitability</b></span> for the intended use.<br>
+              Specifically, there are four main factors to look for when analysing data quality:
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Accuracy (syntactic and semantic)</b>: the data and its attributes correctly represent the real value of
+                  the concept or event they refer to</li>
+                <li class="list-group-item"><b>Coherence</b>: the data and its attributes do not present any contradictions with respect to the other data in the context of use by the administration owner</li>
+                <li class="list-group-item"><b>Completeness</b>: the data are exhaustive for what concerns every expected value and with respect to the related entities (sources) that contribute to the definition of the procedure</li>
+                <li class="list-group-item"><b>Timeliness (or promptness of updating)</b>: the data and its attributes refer to the "correct time" (up to date) with respect to the procedure they refer to</li>
+              </ul>
+              The following table showcases the quality of each of the source datasets and highlights possible flaws.
+            </p>
+            <!-- Table for quality analysis -->
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead class="table-light">
+                  <tr>
+                    <th scope="col">ID Dataset</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">Coherence</th>
+                    <th scope="col">Completeness</th>
+                    <th scope="col">Timeliness</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">D1 - Population 2017</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
 
-                </tr>
-                <tr>
-                  <th scope="row">D2 - Population 2018, 2019</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">D3 - Religious observance</th>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">D4 - Live births</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">D5 - Spontaneous abortions</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">D6 - Induced abortions</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">D7 - Early leavers from education</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-              </tbody>
-            </table>
+                  </tr>
+                  <tr>
+                    <th scope="row">D2 - Population 2018, 2019</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">D3 - Religious observance</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">D4 - Live births</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">D5 - Spontaneous abortions</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">D6 - Induced abortions</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">D7 - Early leavers from education</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

@@ -79,6 +79,32 @@ h6 {
   color: #444444;
 }
 
+
+.underlined--bg {
+  color: #444444;
+  flex: 1;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #c5dfc1 0, #c5dfc1 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+
+.underlined--offset--bg {
+  background-position: 0 0.1em;
+  box-shadow: inset 0 -0.5em 0 0 #fff;
+}
+
+.underlined--bg.active--bg {
+  background-position: 0 0.1em;
+  box-shadow: inset 0 -0.5em 0 0 #fff;
+  background-size: 100% 100%;
+  color: #444444;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -973,6 +999,11 @@ section {
   margin-bottom: 0;
 }
 
+.services .analysis-text {
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
   color: #fff;
@@ -991,7 +1022,7 @@ section {
   padding-bottom: 1em;
 }
 
-/* Table boxes */
+/* General table boxes */
 .table-box {
   padding: 30px;
   position: relative;
@@ -1013,6 +1044,17 @@ section {
 
 .table-hover>tbody>tr:hover>* {
   background-color: #effaf6;
+}
+
+/* Quality table (ACCT) */
+
+.list-group-flush {
+  border-radius: 0;
+  padding: 0.5em;
+}
+
+.list-group-item {
+  color:#444444;
 }
 
 /*--------------------------------------------------------------

@@ -265,7 +265,8 @@
 /* --- Highlight animation --- */
 
 $(window).scroll(function(){
-  reveal(200);
+  reveal(300);
+  revealBG(300);
 })
 
 function reveal(delay) {
@@ -281,6 +282,23 @@ function reveal(delay) {
       }).bind(reveals[i]), delay);
     } else {
       reveals[i].classList.remove('active');
+    }
+  }
+}
+
+function revealBG(delay) {
+  var reveals = document.querySelectorAll('.underlined--bg');
+  let position = window.scrollY;
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      setTimeout((function(){
+        this.classList.add('active--bg');
+      }).bind(reveals[i]), delay);
+    } else {
+      reveals[i].classList.remove('active--bg');
     }
   }
 }
