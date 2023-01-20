@@ -48,15 +48,15 @@ function setBubblePlot(chosenCountry) {
     var data = [trace1];
 
     var layout = {
-      title: 'Early Leavers of Eduction per Region<br>'+ chosenCountry
+      title: 'Early Leavers of Education per Region<br>'+ chosenCountry
     };
 
     Plotly.newPlot('plotdiv-education', data, layout, {showSendToCloud: true});
 };
 
-var innerContainer = document.querySelector('[data-num="0"'),
-    plotEl = innerContainer.querySelector('.plot'),
-    countrySelector = innerContainer.querySelector('.countrydata');
+var innerContainer3 = document.querySelector('[data-num="3"'),
+    plotEl = innerContainer3.querySelector('.plot'),
+    countrySelector3 = innerContainer3.querySelector('.countrydata3');
 
 function assignOptions(textArray, selector) {
   for (var i = 0; i < textArray.length;  i++) {
@@ -66,11 +66,11 @@ function assignOptions(textArray, selector) {
   }
 }
 
-assignOptions(listofCountries, countrySelector);
+assignOptions(listofCountries, countrySelector3);
 
-function updateCountry(){
-    setBubblePlot(countrySelector.value);
+function updateCountry3(){
+    setBubblePlot(countrySelector3.value);
 }
 
-countrySelector.addEventListener('change', updateCountry, false);
+document.querySelector('.countrydata3').addEventListener('change', updateCountry3, false);
 });

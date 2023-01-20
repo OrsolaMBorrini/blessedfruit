@@ -48,15 +48,15 @@ function setBubblePlot(chosenCountry) {
     var data = [trace1];
 
     var layout = {
-      title: 'Religious observation per Region<br>'+ chosenCountry
+      title: 'Religious observance per Region<br>'+ chosenCountry
     };
 
     Plotly.newPlot('plotdiv-religion', data, layout, {showSendToCloud: true});
 };
 
-var innerContainer = document.querySelector('[data-num="0"'),
-    plotEl = innerContainer.querySelector('.plot'),
-    countrySelector = innerContainer.querySelector('.countrydata');
+var innerContainer1 = document.querySelector('[data-num="1"'),
+    plotEl = innerContainer1.querySelector('.plot'),
+    countrySelector1 = innerContainer1.querySelector('.countrydata1');
 
 function assignOptions(textArray, selector) {
   for (var i = 0; i < textArray.length;  i++) {
@@ -66,11 +66,11 @@ function assignOptions(textArray, selector) {
   }
 }
 
-assignOptions(listofCountries, countrySelector);
+assignOptions(listofCountries, countrySelector1);
 
-function updateCountry(){
-    setBubblePlot(countrySelector.value);
+function updateCountry1(){
+    setBubblePlot(countrySelector1.value);
 }
 
-countrySelector.addEventListener('change', updateCountry, false);
+document.querySelector('.countrydata1').addEventListener('change', updateCountry1, false);
 });

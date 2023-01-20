@@ -54,9 +54,9 @@ function setBubblePlot(chosenCountry) {
     Plotly.newPlot('plotdiv-pregnancy', data, layout, {showSendToCloud: true});
 };
 
-var innerContainer = document.querySelector('[data-num="0"'),
-    plotEl = innerContainer.querySelector('.plot'),
-    countrySelector = innerContainer.querySelector('.countrydata');
+var innerContainer2 = document.querySelector('[data-num="2"'),
+    plotEl = innerContainer2.querySelector('.plot'),
+    countrySelector2 = innerContainer2.querySelector('.countrydata2');
 
 function assignOptions(textArray, selector) {
   for (var i = 0; i < textArray.length;  i++) {
@@ -66,11 +66,11 @@ function assignOptions(textArray, selector) {
   }
 }
 
-assignOptions(listofCountries, countrySelector);
+assignOptions(listofCountries, countrySelector2);
 
-function updateCountry(){
-    setBubblePlot(countrySelector.value);
+function updateCountry2(){
+    setBubblePlot(countrySelector2.value);
 }
 
-countrySelector.addEventListener('change', updateCountry, false);
+document.querySelector('.countrydata2').addEventListener('change', updateCountry2, false);
 });
