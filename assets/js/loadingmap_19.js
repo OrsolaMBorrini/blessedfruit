@@ -1,5 +1,5 @@
 
-// 2018 DATA
+// 2019 DATA
 
 // Create a new instance of the map for religion
 $(document).ready(function() {
@@ -45,7 +45,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
+      fetch("visualisations/scripts/map_2019/pregnancy_religion_education_19.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -142,7 +142,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
+      fetch("visualisations/scripts/map_2019/pregnancy_religion_education_19.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -239,7 +239,7 @@ $(document).ready(function() {
               }
 
               // Fetch the GeoJSON data
-              fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
+              fetch("visualisations/scripts/map_2019/pregnancy_religion_education_19.geojson")
                 .then(function(response) {
                   return response.json();
                 })
