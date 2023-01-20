@@ -1,0 +1,52 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatap: <http://data.europa.eu/r5r/>.
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+ 
+ 
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/metdata/Catalog> 
+                    a           dcatapit:Catalog , 
+                                dcat:Catalog ;
+                    dct:title  "bbfCatalog"@en ;
+                    adms:identifier  "bbfMashupDS"@en; #non esiste
+                    dct:description "Catalog containing the mashpu datasets for the project Blessed be the fruit" ;
+                    dct:publisher  <https://github.com/OrsolaMBorrini/blessedfruit> ;
+                    dct:issued    "2023-01-22"^^xsd:date ;  
+                    dct:modified  "2023-01-22"^^xsd:date ;
+                    
+                    dcat:dataset  <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2017> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2018> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2019> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2017> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2018> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2019> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_17> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_18> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_19> ;
+
+                    foaf:hompage    <https://github.com/OrsolaMBorrini/blessedfruit/tree/main/data/mashupDS/> ;
+                    dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
+                    dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme/> ;
+                    
+                    dct:license	    <http://creativecommons.org/licenses/by/4.0/> .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit> 
+                    a           dcatapit:Agent , 
+                                foaf:Agent ;
+                    dct:identifier "blessedfruit" ;
+                    foaf:name   "blessed be the fruit" .
+
+
+<http://creativecommons.org/licenses/by/4.0/>
+                    a                dcatapit:LicenseDocument , dct:LicenseDocument ;
+                    dct:type         <http://purl.org/adms/licencetype/Attribution> ;
+                    foaf:name        "CC BY" ;
+                    owl:versionInfo  "4.0" .
+
+        
