@@ -6,10 +6,10 @@ Plotly.d3.csv('visualisations/scripts/full_time_series.csv', function(err, rows)
 
 var allCountryNames = unpack(rows, 'Region'),
     allYear = unpack(rows, 'Time'),
-    allGdp = unpack(rows, 'Early leavers absolute value'),
+    allValues = unpack(rows, 'Early leavers absolute value'),
     listofCountries = [],
     currentCountry,
-    currentGdp = [],
+    currentValue = [],
     currentYear = [];
 
   for (var i = 0; i < allCountryNames.length; i++ ){
@@ -19,11 +19,11 @@ var allCountryNames = unpack(rows, 'Region'),
   }
 
   function getCountryData(chosenCountry) {
-    currentGdp = [];
+    currentValue = [];
     currentYear = [];
     for (var i = 0 ; i < allCountryNames.length ; i++){
       if ( allCountryNames[i] === chosenCountry ) {
-        currentGdp.push(allGdp[i]);
+        currentValue.push(allValues[i]);
         currentYear.push(allYear[i]);
       }
     }
@@ -37,18 +37,20 @@ function setBubblePlot(chosenCountry) {
 
     var trace1 = {
       x: currentYear,
-      y: currentGdp,
+      y: currentValue,
       mode: 'lines+markers',
       marker: {
         size: 12,
         opacity: 0.5
-      }
+      },
+      line: { color: '#DD8301' }
     };
+
 
     var data = [trace1];
 
     var layout = {
-      title: 'Early Leavers of Education per Region<br>'+ chosenCountry
+      title: 'Early leavers of education<br>'+ chosenCountry
     };
 
     Plotly.newPlot('plotdiv-education', data, layout, {showSendToCloud: true});

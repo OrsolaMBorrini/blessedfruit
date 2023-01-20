@@ -19,7 +19,7 @@ var allCountryNames = unpack(rows, 'Region'),
   }
 
   function getCountryData(chosenCountry) {
-    currentvalue = [];
+    currentValue = [];
     currentYear = [];
     for (var i = 0 ; i < allCountryNames.length ; i++){
       if ( allCountryNames[i] === chosenCountry ) {
@@ -35,6 +35,7 @@ setBubblePlot('Piemonte');
 function setBubblePlot(chosenCountry) {
     getCountryData(chosenCountry);
 
+
     var trace1 = {
       x: currentYear,
       y: currentValue,
@@ -42,13 +43,14 @@ function setBubblePlot(chosenCountry) {
       marker: {
         size: 12,
         opacity: 0.5
-      }
+      },
+      line: { color: '#52A84C' }
     };
 
     var data = [trace1];
 
     var layout = {
-      title: 'Pregnancies per Region<br>'+ chosenCountry
+      title: 'Total Pregnancies<br>'+ chosenCountry
     };
 
     Plotly.newPlot('plotdiv-pregnancy', data, layout, {showSendToCloud: true});
