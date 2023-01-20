@@ -113,7 +113,9 @@ layout = {
   },
   barmode: 'group',
   barnorm: '',
-  autosize: true,
+  autosize: false,
+  width: 900,
+  height: 500,
   colorway: ['#4c78a8', '#f58518', '#e45756', '#72b7b2', '#54a24b', '#eeca3b', '#b279a2', '#ff9da6', '#9d755d', '#bab0ac'],
   template: {
     data: {

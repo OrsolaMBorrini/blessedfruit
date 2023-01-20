@@ -19,16 +19,16 @@ def viz_time_series(md1,md2,md3,path):
     df3.rename(columns={"Region_GENERAL":"Region"}, inplace=True)
 
     for index, row in df1.iterrows():
-        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
-            df1.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+        if row['Region'] in ["Valle D'Aosta/Vallée D'Aoste", "Valle d'Aosta/Vallée d'Aoste"]:
+            df1.at[index, 'Region'] = "Valle d'Aosta / Vallée d'Aoste"
 
     for index, row in df2.iterrows():
-        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
-            df2.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+        if row['Region'] in ["Valle D'Aosta/Vallée D'Aoste", "Valle d'Aosta/Vallée d'Aoste"]:
+            df2.at[index, 'Region'] = "Valle d'Aosta / Vallée d'Aoste"
 
     for index, row in df3.iterrows():
-        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
-            df3.at[index, 'Region'] = "Valle D'Aosta / Vallée D'Aoste"
+        if row['Region'] in ["Valle D'Aosta/Vallée D'Aoste", "Valle d'Aosta/Vallée d'Aoste"]:
+            df3.at[index, 'Region'] = "Valle d'Aosta / Vallée d'Aoste"
 
 
     # df1.loc[df1["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
@@ -81,4 +81,4 @@ def merge_datasets(path):
     return df_full
 
 
-print(merge_datasets("full_time_series.csv"))
+print(merge_datasets("full_time_series_1.csv"))

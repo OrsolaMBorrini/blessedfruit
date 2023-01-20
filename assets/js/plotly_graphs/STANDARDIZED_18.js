@@ -58,7 +58,7 @@ trace3 = {
   name: '%{meta.columnNames.y}',
   type: 'scatter',
   xsrc: 'chloepap:7:02c353',
-  x: ['Piemonte', "Valle d'Aosta / Vallée d'Aoste", 'Liguria', 'Lombardia', 'Veneto', 'Friuli-Venezia Giulia', 'Emilia-Romagna', 'Trentino Alto Adige / Südtirol', 'Toscana', 'Umbria', 'Marche', 'Lazio', 'Abruzzo', 'Molise', 'Campania', 'Puglia', 'Basilicata', 'Calabria', 'Sicilia', 'Sardegna'], 
+  x: ['Piemonte', "Valle d'Aosta / Vallée d'Aoste", 'Liguria', 'Lombardia', 'Veneto', 'Friuli-Venezia Giulia', 'Emilia-Romagna', 'Trentino Alto Adige / Südtirol', 'Toscana', 'Umbria', 'Marche', 'Lazio', 'Abruzzo', 'Molise', 'Campania', 'Puglia', 'Basilicata', 'Calabria', 'Sicilia', 'Sardegna'],
   ysrc: 'chloepap:7:a1cd92',
   y: ['0.11428887455400004', '0.6417759878801519', '0.39059164820103187', '-0.2876060689325918', '-0.111777031157208', '-1.0411590879699517', '-0.4885535406758879', '-0.7648563143229198', '-0.31272450290050324', '-0.9909222200341278', '-1.066277521937864', '-0.6392641444833598', '-1.0411590879699517', '-0.7648563143229198', '1.9228161202436636', '0.49106538407267997', '-0.7648563143229198', '0.9180787615271837', '2.4251847996019036', '1.3702105729495997'],
   stackgroup: null
@@ -109,7 +109,9 @@ layout = {
   },
   barmode: 'group',
   barnorm: '',
-  autosize: true,
+  autosize: false,
+  width: 900,
+  height: 500,
   colorway: ['#4c78a8', '#f58518', '#e45756', '#72b7b2', '#54a24b', '#eeca3b', '#b279a2', '#ff9da6', '#9d755d', '#bab0ac'],
   template: {
     data: {

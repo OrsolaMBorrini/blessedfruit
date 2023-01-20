@@ -1,4 +1,4 @@
-Plotly.d3.csv('visualisations/scripts/full_time_series.csv', function(err, rows){
+Plotly.d3.csv('visualisations/scripts/full_time_series_1.csv', function(err, rows){
 
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
@@ -19,16 +19,15 @@ var allCountryNames = unpack(rows, 'Region'),
   }
 
   function getCountryData(chosenCountry) {
-      currentValue = [];
-      currentYear = [];
-      for (var i = 0 ; i < allCountryNames.length ; i++){
-        if (allCountryNames[i] === chosenCountry && (parseInt(Math.round(allYear[i])) >= 2017 && parseInt(Math.round(allYear[i])) <= 2019)) {
-            currentValue.push(allValues[i]);
-            currentYear.push(allYear[i]);
-        }
+    currentValue = [];
+    currentYear = [];
+    for (var i = 0 ; i < allCountryNames.length ; i++){
+      if ( allCountryNames[i] === chosenCountry ) {
+        currentValue.push(allValues[i]);
+        currentYear.push(allYear[i]);
       }
+    }
   };
-
 
 // Default Country Data
 setBubblePlot('Piemonte');
@@ -51,7 +50,7 @@ function setBubblePlot(chosenCountry) {
     var data = [trace1];
 
     var layout = {
-      title: '<b>Religious observance</b> <br>'+ chosenCountry
+      title: 'Religious observance <br>'+ chosenCountry
     };
 
     Plotly.newPlot('plotdiv-religion', data, layout, {showSendToCloud: true});
