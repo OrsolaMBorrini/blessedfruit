@@ -286,7 +286,8 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Results</h2>
-          <p><span class="underlined underlined--offset"><b>Click on a year to find out the specific results!</b></span></p>
+          <p><span class="underlined underlined--offset"><b>Click on a year to find out the specific results!</b></span>
+          </p>
           <!-- <div class="container" id="pregnancy-pie"></div> -->
         </div>
 
@@ -351,35 +352,47 @@
           </div>
         </div>
 
-                  <p class="description">idk if we want to write something here</p>
-                  <div class="line-graph"id="line-graph-17"></div>
+        <p class="description">idk if we want to write something here</p>
+        <div class="line-graph" id="line-graph-17"></div>
 
 
 
-          <!-- 2018 MAP -->
-          <div class="container collapse analysis-card" id="second_year" data-bs-parent="#results">
-            <div class="align-items-stretch mb-5 mb-lg-0">
-              <div class="analysis-box">
-                <!-- MAP FOR 2018 HERE INSIDE OF div analysis-box -->
-                <div class="analysis-box-title">
-                  <h2 class="analysis-title">MAP FOR 2018 HERE</h2>
-                </div>
-                <div class="row" id="map-container">
-                  <div class="col-md-3">
-                    <div class="map" id="map_18_rel"></div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="map" id="map_18_preg"></div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="map" id="map_18_edu"></div>
-                  </div>
-                </div>
-                <div class="line-graph" id="line-graph-18"></div>
-                <p class="description">idk if we want to write something here</p>
+        <!-- 2018 -->
+        <div class="container collapse analysis-card" id="second_year" data-bs-parent="#results">
+          <div class="align-items-stretch mb-5 mb-lg-0">
+            <div class="analysis-box">
+              <div class="analysis-box-title">
+                <h2 class="analysis-title">Results for year 2018</h2>
               </div>
+              <!-- Factors division -->
+              <div class="row justify-content-center">
+                <div class="col-md-3 text-center factor-text">
+                  <p>Religious observance</p>
+                </div>
+                <div class="col-md-3 text-center factor-text">
+                  <p>Pregnancy rates</p>
+                </div>
+                <div class="col-md-3 text-center factor-text">
+                  <p>Education rates</p>
+                </div>
+              </div>
+              <!-- Maps -->
+              <div class="row" id="map-container">
+                <div class="col-md-3">
+                  <div class="map" id="map_18_rel"></div>
+                </div>
+                <div class="col-md-3">
+                  <div class="map" id="map_18_preg"></div>
+                </div>
+                <div class="col-md-3">
+                  <div class="map" id="map_18_edu"></div>
+                </div>
+              </div>
+              <!-- Line graph -->
+              <div class="line-graph" id="line-graph-18"></div>
             </div>
           </div>
+        </div>
 
 
         <!-- 2019 -->
@@ -1569,8 +1582,24 @@
               format, provenance, IRI</p>
             <p class="analysis-text">
               RDF assertion and Metadata for mashup datasets
-              All produced mashup dataset have been thoroughly described with metadata, following the specification ofDCAT-AP_ITstandard as recommended by AGID'spublic information heritage valorization guidelines. In compliance with AGID's guidelines, to describe in full transparency other aspects of our datasets we adopted PROV-O: The provenance ontology properties to document in full transparency the activities of data managing, from generation to publication, as already implemented at a european level.
-              Since, all our datasets contain data of specific national interest and are derived from Istat datasets, which is an italian public research institution we decided to adopt DCAT-AP_IT (2016), the national standard. Although it is based on the first version of the european standard DCAT and has more constraints, compared to the more flexible and recent european standardDCAT-AP 2.0, we considered DCAT-AP_IT the more suitable standard to adopt for two reasons: On the one hand, because In the italian public sector an increasing number of Public Administrations are adopting DCAT-AP_IT, on the other hand, because this allowed us to follow more detailed national guidelines and therfore ensure interoperability and harmonization with other data on a national level. Finally, considering that the class dcatapit:Dataset is a dcat:Dataset it is reasonable to include also properties from DCAT-AP 2.0 and "you can also consider DCAT - version 3 (assume in DCAT-AP_IT there is a DatasetSeries class" chiedere a Giorgia bene che significa questa cosa e soprattutto, allora uno potrebbe includere qualsiasi proprietà di dcat 2 in virtù del fatto che dcatapit dataset è subclass di dcat dataset?? Ma allora perché scegliere uno rispetto all'altro?
+              All produced mashup dataset have been thoroughly described with metadata, following the specification
+              ofDCAT-AP_ITstandard as recommended by AGID'spublic information heritage valorization guidelines. In
+              compliance with AGID's guidelines, to describe in full transparency other aspects of our datasets we
+              adopted PROV-O: The provenance ontology properties to document in full transparency the activities of data
+              managing, from generation to publication, as already implemented at a european level.
+              Since, all our datasets contain data of specific national interest and are derived from Istat datasets,
+              which is an italian public research institution we decided to adopt DCAT-AP_IT (2016), the national
+              standard. Although it is based on the first version of the european standard DCAT and has more
+              constraints, compared to the more flexible and recent european standardDCAT-AP 2.0, we considered
+              DCAT-AP_IT the more suitable standard to adopt for two reasons: On the one hand, because In the italian
+              public sector an increasing number of Public Administrations are adopting DCAT-AP_IT, on the other hand,
+              because this allowed us to follow more detailed national guidelines and therfore ensure interoperability
+              and harmonization with other data on a national level. Finally, considering that the class
+              dcatapit:Dataset is a dcat:Dataset it is reasonable to include also properties from DCAT-AP 2.0 and "you
+              can also consider DCAT - version 3 (assume in DCAT-AP_IT there is a DatasetSeries class" chiedere a
+              Giorgia bene che significa questa cosa e soprattutto, allora uno potrebbe includere qualsiasi proprietà di
+              dcat 2 in virtù del fatto che dcatapit dataset è subclass di dcat dataset?? Ma allora perché scegliere uno
+              rispetto all'altro?
             </p>
 
             <!-- Buttons for the tables -->
@@ -1705,21 +1734,20 @@
 
 
 
-        <div id="pie-pregnancies"></div>
-        <select class="countrydata">
-<<<<<<< Updated upstream
-          <option value="default">Select Region</option>
-        </select>
-        <select class="yeardata">
-          <option value="default">Select Year</option>
-=======
+          <div id="pie-pregnancies"></div>
+          <select class="countrydata">
+            <<<<<<< Updated upstream <option value="default">Select Region</option>
+          </select>
+          <select class="yeardata">
+            <option value="default">Select Year</option>
+            =======
             <option value="Select Region">Select Region</option>
-        </select>
+          </select>
 
-        <select class="yeardata">
+          <select class="yeardata">
             <option value="SelectYear">SelectYear</option>
->>>>>>> Stashed changes
-        </select>
+            >>>>>>> Stashed changes
+          </select>
 
     </section><!-- End Visualizations Section -->
 
