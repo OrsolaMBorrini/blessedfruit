@@ -806,13 +806,36 @@ section {
 }
 
 #results-buttons li:hover,
-#results-buttons li.filter-active {
+#results-buttons li:focus {
   color: #fff;
   background: #557c70;
 }
 
 #results-flters li:last-child {
   margin-right: 0;
+}
+
+.factor-text {
+  font-family: 'Raleway';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.factor-text p::before,
+.factor-text p::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  background: #557c70;
+  display: inline-block;
+}
+
+.factor-text p::before {
+  margin: 0 5px 5px 0;
+}
+
+.factor-text p::after {
+  margin: 0 0 5px 5px;
 }
 
 
