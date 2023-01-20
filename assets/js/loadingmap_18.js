@@ -1,55 +1,15 @@
-//PIES AND BROWSER MENU
 
-  const regionLinks = document.querySelectorAll('.dropdown-menu a[data-value]');
-  const yearButtons = document.querySelectorAll('input[type="radio"][data-value]');
-  const pregnancyPie = document.getElementById('pregnancy-pie');
-
-  regionLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      // remove active class from other links
-      regionLinks.forEach(l => l.classList.remove("active"))
-      // add active class to selected link
-      this.classList.add("active")
-      // get selected year
-      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-      // get selected region
-      const selectedRegion = this.getAttribute('data-value');
-      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-        .then(response => response.text())
-        .then(html => {
-          pregnancyPie.innerHTML = html;
-        });
-    });
-  });
-
-  yearButtons.forEach(button => {
-    button.addEventListener('change', function() {
-      // remove active class from other buttons
-      yearButtons.forEach(b => b.classList.remove("active"))
-      // add active class to selected button
-      this.classList.add("active")
-      // get selected year
-      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-      const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
-      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-        .then(response => response.text())
-        .then(html => {
-          pregnancyPie.innerHTML = html;
-        });
-    });
-  });
-
-// 2017 DATA
+// 2018 DATA
 
 // Create a new instance of the map for religion
 $(document).ready(function() {
-    var map_17_rel = L.map('map_17_rel').setView([42.5, 12.5], 5);
+    var map_18_rel = L.map('map_18_rel').setView([42.5, 12.5], 5);
 
 
     // Add a tile layer to the map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map_17_rel);
+    }).addTo(map_18_rel);
 
 
     //Add legend
@@ -68,7 +28,7 @@ $(document).ready(function() {
 
       return div;
     }
-    legend.addTo(map_17_rel);
+    legend.addTo(map_18_rel);
 
 
 
@@ -85,7 +45,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+      fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -123,13 +83,13 @@ $(document).ready(function() {
               // Add the original popup content
               layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
             }
-          }).addTo(map_17_rel);
+          }).addTo(map_18_rel);
 
           // Zoom the map to fit the GeoJSON data
 
            // Invalidate the map size to fix any issues with the map not displaying correctly
            $('.map-li').on('click', function() {
-             map_17_rel.invalidateSize();
+             map_18_rel.invalidateSize();
           });
          });
 
@@ -140,13 +100,13 @@ $(document).ready(function() {
 
 // Create a new instance of the map for pregnancies
 $(document).ready(function() {
-    var map = L.map('map_17_preg').setView([42.5, 12.5], 5);
+    var map_18_preg = L.map('map_18_preg').setView([42.5, 12.5], 5);
 
 
     // Add a tile layer to the map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    }).addTo(map_18_preg);
 
 
     //Add legend
@@ -165,7 +125,7 @@ $(document).ready(function() {
 
       return div;
     }
-    legend.addTo(map);
+    legend.addTo(map_18_preg);
 
 
 
@@ -182,7 +142,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+      fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -220,13 +180,13 @@ $(document).ready(function() {
               // Add the original popup content
               layer.bindPopup(feature.properties.name + " - " + feature.properties.pregnancy_percentage);
             }
-          }).addTo(map);
+          }).addTo(map_18_preg);
 
           // Zoom the map to fit the GeoJSON data
 
            // Invalidate the map size to fix any issues with the map not displaying correctly
            $('.map-li').on('click', function() {
-             map.invalidateSize();
+             map_18_preg.invalidateSize();
           });
          });
 
@@ -237,13 +197,13 @@ $(document).ready(function() {
 
         // Create a new instance of the map for early leavers
         $(document).ready(function() {
-            var map_17_edu = L.map('map_17_edu').setView([42.5, 12.5], 5);
+            var map_18_edu = L.map('map_18_edu').setView([42.5, 12.5], 5);
 
 
             // Add a tile layer to the map
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map_17_edu);
+            }).addTo(map_18_edu);
 
 
             //Add legend
@@ -259,10 +219,10 @@ $(document).ready(function() {
               // Add the legend items and their corresponding colors
               div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB !important;'></div> <div class='legend-text'>Early leavers of education %</div></div>";
               div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
-
+              
               return div;
             }
-            legend.addTo(map_17_edu);
+            legend.addTo(map_18_edu);
 
 
 
@@ -279,7 +239,7 @@ $(document).ready(function() {
               }
 
               // Fetch the GeoJSON data
-              fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+              fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
                 .then(function(response) {
                   return response.json();
                 })
@@ -316,21 +276,21 @@ $(document).ready(function() {
                       });
                       // Add the zoom functionality
                       layer.on("click", function() {
-                        map_17_edu.zoomIn(0.4);
+                        map_18_edu.zoomIn(0.4);
                       });
                       layer.on("mouseout", function() {
-                        map_17_edu.zoomOut(0.4);
+                        map_18_edu.zoomOut(0.4);
                       });
                       // Add the original popup content
                       layer.bindPopup(feature.properties.name + " - " + feature.properties.female_early_leavers_percentage);
                     }
-                  }).addTo(map_17_edu);
+                  }).addTo(map_18_edu);
 
                   // Zoom the map to fit the GeoJSON data
 
                    // Invalidate the map size to fix any issues with the map not displaying correctly
                    $('.map-li').on('click', function() {
-                     map_17_edu.invalidateSize();
+                     map_18_edu.invalidateSize();
                   });
                  });
 
