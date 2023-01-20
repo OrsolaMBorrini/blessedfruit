@@ -753,6 +753,16 @@
               <h4 class="title"><a href="">Technical Analysis</a></h4>
               <p class="description">On the metadata provided by Istat and other possible information on the datasets:
                 format, provenance, IRI</p>
+               <p><b>RDF assertion and Metadata for mashup datasets</b><br>
+                    All produced mashup dataset have been thoroughly described with metadata, following the specification of<a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/index.html" target="_blank">DCAT-AP_IT</a>standard as recommended by AGID's<a href="#" target="_blank">public information heritage valorization guidelines</a>.
+                    In compliance with AGID's <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html" target="_blank">guidelines</a>, to describe in full transparency other aspects of our datasets we adopted <a href="https://www.w3.org/TR/prov-o/" target="_blank"><b>PROV-O: The provenance ontology</b></a> 
+                    properties to document in full transparency the activities of data managing, from generation to publication, as already implemented at a european level.<br>
+                    Since, all our datasets contain data of specific national interest and are derived from Istat datasets, which is an italian public research institution we decided to adopt DCAT-AP_IT (2016), the national standard. Although it is based on the first version of the european standard DCAT and has more constraints, compared to the more flexible and recent european 
+                    standard<a href="https://www.w3.org/TR/vocab-dcat-2/" target="_blank">DCAT-AP 2.0</a>, we considered DCAT-AP_IT the more suitable standard to adopt for two reasons:
+                    On the one hand, because In the italian public sector an increasing number of Public Administrations are adopting DCAT-AP_IT, on the other hand, because this allowed us to follow more detailed national guidelines and therfore ensure interoperability and harmonization with other data on a national level.
+                    Finally, considering that the class <code>dcatapit:Dataset</code> is a <code>dcat:Dataset</code> it is reasonable to include also properties from DCAT-AP 2.0 and "you can also 
+                    consider DCAT - version 3 (assume in DCAT-AP_IT there is a DatasetSeries class" <i>chiedere a Giorgia bene che significa questa cosa e soprattutto, allora uno potrebbe includere qualsiasi proprietà di dcat 2 in virtù del fatto che dcatapit dataset è subclass di dcat dataset?? Ma allora perché scegliere uno rispetto all'altro?</i>
+             </p>
             </div>
           </div>
 
