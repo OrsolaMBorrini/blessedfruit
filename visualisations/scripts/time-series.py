@@ -56,7 +56,7 @@ def viz_time_series(md1,md2,md3,path):
                 
     merged_df = merge(df1, df2, on="Region code")
     final_df= merge(merged_df, df3, on="Region code")
-
+    
     final_df.to_csv(path)
 
     return path
@@ -71,13 +71,14 @@ def merge_datasets(path):
     df1=read_csv(year_17)
     df2=read_csv(year_18)
     df3=read_csv(year_19)
-
     df_17_18=concat([df1,df2], ignore_index=True)
     df_full=concat([df_17_18,df3], ignore_index=True)
     df_full=df_full[["Region code","Region_x","Population","TIPO_DATO_AVQ","Percentage","Live_births","Miscarriages","Abortions","Total","Time","Age range_GENERAL","Gender","Population_FEMALE","Value_y","Female Early Leavers"]]
     df_full.rename(columns={"Region_x":"Region", "Percentage":"Religious observation","Value_y":"Early leavers absolute value"}, inplace=True)
+    df_full=df_full.astype({"Time":int,"Religious observation":float, "Early leavers absolute value":float, "Female Early Leavers":float})
+
     df_full.to_csv(path)
-    return df_full["Time"]
+    return df_full
 
 
 print(merge_datasets("full_time_series.csv"))

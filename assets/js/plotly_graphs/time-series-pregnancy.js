@@ -6,10 +6,10 @@ Plotly.d3.csv('visualisations/scripts/full_time_series.csv', function(err, rows)
 
 var allCountryNames = unpack(rows, 'Region'),
     allYear = unpack(rows, 'Time'),
-    allGdp = unpack(rows, 'Religious observation'),
+    allValues = unpack(rows, 'Total'),
     listofCountries = [],
     currentCountry,
-    currentGdp = [],
+    currentValue = [],
     currentYear = [];
 
   for (var i = 0; i < allCountryNames.length; i++ ){
@@ -19,11 +19,11 @@ var allCountryNames = unpack(rows, 'Region'),
   }
 
   function getCountryData(chosenCountry) {
-    currentGdp = [];
+    currentvalue = [];
     currentYear = [];
     for (var i = 0 ; i < allCountryNames.length ; i++){
       if ( allCountryNames[i] === chosenCountry ) {
-        currentGdp.push(allGdp[i]);
+        currentValue.push(allValues[i]);
         currentYear.push(allYear[i]);
       }
     }
@@ -37,7 +37,7 @@ function setBubblePlot(chosenCountry) {
 
     var trace1 = {
       x: currentYear,
-      y: currentGdp,
+      y: currentValue,
       mode: 'lines+markers',
       marker: {
         size: 12,
@@ -48,10 +48,10 @@ function setBubblePlot(chosenCountry) {
     var data = [trace1];
 
     var layout = {
-      title: 'Religious observation per Region<br>'+ chosenCountry
+      title: 'Pregnancies per Region<br>'+ chosenCountry
     };
 
-    Plotly.newPlot('plotdiv', data, layout, {showSendToCloud: true});
+    Plotly.newPlot('plotdiv-pregnancy', data, layout, {showSendToCloud: true});
 };
 
 var innerContainer = document.querySelector('[data-num="0"'),
