@@ -1092,6 +1092,10 @@ section {
   transform: var(--bs-accordion-btn-icon-transform);
 }
 
+/* Tables INSIDE accordion */
+.table-responsive {
+  padding: 1em;
+}
 
 
 
