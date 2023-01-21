@@ -2036,6 +2036,7 @@ h3.analysis-second-title {
   overflow: hidden;
 }
 
+<<<<<<< Updated upstream
 .leaflet-container {
   background-color: white !important;
 }
@@ -2043,3 +2044,15 @@ h3.analysis-second-title {
 .leaflet-tile-container {
   display: none;
 }
+=======
+ .leaflet-container {
+   background-color: white!important;
+ }
+ .leaflet-tile-container {
+   display:none;
+ }
+
+.leaflet-control-zoom{
+  display:none;
+}
+>>>>>>> Stashed changes

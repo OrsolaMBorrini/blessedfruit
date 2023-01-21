@@ -17,6 +17,7 @@
  *   </body>
  * </html>
  */
+ $(document).ready(function() {
 
 trace1 = {
   line: {color: 'rgb(199, 12, 67)'},
@@ -71,7 +72,7 @@ layout = {
       size: 14,
       family: 'Arial'
     },
-    text: 'Correlation of religious observation, pregnancies, and early leavers of education in the female population (2018)'
+    text: ''
   },
   xaxis: {
     type: 'category',
@@ -104,7 +105,7 @@ layout = {
     tracegroupgap: 6
   },
   margin: {
-    b: 84,
+    b: 100,
     t: 100
   },
   barmode: 'group',
@@ -459,4 +460,5 @@ layout = {
 Plotly.plot('line-graph-18', {
   data: data,
   layout: layout
+});
 });

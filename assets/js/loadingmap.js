@@ -1,43 +1,43 @@
 //PIES AND BROWSER MENU
 
-  const regionLinks = document.querySelectorAll('.dropdown-menu a[data-value]');
-  const yearButtons = document.querySelectorAll('input[type="radio"][data-value]');
-  const pregnancyPie = document.getElementById('pregnancy-pie');
-
-  regionLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      // remove active class from other links
-      regionLinks.forEach(l => l.classList.remove("active"))
-      // add active class to selected link
-      this.classList.add("active")
-      // get selected year
-      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-      // get selected region
-      const selectedRegion = this.getAttribute('data-value');
-      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-        .then(response => response.text())
-        .then(html => {
-          pregnancyPie.innerHTML = html;
-        });
-    });
-  });
-
-  yearButtons.forEach(button => {
-    button.addEventListener('change', function() {
-      // remove active class from other buttons
-      yearButtons.forEach(b => b.classList.remove("active"))
-      // add active class to selected button
-      this.classList.add("active")
-      // get selected year
-      const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-      const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
-      fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-        .then(response => response.text())
-        .then(html => {
-          pregnancyPie.innerHTML = html;
-        });
-    });
-  });
+  // const regionLinks = document.querySelectorAll('.dropdown-menu a[data-value]');
+  // const yearButtons = document.querySelectorAll('input[type="radio"][data-value]');
+  // const pregnancyPie = document.getElementById('pregnancy-pie');
+  //
+  // regionLinks.forEach(link => {
+  //   link.addEventListener('click', function() {
+  //     // remove active class from other links
+  //     regionLinks.forEach(l => l.classList.remove("active"))
+  //     // add active class to selected link
+  //     this.classList.add("active")
+  //     // get selected year
+  //     const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
+  //     // get selected region
+  //     const selectedRegion = this.getAttribute('data-value');
+  //     fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+  //       .then(response => response.text())
+  //       .then(html => {
+  //         pregnancyPie.innerHTML = html;
+  //       });
+  //   });
+  // });
+  //
+  // yearButtons.forEach(button => {
+  //   button.addEventListener('change', function() {
+  //     // remove active class from other buttons
+  //     yearButtons.forEach(b => b.classList.remove("active"))
+  //     // add active class to selected button
+  //     this.classList.add("active")
+  //     // get selected year
+  //     const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
+  //     const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
+  //     fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
+  //       .then(response => response.text())
+  //       .then(html => {
+  //         pregnancyPie.innerHTML = html;
+  //       });
+  //   });
+  // });
 
 // 2017 DATA
 
@@ -325,6 +325,9 @@ $(document).ready(function() {
                       layer.bindPopup(feature.properties.name + " - " + feature.properties.female_early_leavers_percentage);
                     }
                   }).addTo(map_17_edu);
+
+                  map_17_edu.removeControl(map_17_edu.zoomControl);
+
 
                   // Zoom the map to fit the GeoJSON data
 

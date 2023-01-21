@@ -219,7 +219,7 @@ $(document).ready(function() {
               // Add the legend items and their corresponding colors
               div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB !important;'></div> <div class='legend-text'>Early leavers of education %</div></div>";
               div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
-              
+
               return div;
             }
             legend.addTo(map_18_edu);
@@ -285,6 +285,9 @@ $(document).ready(function() {
                       layer.bindPopup(feature.properties.name + " - " + feature.properties.female_early_leavers_percentage);
                     }
                   }).addTo(map_18_edu);
+
+                  map_18_edu.removeControl(map_18_edu.zoomControl);
+
 
                   // Zoom the map to fit the GeoJSON data
 
