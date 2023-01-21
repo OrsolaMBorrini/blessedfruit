@@ -1761,9 +1761,12 @@ All documentation regarding the data processing for creating the mashup datasets
               Finally, considering that the class
               <code>dcatapit:Dataset</code> is a <code>dcat:Dataset</code> it is reasonable to include also properties
               from DCAT-AP 2.0 and "you can also consider DCAT - version 3 (assume in DCAT-AP_IT there is a
-              DatasetSeries class" <i>chiedere a Giorgia bene che significa questa cosa e soprattutto, allora uno
-                potrebbe includere qualsiasi proprietà di dcat 2 in virtù del fatto che dcatapit dataset è subclass di
-                dcat dataset?? Ma allora perché scegliere uno rispetto all'altro?</i>
+              DatasetSeries class" 
+              <br><blockquote>è anche possibile porre enfasi sugli elementi individuali della serie, delle viste o delle collezioni. In tal caso si consiglia comunque di procedere nel seguente modo:
+
+                creare un dataset di tipo serie, utilizzando la proprietà Dublin Core dct:type che assume come valore; <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
+                creare per questo dataset tanti membri, a loro volta dataset, specificati mediante la proprietà Dublin Core dct:hasPart;
+                i singoli dataset membri della serie avranno una proprietà Dublin Core dct:isPartOf che li lega al dataset iniziale di tipo serie.</blockquote>
             </p>
 
 
