@@ -1,36 +1,36 @@
-document.addEventListener('DOMContentLoaded', function() {
-  Plotly.d3.csv('visualisations/scripts/full_time_series_1.csv', function(err, rows) {
+$(document).ready(function() {
+  Plotly.d3.csv('visualisations/scripts/full_time_series.csv', function(err, rows) {
 
   function unpack(rows, key) {
     return rows.map(function(row) { return row[key]; });
   }
 
   var allRegions = unpack(rows, 'Region'),
-    allYear = unpack(rows, 'Time'),
+    allYear1 = unpack(rows, 'Time'),
     allLiveBirths = unpack(rows, 'Live_births'),
     allAbortions = unpack(rows, 'Abortions'),
     allMiscarriages = unpack(rows, 'Miscarriages'),
     listofRegions = [],
-    listofYears = [],
+    listofYears1 = [],
     currentRegion,
     currentLiveBirths = [],
     currentAbortions = [],
-    currentMiscarriages = [],
-    currentYear = [];
+    currentMiscarriages = [];
 
-  for (var i = 0; i < allRegions.length; i++) {
+    for (var i = 0; i < allRegions.length; i++) {
     if (listofRegions.indexOf(allRegions[i]) === -1) {
       listofRegions.push(allRegions[i]);
     }
   }
 
-  for (var i = 0; i < allYear.length; i++) {
-    if (listofYears.indexOf(allYear[i]) === -1) {
-      listofYears.push(allYear[i]);
+  for (var i = 0; i < allYear1.length; i++) {
+    if (listofYears1.indexOf(allYear1[i]) === -1) {
+      listofYears1.push(allYear1[i]);
     }
   }
 
-  function getCountryData(chosenRegion) {
+  function getRegionData(chosenRegion) {
+    console.log("getRegionData function called with chosenRegion: " + chosenRegion);
     currentLiveBirths = [];
     currentAbortions = [];
     currentMiscarriages = [];
@@ -39,31 +39,36 @@ document.addEventListener('DOMContentLoaded', function() {
         currentLiveBirths.push(allLiveBirths[i]);
         currentAbortions.push(allAbortions[i]);
         currentMiscarriages.push(allMiscarriages[i]);
+
+
       }
     }
   }
 
-  function getYearData(chosenYear) {
+  function getYearData(chosenYear1) {
+    console.log("getYearData function called with chosenYear: " + chosenYear1);
+
     currentLiveBirths = [];
     currentAbortions = [];
     currentMiscarriages = [];
-    currentRegion = [];
-    for (var i = 0; i < allYear.length; i++) {
-      if (allYear[i] === chosenYear) {
+    for (var i = 0; i < allYear1.length; i++) {
+      if (allYear1[i] === chosenYear1) {
         currentLiveBirths.push(allLiveBirths[i]);
         currentAbortions.push(allAbortions[i]);
         currentMiscarriages.push(allMiscarriages[i]);
-        currentRegion.push(allRegions[i]);
+
       }
     }
   }
 
   // Default Country Data
-  setPiePlot('Piemonte', '2000');
+  setPiePlot('Piemonte', '2017');
 
-  function setPiePlot(chosenRegion, chosenYear) {
-    getCountryData(chosenRegion);
-    getYearData(chosenYear);
+  function setPiePlot(chosenRegion, chosenYear1) {
+    console.log("setPiePlot function called with chosenRegion: " + chosenRegion + " and chosenYear: " + chosenYear1);
+
+    getRegionData(chosenRegion);
+    getYearData(chosenYear1);
 
     var trace1 = {
       values: [currentLiveBirths, currentAbortions, currentMiscarriages],
@@ -75,16 +80,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var layout = {
 
-      title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' '+ chosenYear,
+      title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' '+ chosenYear1,
       showlegend: true
     };
 
     Plotly.newPlot('pie-pregnancies', data, layout, {showSendToCloud: true, mode: 'pie'});
 };
 
-var RegionSelector = document.querySelector('.countrydata'),
-    yearSelector = document.querySelector('.yeardata');
-
+var innerContainer4 = document.querySelector('[data-num="4"'),
+    pieEl = innerContainer4.querySelector('.pie'),
+    regionSelector = innerContainer4.querySelector('.countrydata-pie'),
+    yearSelector1= innerContainer4.querySelector('.yeardata-pie');
 function assignOptions(textArray, selector) {
   for (var i = 0; i < textArray.length;  i++) {
       var currentOption = document.createElement('option');
@@ -93,18 +99,19 @@ function assignOptions(textArray, selector) {
   }
 }
 
-assignOptions(listofYears, yearSelector);
+assignOptions(listofYears1, yearSelector1);
+assignOptions(listofRegions, regionSelector);
 
-function updateCountry(){
-    setPiePlot(RegionSelector.value,yearSelector.value);
+
+function updateRegion(){
+    setPiePlot(regionSelector.value,yearSelector1.value);
 }
 
-function updateYear(){
-    setPiePlot(RegionSelector.value,yearSelector.value);
+function updateYear1(){
+    setPiePlot(regionSelector.value,yearSelector1.value);
 }
 
-document.querySelector('.countrydata').addEventListener('change', updateCountry, false);
-document.querySelector('.yeardata').addEventListener('change', updateYear, false);
+regionSelector.addEventListener('change', updateRegion, false);
+yearSelector1.addEventListener('change', updateYear1, false);
 });
-
 });

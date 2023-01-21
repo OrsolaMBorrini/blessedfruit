@@ -136,36 +136,27 @@
     <!-- ======= Clients Section =======
     <section id="clients" class="clients clients">
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/istat.png" class="img-fluid" alt="" data-aos="zoom-in">
           </div>
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/obiezionerespinta_logo.png" class="img-fluid" alt="" data-aos="zoom-in"
               data-aos-delay="100">
           </div>
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/pomegranatebead.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
           </div>
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
           </div>
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
           </div>
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
           </div>
-
         </div>
-
       </div>
     </section> End Clients Section -->
 
@@ -810,6 +801,9 @@
               <h4 class="title"><a href="">Ethical Analysis</a></h4>
               <p class="description">Ensuring the used datasets are not at risk of congitive biases and prejudices, and
                 are still transparent and accountable.</p>
+
+
+
             </div>
           </div>
 
@@ -1595,6 +1589,60 @@
             </div>
             <p class="analysis-text">Ensuring the used datasets are not at risk of congitive biases and prejudices, and
               are still transparent and accountable.</p>
+
+              <h3 class="analysis-title">Data Ethics Principles</h3>
+<p> For the ethical analysis, we considered the Ethics data principles and the Odi Project's detailed canvas.
+  Since both our source and mashup datasets contain Information provided exclusively by the Italian National Institute of
+  Statistics, we initially focused on the integrity of data collection and management by ISTAT and then established guidelines
+  for addressing ethical concerns when processing the source datasets for our project.
+              <p><b>Human being at the center</b></p>
+<p> As stated on the institution’s <a href="https://www4.istat.it/en/about-istat" target="_blank">website</a>, ISTAT’s policy is aligned with Ethical and legislative principles,
+  with the primary aim to publish and communicate effectively statistical information and results of analyses conducted in order
+  to foster awareness of Italy’s conditions and to
+  improve decision-making processes on the part of private subjects and public institutions. Furthermore, ISTAT is committed
+  to conducting methodological, applied research with the aim of improving statistical production processes and
+  enhancing Italy's statistical literacy.</p>
+</p>
+
+
+
+<p><b>Transparency</b>
+  <p>The data gathered is transparently managed, with ample
+  <a href="https://siqual.istat.it/SIQual/elencoCompleto.dodocumentation"target="_blank">
+  <b>documentation</a></b> made available to final users in order to avoid misenterpretations, regarding the data collection methods and the significance of the dataset terms licenses and policies to avoid misinterpretations.</p>
+
+<p>Accountability: Istat quality policy is coherent with the European framework developed by Eurostat,
+  adhering to the principles of the <a href="https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice"target="_blank">
+    <b>European Statistics Code of Practice</b></a>, that ensures and strengthens both accountability and governance of
+  the European Statistical System and the National Statistical Systems inside it.
+
+ </p>
+
+<p> <b>Individual data protection </b> <p>
+  <p>Istat respects the privacy of respondents, protects the confidentiality of the data that it gathers and carries
+    out its activities in a transparent, independent manner as stated in their <b><a href="  https://www.istat.it/it/censimenti/imprese/normativa-e-privacy
+"target="_blank"> regulations and privacy page</b></a>.
+  </p>
+  <p>It is clearly stated that the information collected is protected by statistical confidentiality
+  (Article 9 of Legislative Decree No. 322/1989) and subject to the legislation on the protection of personal data (Regulation (EU) 2016/679, Legislative Decree
+  n. 196/2003, Legislative Decree n. 101/2018).</p>
+
+  <h3 class="analysis-title">Ethical concerns and their management</h3>
+
+
+Despite ISTAT's compliance with the ethics principles of data collection and management, the team placed special importance
+to the ethical handling of the source information given the great sensitivity its contents.
+Data related to age, residence, religious observance and reproductive health are indeed highly sensible and
+the ethical aspect of their handling was carefully considered through the following steps:
+Data <b>integrity</b> and <b>privacy</b> are respected through the process of aggregating source dataset values and providing
+them in percentage values, in order to avoid any correlation with real individuals.
+Clear <b>boundaries</b> were set by intentionally omitting out available data by ISTAT, such as the citizenship
+distinction in all of our data, which could lead to possible discriminatory behavior.
+
+The team’s <b>purpose</b> was to discover the existence of possible patterns and not make any inferences or interpretations.
+
+All documentation regarding the data processing for creating the mashup datasets and visualisations is documented in our github website.
+
           </div>
         </div>
       </div>
@@ -1851,6 +1899,7 @@
           <!-- END plot container -->
 
 
+<<<<<<< HEAD
 
           <div id="pie-pregnancies"></div>
           <select class="countrydata">
@@ -1867,6 +1916,17 @@
             >>>>>>> Stashed changes
           </select>
 
+=======
+          <div class="plotpie-container" data-num="4">
+          <div class="pie" id="pie-pregnancies"></div>
+          <div class="control-row">
+            Region: <select class="countrydata-pie">
+            </select>
+            Year: <select class="yeardata-pie">
+            </select>
+</div>
+</div>
+>>>>>>> bcaffd9 (ethical analysis)
     </section><!-- End Visualizations Section -->
 
     <!-- ======= Sustainability Section ======= -->
@@ -1915,7 +1975,6 @@
     <!-- ======= More Services Section =======
     <section id="more-services" class="more-services">
       <div class="container">
-
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up"
@@ -1938,7 +1997,6 @@
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
-
           </div>
           <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up"
@@ -1963,22 +2021,18 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>End More Services Section -->
 
     <!-- ======= Testimonials Section =======
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
           <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
         </div>
-
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -1994,7 +2048,6 @@
                 </div>
               </div>
             </div>
-
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -2010,7 +2063,6 @@
                 </div>
               </div>
             </div>
-
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -2026,7 +2078,6 @@
                 </div>
               </div>
             </div>
-
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -2042,7 +2093,6 @@
                 </div>
               </div>
             </div>
-
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
@@ -2059,23 +2109,19 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </section>End Testimonials Section -->
 
     <!-- ======= Features Section =======
     <section id="features" class="features">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Features</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="300">
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
@@ -2156,12 +2202,10 @@
     <!-- ======= Portfolio Section =======
     <section id="portfolio" class="portfolio">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="200">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
@@ -2172,9 +2216,7 @@
             </ul>
           </div>
         </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="https://s26162.pcdn.co/wp-content/uploads/2021/04/pomegranate.jpg" class="img-fluid" alt="">
@@ -2190,7 +2232,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img
@@ -2208,7 +2249,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
@@ -2223,7 +2263,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
@@ -2238,7 +2277,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
@@ -2253,7 +2291,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
@@ -2268,7 +2305,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
@@ -2283,7 +2319,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
@@ -2298,7 +2333,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
@@ -2313,9 +2347,7 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section> End Portfolio Section -->
 
@@ -2411,14 +2443,11 @@
     <!-- ======= Pricing Section =======
     <section id="pricing" class="pricing">
       <div class="container">
-
         <div class="section-title">
           <h2>Pricing</h2>
           <p>Sit sint consectetur velit nemo qui impedit suscipit alias ea</p>
         </div>
-
         <div class="row">
-
           <div class="col-lg-4 col-md-6">
             <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
               <h3>Free</h3>
@@ -2435,7 +2464,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
               <h3>Business</h3>
@@ -2452,7 +2480,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in-left" data-aos-delay="200">
               <h3>Developer</h3>
@@ -2469,20 +2496,16 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section> End Pricing Section -->
 
     <!-- ======= F.A.Q Section =======
     <section id="faq" class="faq">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
         </div>
-
         <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-5">
             <i class="ri-question-line"></i>
@@ -2553,13 +2576,10 @@
     <!-- ======= Contact Section =======
     <section id="contact" class="contact">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>
         </div>
-
         <div class="row">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
               <h3>Vesperr</h3>
@@ -2573,27 +2593,22 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="info">
               <div>
                 <i class="ri-map-pin-line"></i>
                 <p>A108 Adam Street<br>New York, NY 535022</p>
               </div>
-
               <div>
                 <i class="ri-mail-send-line"></i>
                 <p>info@example.com</p>
               </div>
-
               <div>
                 <i class="ri-phone-line"></i>
                 <p>+1 5589 55488 55s</p>
               </div>
-
             </div>
           </div>
-
           <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
@@ -2616,9 +2631,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
     </section> End Contact Section -->
 
