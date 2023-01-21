@@ -13,9 +13,9 @@
 
             dct:isPartOf <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1> ;
 
-            dct:identifier  "MD1_18" ;            
+            dct:identifier  "MD1_19" ;            
             dct:title   "MD1 - General religious observance in each region" ;
-            dct:description "Mashup dataset with percentage values of religious observance in each region, year 2018" ;
+            dct:description "Mashup dataset with percentage values of religious observance in each region, year 2019" ;
 
             dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
             dct:subject <http://eurovoc.europa.eu/2826>, <http://eurovoc.europa.eu/2831>  ;
@@ -28,7 +28,7 @@
             dct:rightsHolder <https://github.com/OrsolaMBorrini/blessedfruit> ;
             dct:creator <https://github.com/OrsolaMBorrini/blessedfruit/team/OrsolaMariaBorrini> ;                        
             dct:publisher <https://github.com/OrsolaMBorrini/blessedfruit>;
-            dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12018-csv> ; 
+            dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12019-csv> ; 
 
             dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER>;
 
@@ -40,13 +40,45 @@
                                 <http://dati.istat.it/index.aspx?queryid=24349> .
 
 
+
 <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1>
                a dcatapit:Dataset, dcat:Dataset ;
                dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
                 dct:hasPart    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18> ;
                 dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> .
-           
+
+                
+
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/D2>
+                a dcat:Dataset , prov:Entity ;       
+                dct:identifier  "D2" ;            
+                dct:title   "D2 - Population 2018, 2019" ;
+                dct:description "source dataset with cesus of the population, year 2018 and 2019" ;
+                dcat:theme <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+                dct:modified "2023-01-22"^^xsd:date ;
+                dct:rightsHolder <https://github.com/OrsolaMBorrini/blessedfruit> ;
+                dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/D2-csv> ; 
+                dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER>.
+
+
+<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+                a   skos:Concept ; 
+                skos:prefLabel  "Population and society"@en .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/D3>
+                a dcat:Dataset , prov:Entity ;
+                dct:identifier  "D3" ;            
+                dct:title   "D3 - Religious observance" ;
+                dct:description "source dataset with religious observance rates per region" ;
+                dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+                dct:modified "2023-01-22"^^xsd:date ;
+                dct:rightsHolder <https://github.com/OrsolaMBorrini/blessedfruit> ;
+                dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/D3-csv> ; 
+                dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER>.
+            
+            
             
 
 <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup>
@@ -74,15 +106,14 @@
 
 
 
-<https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12018-csv>
+<https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12019-csv>
             a   dcatapit:distribution,
                 dcat:Distribution  ;
-            dct:title  "CSV distribution of blessed be the fruit MD1 for the year 2018"@en  ;
+            dct:title  "CSV distribution of blessed be the fruit MD1 for the year 2019"@en  ;
             dct:description "" ;
             dct:format <http://publications.europa.eu/resource/authority/file-type/CSV/> ;
             dcat:accessURL <https://orsolamborrini.github.io/blessedfruit/> ;
             dct:license   <http://creativecommons.org/licenses/by/4.0/> .
-
 
 
 <http://creativecommons.org/licenses/by/4.0/>
@@ -92,3 +123,10 @@
                 owl:versionInfo  "4.0" .
             
 
+
+
+
+
+  
+#MD2 - Pregnancy rates in young women
+#MD3 - Education rates in young women'''

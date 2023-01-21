@@ -6,29 +6,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
 
-<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18>
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_18>
             a   dcatapit:Dataset ,
                 dcat:Dataset ,
                 prov:Entity ;
 
-            dct:isPartOf <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1> ;
+            dct:isPartOf <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2> ;
 
-            dct:identifier  "MD1_18" ;            
-            dct:title   "MD1 - General religious observance in each region" ;
-            dct:description "Mashup dataset with percentage values of religious observance in each region, year 2018" ;
+            dct:identifier  "MD2_18" ;            
+            dct:title   "MD2 - Pregnancy rates in young women" ;
+            dct:description "Mashup dataset with percentage values of spontaneous abortions, induced abortions, live births and total pregnancies over a selected female population aged 15-25, year 2018" ;
 
-            dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
-            dct:subject <http://eurovoc.europa.eu/2826>, <http://eurovoc.europa.eu/2831>  ;
-            dcat:keyword "religion"@en, "religious observance"@en , "italy"@en ;
-            dcat:keyword  "religione"@it, "osservanza religiosa"@it, "italia"@it ;
+            dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+            dct:subject <http://eurovoc.europa.eu/2806>, 
+                        <http://eurovoc.europa.eu/2816>  ;
+            dcat:keyword "spontaneous abortions"@en, "induced abortions"@en, "young women"@en, "pregnancies"@en , "italy"@en ;
+            dcat:keyword  "aborti spontanei"@it, "aborti volontari"@it , "giovani donne"@it, "gravidanze"@it, "italia"@it ;
 
             dct:modified "2023-01-22"^^xsd:date ;
             dct:issued "2023-01-22"^^xsd:date ;
 
             dct:rightsHolder <https://github.com/OrsolaMBorrini/blessedfruit> ;
-            dct:creator <https://github.com/OrsolaMBorrini/blessedfruit/team/OrsolaMariaBorrini> ;                        
+            dct:creator <https://github.com/OrsolaMBorrini/blessedfruit/team/MaddalenaGhiotto> ;                        
             dct:publisher <https://github.com/OrsolaMBorrini/blessedfruit>;
-            dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12018-csv> ; 
+            dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD22017-csv> ; 
 
             dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER>;
 
@@ -37,7 +38,9 @@
 
             prov:wasGeneratedBy <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup> ;
             prov:wasDerivedFrom <https://demo.istat.it/app/?i=POS&l=en>,
-                                <http://dati.istat.it/index.aspx?queryid=24349> .
+                                <https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_BIRTHFERT/DCIS_NATI1/DCIS_NATI1_PARENT_CHARACT/IT1,25_74_DF_DCIS_NATI1_8,1.0>, 
+                                <http://dati.istat.it/index.aspx?queryid=29218>, 
+                                <http://dati.istat.it/index.aspx?queryid=7098> .
 
 
 <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1>
@@ -46,19 +49,17 @@
                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
                 dct:hasPart    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18> ;
                 dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> .
-           
-            
+
+
+<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+                a   skos:Concept ; 
+                skos:prefLabel  "Population and society"@en .
+
 
 <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup>
             a prov:Activity ;
             rdfs:label "the process of merging, filtering and aggregating multiple source datasets"@en .
             
-
-<http://publications.europa.eu/resource/authority/data-theme/EDUC>
-            a    skos:Concept ;
-            skos:prefLabel  "Education, culture and sport"@en .
-
-
 
 <https://github.com/OrsolaMBorrini/blessedfruit> 
             a    dcatapit:Agent , 
@@ -67,22 +68,19 @@
             foaf:name   "blessed be the fruit" .
 
 
-
-<https://github.com/OrsolaMBorrini/blessedfruit/team/OrsolaMariaBorrini>
+<https://github.com/OrsolaMBorrini/blessedfruit/team/MaddalenaGhiotto>
             a   foaf:Person ;
-            foaf:name "Orsola Maria Borrini"@it .
+            foaf:name "Maddalena Ghiotto"@it .
 
 
-
-<https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12018-csv>
+<https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD22017-csv>
             a   dcatapit:distribution,
                 dcat:Distribution  ;
-            dct:title  "CSV distribution of blessed be the fruit MD1 for the year 2018"@en  ;
-            dct:description "" ;
+            dct:title  "CSV distribution of blessed be the fruit MD2 for the year 2017"@en  ;  #finish the description bit
+            dct:description "" ; 
             dct:format <http://publications.europa.eu/resource/authority/file-type/CSV/> ;
             dcat:accessURL <https://orsolamborrini.github.io/blessedfruit/> ;
             dct:license   <http://creativecommons.org/licenses/by/4.0/> .
-
 
 
 <http://creativecommons.org/licenses/by/4.0/>
@@ -92,3 +90,8 @@
                 owl:versionInfo  "4.0" .
             
 
+
+
+  
+
+#MD3 - Education rates in young women'''

@@ -1,0 +1,97 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_19>
+            a   dcatapit:Dataset ,
+                dcat:Dataset ,
+                prov:Entity ;
+
+            dct:isPartOf <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2> ;
+
+            dct:identifier  "MD2_19" ;            
+            dct:title   "MD2 - Pregnancy rates in young women" ;
+            dct:description "Mashup dataset with percentage values of spontaneous abortions, induced abortions, live births and total pregnancies over a selected female population aged 15-25, year 2019" ;
+
+            dcat:theme  <http://publications.europa.eu/resource/authority/data-theme/SOCI> ;
+            dct:subject <http://eurovoc.europa.eu/2806>, 
+                        <http://eurovoc.europa.eu/2816>  ;
+            dcat:keyword "spontaneous abortions"@en, "induced abortions"@en, "young women"@en, "pregnancies"@en , "italy"@en ;
+            dcat:keyword  "aborti spontanei"@it, "aborti volontari"@it , "giovani donne"@it, "gravidanze"@it, "italia"@it ;
+
+            dct:modified "2023-01-22"^^xsd:date ;
+            dct:issued "2023-01-22"^^xsd:date ;
+
+            dct:rightsHolder <https://github.com/OrsolaMBorrini/blessedfruit> ;
+            dct:creator <https://github.com/OrsolaMBorrini/blessedfruit/team/MaddalenaGhiotto> ;                        
+            dct:publisher <https://github.com/OrsolaMBorrini/blessedfruit>;
+            dcat:distribution <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD22019-csv> ; 
+
+            dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER>;
+
+            dcat:landingPage <https://orsolamborrini.github.io/blessedfruit/> ;
+            dct:language    <http://publications.europa.eu/resource/authority/language/ENG/> ;
+
+            prov:wasGeneratedBy <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup> ;
+            prov:wasDerivedFrom <https://demo.istat.it/app/?i=POS&l=en>,
+                                <https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_BIRTHFERT/DCIS_NATI1/DCIS_NATI1_PARENT_CHARACT/IT1,25_74_DF_DCIS_NATI1_8,1.0>, 
+                                <http://dati.istat.it/index.aspx?queryid=29218>, 
+                                <http://dati.istat.it/index.aspx?queryid=7098> .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2>
+               a dcatapit:Dataset, dcat:Dataset ;
+               dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
+               dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_17> ;
+                dct:hasPart    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_18> ;
+                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_19> .
+
+                
+<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+                a   skos:Concept ; 
+                skos:prefLabel  "Population and society"@en .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup>
+            a prov:Activity ;
+            rdfs:label "the process of merging, filtering and aggregating multiple source datasets"@en .
+            
+
+<https://github.com/OrsolaMBorrini/blessedfruit> 
+            a    dcatapit:Agent , 
+                foaf:Agent ;
+            dct:identifier "blessedfruit" ;
+            foaf:name   "blessed be the fruit" .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/team/MaddalenaGhiotto>
+            a   foaf:Person ;
+            foaf:name "Maddalena Ghiotto"@it .
+
+
+<https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD22019-csv>
+            a   dcatapit:distribution,
+                dcat:Distribution  ;
+            dct:title  "CSV distribution of blessed be the fruit MD2 for the year 2019"@en  ;  #finish the description bit
+            dct:description "" ; 
+            dct:format <http://publications.europa.eu/resource/authority/file-type/CSV/> ;
+            dcat:accessURL <https://orsolamborrini.github.io/blessedfruit/> ;
+            dct:license   <http://creativecommons.org/licenses/by/4.0/> .
+
+
+<http://creativecommons.org/licenses/by/4.0/>
+            a    dcatapit:LicenseDocument , dct:LicenseDocument ;
+                dct:type         <http://purl.org/adms/licencetype/Attribution> ;
+                foaf:name        "CC BY" ;
+                owl:versionInfo  "4.0" .
+            
+
+
+
+  
+
+#MD3 - Education rates in young women'''
