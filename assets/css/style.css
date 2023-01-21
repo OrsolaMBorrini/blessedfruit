@@ -838,6 +838,16 @@ section {
   margin: 0 0 5px 5px;
 }
 
+.map {
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+.js-plotly-plot .plotly .main-svg {
+  left: 12vw;
+}
+
 
 /*--------------------------------------------------------------
 # Datasets
