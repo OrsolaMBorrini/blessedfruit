@@ -997,6 +997,9 @@ section {
 }
 
 h3.analysis-second-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
   line-height: 28px;
   margin-bottom: 0;
   padding-left: 0;
