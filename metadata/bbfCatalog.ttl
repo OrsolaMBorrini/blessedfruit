@@ -19,12 +19,9 @@
                     dcat:dataset  <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
                     dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18> ;
                     dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2017> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2018> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-ASS-2019> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2017> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2018> ;
-                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2-PERC-2019> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_17> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_18> ;
+                    dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD2_19> ;
                     dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_17> ;
                     dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_18> ;
                     dcat:dataset    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD3_19> ;
