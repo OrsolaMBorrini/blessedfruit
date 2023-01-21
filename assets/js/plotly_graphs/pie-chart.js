@@ -16,7 +16,7 @@ $(document).ready(function() {
         currentBirths = [],
         currentAbort = [],
         currentMiscar = [];
-        chosenYear=2017;
+        // chosenYear=2017;
     //Multiply
         //
         // allRegions.forEach((value,index)=>allRegions[index]*=100);
@@ -59,10 +59,12 @@ $(document).ready(function() {
     var tracePie;
     getData(chosenRegion, chosenYear);
     tracePie = {
-      values: [currentBirths.map(value => value * 1000), currentAbort.map(value => value * 1000), currentMiscar.map(value => value * 1000)],
+      values: [currentBirths.map(value => value * 100), currentAbort.map(value => value * 100), currentMiscar.map(value => value * 100)],
       labels: ['Live Births', 'Abortions', 'Miscarriages'],
       type: 'pie'
     };
+
+    console.log(tracePie);
 
 
 
@@ -70,8 +72,8 @@ $(document).ready(function() {
 
     var layoutPie = {
 
-      title: '<b>Pregnancy statistics <br>'+ chosenRegion + '' + chosenYear
-      // showlegend: true
+      title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' ' + chosenYear,
+      showlegend: true
     };
 
     Plotly.plot('pie-pregnancies', dataPreg, layoutPie);
@@ -99,12 +101,12 @@ assignOptions(listofRegions, regionSelector);
 
 
 function updateRegion(){
-      setPiePlot(regionSelector.value, chosenYear);
+      setPiePlot(regionSelector.value, yearSelector1.value);
   };
 
 //
 function updateYear1(){
-      setPiePlot(regionSelector.value, chosenYear);
+      setPiePlot(regionSelector.value, yearSelector1.value);
 
 };
 
