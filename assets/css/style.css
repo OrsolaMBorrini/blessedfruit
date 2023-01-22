@@ -2055,4 +2055,8 @@ h3.analysis-second-title {
 .leaflet-control-zoom{
   display:none;
 }
+#ethics{
+  float:left;
+  width:33%;
+}
 >>>>>>> Stashed changes

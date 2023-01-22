@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  Plotly.d3.csv('visualisations/scripts/full_time_series_1.csv', function(err, rows) {
+  Plotly.d3.csv('full_df_17_1.csv', function(err, rows) {
 
 
         function unpack(rows, key) {
