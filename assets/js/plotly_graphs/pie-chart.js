@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  Plotly.d3.csv('full_df_17_1.csv', function(err, rows) {
+  Plotly.d3.csv('visualisations/scripts/full_time_series_1.csv', function(err, rows) {
 
 
         function unpack(rows, key) {
@@ -45,8 +45,8 @@ $(document).ready(function() {
             currentBirths.push(allBirths[i]);
             currentAbort.push(allAbort[i]);
             currentMiscar.push(allMiscar[i]);
-            console.log(currentAbort);
-            console.log(chosenRegion);
+            // console.log(currentAbort);
+            // console.log(chosenRegion);
       }
     }
   };
@@ -56,28 +56,48 @@ $(document).ready(function() {
 
 
   function setPiePlot(chosenRegion, chosenYear) {
-    var tracePie;
-    getData(chosenRegion, chosenYear);
-    tracePie = {
-      values: [currentBirths.map(value => value * 100), currentAbort.map(value => value * 100), currentMiscar.map(value => value * 100)],
-      labels: ['Live Births', 'Abortions', 'Miscarriages'],
-      type: 'pie'
+  var tracePie;
+  getData(chosenRegion, chosenYear);
+  tracePie = {
+    values: [currentBirths.map(value => value * 100), currentAbort.map(value => value * 100), currentMiscar.map(value => value * 100)],
+    labels: ['Live Births', 'Abortions', 'Miscarriages'],
+    type: 'pie'
+  };
+
+
+  var dataPreg = [tracePie];
+  var layoutPie = {
+    title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' ' + chosenYear,
+    showlegend: true
+  };
+
+  console.log(tracePie);
+  Plotly.plot('pie-pregnancies', dataPreg, layoutPie, {
+    updatemenus: [{
+      buttons: [{
+        method: 'relayout',
+        args: ['title', 'New Title'],
+        label: 'Update Title'
+      }],
+      direction: 'down',
+      pad: {'r': 10, 't': 10},
+      showactive: false,
+      type: 'buttons',
+      x: 0.1,
+      xanchor: 'left',
+      y: 1.1,
+      yanchor: 'top'
+    }]
+  }).then(function(gd) {
+    var regionSelector = document.querySelector('.countrydata-pie');
+    var yearSelector1 = document.querySelector('.yeardata-pie');
+    var updateChart = function() {
+      setPiePlot(regionSelector.value, yearSelector1.value);
     };
-
-    console.log(tracePie);
-
-
-
-    var dataPreg = [tracePie];
-
-    var layoutPie = {
-
-      title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' ' + chosenYear,
-      showlegend: true
-    };
-
-    Plotly.plot('pie-pregnancies', dataPreg, layoutPie);
-};
+    regionSelector.addEventListener('change', updateChart);
+    yearSelector1.addEventListener('change', updateChart);
+  });
+}
 
 var innerContainer4 = document.querySelector('[data-num="4"'),
     pieEl = innerContainer4.querySelector('.pie'),
@@ -91,8 +111,8 @@ function assignOptions(textArray, selector) {
       var currentOption = document.createElement('option');
       currentOption.text = textArray[i];
       selector.appendChild(currentOption);
-      console.log(regionSelector);
-      console.log(pieEl);
+      console.log(currentOption);
+      // console.log(selector);
   }
 }
 
@@ -101,17 +121,16 @@ assignOptions(listofRegions, regionSelector);
 
 
 function updateRegion(){
-      setPiePlot(regionSelector.value, yearSelector1.value);
+      setPiePlot(regionSelector, yearSelector1);
   };
 
 //
 function updateYear1(){
-      setPiePlot(regionSelector.value, yearSelector1.value);
+      setPiePlot(regionSelector, yearSelector1);
 
 };
 
-document.querySelector('.countrydata-pie').addEventListener('change', updateRegion, false);
-document.querySelector('.yeardata-pie').addEventListener('change', updateYear1, false);
+
 });
 });
 // });

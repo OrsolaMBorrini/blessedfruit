@@ -23,12 +23,12 @@ $(document).ready(function() {
       var div = L.DomUtil.create("div", "legend");
       div.className += "legend-item";
       // Add the legend items and their corresponding colors
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
 
       return div;
     }
-    legend.addTo(map_18_rel);
+    // legend.addTo(map_18_rel);
 
 
 
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
       return div;
     }
-    legend.addTo(map_18_preg);
+    // legend.addTo(map_18_preg);
 
 
 
@@ -222,7 +222,7 @@ $(document).ready(function() {
 
               return div;
             }
-            legend.addTo(map_18_edu);
+            // legend.addTo(map_18_edu);
 
 
 

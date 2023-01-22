@@ -28,7 +28,7 @@ $(document).ready(function() {
 
       return div;
     }
-    legend.addTo(map_19_rel);
+    // legend.addTo(map_19_rel);
 
 
 
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
       return div;
     }
-    legend.addTo(map_19_preg);
+    // legend.addTo(map_19_preg);
 
 
 
@@ -222,7 +222,7 @@ $(document).ready(function() {
 
               return div;
             }
-            legend.addTo(map_19_edu);
+            // legend.addTo(map_19_edu);
 
 
 

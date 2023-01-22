@@ -1,43 +1,5 @@
 //PIES AND BROWSER MENU
 
-  // const regionLinks = document.querySelectorAll('.dropdown-menu a[data-value]');
-  // const yearButtons = document.querySelectorAll('input[type="radio"][data-value]');
-  // const pregnancyPie = document.getElementById('pregnancy-pie');
-  //
-  // regionLinks.forEach(link => {
-  //   link.addEventListener('click', function() {
-  //     // remove active class from other links
-  //     regionLinks.forEach(l => l.classList.remove("active"))
-  //     // add active class to selected link
-  //     this.classList.add("active")
-  //     // get selected year
-  //     const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-  //     // get selected region
-  //     const selectedRegion = this.getAttribute('data-value');
-  //     fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-  //       .then(response => response.text())
-  //       .then(html => {
-  //         pregnancyPie.innerHTML = html;
-  //       });
-  //   });
-  // });
-  //
-  // yearButtons.forEach(button => {
-  //   button.addEventListener('change', function() {
-  //     // remove active class from other buttons
-  //     yearButtons.forEach(b => b.classList.remove("active"))
-  //     // add active class to selected button
-  //     this.classList.add("active")
-  //     // get selected year
-  //     const selectedYear = document.querySelector('input[type="radio"].active[data-value]').getAttribute('data-value');
-  //     const selectedRegion = document.querySelector('a[data-value].active[data-parent="#region-dropdown"]').getAttribute('data-value');
-  //     fetch(`assets/img/pregnancies_total/${selectedRegion}_${selectedYear}.html`)
-  //       .then(response => response.text())
-  //       .then(html => {
-  //         pregnancyPie.innerHTML = html;
-  //       });
-  //   });
-  // });
 
 // 2017 DATA
 
@@ -63,8 +25,8 @@ $(document).ready(function() {
       var div = L.DomUtil.create("div", "legend");
       div.className += "legend-item";
       // Add the legend items and their corresponding colors
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
 
       return div;
     }
@@ -72,17 +34,53 @@ $(document).ready(function() {
 
 
 
-  // // GetColor function  //
+  // // GetColor function RELIGION  //
+
+              // Hex	RGB CHERRY
+              // #e5bbbb	(229,187,187)
+              // #df9f9f	(223,159,159)
+              // #ce7676	(206,118,118)
+              // #b85a5a	(184,90,90)
+              // #9a3e3e	(154,62,62)
+
+              // LIGHT TO dark
+      var rel1= '#FFF2EB',
+          rel2='#F1D0CC',
+          rel3= '#F1D0CC',
+          rel4= '#D68D8E',
+          rel5= '#C86B6F',
+          rel6= '#BB4A50',
+          rel7='#ad2831',
+          rel8='#640d14',
+          rel9= '#38040e';
+
+
       function getColor(value) {
-          return value < 16     ? '#FFE6CB' :
-                 value < 18     ? '#faf0e6' :
-                 value < 20     ? '#D7BB9F' :
-                 value < 22   ? '#CB895E' :
-                 value < 24    ? '#BC4418' :
-                 value < 28    ? '#8D2A07' :
-                 value < 30    ? '#580000' :
-                             '#BC4418';
+          return value < 18    ? rel1 :
+                 value < 20    ? rel2 :
+                 value < 22    ? rel3 :
+                 value < 24    ? rel4 :
+                 value < 26    ? rel5 :
+                 value < 28    ? rel6 :
+                 value < 30    ? rel7 :
+                 value < 32    ? rel8 :
+                  rel9;
+                 ;
       }
+
+      // function getColor(value) {
+      //     return value < 18    ? '#e5bbbb' :
+      //            value < 20    ? '#e5bbbb' :
+      //            value < 22    ? '#ce7676' :
+      //            value < 24    ? '#df9f9f' :
+      //            value < 26    ? '#b85a5a' :
+      //            value < 30    ? '#a31525' :
+      //            value <33     ? '#65041d':
+      //           '#e5bbbb' ;
+      // }
+      //
+
+      // value < 16     ? '#e5bbbb' : LIGHT
 
       // Fetch the GeoJSON data
       fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
@@ -95,11 +93,11 @@ $(document).ready(function() {
             style: function(feature) {
               return {
                 fillColor: getColor(feature.properties.relig_yes),
-                weight: 2,
-                opacity: 1,
+                weight: 1,
+                opacity: 2,
                 color: "white",
-                dashArray: "2",
-                fillOpacity: 0.7
+                dashArray: "0",
+                fillOpacity: 0.9
               };
             },
             onEachFeature: function(feature, layer) {
@@ -107,15 +105,16 @@ $(document).ready(function() {
               layer.on("click", function() {
                 // Change the style of the clicked layer to make it slightly larger
                 layer.setStyle({
-                  weight: 5,
+                  weight: 3,
                   fillOpacity: 1
+
                 });
                 // Reset the style of all other layers to their original values
                 geojson.eachLayer(function(otherLayer) {
                   if (otherLayer != layer) {
                     otherLayer.setStyle({
-                      weight: 2,
-                      fillOpacity: 0.7
+                      weight: 1,
+                      fillOpacity: 0.9
                     });
                   }
                 });
@@ -160,25 +159,32 @@ $(document).ready(function() {
       var div = L.DomUtil.create("div", "legend");
       div.className += "legend-item";
       // Add the legend items and their corresponding colors
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Total pregnancies % </div></div>";
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Total pregnancies % </div></div>";
+      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
 
       return div;
     }
-    legend.addTo(map);
+    // legend.addTo(map);
 
-
-
+    var preg1="#F2DAAF",
+        preg2="#EEBF99",
+        preg3="#F07000",
+        preg4="#E07058",
+        preg5="#F59C1F";
+// E78B4B
   // // GetColor function  //
       function getColor(value) {
-          return value < 2     ? '#FFE6CB' :
-                 value < 2.2     ? '#faf0e6' :
-                 value < 2.4     ? '#D7BB9F' :
-                 value < 2.8   ? '#CB895E' :
-                 value < 3    ? '#BC4418' :
-                 value < 3.3    ? '#8D2A07' :
-                 value < 3.6    ? '#580000' :
-                             '#BC4418';
+          return value < 2.5     ? preg1 :
+                 // value < 3     ? preg3 :
+                 // value < 2.4     ? '#D7BB9F' :
+                 // value < 2.8   ? '#CB895E' :
+                 // value < 3    ? '#BC4418' :
+                 value < 3.2    ? '#F7C979' :
+                 value < 3.4    ?  preg3:
+                 value < 3.6    ?  preg5:
+                 value < 4.0    ? '#BC4418':
+                 // value <       ? :
+                    '#580000'         ;
       }
 
       // Fetch the GeoJSON data
@@ -192,11 +198,11 @@ $(document).ready(function() {
             style: function(feature) {
               return {
                 fillColor: getColor(feature.properties.pregnancy_percentage),
-                weight: 2,
+                weight: 1,
                 opacity: 1,
                 color: "white",
-                dashArray: "2",
-                fillOpacity: 0.7
+                dashArray: "0",
+                fillOpacity: 0.9
               };
             },
             onEachFeature: function(feature, layer) {
@@ -204,15 +210,15 @@ $(document).ready(function() {
               layer.on("click", function() {
                 // Change the style of the clicked layer to make it slightly larger
                 layer.setStyle({
-                  weight: 5,
+                  weight: 3,
                   fillOpacity: 1
                 });
                 // Reset the style of all other layers to their original values
                 geojson.eachLayer(function(otherLayer) {
                   if (otherLayer != layer) {
                     otherLayer.setStyle({
-                      weight: 2,
-                      fillOpacity: 0.7
+                      weight: 1,
+                      fillOpacity: 0.9
                     });
                   }
                 });
@@ -262,19 +268,18 @@ $(document).ready(function() {
 
               return div;
             }
-            legend.addTo(map_17_edu);
-
+            // legend.addTo(map_17_edu);
 
 
           // // GetColor function  //
               function getColor(value) {
-                  return value < 3     ? '#FFE6CB' :
-                         value < 6     ? '#faf0e6' :
+                  return value < 3     ? '#e5bbbb' :
+                         value < 6     ? '#df9f9f' :
                          value < 9     ? '#D7BB9F' :
-                         value < 12   ? '#CB895E' :
+                         value < 12   ? '#ce7676' :
                          value < 15    ? '#BC4418' :
-                         value < 18    ? '#8D2A07' :
-                         value < 21    ? '#580000' :
+                         value < 18    ? '#b85a5a' :
+                         value < 21    ? '#9a3e3e' :
                                      '#BC4418';
               }
 
@@ -289,11 +294,11 @@ $(document).ready(function() {
                     style: function(feature) {
                       return {
                         fillColor: getColor(feature.properties.female_early_leavers_percentage),
-                        weight: 2,
+                        weight: 1,
                         opacity: 1,
                         color: "white",
-                        dashArray: "2",
-                        fillOpacity: 0.7
+                        dashArray: "0",
+                        fillOpacity: 0.9
                       };
                     },
                     onEachFeature: function(feature, layer) {
@@ -301,15 +306,15 @@ $(document).ready(function() {
                       layer.on("click", function() {
                         // Change the style of the clicked layer to make it slightly larger
                         layer.setStyle({
-                          weight: 4,
+                          weight: 3,
                           fillOpacity: 1
                         });
                         // Reset the style of all other layers to their original values
                         geojson.eachLayer(function(otherLayer) {
                           if (otherLayer != layer) {
                             otherLayer.setStyle({
-                              weight: 2,
-                              fillOpacity: 0.7
+                              weight: 1,
+                              fillOpacity: 0.9
                             });
                           }
                         });
