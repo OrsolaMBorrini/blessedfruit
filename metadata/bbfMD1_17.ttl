@@ -4,6 +4,7 @@
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+#add prov ontology!!!
 
 
 <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17>
@@ -38,27 +39,24 @@
             prov:wasGeneratedBy <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup> ;
             prov:wasDerivedFrom <https://demo.istat.it/app/?i=RIC&l=en>,
                                 <http://dati.istat.it/index.aspx?queryid=24349> .
+            #missing license?
 
-
-
-<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1>
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1> #should I add all compulsory parts?
                a dcatapit:Dataset, dcat:Dataset ;
                dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
                 dct:hasPart    <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_18> ;
-                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> .
-          
+                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_19> .          
             
 
 <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup>
             a prov:Activity ;
             rdfs:label "the process of merging, filtering and aggregating multiple source datasets"@en .
-            
+
 
 <http://publications.europa.eu/resource/authority/data-theme/EDUC>
             a    skos:Concept ;
             skos:prefLabel  "Education, culture and sport"@en .
-
 
 
 <https://github.com/OrsolaMBorrini/blessedfruit> 
@@ -68,11 +66,9 @@
             foaf:name   "blessed be the fruit" .
 
 
-
 <https://github.com/OrsolaMBorrini/blessedfruit/team/OrsolaMariaBorrini>
             a   foaf:Person ;
-            foaf:name "Orsola Maria Borrini"@it .
-            
+            foaf:name "Orsola Maria Borrini"@it .            
 
 
 <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD12017-csv>
@@ -83,7 +79,6 @@
             dct:format <http://publications.europa.eu/resource/authority/file-type/CSV/> ;
             dcat:accessURL <https://orsolamborrini.github.io/blessedfruit/> ;
             dct:license   <http://creativecommons.org/licenses/by/4.0/> .    
-
 
 
 <http://creativecommons.org/licenses/by/4.0/>

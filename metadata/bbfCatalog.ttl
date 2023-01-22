@@ -9,9 +9,9 @@
 <https://github.com/OrsolaMBorrini/blessedfruit/resource/metdata/Catalog> 
                     a           dcatapit:Catalog , 
                                 dcat:Catalog ;
-                    dct:title  "bbfCatalog"@en ;
-                    adms:identifier  "bbfMashupDS"@en; #non esiste
-                    dct:description "Catalog containing the mashpu datasets for the project Blessed be the fruit" ;
+                    dct:title  "Blessed be the fruit - Catalog"@en ;
+                    adms:identifier  "bbfCatalog"@en; #non esiste
+                    dct:description "Catalog containing the mashup datasets for the project Blessed be the fruit" ;
                     dct:publisher  <https://github.com/OrsolaMBorrini/blessedfruit> ;
                     dct:issued    "2023-01-22"^^xsd:date ;  
                     dct:modified  "2023-01-22"^^xsd:date ;

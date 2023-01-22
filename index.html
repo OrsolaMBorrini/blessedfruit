@@ -1828,21 +1828,16 @@
               and harmonization with other data on a national level.
             </p>
             <p class="analysis-text">
-              Finally, considering that the class
-              <code>dcatapit:Dataset</code> is a <code>dcat:Dataset</code> it is reasonable to include also properties
-              from DCAT-AP 2.0 and "you can also consider DCAT - version 3 (assume in DCAT-AP_IT there is a
-              DatasetSeries class"
-              <br>
-            <blockquote>è anche possibile porre enfasi sugli elementi individuali della serie, delle viste o delle
-              collezioni. In tal caso si consiglia comunque di procedere nel seguente modo:
-
-              creare un dataset di tipo serie, utilizzando la proprietà Dublin Core dct:type che assume come valore;
-              <http: //inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
-                creare per questo dataset tanti membri, a loro volta dataset, specificati mediante la proprietà Dublin
-                Core dct:hasPart;
-                i singoli dataset membri della serie avranno una proprietà Dublin Core dct:isPartOf che li lega al
-                dataset iniziale di tipo serie.
-            </blockquote>
+                 Description of how the series were handled
+                <blockquote>è anche possibile porre enfasi sugli elementi individuali della serie, delle viste o delle
+                    collezioni. In tal caso si consiglia comunque di procedere nel seguente modo:<br><br>
+                    creare un dataset di tipo serie, utilizzando la proprietà Dublin Core dct:type che assume come valore;
+                    &lt;http: //inspire.ec.europa.eu/metadata-codelist/ResourceType/series&gt;;
+                    creare per questo dataset tanti membri, a loro volta dataset, specificati mediante la proprietà Dublin
+                    Core dct:hasPart;
+                    i singoli dataset membri della serie avranno una proprietà Dublin Core dct:isPartOf che li lega al
+                    dataset iniziale di tipo serie.
+                </blockquote>
             </p>
             <!-- Metadata analysis -->
             <nav>
@@ -1863,7 +1858,8 @@
                 <!-- Table for CATALOGUE -->
                 <div class="table-responsive">
                   <table class="table table-hover align-middle">
-                    <thead class="table-light">
+                    <!--i THINK THIS CAN GO OUT
+                      <thead class="table-light">
                       <tr>
                         <th scope="col">Name column</th>
                         <th scope="col">Name column</th>
@@ -1872,63 +1868,57 @@
                         <th scope="col">Name column</th>
                         <th scope="col">Name column</th>
                       </tr>
-                    </thead>
+                    </thead>-->
                     <tbody>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Title</th>
+                        <td>Blessed be the fruit - Catalog</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Identifier</th>
+                        <td>bbfCatalog</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Description</th>
+                        <td>Catalog containing the mashup datasets for the project Blessed be the fruit</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Publisher</th>
+                        <td><a href="https://github.com/OrsolaMBorrini/blessedfruit" target="_blank">blessedfruit(check if the link works!)</a></td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Issued</th>
+                        <td>22/01/2023</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Modified</th>
+                        <td>22/01/2023</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">Datasets</th>
+                        <td><a href="data/mashupDS/MD1_17.csv" target="_blank">MD1_17</a>, <a href="data/mashupDS/MD1_18.csv" target="_blank">MD1_18</a>, <a href="data/mashupDS/MD1_19.csv" target="_blank">MD1_19</a><br>
+                          <a href="data/mashupDS/MD2_2017.csv" target="_blank">MD2_17</a>, <a href="data/mashupDS/MD2_2018.csv" target="_blank">MD2_18</a>, <a href="data/mashupDS/MD2_2019.csv" target="_blank">MD2_19</a><br>
+                          <a href="data/mashupDS/MD3_17.csv" target="_blank">MD3_17</a>, <a href="data/mashupDS/MD3_18.csv" target="_blank">MD3_18</a>, <a href="data/mashupDS/MD3_19.csv" target="_blank">MD3_19</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Hompage</th>
+                        <td><a href="https://github.com/OrsolaMBorrini/blessedfruit/tree/main/data/mashupDS/" target="_blank">Blessed be the fruit</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Language</th>
+                        <td>English</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Theme Taxonomy</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/data-theme/" target="_blank">check this link, or put working one</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">License</th>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">also check this link</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">RDF assertion of metadata</th>
+                        <td>Put here a download link</td>
                       </tr>
                     </tbody>
                   </table>
@@ -1940,12 +1930,24 @@
                   <table class="table table-hover align-middle">
                     <thead class="table-light">
                       <tr>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
+                        <th scope="col">Dataset</th>                        
+                        <th scope="col">Title</th>
+                        <th scope="col">Identifier</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Theme</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Keywords</th>
+                        <th scope="col">Issued</th>
+                        <th scope="col">Modified</th>
+                        <th scope="col">Accrual periodicity</th>
+                        <th scope="col">Rights holder</th>
+                        <th scope="col">Creator</th>
+                        <th scope="col">Publisher</th>
+                        <th scope="col">Distribution</th>                        
+                        <th scope="col">Language</th>
+                        <th scope="col">Derived from</th>
+                        <th scope="col">License</th>
+                        <th scope="col">RDF assertion of the metadata</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -2015,71 +2017,238 @@
                   <table class="table table-hover align-middle">
                     <thead class="table-light">
                       <tr>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
-                        <th scope="col">Name column</th>
+                        <th scope="col">Mashup Dataset</th>
+                        <th scope="col">Serie</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Identifier</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Theme</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Keywords</th>
+                        <th scope="col">Issued</th>
+                        <th scope="col">Modified</th>
+                        <th scope="col">Accrual periodicity</th>
+                        <th scope="col">Rights holder</th>
+                        <th scope="col">Creator</th>
+                        <th scope="col">Publisher</th>
+                        <th scope="col">Distribution</th>                        
+                        <th scope="col">Language</th>
+                        <th scope="col">Derived from</th>
+                        <th scope="col">License</th>
+                        <th scope="col">RDF assertion of the metadata</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">MD1_17</th>
+                        <td>MD1</td>
+                        <td>MD1 - General religious observance in each region</td>
+                        <td>MD1_17</td>
+                        <td>Mashup dataset with percentage values of religious observance in each region, year 2017</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2826 vita sociale - tempo libero</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2831 cultura e religione</a></td>
+                        <td>religion, religious observance, italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank">CSV distribution of blessed be the fruit MD1 for the year 2017</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=RIC&l=en">D1</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=24349">D3</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
+                        </tr>
+                      <tr>
+                        <th scope="row">MD1_18</th>
+                        <td>MD1</td>
+                        <td>MD1 - General religious observance in each region</td>
+                        <td>MD1_18</td>
+                        <td>Mashup dataset with percentage values of religious observance in each region, year 2018</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2826 vita sociale - tempo libero</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2831 cultura e religione</a></td>
+                        <td>religion, religious observance, italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank">CSV distribution of blessed be the fruit MD1 for the year 2018</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=24349">D3</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">MD1_19</th>
+                        <td>MD1</td>
+                        <td>MD1 - General religious observance in each region</td>
+                        <td>MD1_19</td>
+                        <td>Mashup dataset with percentage values of religious observance in each region, year 2019</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2826 vita sociale - tempo libero</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2831 cultura e religione</a></td>
+                        <td>religion, religious observance, italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank"> CSV distribution of blessed be the fruit MD1 for the year 2019</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=24349">D3</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">MD2_17</th>
+                        <td>MD2</td>
+                        <td>MD2 - Pregnancy rates in young women</td>
+                        <td>MD2_17</td>
+                        <td>Mashup dataset with percentage values of spontaneous abortions, induced abortions, live births and total pregnancies over a selected female population aged 15-25, year 2017</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI">Population and society</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2806 famiglia</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2816 demografia e popolazione</a></td>
+                        <td>spontaneous abortions, induced abortions, young women, pregnancies , italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/MaddaGh">Maddalena Ghiotto</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank"> CSV distribution of blessed be the fruit MD2 for the year 2017</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=RIC&l=en">D1</a>, 
+                          <a href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_BIRTHFERT/DCIS_NATI1/DCIS_NATI1_PARENT_CHARACT/IT1,25_74_DF_DCIS_NATI1_8,1.0">D4</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=29218">D5</a>,
+                          <a href="http://dati.istat.it/index.aspx?queryid=7098">D6</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">MD2_18</th>
+                        <td>MD2</td>
+                        <td>MD2 - Pregnancy rates in young women</td>
+                        <td>MD2_18</td>
+                        <td>Mashup dataset with percentage values of spontaneous abortions, induced abortions, live births and total pregnancies over a selected female population aged 15-25, year 2018</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI">Population and society</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2806 famiglia</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2816 demografia e popolazione</a></td>
+                        <td>spontaneous abortions, induced abortions, young women, pregnancies , italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/MaddaGh">Maddalena Ghiotto</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank"> CSV distribution of blessed be the fruit MD2 for the year 2018</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                          <a href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_BIRTHFERT/DCIS_NATI1/DCIS_NATI1_PARENT_CHARACT/IT1,25_74_DF_DCIS_NATI1_8,1.0">D4</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=29218">D5</a>,
+                          <a href="http://dati.istat.it/index.aspx?queryid=7098">D6</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">MD2_19</th>
+                        <td>MD2</td>
+                        <td>MD2 - Pregnancy rates in young women</td>
+                        <td>MD2_19</td>
+                        <td>Mashup dataset with percentage values of spontaneous abortions, induced abortions, live births and total pregnancies over a selected female population aged 15-25, year 2019</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI">Population and society</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2806 famiglia</a>, 
+                          <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">2816 demografia e popolazione</a></td>
+                        <td>spontaneous abortions, induced abortions, young women, pregnancies , italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/MaddaGh">Maddalena Ghiotto</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank"> CSV distribution of blessed be the fruit MD2 for the year 2019</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                          <a href="https://esploradati.istat.it/databrowser/#/en/dw/categories/IT1,POP,1.0/POP_BIRTHFERT/DCIS_NATI1/DCIS_NATI1_PARENT_CHARACT/IT1,25_74_DF_DCIS_NATI1_8,1.0">D4</a>, 
+                          <a href="http://dati.istat.it/index.aspx?queryid=29218">D5</a>,
+                          <a href="http://dati.istat.it/index.aspx?queryid=7098">D6</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                      </tr>
+                        <th scope="row">MD3_17</th>
+                        <td>MD3</td>
+                        <td>MD3 - Education rates in young women</td>
+                        <td>MD3_17</td>
+                        <td>Mashup dataset with absolute and percentage values of female early leavers for each region, year 2017</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                        <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">3206 istruzione</a></td>
+                        <td>young women, education level, italy</td>
+                        <td>22/01/2023</td>
+                        <td>22/01/2023</td>
+                        <td>Never</td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                        <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank">CSV distribution of blessed be the fruit MD3 for the year 2017</a> </td>
+                        <td>English</td>
+                        <td><a href="https://demo.istat.it/app/?i=RIC&l=en">D1</a>, 
+                          <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_ESL_UNT2020">D7</a></td>
+                        <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                        <td>Link to download RDF</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">MD3_18</th>
+                          <td>MD3</td>
+                          <td>MD3 - Education rates in young women</td>
+                          <td>MD3_18</td>
+                          <td>Mashup dataset with absolute and percentage values of female early leavers for each region, year 2018</td>
+                          <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                          <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">3206 istruzione</a></td>
+                          <td>young women, education level, italy</td>
+                          <td>22/01/2023</td>
+                          <td>22/01/2023</td>
+                          <td>Never</td>
+                          <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                          <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                          <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                          <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank">CSV distribution of blessed be the fruit MD3 for the year 2018</a></td>
+                          <td>English</td>
+                          <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                            <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_ESL_UNT2020">D7</a></td>
+                          <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                          <td>Link to download RDF</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">MD3_19</th>
+                            <td>MD3</td>
+                            <td>MD3 - Education rates in young women</td>
+                            <td>MD3_19</td>
+                            <td>Mashup dataset with absolute and percentage values of female early leavers for each region, year 2019</td>
+                            <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/EDUC">Education, culture and sport</a></td>
+                            <td><a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/mapping-temi-sottotemi-dei-dati.html">3206 istruzione</a></td>
+                            <td>young women, education level, italy</td>
+                            <td>22/01/2023</td>
+                            <td>22/01/2023</td>
+                            <td>Never</td>
+                            <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                            <td><a href="https://github.com/OrsolaMBorrini">Orsola Maria Borrini</a></td>
+                            <td><a href="https://orsolamborrini.github.io/blessedfruit/">blessedfruit</a></td>
+                            <td><a href="https://orsolamborrini.github.io/blessedfruit/" target="_blank">CSV distribution of blessed be the fruit MD3 for the year 2019</a></td>
+                            <td>English</td>
+                            <td><a href="https://demo.istat.it/app/?i=POS&l=en">D2</a>, 
+                              <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_ESL_UNT2020">D7</a></td>
+                            <td><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></td>
+                            <td>Link to download RDF</td>
+                            </tr>
                     </tbody>
                   </table>
                 </div>
