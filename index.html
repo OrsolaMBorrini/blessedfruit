@@ -1735,18 +1735,15 @@
             <h3 class="analysis-second-title">Source datasets</h3>
             <p class="analysis-text">On the metadata provided by Istat and other possible information on the datasets:
               format, provenance, URI.<br>
-              All source dataset have been evaluated based on the <span
-                class="underlined--bg underlined--offset--bg"><b><a
-                    href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html"
-                    target="_blank">metadata model</a> provided by AGID.</b></span>
-              that classifies metadata quality on a range of 4 levels according to two factors: <i>data-metadata
-                bond</i> and <i>detail level</i>
+              All source dataset have been evaluated based on the 
+              <span class="underlined--bg underlined--offset--bg">
+                <b><a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html" target="_blank">metadata model</a> provided by AGID.</b>
+              </span>
+              that classifies metadata quality on a range of 4 levels according to two factors: <i>data-metadata bond</i> and <i>detail level</i>
             </p>
-
             <p>
               <br>
-              <b>N.B.</b> Additional information and reconstructed metadata about source datasets can be found in the <a
-                href="#metadataAnalysisTable">metadata analysis table</a> below or in our general documentation.
+              <b>N.B.</b> Additional information and reconstructed metadata about source datasets can be found in the <a href="#metadataAnalysisTable">metadata analysis table</a> below or in our general documentation.
             </p>
             <!-- Tables for source datasets (as in Datasets section)-->
             <div class="table-responsive">
@@ -1846,53 +1843,48 @@
                 </tbody>
               </table>
             </div>
+
             <h3 class="analysis-second-title">
               RDF Assertion and Metadata for the mashup datasets
             </h3>
+
             <p class="analysis-text">
               All produced mashup dataset have been thoroughly described with metadata, following the specification
               of <a href="https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/index.html"
-                target="_blank"><b>DCAT-AP_IT</b></a> standard as recommended by AGID's <a href="#"
-                target="_blank">public information heritage valorization guidelines</a>.<br>
-              In compliance with AGID's <a
-                href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html"
-                target="_blank">guidelines</a>, to describe in full transparency other aspects of our datasets we
-              adopted <a href="https://www.w3.org/TR/prov-o/" target="_blank"><b><b>PROV-O - the provenance
-                    ontology</b></b></a> properties to document in full transparency the activities of data managing,
-              from generation to publication, as already implemented at a european level.
-            </p>
-            <p class="analysis-text">
+                target="_blank"><b>DCAT-AP_IT</b></a> standard as recommended by <span class="underlined--bg underlined--offset--bg"><b>AGID's public information heritage valorization guidelines</b></span>.<br><br>
               Since all our datasets contain data of specific national interest and are derived from Istat datasets,
               which is an italian public research institution we decided to adopt <b>DCAT-AP_IT</b> (2016), the national
-              standard. Although it is based on the first version of the european standard DCAT and has more
+              standard. <br>Although it is based on the first version of the european standard DCAT and has more
               constraints, compared to the more flexible and recent european standard <a
                 href="https://www.w3.org/TR/vocab-dcat-2/" target="_blank">DCAT-AP 2.0</a>, we considered
-              DCAT-AP_IT the more suitable standard to adopt for two reasons: on the one hand, because in the italian
-              public sector an increasing number of Public Administrations are adopting DCAT-AP_IT; on the other hand,
-              because this allowed us to follow more detailed national guidelines and therfore ensure interoperability
-              and harmonization with other data on a national level.
+              DCAT-AP_IT the more suitable standard for our mashuo datasets: on the one hand, because in the italian
+              public sector <span class="underlined--bg underlined--offset--bg"><b>an increasing number of Public Administrations are adopting DCAT-AP_IT</b></span>; on the other hand,
+              because this allowed us to follow more detailed national guidelines and therfore <span class="underlined--bg underlined--offset--bg"><b>ensure interoperability
+              and harmonization with other data on a national level</b></span>.
             </p>
+
             <p class="analysis-text">
-              Description of how the series were handled
-            <blockquote>è anche possibile porre enfasi sugli elementi individuali della serie, delle viste o delle
-              collezioni. In tal caso si consiglia comunque di procedere nel seguente modo:<br><br>
-              creare un dataset di tipo serie, utilizzando la proprietà Dublin Core dct:type che assume come valore;
-              &lt;http: //inspire.ec.europa.eu/metadata-codelist/ResourceType/series&gt;;
-              creare per questo dataset tanti membri, a loro volta dataset, specificati mediante la proprietà Dublin
-              Core dct:hasPart;
-              i singoli dataset membri della serie avranno una proprietà Dublin Core dct:isPartOf che li lega al
-              dataset iniziale di tipo serie.
-            </blockquote>
+              Moreover:<br>
+              <ul>
+                <li>To describe in full transparency the sources and the activities underlying the creation of our mashup datasets we adopted <a href="https://www.w3.org/TR/prov-o/" target="_blank"><b>PROV-O - the provenance
+                    ontology</b></a> as strongly recommended on a european level and also allowed by DCAT-AP_IT <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html" target="_blank">metadata model</a></li>
+                <li>Since all our mashup datasets are series containing individual datasets for each year (2017, 2018, 2019) and only DCAT-AP 3.0 currently provides a <code>dcat:DatasetSeries</code> with related properties, again, we followed AGID's<a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html" target="_blank">metadata model</a> instruction about how to handle relationships between datasets.<br>
+                We enphasized individual elements of the serie and created, inside each mashup dataset RDF assertion, a triple with a Serie Dataset subject, connected through the Dublin Core property <code>dct:type</code> to the value &lt;http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series&gt; .<br> Then we specified which dataset belonged to the Serie by means of <code>dct:hasPart</code> property.<br>
+                 Finally, every individual yearly Mashup dataset, it's connected in its turn with the related Serie by means of <code>dct:isPartOf</code></li>
+              </ul>
             </p>
-            <h3 class="analysis-second-title" id="metadataAnalysisTable">
+  
+          <h3 class="analysis-second-title" id="metadataAnalysisTable">
               Additional Metadata for <b>source datasets</b>
             </h3>
+
             <p>
               In providing the metadata for the source datasets, information have been retreived from original sources.
-              When missing, they have been induced and integrated according to the same guidelines adopted for Mashup
+              When missing, they have been induced and integrated according to the same guidelines adopted for mashup
               datasets (ex. assignining a theme to source dataset has been done according to the same european
               authority).
             </p>
+
             <p>It should be mentioned that, in case of D1 and D2, our source datasets were downloaded from <a
                 href="https://demo.istat.it/app/?i=RIC&l=en" target="_blank"> demo database Endpoint</a> where very few
               and non structured metadata were available.
@@ -1905,11 +1897,7 @@
                   href="https://www.istat.it/en/methods-and-tools/sdmx-web-service" target="_blank">SDMX web service for
                   Istat data.</a></span>
             </p>
-            <p>distribuzione : "Una distribuzione è una forma attraverso cui il dataset è disponibile. Ogni dataset può
-              essere disponibile in diverse forme, come per esempio diversi formati o differenti endpoint (e.g., SPARQL
-              endpoint). Nel caso di serie temporali o spaziali o viste di un dataset, queste sono descritte mediante le
-              distribuzioni. Per esempio, nel caso di un dataset suddiviso per regioni, le suddivisioni rappresentano
-              distribuzioni di un dataset più ampio che include tutti i dati del territorio nazionale. "</p>
+          
             <!-- Metadata analysis -->
             <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
