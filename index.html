@@ -1716,7 +1716,12 @@
             </div>
             <h3 class="analysis-second-title">Source datasets</h3>
             <p class="analysis-text">On the metadata provided by Istat and other possible information on the datasets:
-              format, provenance, IRI</p>
+              format, provenance, URI. All source dataset have been evaluated based on the <a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/modellometadati.html" target="_blank">metadata model</a> provided by AGID.
+            that classifies metadata quality on a range of 4 levels according to two factors: <i>data-metadata bond</i> and <i>detail level</i>
+            </p>
+            <p>
+              <b>N.B.</b> Additional information and reconstructed metadata about source datasets can be found in the<a href="#metadataAnalysisTable">metadata analysis table</a> below or in our general documentation.
+            </p>
             <!-- Tables for source datasets (as in Datasets section)-->
             <div class="table-responsive">
               <table class="table table-hover align-middle">
@@ -1735,7 +1740,7 @@
                     <th scope="row">D1</th>
                     <td>demo</td>
                     <td>.csv, .xlsx, .pdf</td>
-                    <td>Not provided</td>
+                    <td>Level 2: A weak data-metadata bond since an external<b>pdf</b> with additional information and methodology reports is accessible; Dataset detail level, information are shared by all dataset data</td>
                     <td><a href="https://demo.istat.it/app/?i=RIC&l=en" target="_blank">2017Population</a></td>
                     <td>CC BY 3.0</td>
                   </tr>
@@ -1743,7 +1748,7 @@
                     <th scope="row">D2</th>
                     <td>demo</td>
                     <td>.csv, .xlsx, .pdf</td>
-                    <td>Not provided</td>
+                    <td>Level 1: Not provided</td>
                     <td><a href="https://demo.istat.it/app/?i=POS&l=en" target="_blank">201819Population</a></td>
                     <td>CC BY 3.0</td>
                   </tr>
@@ -1832,8 +1837,17 @@
                     dataset iniziale di tipo serie.
                 </blockquote>
             </p>
+            <h3 class="analysis-second-title">Additional Metadata for <b>source datasets</b></h3>
+            <p>
+              In providing the metadata for the source datasets, information have been retreived from original sources. When missing, they have been induced and integrated according to the same guidelines adopted for Mashup datasets (ex. assignining a theme to source dataset has been done according to the same european authority).
+            </p>
+            <p>It should be mentioned that, in case of D1 and D2, our source datasets were downloaded from <a href="https://demo.istat.it/app/?i=RIC&l=en" target="_blank"> demo database Endpoint</a> where very few and non structured metadata were available.
+            Nonetheless, the same datasets are also published in the <a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0" target="_blank"> IstatDati database Endpoint</a> where the Standard protocol <a href="https://sdmx.org/" target="_blank">Statistical Data and Metadata eXchange (SDMX)</a> is adopted.
+            For more information about Istat Data and SDMX metadata incorporation carried out by Istat see <span class="underlined--bg underlined--offset--bg"><a href="https://www.istat.it/en/methods-and-tools/sdmx-web-service" target="_blank">SDMX web service for Istat data.</a></span>
+            </p>
+            <p>distribuzione : "Una distribuzione è una forma attraverso cui il dataset è disponibile. Ogni dataset può essere disponibile in diverse forme, come per esempio diversi formati o differenti endpoint (e.g., SPARQL endpoint). Nel caso di serie temporali o spaziali o viste di un dataset, queste sono descritte mediante le distribuzioni. Per esempio, nel caso di un dataset suddiviso per regioni, le suddivisioni rappresentano distribuzioni di un dataset più ampio che include tutti i dati del territorio nazionale. "</p>
             <!-- Metadata analysis -->
-            <nav>
+            <nav id="metadataAnalysisTable">
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
                   type="button" role="tab" aria-controls="nav-home" aria-selected="true"><b>Catalogue</b></button>
@@ -1917,8 +1931,7 @@
                         <th scope="col">Identifier</th>
                         <th scope="col">Description</th>
                         <th scope="col">Theme</th>
-                        <th scope="col">Subject</th>
-                        <th scope="col">Keywords</th>
+                        <th scope="col">Subject</th>                        
                         <th scope="col">Issued</th>
                         <th scope="col">Modified</th>
                         <th scope="col">Accrual periodicity</th>
@@ -1926,37 +1939,74 @@
                         <th scope="col">Creator</th>
                         <th scope="col">Publisher</th>
                         <th scope="col">Distribution</th>                        
-                        <th scope="col">Language</th>
-                        <th scope="col">Derived from</th>
+                        <th scope="col">Language</th>  
+                        <th scope="col">Derived from</th>                      
                         <th scope="col">License</th>
                         <th scope="col">RDF assertion of the metadata</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">D1</th>
+                        <td>Population estimates 2002-2019</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Intercensal population estimates by age, sex and citizenship on 1st January</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI" target="_blank">Population and society</a></td>
+                        <td>2816 demografia e popolazione</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Never</td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://demo.istat.it/app/?i=RIC&l=en" target="_blank"> demo database Endpoint</a><br><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0" target="_blank"> IstatDati database Endpoint</a></td>
+                        <td>Italian, English</td>
+                        <td>Censimento della popolazione (31.12.2018)<br>Censimenti della popolazione 2001 e 2011<br>flussi
+                          demografici (nascite, decessi, migrazioni, acquisizioni della cittadinanza) registrati tra i censimenti 2001 e 2018</td>
+                        <td><a href="https://creativecommons.org/licenses/by/3.0/it/" target="_blank"></a>CC BY 3.0</td>
+                        <td><a href="https://demo.istat.it/data/ricostruzione/Ricostruzione-popolazione_2002_2018.pdf" target="_blank">Download Informative note on population reconstruction 2002-2018 (IT)</a><br>
+                          <a href="https://demo.istat.it/data/ricostruzione/Nota_metodologica_Ricostruzione2002_2018.pdf" target="_blank">Download methodological note on population reconstruction 2002-2018 (IT)</a><br>
+                          <a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_INTCENSPOP/DCIS_RICPOPRES2011/IT1,164_164_DF_DCIS_RICPOPRES2011_1,1.0" target="_blank">Download SDMX structured data from IstatData endpoint</a>
+                        </td>
                       </tr>
                       <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
+                        <th scope="row">D2</th>
+                        <td>Resident Population</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Resident population by age, sex and marital status on 1st January, years 2019-2022</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI" target="_blank">Population and society</a></td>
+                        <td>2816 demografia e popolazione</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Annual</td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en" target="_blank">demo database Endpoint</a><br><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0" target="_blank"> IstatDati database Endpoint</a></td>
+                        <td>Italian, English</td>
+                        <td><a href="http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=IT" target="_blank">Popolazione residente comunale per sesso anno di nascita e stato civile</a></td>
+                        <td><a href="https://creativecommons.org/licenses/by/3.0/it/" target="_blank"></a>CC BY 3.0</td>
+                        <td><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0" target="_blank">Download SDMX structured data from IstatData endpoint</a></td>
                       </tr>
-                      <tr>
-                        <th scope="row">xxx</th>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                        <td>xxx</td>
-                      </tr>
+                     <!-- <tr>
+                        <th scope="row">D3</th>
+                        <td>Resident Population</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Resident population by age, sex and marital status on 1st January, years 2019-2022</td>
+                        <td><a href="https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/data-theme/SOCI" target="_blank">Population and society</a></td>
+                        <td>2816 demografia e popolazione</td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td><i class="bi bi-x" style="color: red; font-size: 30px;"></i></td>
+                        <td>Annual</td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://www.istat.it/en/" target="_blank">Istituto Nazionale di Statistica</a></td>
+                        <td><a href="https://demo.istat.it/app/?i=POS&l=en" target="_blank">demo database Endpoint</a><br><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0" target="_blank"> IstatDati database Endpoint</a></td>
+                        <td>Italian, English</td>
+                        <td><a href="http://siqual.istat.it/SIQual/visualizza.do?id=0019900&refresh=true&language=IT" target="_blank">Popolazione residente comunale per sesso anno di nascita e stato civile</a></td>
+                        <td><a href="https://creativecommons.org/licenses/by/3.0/it/" target="_blank"></a>CC BY 3.0</td>
+                        <td><a href="https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,POP,1.0/POP_POPULATION/DCIS_POPRES1/IT1,22_289_DF_DCIS_POPRES1_1,1.0" target="_blank">Download SDMX structured data from IstatData endpoint</a></td>
+                      </tr> -->
                       <tr>
                         <th scope="row">xxx</th>
                         <td>xxx</td>
@@ -2585,8 +2635,7 @@
             </select>
 </div>
 </div> -->
->>>>>>> bcaffd9 (ethical analysis)
->>>>>>> Stashed changes
+
     </section><!-- End Visualizations Section -->
 
     <!-- ======= Sustainability Section ======= -->
