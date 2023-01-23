@@ -51,7 +51,7 @@ $(document).ready(function() {
           rel5= '#C86B6F',
           rel6= '#BB4A50',
           rel7='#ad2831',
-          rel8='#640d14',
+          rel8='#7b0d1e',
           rel9= '#38040e';
 
 
@@ -120,7 +120,7 @@ $(document).ready(function() {
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
+              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.relig_yes).toFixed(1));
             }
           }).addTo(map_17_rel);
 
@@ -202,7 +202,7 @@ $(document).ready(function() {
                 opacity: 1,
                 color: "white",
                 dashArray: "0",
-                fillOpacity: 0.9
+                fillOpacity: 0.7
               };
             },
             onEachFeature: function(feature, layer) {
@@ -211,20 +211,20 @@ $(document).ready(function() {
                 // Change the style of the clicked layer to make it slightly larger
                 layer.setStyle({
                   weight: 3,
-                  fillOpacity: 1
+                  fillOpacity: 0.9
                 });
                 // Reset the style of all other layers to their original values
                 geojson.eachLayer(function(otherLayer) {
                   if (otherLayer != layer) {
                     otherLayer.setStyle({
                       weight: 1,
-                      fillOpacity: 0.9
+                      fillOpacity: 0.7
                     });
                   }
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.pregnancy_percentage);
+              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.pregnancy_percentage).toFixed(1));
             }
           }).addTo(map);
 
@@ -273,14 +273,13 @@ $(document).ready(function() {
 
           // // GetColor function  //
               function getColor(value) {
-                  return value < 3     ? '#e5bbbb' :
-                         value < 6     ? '#df9f9f' :
-                         value < 9     ? '#D7BB9F' :
-                         value < 12   ? '#ce7676' :
-                         value < 15    ? '#BC4418' :
-                         value < 18    ? '#b85a5a' :
-                         value < 21    ? '#9a3e3e' :
-                                     '#BC4418';
+                  return value < 6     ? '#eaf4f4' :
+                         value < 8     ? '#cce3de' :
+                         value < 10     ? '#a4c3b2' :
+                         value < 12   ? '#84a98c' :
+                         value < 14    ? '#52796f' :
+                         value < 16    ? '#015A3B' :
+                                     '#013824';
               }
 
               // Fetch the GeoJSON data
@@ -327,7 +326,7 @@ $(document).ready(function() {
                         map_17_edu.zoomOut(0.4);
                       });
                       // Add the original popup content
-                      layer.bindPopup(feature.properties.name + " - " + feature.properties.female_early_leavers_percentage);
+                      layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.female_early_leavers_percentage).toFixed(1));
                     }
                   }).addTo(map_17_edu);
 

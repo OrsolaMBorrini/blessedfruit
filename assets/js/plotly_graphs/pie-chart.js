@@ -56,48 +56,39 @@ $(document).ready(function() {
 
 
   function setPiePlot(chosenRegion, chosenYear) {
-  var tracePie;
-  getData(chosenRegion, chosenYear);
-  tracePie = {
-    values: [currentBirths.map(value => value * 100), currentAbort.map(value => value * 100), currentMiscar.map(value => value * 100)],
-    labels: ['Live Births', 'Abortions', 'Miscarriages'],
-    type: 'pie'
-  };
-
-
-  var dataPreg = [tracePie];
-  var layoutPie = {
-    title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' ' + chosenYear,
-    showlegend: true
-  };
-
-  console.log(tracePie);
-  Plotly.plot('pie-pregnancies', dataPreg, layoutPie, {
-    updatemenus: [{
-      buttons: [{
-        method: 'relayout',
-        args: ['title', 'New Title'],
-        label: 'Update Title'
-      }],
-      direction: 'down',
-      pad: {'r': 10, 't': 10},
-      showactive: false,
-      type: 'buttons',
-      x: 0.1,
-      xanchor: 'left',
-      y: 1.1,
-      yanchor: 'top'
-    }]
-  }).then(function(gd) {
-    var regionSelector = document.querySelector('.countrydata-pie');
-    var yearSelector1 = document.querySelector('.yeardata-pie');
-    var updateChart = function() {
-      setPiePlot(regionSelector.value, yearSelector1.value);
+    var tracePie;
+    getData(chosenRegion, chosenYear);
+    tracePie = {
+      values: [currentBirths.map(value => value * 100), currentAbort.map(value => value * 100), currentMiscar.map(value => value * 100)],
+      labels: ['Live Births', 'Abortions', 'Miscarriages'],
+      type: 'pie'
     };
-    regionSelector.addEventListener('change', updateChart);
-    yearSelector1.addEventListener('change', updateChart);
-  });
-}
+
+    var dataPreg = [tracePie];
+    var layoutPie = {
+        title: '<b>Pregnancy statistics <br>'+ chosenRegion + ' ' + chosenYear,
+        showlegend: true
+      };
+
+    Plotly.update('pie-pregnancies', {
+      data: dataPreg,
+      layout: layoutPie
+    });
+  }then(function(gd) {
+      var regionSelector = document.querySelector('.countrydata-pie');
+      var yearSelector1 = document.querySelector('.yeardata-pie');
+      var updateChart = function() {
+        setPiePlot(regionSelector.value, yearSelector1.value);
+        Plotly.update('pie-pregnancies', {
+          layout: {
+              title: '<b>Pregnancy statistics <br>'+ regionSelector + ' ' + yearSelector1
+          }
+        });
+      };
+      regionSelector.addEventListener('change', updateChart);
+      yearSelector1.addEventListener('change', updateChart);
+    });
+
 
 var innerContainer4 = document.querySelector('[data-num="4"'),
     pieEl = innerContainer4.querySelector('.pie'),
@@ -119,37 +110,11 @@ function assignOptions(textArray, selector) {
 assignOptions(listofYears1, yearSelector1);
 assignOptions(listofRegions, regionSelector);
 
-
-function updateRegion(){
-      setPiePlot(regionSelector, yearSelector1);
-  };
-
-//
-function updateYear1(){
-      setPiePlot(regionSelector, yearSelector1);
-
+var updateChart = function() {
+    setPiePlot(regionSelector.value, yearSelector1.value);
 };
 
 
+
 });
 });
-// });
-
-
-// Plotly.d3.csv('visualisations/scripts/full_df_17.csv', function(err, rows){
-//   function unpack(rows, key) {
-//       return rows.map(function(row) { return row[key]; });
-//   }
-//
-// var data = [{
-//   values: [19, 26, 55],
-//   labels: ['Residential', 'Non-Residential', 'Utility'],
-//   type: 'pie'
-// }];
-//
-// var layout = {
-//   height: 400,
-//   width: 500
-// };
-//
-// Plotly.newPlot('pie-pregnancies', data, layout);

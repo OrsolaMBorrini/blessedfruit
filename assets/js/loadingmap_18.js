@@ -32,56 +32,83 @@ $(document).ready(function() {
 
 
 
-  // // GetColor function  //
-      function getColor(value) {
-          return value < 16     ? '#FFE6CB' :
-                 value < 18     ? '#faf0e6' :
-                 value < 20     ? '#D7BB9F' :
-                 value < 22   ? '#CB895E' :
-                 value < 24    ? '#BC4418' :
-                 value < 28    ? '#8D2A07' :
-                 value < 30    ? '#580000' :
-                             '#BC4418';
-      }
+    var rel1= '#FFF2EB',
+        rel2='#F1D0CC',
+        rel3= '#F1D0CC',
+        rel4= '#D68D8E',
+        rel5= '#C86B6F',
+        rel6= '#BB4A50',
+        rel7='#ad2831',
+        rel8='#7b0d1e',
+        rel9= '#38040e';
 
-      // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
-        .then(function(response) {
-          return response.json();
-        })
-        .then(function(italianRegions) {
-          // Add our geojson file to the map, style with colors according to the value property
-          var geojson = L.geoJson(italianRegions, {
-            style: function(feature) {
-              return {
-                fillColor: getColor(feature.properties.relig_yes),
-                weight: 2,
-                opacity: 1,
-                color: "white",
-                dashArray: "2",
-                fillOpacity: 0.7
-              };
-            },
-            onEachFeature: function(feature, layer) {
-              // Add the click event to the layer
-              layer.on("click", function() {
-                // Change the style of the clicked layer to make it slightly larger
-                layer.setStyle({
-                  weight: 5,
-                  fillOpacity: 1
-                });
-                // Reset the style of all other layers to their original values
-                geojson.eachLayer(function(otherLayer) {
-                  if (otherLayer != layer) {
-                    otherLayer.setStyle({
-                      weight: 2,
-                      fillOpacity: 0.7
-                    });
-                  }
-                });
+
+    function getColor(value) {
+        return value < 3    ? rel1 :
+               value < 6    ? rel2 :
+               value < 7.5    ? rel3 :
+               value < 9    ? rel4 :
+               value < 10.5    ? rel5 :
+               value < 12    ? rel6 :
+               value < 13.5    ? rel7 :
+               value < 15    ? rel8 :
+                rel9;
+               ;
+    }
+
+    // function getColor(value) {
+    //     return value < 18    ? '#e5bbbb' :
+    //            value < 20    ? '#e5bbbb' :
+    //            value < 22    ? '#ce7676' :
+    //            value < 24    ? '#df9f9f' :
+    //            value < 26    ? '#b85a5a' :
+    //            value < 30    ? '#a31525' :
+    //            value <33     ? '#65041d':
+    //           '#e5bbbb' ;
+    // }
+    //
+
+    // value < 16     ? '#e5bbbb' : LIGHT
+
+    // Fetch the GeoJSON data
+    fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(italianRegions) {
+        // Add our geojson file to the map, style with colors according to the value property
+        var geojson = L.geoJson(italianRegions, {
+          style: function(feature) {
+            return {
+              fillColor: getColor(feature.properties.relig_yes),
+              weight: 1,
+              opacity: 2,
+              color: "white",
+              dashArray: "0",
+              fillOpacity: 0.9
+            };
+          },
+          onEachFeature: function(feature, layer) {
+            // Add the click event to the layer
+            layer.on("click", function() {
+              // Change the style of the clicked layer to make it slightly larger
+              layer.setStyle({
+                weight: 3,
+                fillOpacity: 1
+
               });
-              // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.relig_yes);
+              // Reset the style of all other layers to their original values
+              geojson.eachLayer(function(otherLayer) {
+                if (otherLayer != layer) {
+                  otherLayer.setStyle({
+                    weight: 1,
+                    fillOpacity: 0.9
+                  });
+                }
+              });
+            });
+            // Add the original popup content
+              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.relig_yes).toFixed(1));
             }
           }).addTo(map_18_rel);
 
@@ -129,18 +156,26 @@ $(document).ready(function() {
 
 
 
+    var preg1="#F2DAAF",
+        preg2="#EEBF99",
+        preg3="#F07000",
+        preg4="#E07058",
+        preg5="#F59C1F";
+// E78B4B
   // // GetColor function  //
       function getColor(value) {
-          return value < 2     ? '#FFE6CB' :
-                 value < 2.2     ? '#faf0e6' :
-                 value < 2.4     ? '#D7BB9F' :
-                 value < 2.8   ? '#CB895E' :
-                 value < 3    ? '#BC4418' :
-                 value < 3.3    ? '#8D2A07' :
-                 value < 3.6    ? '#580000' :
-                             '#BC4418';
+          return value < 1     ? preg1 :
+                 // value < 3     ? preg3 :
+                 // value < 2.4     ? '#D7BB9F' :
+                 // value < 2.8   ? '#CB895E' :
+                 // value < 3    ? '#BC4418' :
+                 value < 1.3    ? '#F7C979' :
+                 value < 1.6    ?  preg3:
+                 value < 1.9    ?  preg5:
+                 value < 2.2    ? '#BC4418':
+                 // value <       ? :
+                    '#580000'         ;
       }
-
       // Fetch the GeoJSON data
       fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
         .then(function(response) {
@@ -152,10 +187,10 @@ $(document).ready(function() {
             style: function(feature) {
               return {
                 fillColor: getColor(feature.properties.pregnancy_percentage),
-                weight: 2,
+                weight: 1,
                 opacity: 1,
                 color: "white",
-                dashArray: "2",
+                dashArray: "0",
                 fillOpacity: 0.7
               };
             },
@@ -164,21 +199,21 @@ $(document).ready(function() {
               layer.on("click", function() {
                 // Change the style of the clicked layer to make it slightly larger
                 layer.setStyle({
-                  weight: 5,
-                  fillOpacity: 1
+                  weight: 3,
+                  fillOpacity: 0.9
                 });
                 // Reset the style of all other layers to their original values
                 geojson.eachLayer(function(otherLayer) {
                   if (otherLayer != layer) {
                     otherLayer.setStyle({
-                      weight: 2,
+                      weight: 1,
                       fillOpacity: 0.7
                     });
                   }
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + feature.properties.pregnancy_percentage);
+              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.pregnancy_percentage).toFixed(1));
             }
           }).addTo(map_18_preg);
 
@@ -226,17 +261,17 @@ $(document).ready(function() {
 
 
 
-          // // GetColor function  //
-              function getColor(value) {
-                  return value < 3     ? '#FFE6CB' :
-                         value < 6     ? '#faf0e6' :
-                         value < 9     ? '#D7BB9F' :
-                         value < 12   ? '#CB895E' :
-                         value < 15    ? '#BC4418' :
-                         value < 18    ? '#8D2A07' :
-                         value < 21    ? '#580000' :
-                                     '#BC4418';
-              }
+            // // GetColor function  //
+                function getColor(value) {
+                    return value < 7.5     ? '#eaf4f4' :
+                           value < 8.5     ? '#cce3de' :
+                           value < 9.5     ? '#a4c3b2' :
+                           value < 11   ? '#84a98c' :
+                           value < 12.5    ? '#52796f' :
+                           value < 14    ? '#015A3B' :
+                                       '#013824';
+                }
+
 
               // Fetch the GeoJSON data
               fetch("visualisations/scripts/map_2018/pregnancy_religion_education_18.geojson")
@@ -249,11 +284,11 @@ $(document).ready(function() {
                     style: function(feature) {
                       return {
                         fillColor: getColor(feature.properties.female_early_leavers_percentage),
-                        weight: 2,
+                        weight: 1,
                         opacity: 1,
                         color: "white",
-                        dashArray: "2",
-                        fillOpacity: 0.7
+                        dashArray: "0",
+                        fillOpacity: 0.9
                       };
                     },
                     onEachFeature: function(feature, layer) {
@@ -269,7 +304,7 @@ $(document).ready(function() {
                           if (otherLayer != layer) {
                             otherLayer.setStyle({
                               weight: 2,
-                              fillOpacity: 0.7
+                              fillOpacity: 0.9
                             });
                           }
                         });
@@ -282,7 +317,7 @@ $(document).ready(function() {
                         map_18_edu.zoomOut(0.4);
                       });
                       // Add the original popup content
-                      layer.bindPopup(feature.properties.name + " - " + feature.properties.female_early_leavers_percentage);
+                      layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.female_early_leavers_percentage).toFixed(1));
                     }
                   }).addTo(map_18_edu);
 
