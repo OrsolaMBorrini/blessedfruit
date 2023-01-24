@@ -204,7 +204,7 @@ PregnancyDS["Total"] = total
 
 PregnancyDS = PregnancyDS[["ITTER107", "Region", "Live_births", "Miscarriages", "Abortions", "Total", "Time"]]
 print(PregnancyDS)
-PregnancyDS.to_csv("data/mashupDS/MD2-ASS-" + yr + ".csv", index=False)
+#PregnancyDS.to_csv("data/mashupDS/MD2-ASS-" + yr + ".csv", index=False)
 
 # transform all absolute values in % values and save in separate DS
 
@@ -263,13 +263,17 @@ def percentages(DStotal, DSpartial):
     DSpartial["Total"] = Total_perc
     DSpartial["Time"] = year
     print(DSpartial)
-    DSpartial.to_csv("data/mashupDS/MD2-PERC-" + year + ".csv", index=False)
+    #DSpartial.to_csv("data/mashupDS/MD2-PERC-" + year + ".csv", index=False)
     return True
 
 
 DSpartial = read_csv("data/mashupDS/MD2-ASS-2017.csv", keep_default_na=False)
 
 percentages(sel_pop19, DSpartial)
+
+import csv
+from pandas import *
+
 
 import csv
 from pandas import *
@@ -357,19 +361,20 @@ youngF_pop19["Age range"] = "18-24"
 
 # === C) % EARLY LEAVERS F (PROPORTION)
 # --- 2017
-# row["Value"] : row["Population_GENERAL"] = % early leavers F : row["Population_FEMALE"]
 d7_clean = read_csv("data/cleanDS/D7_clean.csv")
 d7_2017 = d7_clean.drop(d7_clean[(d7_clean.TIME == 2018) | (d7_clean.TIME == 2019)].index)
 
 MD3_2017 = (merge(young_pop17,d7_2017,left_on="Region code",right_on="ITTER107")).drop(["TIME","Territory"],axis=1)
-MD3_2017 = (merge(youngF_pop17,MD3_2017,left_on="Region code",right_on="ITTER107",suffixes=('_GENERAL','_FEMALE'))).drop(["Time_FEMALE","Age range_FEMALE","ITTER107","Region code_FEMALE","Region_FEMALE"],axis=1)
+MD3_2017 = (merge(MD3_2017,youngF_pop17,left_on="ITTER107",right_on="Region code",suffixes=('_GENERAL','_FEMALE'))).drop(["Time_FEMALE","Age range_FEMALE","ITTER107","Region code_FEMALE","Region_FEMALE"],axis=1)
 for idx,row in MD3_2017.iterrows():
     result = (row["Value"] * row["Population_FEMALE"])/(row["Population_GENERAL"])
     MD3_2017.loc[idx,"Female Early Leavers"] = result
-#MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
+
+MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
+
+# row["Value"] : row["Population_GENERAL"] = % early leavers F : row["Population_FEMALE"]
 
 # --- 2018
-# row["Value"] : row["Females"] = % early leavers F : row["Population"]
 d7_2018 = d7_clean.drop(d7_clean[(d7_clean.TIME == 2017) | (d7_clean.TIME == 2019)].index)
 
 MD3_2018 = (merge(young_pop18,d7_2018,left_on="ITTER107",right_on="ITTER107")).drop(["TIME","Territory"],axis=1)
@@ -378,7 +383,7 @@ MD3_2018 = (merge(youngF_pop18,MD3_2018,left_on="ITTER107",right_on="ITTER107",s
 for idx,row in MD3_2018.iterrows():
     result = (row["Value"] * row["Females"])/(row["Population"])
     MD3_2018.loc[idx,"Female Early Leavers"] = result
-#MD3_2018.to_csv("data/mashupDS/MD3_18.csv")
+MD3_2018.to_csv("data/mashupDS/MD3_18.csv")
 
 # --- 2019
 d7_2019 = d7_clean.drop(d7_clean[(d7_clean.TIME == 2017) | (d7_clean.TIME == 2018)].index)
@@ -387,6 +392,6 @@ MD3_2019 = (merge(youngF_pop19,MD3_2019,left_on="ITTER107",right_on="ITTER107",s
 for idx,row in MD3_2019.iterrows():
     result = (row["Value"] * row["Females"])/(row["Population"])
     MD3_2019.loc[idx,"Female Early Leavers"] = result
-#MD3_2019.to_csv("data/mashupDS/MD3_19.csv")
+MD3_2019.to_csv("data/mashupDS/MD3_19.csv")
 
 # -------------------------------------------------------------------------------------------------------------------------------

@@ -88,11 +88,12 @@ d7_clean = read_csv("data/cleanDS/D7_clean.csv")
 d7_2017 = d7_clean.drop(d7_clean[(d7_clean.TIME == 2018) | (d7_clean.TIME == 2019)].index)
 
 MD3_2017 = (merge(young_pop17,d7_2017,left_on="Region code",right_on="ITTER107")).drop(["TIME","Territory"],axis=1)
-MD3_2017 = (merge(youngF_pop17,MD3_2017,left_on="Region code",right_on="ITTER107",suffixes=('_GENERAL','_FEMALE'))).drop(["Time_FEMALE","Age range_FEMALE","ITTER107","Region code_FEMALE","Region_FEMALE"],axis=1)
+MD3_2017 = (merge(MD3_2017,youngF_pop17,left_on="ITTER107",right_on="Region code",suffixes=('_GENERAL','_FEMALE'))).drop(["Time_FEMALE","Age range_FEMALE","ITTER107","Region code_FEMALE","Region_FEMALE"],axis=1)
 for idx,row in MD3_2017.iterrows():
     result = (row["Value"] * row["Population_FEMALE"])/(row["Population_GENERAL"])
     MD3_2017.loc[idx,"Female Early Leavers"] = result
-#MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
+
+MD3_2017.to_csv("data/mashupDS/MD3_17.csv")
 
 # row["Value"] : row["Population_GENERAL"] = % early leavers F : row["Population_FEMALE"]
 
