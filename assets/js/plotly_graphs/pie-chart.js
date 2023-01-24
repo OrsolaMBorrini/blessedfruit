@@ -70,30 +70,23 @@ $(document).ready(function() {
         showlegend: true
       };
 
-    Plotly.update('pie-pregnancies', {
+      Plotly.update('pie-pregnancies', {
       data: dataPreg,
       layout: layoutPie
-    });
-  }then(function(gd) {
-      var regionSelector = document.querySelector('.countrydata-pie');
-      var yearSelector1 = document.querySelector('.yeardata-pie');
-      var updateChart = function() {
-        setPiePlot(regionSelector.value, yearSelector1.value);
-        Plotly.update('pie-pregnancies', {
-          layout: {
-              title: '<b>Pregnancy statistics <br>'+ regionSelector + ' ' + yearSelector1
-          }
-        });
-      };
-      regionSelector.addEventListener('change', updateChart);
-      yearSelector1.addEventListener('change', updateChart);
+    }).then(function(gd) {
+        var regionSelector = document.querySelector('.countrydata-pie');
+        var yearSelector1 = document.querySelector('.yeardata-pie');
+        var updateChart = function() {
+          setPiePlot(regionSelector.value, yearSelector1.value);
+        };
+        regionSelector.addEventListener('change', updateChart);
+        yearSelector1.addEventListener('change', updateChart);
     });
 
 
-var innerContainer4 = document.querySelector('[data-num="4"'),
-    pieEl = innerContainer4.querySelector('.pie'),
-    regionSelector = innerContainer4.querySelector('.countrydata-pie'),
-    yearSelector1= innerContainer4.querySelector('.yeardata-pie');
+// var innerContainer4 = document.querySelector('[data-num="4"]'),
+//     regionSelector = innerContainer4.querySelector('.countrydata-pie'),
+//     yearSelector1= innerContainer4.querySelector('.yeardata-pie');
 
 
 // FIX THIS!!!!!!!!!
@@ -116,5 +109,6 @@ var updateChart = function() {
 
 
 
+};
 });
 });

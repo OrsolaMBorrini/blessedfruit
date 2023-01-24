@@ -2057,3 +2057,8 @@ h3.analysis-second-title {
   float:left;
   width:33%;
 }
+
+.pie-chart {
+  width: 90%;
+  height: 500px;
+}
