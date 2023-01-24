@@ -4,624 +4,47 @@
 
 $(document).ready(function(){
 
+//
+//
+//
 
-  var piedivNord17 =  [{
-      category: "Piemonte",
-      value: 362,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
+  var piedivNord17 =  [{"category": "Piemonte", "value": 3.622520400150227, "subData": [{"category": "Live births", "value": 2.657262843680953}, {"category": "Abortions", "value": 0.8145427586173258}, {"category": "Miscarriages", "value": 0.1507147978519483}]}, {"category": "Valle d'Aosta / Vall\u00e9e d'Aoste", "value": 3.203252032520325, "subData": [{"category": "Live births", "value": 2.3089430894308944}, {"category": "Abortions", "value": 0.7479674796747967}, {"category": "Miscarriages", "value": 0.1463414634146341}]}, {"category": "Liguria", "value": 3.709522562625469, "subData": [{"category": "Live births", "value": 2.6097582264118007}, {"category": "Abortions", "value": 0.9659305810130632}, {"category": "Miscarriages", "value": 0.1338337552006051}]}, {"category": "Lombardia", "value": 3.5408646382323274, "subData": [{"category": "Live births", "value": 2.7331708475305474}, {"category": "Abortions", "value": 0.6861338458197788}, {"category": "Miscarriages", "value": 0.1215599448820016}]}, {"category": "Veneto", "value": 2.978630243617656, "subData": [{"category": "Live births", "value": 2.409824168784993}, {"category": "Abortions", "value": 0.4524501635874919}, {"category": "Miscarriages", "value": 0.1163559112451704}]}, {"category": "Friuli-Venezia Giulia", "value": 3.1888679518770835, "subData": [{"category": "Live births", "value": 2.431511813306276}, {"category": "Abortions", "value": 0.6214668792578635}, {"category": "Miscarriages", "value": 0.1358892593129439}]}, {"category": "Emilia-Romagna", "value": 3.821205901715525, "subData": [{"category": "Live births", "value": 2.9121325949734733}, {"category": "Abortions", "value": 0.7958021918444798}, {"category": "Miscarriages", "value": 0.1132711148975719}]}, {"category": "Trentino Alto Adige / S\u00fcdtirol", "value": 3.503630620950148, "subData": [{"category": "Live births", "value": 2.891472110970011}]}];
 
-      ]
-    },
-    {
-      category: "Valle d'Aosta",
-      value: 320,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },
-    {
-      category: "Liguria",
-      value: 200,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },
-    {
-      category: "Lombardia",
-      value: 150,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },
-
-    {
-      category: "Veneto",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },{
-      category: "Friuli-Venezia Giulia",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },{
-      category: "Trentino Alto Adige",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-
-    }];
 
 
   var piedivCentro17 =
-    [{
-      category: "Toscana",
-      value: 262,
-      subData: [
-        { category: "Live births", value: 265 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 }
-      ]
-    },
-    {
-      category: "Marche",
-      value: 220,
-      subData: [
-        { category: "Live births", value: 130 },
-        { category: "Abortions", value: 74 },
-        { category: "Miscarriages", value: 14 }
-      ]
-    },
-    {
-      category: "Liguria",
-      value: 200,
-      subData: [
-        { category: "Live births", value: 110 },
-        { category: "Abortions", value: 60 },
-        { category: "Miscarriages", value: 30 }
-      ]
-    },
-    {
-      category: "Lombardia",
-      value: 150,
-      subData: [
-        { category: "Live births", value: 80 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 30 }
-      ]
-    },
+  [{"category": "Toscana", "value": 3.4608687522642017, "subData": [{"category": "Live births", "value": 2.566289981418939}, {"category": "Abortions", "value": 0.7654462376272335}, {"category": "Miscarriages", "value": 0.1291325332180294}]}, {"category": "Umbria", "value": 3.322999418717303, "subData": [{"category": "Live births", "value": 2.557643867467545}, {"category": "Abortions", "value": 0.6660530904863399}, {"category": "Miscarriages", "value": 0.0993024607634179}]}, {"category": "Marche", "value": 3.1142841834547794, "subData": [{"category": "Live births", "value": 2.472674667809687}, {"category": "Abortions", "value": 0.5130197171024432}, {"category": "Miscarriages", "value": 0.1285897985426489}]}, {"category": "Lazio", "value": 3.2937919433687863, "subData": [{"category": "Live births", "value": 2.3724833978728253}, {"category": "Abortions", "value": 0.7671146466681853}, {"category": "Miscarriages", "value": 0.1541938988277759}]}, {"category": "Abruzzo", "value": 3.232228064310245, "subData": [{"category": "Live births", "value": 2.580311825669392}, {"category": "Abortions", "value": 0.5592195240555572}, {"category": "Miscarriages", "value": 0.0926967145852961}]}, {"category": "Molise", "value": 3.0502988047808763, "subData": [{"category": "Live births", "value": 2.2908366533864544}, {"category": "Abortions", "value": 0.6349601593625498}, {"category": "Miscarriages", "value": 0.1245019920318725}]}];
 
-    {
-      category: "Veneto",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-    },{
-      category: "Friuli-Venezia Giulia",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-    },{
-      category: "Trentino Alto Adige",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-
-    }];
 
 
 
   var piedivSud17 =
-    [{
-      category: "Toscana",
-      value: 262,
-      subData: [
-        { category: "Live births", value: 165 },
-        { category: "Abortions", value: 81 },
-        { category: "Miscarriages", value: 15 },
-
-      ]
-    },
-    {
-      category: "Marche",
-      value: 220,
-      subData: [
-        { category: "Live births", value: 130 },
-        { category: "Abortions", value: 74 },
-        { category: "Miscarriages", value: 14 }
-      ]
-    },
-    {
-      category: "Liguria",
-      value: 200,
-      subData: [
-        { category: "Live births", value: 110 },
-        { category: "Abortions", value: 60 },
-        { category: "Miscarriages", value: 30 }
-      ]
-    },
-    {
-      category: "Lombardia",
-      value: 150,
-      subData: [
-        { category: "Live births", value: 80 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 30 }
-      ]
-    },
-
-    {
-      category: "Veneto",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-    },{
-      category: "Friuli-Venezia Giulia",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-    },{
-      category: "Trentino Alto Adige",
-      value: 140,
-      subData: [
-        { category: "Live births", value: 90 },
-        { category: "Abortions", value: 40 },
-        { category: "Miscarriages", value: 10 }
-      ]
-
-    }];
+    [{"category": "Campania", "value": 3.8910781927145295, "subData": [{"category": "Live births", "value": 3.3338063685089567}, {"category": "Abortions", "value": 0.4737629220474418}, {"category": "Miscarriages", "value": 0.083508902158132}]}, {"category": "Puglia", "value": 3.753125094129341, "subData": [{"category": "Live births", "value": 2.8004285843377383}, {"category": "Abortions", "value": 0.771968174600784}, {"category": "Miscarriages", "value": 0.180728335190819}]}, {"category": "Basilicata", "value": 2.462768357939527, "subData": [{"category": "Live births", "value": 1.927664238282509}, {"category": "Abortions", "value": 0.3997163303462059}, {"category": "Miscarriages", "value": 0.1353877893108117}]}, {"category": "Calabria", "value": 3.650524339837193, "subData": [{"category": "Live births", "value": 3.106329982130932}, {"category": "Abortions", "value": 0.4052127141129542}, {"category": "Miscarriages", "value": 0.1389816435933072}]}, {"category": "Sicilia", "value": 4.771080727748121, "subData": [{"category": "Live births", "value": 4.053409957511712}, {"category": "Abortions", "value": 0.5294013509096851}, {"category": "Miscarriages", "value": 0.188269419326724}]}, {"category": "Sardegna", "value": 3.029788789389865, "subData": [{"category": "Live births", "value": 2.258308748661985}, {"category": "Abortions", "value": 0.6670495783620082}, {"category": "Miscarriages", "value": 0.1044304623658721}]}];
 
 
 // -----------------YEAR 2018-----------------
     var piedivNord18 =
-      [{
-        category: "Toscana",
-        value: 262,
-        subData: [
-          { category: "Live births", value: 165 },
-          { category: "Abortions", value: 81 },
-          { category: "Miscarriages", value: 15 },
-
-        ]
-      },
-      {
-        category: "Marche",
-        value: 220,
-        subData: [
-          { category: "Live births", value: 130 },
-          { category: "Abortions", value: 74 },
-          { category: "Miscarriages", value: 14 }
-        ]
-      },
-      {
-        category: "Liguria",
-        value: 200,
-        subData: [
-          { category: "Live births", value: 110 },
-          { category: "Abortions", value: 60 },
-          { category: "Miscarriages", value: 30 }
-        ]
-      },
-      {
-        category: "Lombardia",
-        value: 150,
-        subData: [
-          { category: "Live births", value: 80 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 30 }
-        ]
-      },
-
-      {
-        category: "Veneto",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-      },{
-        category: "Friuli-Venezia Giulia",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-      },{
-        category: "Trentino Alto Adige",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-
-      }];
-
-      var piedivCentro18 =
-        [{
-          category: "Toscana",
-          value: 262,
-          subData: [
-            { category: "Live births", value: 165 },
-            { category: "Abortions", value: 81 },
-            { category: "Miscarriages", value: 15 },
-
-          ]
-        },
-        {
-          category: "Marche",
-          value: 220,
-          subData: [
-            { category: "Live births", value: 130 },
-            { category: "Abortions", value: 74 },
-            { category: "Miscarriages", value: 14 }
-          ]
-        },
-        {
-          category: "Liguria",
-          value: 200,
-          subData: [
-            { category: "Live births", value: 110 },
-            { category: "Abortions", value: 60 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-        {
-          category: "Lombardia",
-          value: 150,
-          subData: [
-            { category: "Live births", value: 80 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-
-        {
-          category: "Veneto",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Friuli-Venezia Giulia",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Trentino Alto Adige",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-
-        }];
-
-        var piedivSud18 =
-          [{
-            category: "Toscana",
-            value: 262,
-            subData: [
-              { category: "Live births", value: 165 },
-              { category: "Abortions", value: 81 },
-              { category: "Miscarriages", value: 15 },
-
-            ]
-          },
-          {
-            category: "Marche",
-            value: 220,
-            subData: [
-              { category: "Live births", value: 130 },
-              { category: "Abortions", value: 74 },
-              { category: "Miscarriages", value: 14 }
-            ]
-          },
-          {
-            category: "Liguria",
-            value: 200,
-            subData: [
-              { category: "Live births", value: 110 },
-              { category: "Abortions", value: 60 },
-              { category: "Miscarriages", value: 30 }
-            ]
-          },
-          {
-            category: "Lombardia",
-            value: 150,
-            subData: [
-              { category: "Live births", value: 80 },
-              { category: "Abortions", value: 40 },
-              { category: "Miscarriages", value: 30 }
-            ]
-          },
-
-          {
-            category: "Veneto",
-            value: 140,
-            subData: [
-              { category: "Live births", value: 90 },
-              { category: "Abortions", value: 40 },
-              { category: "Miscarriages", value: 10 }
-            ]
-          },{
-            category: "Friuli-Venezia Giulia",
-            value: 140,
-            subData: [
-              { category: "Live births", value: 90 },
-              { category: "Abortions", value: 40 },
-              { category: "Miscarriages", value: 10 }
-            ]
-          },{
-            category: "Trentino Alto Adige",
-            value: 140,
-            subData: [
-              { category: "Live births", value: 90 },
-              { category: "Abortions", value: 40 },
-              { category: "Miscarriages", value: 10 }
-            ]
-
-          }];
-
-      var piedivNord19 =
-        [{
-          category: "Toscana",
-          value: 262,
-          subData: [
-            { category: "Live births", value: 165 },
-            { category: "Abortions", value: 81 },
-            { category: "Miscarriages", value: 15 },
-
-          ]
-        },
-        {
-          category: "Marche",
-          value: 220,
-          subData: [
-            { category: "Live births", value: 130 },
-            { category: "Abortions", value: 74 },
-            { category: "Miscarriages", value: 14 }
-          ]
-        },
-        {
-          category: "Liguria",
-          value: 200,
-          subData: [
-            { category: "Live births", value: 110 },
-            { category: "Abortions", value: 60 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-        {
-          category: "Lombardia",
-          value: 150,
-          subData: [
-            { category: "Live births", value: 80 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-
-        {
-          category: "Veneto",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Friuli-Venezia Giulia",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Trentino Alto Adige",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-
-        }];
-
-    var piedivCentro19 =
-      [{
-        category: "Toscana",
-        value: 262,
-        subData: [
-          { category: "Live births", value: 165 },
-          { category: "Abortions", value: 81 },
-          { category: "Miscarriages", value: 15 },
-
-        ]
-      },
-      {
-        category: "Marche",
-        value: 220,
-        subData: [
-          { category: "Live births", value: 130 },
-          { category: "Abortions", value: 74 },
-          { category: "Miscarriages", value: 14 }
-        ]
-      },
-      {
-        category: "Liguria",
-        value: 200,
-        subData: [
-          { category: "Live births", value: 110 },
-          { category: "Abortions", value: 60 },
-          { category: "Miscarriages", value: 30 }
-        ]
-      },
-      {
-        category: "Lombardia",
-        value: 150,
-        subData: [
-          { category: "Live births", value: 80 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 30 }
-        ]
-      },
-
-      {
-        category: "Veneto",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-      },{
-        category: "Friuli-Venezia Giulia",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-      },{
-        category: "Trentino Alto Adige",
-        value: 140,
-        subData: [
-          { category: "Live births", value: 90 },
-          { category: "Abortions", value: 40 },
-          { category: "Miscarriages", value: 10 }
-        ]
-
-      }];
-      var piedivSud19 =
-        [{
-          category: "Toscana",
-          value: 262,
-          subData: [
-            { category: "Live births", value: 165 },
-            { category: "Abortions", value: 81 },
-            { category: "Miscarriages", value: 15 },
-
-          ]
-        },
-        {
-          category: "Marche",
-          value: 220,
-          subData: [
-            { category: "Live births", value: 130 },
-            { category: "Abortions", value: 74 },
-            { category: "Miscarriages", value: 14 }
-          ]
-        },
-        {
-          category: "Liguria",
-          value: 200,
-          subData: [
-            { category: "Live births", value: 110 },
-            { category: "Abortions", value: 60 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-        {
-          category: "Lombardia",
-          value: 150,
-          subData: [
-            { category: "Live births", value: 80 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 30 }
-          ]
-        },
-
-        {
-          category: "Veneto",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Friuli-Venezia Giulia",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-        },{
-          category: "Trentino Alto Adige",
-          value: 140,
-          subData: [
-            { category: "Live births", value: 90 },
-            { category: "Abortions", value: 40 },
-            { category: "Miscarriages", value: 10 }
-          ]
-
-        }];
 
 
-    // Pies for each region year 2017
-      createPie("piediv-nord-17", piedivNord17);
-      createPie("piediv-centro-17",piedivCentro17);
-      createPie ("piediv-sud-17", piedivSud17);
+    [{"category": "Piemonte", "value": 3.622520400150227, "subData": [{"category": "Live births", "value": 2.657262843680953}, {"category": "Abortions", "value": 0.8145427586173258}, {"category": "Miscarriages", "value": 0.1507147978519483}]}, {"category": "Valle d'Aosta / Vall\u00e9e d'Aoste", "value": 3.203252032520325, "subData": [{"category": "Live births", "value": 2.3089430894308944}, {"category": "Abortions", "value": 0.7479674796747967}, {"category": "Miscarriages", "value": 0.1463414634146341}]}, {"category": "Liguria", "value": 3.709522562625469, "subData": [{"category": "Live births", "value": 2.6097582264118007}, {"category": "Abortions", "value": 0.9659305810130632}, {"category": "Miscarriages", "value": 0.1338337552006051}]}, {"category": "Lombardia", "value": 3.5408646382323274, "subData": [{"category": "Live births", "value": 2.7331708475305474}, {"category": "Abortions", "value": 0.6861338458197788}, {"category": "Miscarriages", "value": 0.1215599448820016}]}, {"category": "Veneto", "value": 2.978630243617656, "subData": [{"category": "Live births", "value": 2.409824168784993}, {"category": "Abortions", "value": 0.4524501635874919}, {"category": "Miscarriages", "value": 0.1163559112451704}]}, {"category": "Friuli-Venezia Giulia", "value": 3.1888679518770835, "subData": [{"category": "Live births", "value": 2.431511813306276}, {"category": "Abortions", "value": 0.6214668792578635}, {"category": "Miscarriages", "value": 0.1358892593129439}]}, {"category": "Emilia-Romagna", "value": 3.821205901715525, "subData": [{"category": "Live births", "value": 2.9121325949734733}, {"category": "Abortions", "value": 0.7958021918444798}, {"category": "Miscarriages", "value": 0.1132711148975719}]}, {"category": "Trentino Alto Adige / S\u00fcdtirol", "value": 3.503630620950148, "subData": [{"category": "Live births", "value": 2.891472110970011}, {"category": "Abortions", "value": 0.5307544528019277}, {"category": "Miscarriages", "value": 0.0814040571782097}]}];
 
-    // Pies for each region year 2017
+    var piedivCentro18 =[{"category": "Toscana", "value": 3.4608687522642017, "subData": [{"category": "Live births", "value": 2.566289981418939}, {"category": "Abortions", "value": 0.7654462376272335}, {"category": "Miscarriages", "value": 0.1291325332180294}]}, {"category": "Umbria", "value": 3.322999418717303, "subData": [{"category": "Live births", "value": 2.557643867467545}, {"category": "Abortions", "value": 0.6660530904863399}, {"category": "Miscarriages", "value": 0.0993024607634179}]}, {"category": "Marche", "value": 3.1142841834547794, "subData": [{"category": "Live births", "value": 2.472674667809687}, {"category": "Abortions", "value": 0.5130197171024432}, {"category": "Miscarriages", "value": 0.1285897985426489}]}, {"category": "Lazio", "value": 3.2937919433687863, "subData": [{"category": "Live births", "value": 2.3724833978728253}, {"category": "Abortions", "value": 0.7671146466681853}, {"category": "Miscarriages", "value": 0.1541938988277759}]}, {"category": "Abruzzo", "value": 3.232228064310245, "subData": [{"category": "Live births", "value": 2.580311825669392}, {"category": "Abortions", "value": 0.5592195240555572}, {"category": "Miscarriages", "value": 0.0926967145852961}]}, {"category": "Molise", "value": 3.0502988047808763, "subData": [{"category": "Live births", "value": 2.2908366533864544}, {"category": "Abortions", "value": 0.6349601593625498}, {"category": "Miscarriages", "value": 0.1245019920318725}]}];
 
 
-      createPie ("piediv-nord-18", piedivNord18);
-      createPie ("piediv-centro-18", piedivCentro18);
-      createPie ("piediv-sud-18", piedivSud18);
 
-    // Pies for each region year 2017
-
-      createPie ("piediv-nord-19", piedivNord17);
-      createPie ("piediv-centro-19", piedivCentro19);
-      createPie ("piediv-sud-19", piedivSud19);
+    var piedivSud18 =[{"category": "Campania", "value": 3.8910781927145295, "subData": [{"category": "Live births", "value": 3.3338063685089567}, {"category": "Abortions", "value": 0.4737629220474418}, {"category": "Miscarriages", "value": 0.083508902158132}]}, {"category": "Puglia", "value": 3.753125094129341, "subData": [{"category": "Live births", "value": 2.8004285843377383}, {"category": "Abortions", "value": 0.771968174600784}, {"category": "Miscarriages", "value": 0.180728335190819}]}, {"category": "Basilicata", "value": 2.462768357939527, "subData": [{"category": "Live births", "value": 1.927664238282509}, {"category": "Abortions", "value": 0.3997163303462059}, {"category": "Miscarriages", "value": 0.1353877893108117}]}, {"category": "Calabria", "value": 3.650524339837193, "subData": [{"category": "Live births", "value": 3.106329982130932}, {"category": "Abortions", "value": 0.4052127141129542}, {"category": "Miscarriages", "value": 0.1389816435933072}]}, {"category": "Sicilia", "value": 4.771080727748121, "subData": [{"category": "Live births", "value": 4.053409957511712}, {"category": "Abortions", "value": 0.5294013509096851}, {"category": "Miscarriages", "value": 0.188269419326724}]}, {"category": "Sardegna", "value": 3.029788789389865, "subData": [{"category": "Live births", "value": 2.258308748661985}, {"category": "Abortions", "value": 0.6670495783620082}, {"category": "Miscarriages", "value": 0.1044304623658721}]}];
 
 
-  // MAIN FUNCTION
+    // 2019 DATA
+
+    var piedivNord19 =[{"category": "Piemonte", "value": 3.622520400150227, "subData": [{"category": "Live births", "value": 2.657262843680953}, {"category": "Abortions", "value": 0.8145427586173258}, {"category": "Miscarriages", "value": 0.1507147978519483}]}, {"category": "Valle d'Aosta / Vall\u00e9e d'Aoste", "value": 3.203252032520325, "subData": [{"category": "Live births", "value": 2.3089430894308944}, {"category": "Abortions", "value": 0.7479674796747967}, {"category": "Miscarriages", "value": 0.1463414634146341}]}, {"category": "Liguria", "value": 3.709522562625469, "subData": [{"category": "Live births", "value": 2.6097582264118007}, {"category": "Abortions", "value": 0.9659305810130632}, {"category": "Miscarriages", "value": 0.1338337552006051}]}, {"category": "Lombardia", "value": 3.5408646382323274, "subData": [{"category": "Live births", "value": 2.7331708475305474}, {"category": "Abortions", "value": 0.6861338458197788}, {"category": "Miscarriages", "value": 0.1215599448820016}]}, {"category": "Veneto", "value": 2.978630243617656, "subData": [{"category": "Live births", "value": 2.409824168784993}, {"category": "Abortions", "value": 0.4524501635874919}, {"category": "Miscarriages", "value": 0.1163559112451704}]}, {"category": "Friuli-Venezia Giulia", "value": 3.1888679518770835, "subData": [{"category": "Live births", "value": 2.431511813306276}, {"category": "Abortions", "value": 0.6214668792578635}, {"category": "Miscarriages", "value": 0.1358892593129439}]}, {"category": "Emilia-Romagna", "value": 3.821205901715525, "subData": [{"category": "Live births", "value": 2.9121325949734733}, {"category": "Abortions", "value": 0.7958021918444798}, {"category": "Miscarriages", "value": 0.1132711148975719}]}, {"category": "Trentino Alto Adige / S\u00fcdtirol", "value": 3.503630620950148, "subData": [{"category": "Live births", "value": 2.891472110970011}, {"category": "Abortions", "value": 0.5307544528019277}, {"category": "Miscarriages", "value": 0.0814040571782097}]}];
+
+    var piedivCentro19 =[{"category": "Toscana", "value": 3.4608687522642017, "subData": [{"category": "Live births", "value": 2.566289981418939}, {"category": "Abortions", "value": 0.7654462376272335}, {"category": "Miscarriages", "value": 0.1291325332180294}]}, {"category": "Umbria", "value": 3.322999418717303, "subData": [{"category": "Live births", "value": 2.557643867467545}, {"category": "Abortions", "value": 0.6660530904863399}, {"category": "Miscarriages", "value": 0.0993024607634179}]}, {"category": "Marche", "value": 3.1142841834547794, "subData": [{"category": "Live births", "value": 2.472674667809687}, {"category": "Abortions", "value": 0.5130197171024432}, {"category": "Miscarriages", "value": 0.1285897985426489}]}, {"category": "Lazio", "value": 3.2937919433687863, "subData": [{"category": "Live births", "value": 2.3724833978728253}, {"category": "Abortions", "value": 0.7671146466681853}, {"category": "Miscarriages", "value": 0.1541938988277759}]}, {"category": "Abruzzo", "value": 3.232228064310245, "subData": [{"category": "Live births", "value": 2.580311825669392}, {"category": "Abortions", "value": 0.5592195240555572}, {"category": "Miscarriages", "value": 0.0926967145852961}]}, {"category": "Molise", "value": 3.0502988047808763, "subData": [{"category": "Live births", "value": 2.2908366533864544}, {"category": "Abortions", "value": 0.6349601593625498}, {"category": "Miscarriages", "value": 0.1245019920318725}]}];
+
+    var piedivSud19= [{"category": "Campania", "value": 3.8910781927145295, "subData": [{"category": "Live births", "value": 3.3338063685089567}, {"category": "Abortions", "value": 0.4737629220474418}, {"category": "Miscarriages", "value": 0.083508902158132}]}, {"category": "Puglia", "value": 3.753125094129341, "subData": [{"category": "Live births", "value": 2.8004285843377383}, {"category": "Abortions", "value": 0.771968174600784}, {"category": "Miscarriages", "value": 0.180728335190819}]}, {"category": "Basilicata", "value": 2.462768357939527, "subData": [{"category": "Live births", "value": 1.927664238282509}, {"category": "Abortions", "value": 0.3997163303462059}, {"category": "Miscarriages", "value": 0.1353877893108117}]}, {"category": "Calabria", "value": 3.650524339837193, "subData": [{"category": "Live births", "value": 3.106329982130932}, {"category": "Abortions", "value": 0.4052127141129542}, {"category": "Miscarriages", "value": 0.1389816435933072}]}, {"category": "Sicilia", "value": 4.771080727748121, "subData": [{"category": "Live births", "value": 4.053409957511712}, {"category": "Abortions", "value": 0.5294013509096851}, {"category": "Miscarriages", "value": 0.188269419326724}]}, {"category": "Sardegna", "value": 3.029788789389865, "subData": [{"category": "Live births", "value": 2.258308748661985}, {"category": "Abortions", "value": 0.6670495783620082}, {"category": "Miscarriages", "value": 0.1044304623658721}]}];
+
+      
+  // MAIN FUNCTION FOR CREATING PIES
 
   function createPie(divEl,arrayData){
 
@@ -663,7 +86,9 @@ $(document).ready(function(){
 
   series.labels.template.setAll({
     textType: "circular",
-    radius: 4
+    radius: 4,
+    fontSize: 11
+
   });
   series.ticks.template.set("visible", false);
   series.slices.template.set("toggleKey", "none");
@@ -811,5 +236,40 @@ $(document).ready(function(){
 
 
 };
+
+// fetch('assets/js/pie_charts/fulltimeseries.json')
+//     .then(response => response.json())
+//     .then(jsonData => {
+//         var regions = createRegionYearObjects(jsonData);
+//         var piedivNord17 = [regions["Piemonte2017"], regions["Liguria2017"]];
+//         console.log(piedivNord);
+//         createPie("piediv-nord-17", piedivNord17);
+//
+//         // console.log(piedivNord17);
+//     })
+//     .catch(error => console.error(error));
+
+// ACCESS JSON DATA AND CREATE VARIABLES
+
+    // Pies for each region year 2017
+      createPie("piediv-nord-17", piedivNord17);
+
+      createPie("piediv-centro-17",piedivCentro17);
+      createPie ("piediv-sud-17", piedivSud17);
+
+    // Pies for each region year 2017
+
+
+      createPie ("piediv-nord-18", piedivNord18);
+      createPie ("piediv-centro-18", piedivCentro18);
+      createPie ("piediv-sud-18", piedivSud18);
+
+    // Pies for each region year 2017
+
+      createPie ("piediv-nord-19", piedivNord17);
+      createPie ("piediv-centro-19", piedivCentro19);
+      createPie ("piediv-sud-19", piedivSud19);
+
+
 
 });

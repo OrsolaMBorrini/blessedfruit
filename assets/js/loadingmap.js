@@ -83,7 +83,7 @@ $(document).ready(function() {
       // value < 16     ? '#e5bbbb' : LIGHT
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+      fetch("visualisations/scripts/map_edit2017/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -188,7 +188,7 @@ $(document).ready(function() {
       }
 
       // Fetch the GeoJSON data
-      fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+      fetch("visualisations/scripts/map_edit2017/pregnancy_religion_education_17.geojson")
         .then(function(response) {
           return response.json();
         })
@@ -283,7 +283,7 @@ $(document).ready(function() {
               }
 
               // Fetch the GeoJSON data
-              fetch("visualisations/scripts/map_2017/pregnancy_religion_education_17.geojson")
+              fetch("visualisations/scripts/map_edit2017/pregnancy_religion_education_17.geojson")
                 .then(function(response) {
                   return response.json();
                 })

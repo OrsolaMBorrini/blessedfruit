@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  Plotly.d3.csv('visualisations/scripts/full_time_series.csv', function(err, rows){
+  Plotly.d3.csv('full_time_series_edit.csv', function(err, rows){
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
     }
@@ -8,7 +8,7 @@ $(document).ready(function() {
         allYear = unpack(rows, 'Time'),
         allLiveBirths = unpack(rows, 'Religious observation'),
         allAbortions = unpack(rows, 'Total'),
-        allMiscarriages = unpack(rows, 'Early leavers absolute value'),
+        allMiscarriages = unpack(rows, 'Female Early Leavers'),
         listofCountries = [],
         currentCountry,
         currentLiveBirths = [],
