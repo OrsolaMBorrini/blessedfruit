@@ -39,12 +39,14 @@ def standardize_all(md1,md2,md3,path):
             df1.at[index, 'Region'] = "Valle d'Aosta / Vallée d'Aoste"
 
     for index, row in df2.iterrows():
-        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
+        if row['Region'] in ["Valle D'Aosta/Vallée D'Aoste", "Valle D'Aosta / Vallée D'Aoste"]:
             df2.at[index, 'Region'] = "Valle d'Aosta / Vallée d'Aoste"
 
     for index, row in df3.iterrows():
-        if row['Region'] == "Valle D'Aosta/Vallée D'Aoste":
+        if row['Region'] in ["Valle D'Aosta/Vallée D'Aoste", "Valle D'Aosta / Vallée D'Aoste"]:
             df3.at[index, 'Region'] = "Valle d'Aosta / Vallée D'Aoste"
+
+    df3.rename(columns={"Region code_GENERAL": "ITTER107"}, inplace=True)
 
 
     # df1.loc[df1["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
@@ -56,10 +58,8 @@ def standardize_all(md1,md2,md3,path):
     merged_df = merge(df1, df2, on="ITTER107")
     final_df= merge(merged_df, df3, on="ITTER107")
 
-
-    final_df=final_df[["ITTER107", 'Region', 'Population', 'Time_x', 'Percentage','Live_births', 'Miscarriages', 'Abortions', 'Total', 'Female Early Leavers']]
-    final_df.rename(columns={'Time_x': 'Time', 'Total': 'Total_Pregnancies', 'Percentage':'Religious_observation'}, inplace=True)
-    print(final_df["Total_Pregnancies"].values)
+    final_df=final_df[["ITTER107", 'Region', 'Population_x', 'Time_x', 'Percentage','Live_births', 'Miscarriages', 'Abortions', 'Total', 'Female Early Leavers']]
+    final_df.rename(columns={'Time_x': 'Time', 'Population_x': 'Population', 'Total': 'Total_Pregnancies', 'Percentage':'Religious_observation'}, inplace=True)
 
     #make sure all numeric values have numeric type to prevent missing values after merge
 
@@ -73,7 +73,6 @@ def standardize_all(md1,md2,md3,path):
     final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
     final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
     final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
-    print(final_df["Region"].values)
 
 
     final_df.to_csv(path)
@@ -81,10 +80,10 @@ def standardize_all(md1,md2,md3,path):
     return True
 
 
-#print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2017.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','standardized_17.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','standardized_edit17.csv'))
 
-# print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2018.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','standardized_18.csv'))
-# print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-PERC-2019.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','standardized_19.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','standardized_edit18.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','standardized_edit19.csv'))
 
 
 

@@ -273,12 +273,12 @@ $(document).ready(function() {
 
           // // GetColor function  //
               function getColor(value) {
-                  return value < 6     ? '#eaf4f4' :
-                         value < 8     ? '#cce3de' :
-                         value < 10     ? '#a4c3b2' :
-                         value < 12   ? '#84a98c' :
-                         value < 14    ? '#52796f' :
-                         value < 16    ? '#015A3B' :
+                  return value < 3     ? '#eaf4f4' :
+                         value < 4     ? '#cce3de' :
+                         value < 5     ? '#a4c3b2' :
+                         value < 6   ? '#84a98c' :
+                         value < 7    ? '#52796f' :
+                         value < 8    ? '#015A3B' :
                                      '#013824';
               }
 

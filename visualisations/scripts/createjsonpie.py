@@ -6,8 +6,8 @@ def create_json(csv_path):
     df= read_csv(csv_path)
 
     data17 = df[df['Time'] == 2017]
-    data18 = df[df['Time'] == 2017]
-    data19 = df[df['Time'] == 2017]
+    data18 = df[df['Time'] == 2018]
+    data19 = df[df['Time'] == 2019]
 
     json_data17=[]
     json_data18=[]
