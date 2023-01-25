@@ -95,7 +95,7 @@ $(document).ready(function() {
                 });
               });
               // Add the original popup content
-              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.pregnancy_percentage).toFixed(1));
+              layer.bindPopup(feature.properties.name + " - " + parseFloat(feature.properties.relig_yes).toFixed(1));
             }
           }).addTo(map_19_rel);
 

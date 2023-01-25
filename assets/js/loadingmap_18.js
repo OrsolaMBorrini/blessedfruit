@@ -270,7 +270,7 @@ $(document).ready(function() {
                        value < 7    ? '#52796f' :
                        value < 8    ? '#015A3B' :
                                    '#013824';
-            
+
                 }
 
 
@@ -297,14 +297,14 @@ $(document).ready(function() {
                       layer.on("click", function() {
                         // Change the style of the clicked layer to make it slightly larger
                         layer.setStyle({
-                          weight: 4,
+                          weight: 3,
                           fillOpacity: 1
                         });
                         // Reset the style of all other layers to their original values
                         geojson.eachLayer(function(otherLayer) {
                           if (otherLayer != layer) {
                             otherLayer.setStyle({
-                              weight: 2,
+                              weight: 1,
                               fillOpacity: 0.9
                             });
                           }
