@@ -1144,8 +1144,13 @@ h3.analysis-second-title {
   padding: 1em;
 }
 
-/* Technical analysis tabs */
+/* Ethical image */
+#ethics {
+  float: left;
+  width: 33%;
+}
 
+/* Technical analysis tabs */
 .nav-link {
   color: #557c70;
 }
@@ -2043,19 +2048,24 @@ h3.analysis-second-title {
 .leaflet-tile-container {
   display: none;
 }
- .leaflet-container {
-   background-color: white!important;
- }
- .leaflet-tile-container {
-   display:none;
- }
 
-.leaflet-control-zoom{
-  display:none;
+.leaflet-container {
+  background-color: white !important;
 }
-#ethics{
-  float:left;
-  width:33%;
+
+.leaflet-tile-container {
+  display: none;
+}
+
+.leaflet-control-zoom {
+  display: none;
+}
+
+#viz-buttons {
+  padding: 0;
+  margin: 20px auto 20px auto;
+  list-style: none;
+  text-align: center;
 }
 
 .pie-chart {
