@@ -66,7 +66,7 @@
 
     <script>
       var religiousPerc = "Percentage"
-      var earlyLeavPerc = "Female Early Leavers"
+      var earlyLeavPerc = Female/sEarly/sLeavers
       var pregPerc = "Total"
 
 d3.queue()
@@ -80,9 +80,9 @@ d3.queue()
         // select specific columns from each file
         var data = data1.map(function(d, i) {
           console.log(+d.Percentage)
-          console.log(+data3[i].earlyLeavPerc)
-          console.log(+data2[i].pregPerc)
-            return {x: +d.Percentage, y: +data2[i].pregPerc, r: +data3[i].earlyLeavPerc};
+          console.log(+data3[i]["Female Early Leavers"])
+          console.log(+data2[i].Total)
+            return {x: +d.Percentage, y: +data2[i].Total, r: +data3[i]["Female Early Leavers"]};
         });
 
         // use the data to create the chart
