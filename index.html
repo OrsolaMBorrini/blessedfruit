@@ -76,7 +76,7 @@ d3.queue()
 
         // select specific columns from each file
         var data = data1.map(function(d, i) {
-               return {x: +d.Percentage, y: +data2[i].Total, r: +data3[i]["Female Early Leavers"]};
+               return {x: +d["Percentage"], y: +data2[i]["Total"], r: +data3[i]["Female Early Leavers"]};
         });
 
         // use the data to create the chart
