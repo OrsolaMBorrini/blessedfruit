@@ -79,10 +79,10 @@ d3.queue()
 
         // select specific columns from each file
         var data = data1.map(function(d, i) {
-          console.log(+d.religiousPerc)
+          console.log(+d.Percentage)
           console.log(+data3[i].earlyLeavPerc)
           console.log(+data2[i].pregPerc)
-            return {x: +d.religiousPerc, y: +data2[i].pregPerc, r: +data3[i].earlyLeavPerc};
+            return {x: +d.Percentage, y: +data2[i].pregPerc, r: +data3[i].earlyLeavPerc};
         });
 
         // use the data to create the chart
