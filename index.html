@@ -66,8 +66,8 @@
 
     <script>
       var religiousPerc = "Percentage"
-var earlyLeavPerc = "Female Early Leavers"
-var pregPerc = "Total"
+      var earlyLeavPerc = "Female Early Leavers"
+      var pregPerc = "Total"
 
 d3.queue()
     .defer(d3.csv, "data/mashupDS/MD1_17.csv")
@@ -79,7 +79,10 @@ d3.queue()
 
         // select specific columns from each file
         var data = data1.map(function(d, i) {
-            return {x: +d.religiousPerc, y: +data2[i].earlyLeavPerc, r: +data3[i].pregPerc};
+          console.log(+d.religiousPerc)
+          console.log(+data3[i].earlyLeavPerc)
+          console.log(+data2[i].pregPerc)
+            return {x: +d.religiousPerc, y: +data2[i].pregPerc, r: +data3[i].earlyLeavPerc};
         });
 
         // use the data to create the chart
