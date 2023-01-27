@@ -2120,3 +2120,8 @@ h3.analysis-second-title {
 .bar-chart{
   width:100%;
 }
+
+.time-series-plot{
+  width: 100%!important;
+  height: 500px!important;
+  }

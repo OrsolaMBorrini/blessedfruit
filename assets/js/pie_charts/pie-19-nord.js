@@ -50,6 +50,15 @@ $(document).ready(function(){
 
   // Set themes
   // https://www.amcharts.com/docs/v5/concepts/themes/
+  //
+  // root.defaultTheme.rule("ColorSet").set("colors", [
+  //   am5.color(0x095256),
+  //   am5.color(0x087f8c),
+  //   am5.color(0x5aaa95),
+  //   am5.color(0x86a873),
+  //   am5.color(0xbb9f06)
+  // ]);
+
   root.setThemes([am5themes_Animated.new(root)]);
 
   var container = root.container.children.push(
@@ -81,7 +90,7 @@ $(document).ready(function(){
   series.labels.template.setAll({
     textType: "circular",
     radius: 4,
-    fontSize: 11
+    fontSize: 12
 
   });
   series.ticks.template.set("visible", false);
@@ -225,6 +234,8 @@ $(document).ready(function(){
   series.events.on("datavalidated", function() {
     selectSlice(series.slices.getIndex(0));
   });
+
+
 
 
 

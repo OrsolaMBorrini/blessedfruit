@@ -63,16 +63,16 @@ def standardize_all(md1,md2,md3,path):
 
     #make sure all numeric values have numeric type to prevent missing values after merge
 
-    final_df=final_df.astype({'Population':float, 'Time':float, 'Religious_observation':float,'Live_births':float, 'Miscarriages':float, 'Abortions':float, 'Total_Pregnancies':float, 'Female Early Leavers':float})
+    final_df=final_df.astype({'Population':float, 'Time':int, 'Religious_observation':float,'Live_births':float, 'Miscarriages':float, 'Abortions':float, 'Total_Pregnancies':float, 'Female Early Leavers':float})
 
-    #there is a nan showing up, let's fix by giving it the mean value
-    final_df['Female Early Leavers'].fillna(final_df['Female Early Leavers'].mean(), inplace=True)
-    final_df['Total_Pregnancies'].fillna(final_df['Total_Pregnancies'].mean(), inplace=True)
-    final_df['Religious_observation'].fillna(final_df['Religious_observation'].mean(), inplace=True)
+    # #there is a nan showing up, let's fix by giving it the mean value
+    # final_df['Female Early Leavers'].fillna(final_df['Female Early Leavers'].mean(), inplace=True)
+    # final_df['Total_Pregnancies'].fillna(final_df['Total_Pregnancies'].mean(), inplace=True)
+    # final_df['Religious_observation'].fillna(final_df['Religious_observation'].mean(), inplace=True)
 
-    final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
-    final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
-    final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
+    # final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
+    # final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
+    # final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
 
 
     final_df.to_csv(path)
@@ -80,10 +80,10 @@ def standardize_all(md1,md2,md3,path):
     return True
 
 
-print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','standardized_edit17.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','bar_edit17.csv'))
 
-print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','standardized_edit18.csv'))
-print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','standardized_edit19.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','bar_edit18.csv'))
+print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','bar_edit19.csv'))
 
 
 

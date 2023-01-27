@@ -83,11 +83,11 @@ $(document).ready(function() {
             title: chosenCountry
         };
 
-        Plotly.newPlot('plotdiv-pregnancy', data, layout, {showSendToCloud: true});
+        Plotly.newPlot('time-series-general', data, layout, {showSendToCloud: true});
 };
 
 var innerContainer2 = document.querySelector('[data-num="2"'),
-    plotEl = innerContainer2.querySelector('.plot'),
+    plotEl = innerContainer2.querySelector('.time-series-plot'),
     countrySelector2 = innerContainer2.querySelector('.countrydata2');
 
 function assignOptions(textArray, selector) {
