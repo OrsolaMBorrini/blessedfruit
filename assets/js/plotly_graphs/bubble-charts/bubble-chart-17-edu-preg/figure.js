@@ -1,3 +1,29 @@
+$( document ).ready(function() {
+
+      // window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+      //
+      // var gd = document.getElementById('bubble-edupreg17')
+      // var resizeDebounce = null;
+      //
+      // function resizePlot() {
+      //     var bb = gd.getBoundingClientRect();
+      //     Plotly.relayout(gd, {
+      //         width: bb.width,
+      //         height: bb.height
+      //     });
+      // }
+      //
+      //
+      // window.addEventListener('resize', function() {
+      //     if (resizeDebounce) {
+      //         window.clearTimeout(resizeDebounce);
+      //     }
+      //     resizeDebounce = window.setTimeout(resizePlot, 100);
+      // });
+      //
+
+
+
 var figure = {
     "data": [
         {
@@ -311,7 +337,9 @@ var figure = {
             "Calabria",
             "Puglia"
         ],
-        "autosize": true,
+        "autosize": false,
+        "width": 900,
+        "height": 500,
         "template": {
             "data": {
                 "bar": [
@@ -851,4 +879,17 @@ var figure = {
         }
     },
     "frames": []
-}
+};
+// }());
+
+
+
+  Plotly.plot("bubble-edupreg17",  {
+      data: figure.data,
+      layout: figure.layout,
+      frames: figure.frames,
+      config: {"showLink": true, "linkText": "Export to plotly.com", "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+  });
+
+
+});

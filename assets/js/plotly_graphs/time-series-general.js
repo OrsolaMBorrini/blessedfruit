@@ -49,8 +49,8 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Religious observance',
             marker: {
-                size: 12,
-                opacity: 0.5
+                size: 14,
+                opacity: 0.7
             },
             line: { color: '#52A84C' }
         };
@@ -60,8 +60,8 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Pregnancies',
             marker: {
-                size: 12,
-                opacity: 0.5
+                size: 14,
+                opacity: 0.7
             },
             line: { color: '#C70C43' }
         };
@@ -71,8 +71,8 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Female Early Leavers of Education',
             marker: {
-                size: 12,
-                opacity: 0.5
+                size: 14,
+                opacity: 0.7
             },
             line: { color: '#DD8301' }
         };

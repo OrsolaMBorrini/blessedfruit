@@ -49,6 +49,7 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
+
   <!-- Leaflet -->
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -2791,7 +2792,6 @@
 
         <div class="section-title" data-aos="fade-up" id="additionalVizualisation">
           <h2>Additional visualizations</h2>
-<<<<<<< Updated upstream
         </div>
         <!-- Introduction to the visualizations-->
         <div class="row content">
@@ -2811,7 +2811,6 @@
             </p>
           </div>
         </div>
-=======
 
           <!-- <div class="factor-text">
             <p> Correlation </p>
@@ -2864,11 +2863,8 @@
           <div class="factor-text">
             <p>TRENDS OVER TIME</p>
           </div>
->>>>>>> Stashed changes
 
-        <div class="section-title" data-aos="fade-up">
           <!-- Plot container -->
-          <div class="showcase__section" id="bubble">
 
               <div class="time-series" data-num="2">
                 <!-- id displaying the plot -->
@@ -2903,7 +2899,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        <!-- </div> -->
 
 
         <!-- 2017 -->
@@ -2924,7 +2920,6 @@
                     type="button" role="tab" aria-controls="piecharts17" aria-selected="false"><b>Pie
                       charts</b></button>
                 </div>
-<<<<<<< Updated upstream
               </nav>
               <!-- Both divs for graphs -->
               <div class="tab-content" id="nav-tabContent">
@@ -2932,9 +2927,140 @@
                 <div class="tab-pane fade show active" id="bubblecharts17" role="tabpanel"
                   aria-labelledby="bubblecharts17-tab">
                   <!-- PUT BUBBLECHARTS CODE HERE -->
-                  Here the bubblecharts
+
+                  <div class="factor-text">
+                    <p>Religion and pregnancy correlation</p>
+                  </div>
+
+                  <div id="bubble-graph-rel-preg17" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/figure.js"></script>
+
+                  <script type="text/javascript">
+
+                      (function(){
+                          window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+
+                          var bubble17_b = document.getElementById('bubble-graph-rel-preg17')
+                          var resizeDebounce = null;
+
+                          function resizePlot() {
+                              var bb = bubble17_b.getBoundingClientRect();
+                              Plotly.relayout(bubble17_b, {
+                                  width: bb.width,
+                                  height: bb.height
+                              });
+                          }
+
+
+                          window.addEventListener('resize', function() {
+                              if (resizeDebounce) {
+                                  window.clearTimeout(resizeDebounce);
+                              }
+                              resizeDebounce = window.setTimeout(resizePlot, 100);
+                          });
+
+
+
+                          Plotly.plot(bubble17_b,  {
+                              data: figureRelPreg17.data,
+                              layout: figureRelPreg17.layout,
+                              frames: figureRelPreg17.frames,
+                              config: {"showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                          });
+
+                     }());
+                  </script>
+                  <!-- <script type="text/javascript" src="figure.js"></script> -->
+                  <div class="factor-text">
+                    <p>Education and pregnancy correlation</p>
+                  </div>
+                  <!-- <div class="bubble-graph" id="bubble-edupreg17"></div>  -->
+
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/figure.js"></script>
+
+                  <div id="bubble-graph-preg-edu17" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+                  <script type="text/javascript">
+                      (function(){
+                          window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+
+                          var gd = document.getElementById('bubble-graph-preg-edu17')
+                          var resizeDebounce = null;
+
+                          function resizePlot() {
+                              var bb = gd.getBoundingClientRect();
+                              Plotly.relayout(gd, {
+                                  width: bb.width,
+                                  height: bb.height
+                              });
+                          }
+
+
+                          window.addEventListener('resize', function() {
+                              if (resizeDebounce) {
+                                  window.clearTimeout(resizeDebounce);
+                              }
+                              resizeDebounce = window.setTimeout(resizePlot, 100);
+                          });
+
+
+                          Plotly.plot(gd,  {
+                              data: figurePregEdu17.data,
+                              layout: figurePregEdu17.layout,
+                              frames: figurePregEdu17.frames,
+                              config: {"showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                          });
+
+                     }());
+                  </script>
+
+
+                  <div class="factor-text">
+                    <p>Religion and education correlation</p>
+                  </div>
+                  <!-- <div class="bubble-graph" id="bubble-edupreg17"></div>  -->
+
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
+                  <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/figure.js"></script>
+
+                  <div id="bubble-graph-rel-edu17" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+                  <script type="text/javascript">
+                      (function(){
+                          window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+
+                          var bubble17_c = document.getElementById('bubble-graph-rel-edu17')
+                          var resizeDebounce = null;
+
+                          function resizePlot() {
+                              var bb = bubble17_c.getBoundingClientRect();
+                              Plotly.relayout(gd, {
+                                  width: bb.width,
+                                  height: bb.height
+                              });
+                          }
+
+
+                          window.addEventListener('resize', function() {
+                              if (resizeDebounce) {
+                                  window.clearTimeout(resizeDebounce);
+                              }
+                              resizeDebounce = window.setTimeout(resizePlot, 100);
+                          });
+
+
+                          Plotly.plot(bubble17_c,  {
+                              data: relEdu17.data,
+                              layout: relEdu17.layout,
+                              frames: relEdu17.frames,
+                              config: {"showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+                          });
+
+                     }());
+                  </script>
+
                 </div>
-                <!-- Piecharts -->
+                <!--Piecharts -->
                 <div class="tab-pane fade" id="piecharts17" role="tabpanel" aria-labelledby="piecharts17-tab">
                   <div class="section-title">
                     <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific
@@ -2956,29 +3082,9 @@
                   </div>
                   <div class="pie-chart" id="piediv-sud-17"></div>
                 </div>
-=======
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR NORTHERN REGIONS</p>
-                </div>
-                <!-- Pie chart for 2017 here -->
-
-                <div class="pie-chart" id="piediv-nord-17"></div>
-
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR CENTER REGIONS</p>
-                </div>
-
-                <div class="pie-chart" id="piediv-centro-17"></div>
-
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR PREGNANCY STATISTICS FOR SOUTHERN REGIONS</p>
-                </div>
-
-                <div class="pie-chart" id="piediv-sud-17"></div>
 
 
                 <!-- >>>>>>> Stashed changes -->
->>>>>>> Stashed changes
               </div>
             </div>
           </div>
@@ -2992,7 +3098,9 @@
               <div class="analysis-box-title">
                 <p class="factor-text">Results for year 2018</p>
               </div>
+
               <!-- Start of 2018 tabs -->
+
               <!-- Tabs for choosing the chart -->
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -3003,7 +3111,6 @@
                     type="button" role="tab" aria-controls="piecharts18" aria-selected="false"><b>Pie
                       charts</b></button>
                 </div>
-<<<<<<< Updated upstream
               </nav>
               <!-- Both divs for graphs -->
               <div class="tab-content" id="nav-tabContent">
@@ -3012,10 +3119,7 @@
                   aria-labelledby="bubblecharts18-tab">
                   <!-- PUT BUBBLECHARTS CODE HERE -->
                   Here the bubblecharts
-=======
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR NORTHERN REGIONS</p>
->>>>>>> Stashed changes
+
                 </div>
                 <!-- Piecharts -->
                 <div class="tab-pane fade" id="piecharts18" role="tabpanel" aria-labelledby="piecharts18-tab">
@@ -3035,27 +3139,13 @@
                   </div>
                   <div class="pie-chart" id="piediv-centro-18"></div>
 
-<<<<<<< Updated upstream
                   <!-- Southern regions 2018 -->
                   <div class="factor-text">
                     <p>SOUTHERN REGIONS</p>
                   </div>
                   <div class="pie-chart" id="piediv-sud-18"></div>
                 </div>
-=======
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR CENTER REGIONS</p>
-                </div>
 
-                <div class="pie-chart" id="piediv-centro-18"></div>
-
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR PREGNANCY STATISTICS FOR SOUTHERN REGIONS</p>
-                </div>
-
-                <div class="pie-chart" id="piediv-sud-18"></div>
-
->>>>>>> Stashed changes
               </div>
             </div>
           </div>
@@ -3069,7 +3159,9 @@
               <div class="analysis-box-title">
                 <p class="factor-text">Results for year 2019</p>
               </div>
+
               <!-- Start of 2019 tabs -->
+
               <!-- Tabs for choosing the chart -->
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -3080,7 +3172,6 @@
                     type="button" role="tab" aria-controls="piecharts19" aria-selected="false"><b>Pie
                       charts</b></button>
                 </div>
-<<<<<<< Updated upstream
               </nav>
               <!-- Both divs for graphs -->
               <div class="tab-content" id="nav-tabContent">
@@ -3089,10 +3180,6 @@
                   aria-labelledby="bubblecharts19-tab">
                   <!-- PUT BUBBLECHARTS CODE HERE -->
                   Here the bubblecharts
-=======
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR NORTHERN REGIONS </p>
->>>>>>> Stashed changes
                 </div>
                 <!-- Piecharts -->
                 <div class="tab-pane fade" id="piecharts19" role="tabpanel" aria-labelledby="piecharts19-tab">
@@ -3112,29 +3199,12 @@
                   </div>
                   <div class="pie-chart" id="piediv-centro-19"></div>
 
-<<<<<<< Updated upstream
                   <!-- Southern regions 2019 -->
                   <div class="factor-text">
                     <p>SOUTHERN REGIONS</p>
                   </div>
                   <div class="pie-chart" id="piediv-sud-19"></div>
                 </div>
-=======
-                <div class="pie-chart" id="piediv-nord-19"></div>
-
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR CENTER REGIONS</p>
-                </div>
-
-                <div class="pie-chart" id="piediv-centro-19"></div>
-
-                <div class="factor-text">
-                  <p>PREGNANCY STATISTICS FOR PREGNANCY STATISTICS FOR SOUTHERN REGIONS</p>
-                </div>
-
-                <div class="pie-chart" id="piediv-sud-19"></div>
-
->>>>>>> Stashed changes
               </div>
             </div>
           </div>
@@ -3142,6 +3212,8 @@
 
       </div>
     </section><!-- End Visualizations Section -->
+
+
 
     <!-- ======= Sustainability Section ======= -->
     <section id="sustain" class="about">
@@ -3380,9 +3452,9 @@
   <!-- <script src="assets/js/plotly_graphs/pie-chart.js"></script> -->
 
   <!-- <script src="assets/js/plotly_graphs/edit17.js"></script> -->
-  <script src="assets/js/plotly_graphs/bar-percentage.js"></script>
-  <script src="assets/js/plotly_graphs/edit18.js"></script>
-  <script src="assets/js/plotly_graphs/edit19.js"></script>
+  <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-17.js"></script>
+  <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-18.js"></script>
+  <script src="assets/js/plotly_graphs/bar-charts/bar-percentage-19.js"></script>
   <!--
   <script src="assets/js/plotly_graphs/STANDARDIZED_18.js"></script>
   <script src="assets/js/plotly_graphs/STANDARDIZED_19.js"></script> -->
@@ -3391,6 +3463,10 @@
 
 
   <script src="assets/js/pie_charts/pie-19-nord.js"></script>
+  <script src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg/plotlyjs-bundle.js"></script>
+
+    <!-- BUBBLE -->
+  <script scr="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg/figure.js"></script>
 
 </body>
 
