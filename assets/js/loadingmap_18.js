@@ -23,8 +23,8 @@ $(document).ready(function() {
       var div = L.DomUtil.create("div", "legend");
       div.className += "legend-item";
       // Add the legend items and their corresponding colors
-      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
-      // div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
+      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
+      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #F1D0CC;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
 
       return div;
     }
@@ -45,13 +45,13 @@ $(document).ready(function() {
 
     function getColor(value) {
         return value < 3    ? rel1 :
-               value < 6    ? rel2 :
-               value < 7.5    ? rel3 :
-               value < 9    ? rel4 :
-               value < 10.5    ? rel5 :
-               value < 12    ? rel6 :
+               value < 8    ? rel2 :
+               value < 9.5    ? rel3 :
+               value < 10.5   ? rel4 :
+               value < 11.5    ? rel5 :
+               value < 12.5    ? rel6 :
                value < 13.5    ? rel7 :
-               value < 15    ? rel8 :
+               value < 14.5    ? rel8 :
                 rel9;
                ;
     }

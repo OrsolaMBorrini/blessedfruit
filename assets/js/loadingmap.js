@@ -5,6 +5,7 @@
 
 // Create a new instance of the map for religion
 $(document).ready(function() {
+
     var map_17_rel = L.map('map_17_rel').setView([42.5, 12.5], 5);
 
 
@@ -13,26 +14,57 @@ $(document).ready(function() {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map_17_rel);
 
+    //
+    // //Add legend
+    // // Create a new container for the legend
 
-    //Add legend
-    // Create a new container for the legend
-    var legend = L.control({ position: "bottomright" });
+    var rel1= '#FFF2EB',
+    rel2='#F1D0CC',
+    rel3= '#F1D0CC',
+    rel4= '#D68D8E',
+    rel5= '#C86B6F',
+    rel6= '#BB4A50',
+    rel7='#ad2831',
+    rel8='#7b0d1e',
+    rel9= '#38040e';
+    
+    // var legend = L.control.legend({
+    //     position: 'bottomright',
+    //     legend: {
+    //         values: [18, 20, 22, 24, 26, 28, 30, 32],
+    //         labels: ['18 or less', '20 or less', '22 or less', '24 or less', '26 or less', '28 or less', '30 or less', '32 or less'],
+    //         colors: [rel1, rel2, rel3, rel4, rel5, rel6, rel7, rel8, rel9]
+    //     }
+    // });
+    // legend.addTo(map_17_rel);
 
-    // When the layer is added to the map
-    // When the layer is added to the map
-    legend.onAdd = function() {
-
-      var div = L.DomUtil.create("div", "legend");
-      div.className += "legend-item";
-      // Add the legend items and their corresponding colors
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
-      div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
-
-      return div;
-    }
-    legend.addTo(map_17_rel);
+    // LIGHT TO dark
 
 
+    //
+    // // When the layer is added to the map
+    // // When the layer is added to the map
+    // legend.onAdd = function() {
+    // //
+    //   var div = L.DomUtil.create("div", "legend");
+    //   div.className += "legend-item";
+    //   // Add the legend items and their corresponding colors
+    //   div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
+    //   div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
+    //
+    //   return div;
+    // }
+    // legend.addTo(map_17_rel);
+    //
+    // var legend = L.control.legend({
+    //     position: 'bottomright',
+    //     legend: {
+    //         values: [18, 20, 22, 24, 26, 28, 30, 32],
+    //         labels: ['18 or less', '20 or less', '22 or less', '24 or less', '26 or less', '28 or less', '30 or less', '32 or less'],
+    //         colors: [rel1, rel2, rel3, rel4, rel5, rel6, rel7, rel8, rel9]
+    //     }
+    // });
+    // legend.addTo(map_17_rel);
 
   // // GetColor function RELIGION  //
 
@@ -43,16 +75,8 @@ $(document).ready(function() {
               // #b85a5a	(184,90,90)
               // #9a3e3e	(154,62,62)
 
-              // LIGHT TO dark
-      var rel1= '#FFF2EB',
-          rel2='#F1D0CC',
-          rel3= '#F1D0CC',
-          rel4= '#D68D8E',
-          rel5= '#C86B6F',
-          rel6= '#BB4A50',
-          rel7='#ad2831',
-          rel8='#7b0d1e',
-          rel9= '#38040e';
+
+
 
 
       function getColor(value) {
@@ -68,19 +92,7 @@ $(document).ready(function() {
                  ;
       }
 
-      // function getColor(value) {
-      //     return value < 18    ? '#e5bbbb' :
-      //            value < 20    ? '#e5bbbb' :
-      //            value < 22    ? '#ce7676' :
-      //            value < 24    ? '#df9f9f' :
-      //            value < 26    ? '#b85a5a' :
-      //            value < 30    ? '#a31525' :
-      //            value <33     ? '#65041d':
-      //           '#e5bbbb' ;
-      // }
-      //
 
-      // value < 16     ? '#e5bbbb' : LIGHT
 
       // Fetch the GeoJSON data
       fetch("visualisations/scripts/map_edit2017/pregnancy_religion_education_17.geojson")

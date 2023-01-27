@@ -44,19 +44,18 @@ $(document).ready(function() {
           rel8='#7b0d1e',
           rel9= '#38040e';
 
-
-      function getColor(value) {
-          return value < 3    ? rel1 :
-                 value < 6    ? rel2 :
-                 value < 7.5  ? rel3 :
-                 value < 9    ? rel4 :
-                 value < 10.5  ? rel5 :
-                 value < 12    ? rel6 :
-                 value < 13.5  ? rel7 :
-                 value < 15    ? rel8 :
-                  rel9;
-                 ;
-      }
+          function getColor(value) {
+              return value < 3    ? rel1 :
+                     value < 8    ? rel2 :
+                     value < 9.5    ? rel3 :
+                     value < 10.5   ? rel4 :
+                     value < 11.5    ? rel5 :
+                     value < 12.5    ? rel6 :
+                     value < 13.5    ? rel7 :
+                     value < 14.5    ? rel8 :
+                      rel9;
+                     ;
+          }
 
       // Fetch the GeoJSON data
       fetch("visualisations/scripts/map_edit2019/pregnancy_religion_education_19.geojson")
