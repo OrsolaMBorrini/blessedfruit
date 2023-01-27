@@ -617,6 +617,20 @@ section {
   margin: 15px 0 0 0;
 }
 
+.click-instruction {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.centered-subtitle {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.explanatory-text {
+  padding: 3em 4em 0 0;;
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -2087,7 +2101,7 @@ h3.analysis-second-title {
 
 #viz-buttons {
   padding: 0;
-  margin: 20px auto 20px auto;
+  /*margin: 20px auto 20px auto;*/
   list-style: none;
   text-align: center;
 }
