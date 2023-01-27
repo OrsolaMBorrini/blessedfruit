@@ -39,9 +39,6 @@
 
 
   <!-- VISUALISATIONS -->
-
-
-
   <!-- amCharts -->
   <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
   <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -61,40 +58,40 @@
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin="">
     </script>
 
-    <!-- import D3-->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!-- import D3-->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 
-    <script>
+  <script>
 
-d3.queue()
-    .defer(d3.csv, "data/mashupDS/MD_17_religion.csv")
-    .defer(d3.csv, "data/mashupDS/MD2_17.csv")
-    .defer(d3.csv, "data/mashupDS/MD3_17.csv")
-    .await(function(error, data1, data2, data3) {
+    d3.queue()
+      .defer(d3.csv, "data/mashupDS/MD_17_religion.csv")
+      .defer(d3.csv, "data/mashupDS/MD2_17.csv")
+      .defer(d3.csv, "data/mashupDS/MD3_17.csv")
+      .await(function (error, data1, data2, data3) {
         if (error) { console.error(error); return; }
 
 
         // select specific columns from each file
-        var data = data1.map(function(d, i) {
-               return {x: +d["Percentage"], y: +data2[i]["Total"], r: +data3[i]["Female Early Leavers"]};
+        var data = data1.map(function (d, i) {
+          return { x: +d["Percentage"], y: +data2[i]["Total"], r: +data3[i]["Female Early Leavers"] };
         });
 
         // use the data to create the chart
         var svg = d3.select("bubble")
-                    .append("svg")
-                    .attr("width", 1000 )
-                    .attr("height", 700);
+          .append("svg")
+          .attr("width", 1000)
+          .attr("height", 700);
 
 
         var bubbles = svg.selectAll("circle")
-                        .data(data)
-                        .enter()
-                        .append("circle")
-                        .attr("cx", function(d) { return d.x; })
-                        .attr("cy", function(d) { return d.y; })
-                        .attr("r", function(d) { return d.r; });
-    });
-    </script>
+          .data(data)
+          .enter()
+          .append("circle")
+          .attr("cx", function (d) { return d.x; })
+          .attr("cy", function (d) { return d.y; })
+          .attr("r", function (d) { return d.r; });
+      });
+  </script>
 
 
   <!-- =======================================================
@@ -460,26 +457,45 @@ d3.queue()
         <div class="row content">
           <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <p>
-              From the heat maps visualization, we can observe a general trend common to our three variables, 
-              which rate tend to increase in southern regions and islands. Nonetheless, there are many regional specificities and exceptions in values similarities throughout the years.
+              From the heat maps visualization, we can observe a general trend common to our three variables,
+              which rate tend to increase in southern regions and islands. Nonetheless, there are many regional
+              specificities and exceptions in values similarities throughout the years.
               (make examples).
-              This makes it difficult to prove a common trend amongst the variables. What happens if we look at only two of them together?
+              This makes it difficult to prove a common trend amongst the variables. What happens if we look at only two
+              of them together?
             </p>
           </div>
           <div class="pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              Moreover, even though we could ifer a correlation between variables, this is not enough for us to infer causality between any of those variables.
-              We don't have enough data to know if a variable - and in that case which one - causes the other. For example, we could hypotize thatthe early leavers rates is indeed affected but the early pregnancy rates,
-               since, being pregnant could be a reason for a young woman to chose to leave education. But to affirm this we would need to look into other possible correlated values, such us poverty rates, to make sure they are not strongly affecting our data. 
-               For the same reason, we can't possibly infer causality between religious rates and our other variables, since even though they do seem to vary together, there's no mean for us to tell whether religiousity is the reason one is inclined to leave education and start a family early in life,
-               or whether, after this happens, people are inclined to find community they earlier could have in educational contests, in religious contests. Just to give some examples of possible reasons of correlation.
-               Furthermore, to proberly assess the connection between religiousity and pregnancies, with specific differentiation amongst induced abortions and live births, for instance, we would need much more data about how religiousity affects women's access to IGV in the first place.
-               As we know, Italy has a 70% rate of coscientious objectors. This could significantly affect the pregnancy rates per region, since they have been counted including abortions in the place where they happen and not according to the woman's residency. It goes without saying, if a region prevents 
-               a woman to access IGV they might be likely to migrate to other regions. 
-               This phenomenon might also have affected our data. Unfortunately, there's very few and non-institutional data about the phenomenon and this prevented us to futher investigate the degree of its impact on our study.
-               <br>
-               Finally, to highlight other features related to our variables and illustrate trends and other interesting information, in the <a href="#additionalVizualisation">additional visualization</a> section. Here you'll find regional timeseries that facilitate obresvation of how the the variables 
-               trend through the years, as well as pie charts to illustrate the sub-percentages of spontaneous abortions, induced abortions and live births per region.            
+              Moreover, even though we could ifer a correlation between variables, this is not enough for us to infer
+              causality between any of those variables.
+              We don't have enough data to know if a variable - and in that case which one - causes the other. For
+              example, we could hypotize thatthe early leavers rates is indeed affected but the early pregnancy rates,
+              since, being pregnant could be a reason for a young woman to chose to leave education. But to affirm this
+              we would need to look into other possible correlated values, such us poverty rates, to make sure they are
+              not strongly affecting our data.
+              For the same reason, we can't possibly infer causality between religious rates and our other variables,
+              since even though they do seem to vary together, there's no mean for us to tell whether religiousity is
+              the reason one is inclined to leave education and start a family early in life,
+              or whether, after this happens, people are inclined to find community they earlier could have in
+              educational contests, in religious contests. Just to give some examples of possible reasons of
+              correlation.
+              Furthermore, to proberly assess the connection between religiousity and pregnancies, with specific
+              differentiation amongst induced abortions and live births, for instance, we would need much more data
+              about how religiousity affects women's access to IGV in the first place.
+              As we know, Italy has a 70% rate of coscientious objectors. This could significantly affect the pregnancy
+              rates per region, since they have been counted including abortions in the place where they happen and not
+              according to the woman's residency. It goes without saying, if a region prevents
+              a woman to access IGV they might be likely to migrate to other regions.
+              This phenomenon might also have affected our data. Unfortunately, there's very few and non-institutional
+              data about the phenomenon and this prevented us to futher investigate the degree of its impact on our
+              study.
+              <br>
+              Finally, to highlight other features related to our variables and illustrate trends and other interesting
+              information, in the <a href="#additionalVizualisation">additional visualization</a> section. Here you'll
+              find regional timeseries that facilitate obresvation of how the the variables
+              trend through the years, as well as pie charts to illustrate the sub-percentages of spontaneous abortions,
+              induced abortions and live births per region.
             </p>
           </div>
         </div>
@@ -1619,10 +1635,17 @@ d3.queue()
             <br>
             <br>
             <p class="analysis-text">
-              For the ethical analysis of our project's data, we considered the <a href="https://dataethics.eu/data-ethics-principles/" target="_blank">Data Ethics Principles and Guidelines</a> and the Odi Project's detailed <a href="https://theodi2022.wpengine.com/article/the-data-ethics-canvas-2021/#1674123020653-5e9f001c-5eb8" target="_blank">canvas</a> for evaluating the ethical aspects of our data processing.
+              For the ethical analysis of our project's data, we considered the <a
+                href="https://dataethics.eu/data-ethics-principles/" target="_blank">Data Ethics Principles and
+                Guidelines</a> and the Odi Project's detailed <a
+                href="https://theodi2022.wpengine.com/article/the-data-ethics-canvas-2021/#1674123020653-5e9f001c-5eb8"
+                target="_blank">canvas</a> for evaluating the ethical aspects of our data processing.
             </p>
             <p class="analysis-text">
-              Since both our source and mashup datasets contain Information provided exclusively by the Italian National Institute of Statistics, we initially focused on analysing the fairness of data collection and management by ISTAT, and then established guidelines for addressing ethical concerns when processing the source datasets for our project.
+              Since both our source and mashup datasets contain Information provided exclusively by the Italian National
+              Institute of Statistics, we initially focused on analysing the fairness of data collection and management
+              by ISTAT, and then established guidelines for addressing ethical concerns when processing the source
+              datasets for our project.
             </p>
             <br>
             <br>
@@ -1652,31 +1675,31 @@ d3.queue()
 
               <li class="list-group-item"><b>Accountability</b>
                 Istat quality policy is coherent with the European framework
-                  developed by Eurostat,
-                  adhering to the principles of the <a
-                    href="https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice"
-                    target="_blank">
-                    <b>European Statistics Code of Practice</b></a>, that ensures and strengthens both accountability
-                  and
-                  governance of
-                  the European Statistical System and the National Statistical Systems inside it.
+                developed by Eurostat,
+                adhering to the principles of the <a
+                  href="https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice"
+                  target="_blank">
+                  <b>European Statistics Code of Practice</b></a>, that ensures and strengthens both accountability
+                and
+                governance of
+                the European Statistical System and the National Statistical Systems inside it.
               </li>
 
               <li class="list-group-item"><b>Individual data protection </b>
                 Istat's datasets are anonymised, and as stated in their their <b><a
-                      href="  https://www.istat.it/it/censimenti/imprese/normativa-e-privacy" target="_blank">
-                      regulations
-                      and privacy page</b></a>, the institute respects the privacy of respondents, protects the
-                  confidentiality of the data
-                  that it gathers and
-                  carries
-                  out its activities in a transparent, independent manner.
-                  <br>
-                  It is clearly stated that the information collected is protected by statistical
-                  confidentiality
-                  (Article 9 of Legislative Decree No. 322/1989) and subject to the legislation on the protection of
-                  personal data (Regulation (EU) 2016/679, Legislative Decree
-                  n. 196/2003, Legislative Decree n. 101/2018).
+                    href="  https://www.istat.it/it/censimenti/imprese/normativa-e-privacy" target="_blank">
+                    regulations
+                    and privacy page</b></a>, the institute respects the privacy of respondents, protects the
+                confidentiality of the data
+                that it gathers and
+                carries
+                out its activities in a transparent, independent manner.
+                <br>
+                It is clearly stated that the information collected is protected by statistical
+                confidentiality
+                (Article 9 of Legislative Decree No. 322/1989) and subject to the legislation on the protection of
+                personal data (Regulation (EU) 2016/679, Legislative Decree
+                n. 196/2003, Legislative Decree n. 101/2018).
               </li>
             </ul>
             <br>
@@ -1904,7 +1927,8 @@ d3.queue()
                 target="_blank">Statistical Data and Metadata eXchange (SDMX)</a> is adopted.
               For more information about Istat Data and SDMX metadata incorporation carried out by Istat see <span
                 class="underlined--bg underlined--offset--bg"><a
-                  href="https://www.istat.it/en/methods-and-tools/sdmx-web-service" target="_blank"><b>SDMX web service for Istat data</b></a></span>.
+                  href="https://www.istat.it/en/methods-and-tools/sdmx-web-service" target="_blank"><b>SDMX web service
+                    for Istat data</b></a></span>.
             </p>
 
             <!-- Metadata analysis -->
@@ -2772,12 +2796,17 @@ d3.queue()
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              Different graphic representations of the data allow for more in-depth research on the topic of our project, as well as permitting the analysis of <span class="underlined--bg-g underlined--offset--bg-g"><b>chronological trends</b></span> and of <span class="underlined--bg-g underlined--offset--bg-g"><b>different outcomes of the pregnancies</b></span> in each region.
+              Different graphic representations of the data allow for more in-depth research on the topic of our
+              project, as well as permitting the analysis of <span
+                class="underlined--bg-g underlined--offset--bg-g"><b>chronological trends</b></span> and of <span
+                class="underlined--bg-g underlined--offset--bg-g"><b>different outcomes of the pregnancies</b></span> in
+              each region.
             </p>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              The visualizations have been developed using a variety of libraries, namely: <b>leaflet</b> (for the maps), <b>plotly.js</b> (for the line charts), and <b>amCharts</b> (for the pie charts).
+              The visualizations have been developed using a variety of libraries, namely: <b>leaflet</b> (for the
+              maps), <b>plotly.js</b> (for the line charts), and <b>amCharts</b> (for the pie charts).
             </p>
           </div>
         </div>
@@ -2802,7 +2831,7 @@ d3.queue()
 
 
 
-          <!-- Buttons for the piechart (select year)-->
+          <!-- Buttons for the bubblecharts and piecharts (select year)-->
           <div class="row" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="viz-buttons">
@@ -2821,104 +2850,178 @@ d3.queue()
               </ul>
             </div>
           </div>
-
-
-          <!-- 2017 -->
-          <div class="container collapse analysis-card" id="year17" data-bs-parent="#viz">
-            <div class="align-items-stretch mb-5 mb-lg-0">
-              <div class="analysis-box">
-                <div class="analysis-box-title">
-                  <p class="factor-text">Results for year 2017</p>
-                </div>
-                <div class="section-title">
-                  <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific pregnancies' characteristics!</b></span>
-                </div>
-                <!-- Northern regions 2017 -->
-                <div class="factor-text">
-                  <p>NORTHERN REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-nord-17"></div>
-                <!-- Central regions 2017 -->
-                <div class="factor-text">
-                  <p>CENTRAL REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-centro-17"></div>
-                <!-- Southern regions 2017 -->
-                <div class="factor-text">
-                  <p>SOUTHERN REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-sud-17"></div>
-
-              </div>
-            </div>
-          </div>
-
-
-          <div class="container collapse analysis-card" id="year18" data-bs-parent="#viz">
-            <div class="align-items-stretch mb-5 mb-lg-0">
-              <div class="analysis-box">
-                <div class="analysis-box-title">
-                  <p class="factor-text">Results for year 2018</p>
-                </div>
-                <div class="section-title">
-                  <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific pregnancies' characteristics!</b></span>
-                </div>
-                <!-- Northern regions 2018 -->
-                <div class="factor-text">
-                  <p>NORTHERN REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-nord-18"></div>
-
-                <!-- Central regions 2018 -->
-                <div class="factor-text">
-                  <p>CENTRAL REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-centro-18"></div>
-
-                <!-- Southern regions 2018 -->
-                <div class="factor-text">
-                  <p>SOUTHERN REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-sud-18"></div>
-
-              </div>
-            </div>
-          </div>
-
-
-          <!-- 2019 -->
-          <div class="container collapse analysis-card" id="year19" data-bs-parent="#viz">
-            <div class="align-items-stretch mb-5 mb-lg-0">
-              <div class="analysis-box">
-                <div class="analysis-box-title">
-                  <p class="factor-text">Results for year 2019</p>
-                </div>
-                <div class="section-title">
-                  <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific pregnancies' characteristics!</b></span>
-                </div>
-                <!-- Northern regions 2019 -->
-                <div class="factor-text">
-                  <p>NORTHERN REGIONS </p>
-                </div>
-                <div class="pie-chart" id="piediv-nord-19"></div>
-
-                <!-- Central regions 2019 -->
-                <div class="factor-text">
-                  <p>CENTRAL REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-centro-19"></div>
-
-                <!-- Southern regions 2019 -->
-                <div class="factor-text">
-                  <p>SOUTHERN REGIONS</p>
-                </div>
-                <div class="pie-chart" id="piediv-sud-19"></div>
-
-              </div>
-            </div>
-          </div>
         </div>
 
+
+        <!-- 2017 -->
+        <div class="container collapse analysis-card" id="year17" data-bs-parent="#viz">
+          <div class="align-items-stretch mb-5 mb-lg-0">
+            <div class="analysis-box">
+              <div class="analysis-box-title">
+                <p class="factor-text">Results for year 2017</p>
+              </div>
+              <!-- Start of 2017 tabs -->
+              <!-- Tabs for choosing the chart -->
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="bubblecharts17-tab" data-bs-toggle="tab"
+                    data-bs-target="#bubblecharts17" type="button" role="tab" aria-controls="bubblecharts17"
+                    aria-selected="true"><b>Bubble charts</b></button>
+                  <button class="nav-link" id="piecharts17-tab" data-bs-toggle="tab" data-bs-target="#piecharts17"
+                    type="button" role="tab" aria-controls="piecharts17" aria-selected="false"><b>Pie
+                      charts</b></button>
+                </div>
+              </nav>
+              <!-- Both divs for graphs -->
+              <div class="tab-content" id="nav-tabContent">
+                <!-- Bubblecharts -->
+                <div class="tab-pane fade show active" id="bubblecharts17" role="tabpanel"
+                  aria-labelledby="bubblecharts17-tab">
+                  <!-- PUT BUBBLECHARTS CODE HERE -->
+                  Here the bubblecharts
+                </div>
+                <!-- Piecharts -->
+                <div class="tab-pane fade" id="piecharts17" role="tabpanel" aria-labelledby="piecharts17-tab">
+                  <div class="section-title">
+                    <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific
+                        pregnancies' characteristics!</b></span>
+                  </div>
+                  <!-- Northern regions 2017 -->
+                  <div class="factor-text">
+                    <p>NORTHERN REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-nord-17"></div>
+                  <!-- Central regions 2017 -->
+                  <div class="factor-text">
+                    <p>CENTRAL REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-centro-17"></div>
+                  <!-- Southern regions 2017 -->
+                  <div class="factor-text">
+                    <p>SOUTHERN REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-sud-17"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End of 2017 -->
+
+
+        <!-- 2018 -->
+        <div class="container collapse analysis-card" id="year18" data-bs-parent="#viz">
+          <div class="align-items-stretch mb-5 mb-lg-0">
+            <div class="analysis-box">
+              <div class="analysis-box-title">
+                <p class="factor-text">Results for year 2018</p>
+              </div>
+              <!-- Start of 2018 tabs -->
+              <!-- Tabs for choosing the chart -->
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="bubblecharts18-tab" data-bs-toggle="tab"
+                    data-bs-target="#bubblecharts18" type="button" role="tab" aria-controls="bubblecharts18"
+                    aria-selected="true"><b>Bubble charts</b></button>
+                  <button class="nav-link" id="piecharts18-tab" data-bs-toggle="tab" data-bs-target="#piecharts18"
+                    type="button" role="tab" aria-controls="piecharts18" aria-selected="false"><b>Pie
+                      charts</b></button>
+                </div>
+              </nav>
+              <!-- Both divs for graphs -->
+              <div class="tab-content" id="nav-tabContent">
+                <!-- Bubblecharts -->
+                <div class="tab-pane fade show active" id="bubblecharts18" role="tabpanel"
+                  aria-labelledby="bubblecharts18-tab">
+                  <!-- PUT BUBBLECHARTS CODE HERE -->
+                  Here the bubblecharts
+                </div>
+                <!-- Piecharts -->
+                <div class="tab-pane fade" id="piecharts18" role="tabpanel" aria-labelledby="piecharts18-tab">
+                  <div class="section-title">
+                    <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific
+                        pregnancies' characteristics!</b></span>
+                  </div>
+                  <!-- Northern regions 2018 -->
+                  <div class="factor-text">
+                    <p>NORTHERN REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-nord-18"></div>
+
+                  <!-- Central regions 2018 -->
+                  <div class="factor-text">
+                    <p>CENTRAL REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-centro-18"></div>
+
+                  <!-- Southern regions 2018 -->
+                  <div class="factor-text">
+                    <p>SOUTHERN REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-sud-18"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End of 2018 -->
+
+
+        <!-- 2019 -->
+        <div class="container collapse analysis-card" id="year19" data-bs-parent="#viz">
+          <div class="align-items-stretch mb-5 mb-lg-0">
+            <div class="analysis-box">
+              <div class="analysis-box-title">
+                <p class="factor-text">Results for year 2019</p>
+              </div>
+              <!-- Start of 2019 tabs -->
+              <!-- Tabs for choosing the chart -->
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="bubblecharts19-tab" data-bs-toggle="tab"
+                    data-bs-target="#bubblecharts19" type="button" role="tab" aria-controls="bubblecharts19"
+                    aria-selected="true"><b>Bubble charts</b></button>
+                  <button class="nav-link" id="piecharts19-tab" data-bs-toggle="tab" data-bs-target="#piecharts19"
+                    type="button" role="tab" aria-controls="piecharts19" aria-selected="false"><b>Pie
+                      charts</b></button>
+                </div>
+              </nav>
+              <!-- Both divs for graphs -->
+              <div class="tab-content" id="nav-tabContent">
+                <!-- Bubblecharts -->
+                <div class="tab-pane fade show active" id="bubblecharts19" role="tabpanel"
+                  aria-labelledby="bubblecharts19-tab">
+                  <!-- PUT BUBBLECHARTS CODE HERE -->
+                  Here the bubblecharts
+                </div>
+                <!-- Piecharts -->
+                <div class="tab-pane fade" id="piecharts19" role="tabpanel" aria-labelledby="piecharts19-tab">
+                  <div class="section-title">
+                    <span class="underlined--bg underlined--offset--bg"><b>Click on a region to find out specific
+                        pregnancies' characteristics!</b></span>
+                  </div>
+                  <!-- Northern regions 2019 -->
+                  <div class="factor-text">
+                    <p>NORTHERN REGIONS </p>
+                  </div>
+                  <div class="pie-chart" id="piediv-nord-19"></div>
+
+                  <!-- Central regions 2019 -->
+                  <div class="factor-text">
+                    <p>CENTRAL REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-centro-19"></div>
+
+                  <!-- Southern regions 2019 -->
+                  <div class="factor-text">
+                    <p>SOUTHERN REGIONS</p>
+                  </div>
+                  <div class="pie-chart" id="piediv-sud-19"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End of 2019 -->
+
+      </div>
     </section><!-- End Visualizations Section -->
 
     <!-- ======= Sustainability Section ======= -->
@@ -2989,7 +3092,8 @@ d3.queue()
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="chloi.papadopoulou@studio.unibo.it"><i class="bi bi-envelope"></i></a>
-                  <a href="https://www.linkedin.com/in/chloe-papadopoulou/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/chloe-papadopoulou/" target="_blank"><i
+                      class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -3069,7 +3173,7 @@ d3.queue()
             <h4>Mashup Datasets</h4>
             <p>Creative Commons Attribution 4.0 International (<a
                 href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">CC BY 4.0</a>)
-              </p>
+            </p>
             <h4>Softwares used</h4>
             <p>
               <b>Leaflet</b>: BSD 2-Clause "Simplified" License
@@ -3078,7 +3182,8 @@ d3.queue()
               <b>Plotly.js</b>: MIT License
             </p>
             <p>
-              <b>amCharts</b>: <a href="https://github.com/amcharts/amcharts4/blob/master/dist/script/LICENSE">linkware license</a>
+              <b>amCharts</b>: <a href="https://github.com/amcharts/amcharts4/blob/master/dist/script/LICENSE">linkware
+                license</a>
             </p>
           </div>
         </div>
@@ -3158,7 +3263,7 @@ d3.queue()
   <script src="assets/js/plotly_graphs/edit17.js"></script>
   <script src="assets/js/plotly_graphs/edit18.js"></script>
   <script src="assets/js/plotly_graphs/edit19.js"></script>
-<!--
+  <!--
   <script src="assets/js/plotly_graphs/STANDARDIZED_18.js"></script>
   <script src="assets/js/plotly_graphs/STANDARDIZED_19.js"></script> -->
 
