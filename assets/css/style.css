@@ -2088,7 +2088,7 @@ h3.analysis-second-title {
 }
 
 .leaflet-container {
-  background-color: white !important;
+  /* background-color:  !important; */
 }
 
 .leaflet-tile-container {
@@ -2097,6 +2097,13 @@ h3.analysis-second-title {
 
 .leaflet-control-zoom {
   display: none;
+}
+
+.legend span {
+  display:inline;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
 }
 
 #viz-buttons {
@@ -2137,10 +2144,54 @@ h3.analysis-second-title {
 
 .time-series-plot{
   width: 100%!important;
-  height: 500px!important;
+  height: 400px!important;
   }
+.plot-container-plotly{
+  width:100%!important;
+}
 
 .bubble-graph{
   width: 100%!important;
   height: 500px!important;
 }
+
+
+
+.countrydata2{
+
+   /* background: #64c7353b; */
+   width: 6;
+   padding: 3px;
+   font-family: "Raleway";
+   font-size: 18px;
+   font-weight: 600;
+   color: black;
+   line-height: 1;
+   border: 3px;
+
+   }
+
+
+  /* MAP LEGEND COLORS FOR RELIGION */
+/* 
+#rel17_1 span{
+  background-color:#FFF2EB!important;
+
+}
+
+#rel17_2 span{
+  background-color:#F1D0CC!important;
+
+}#rel17_3{
+
+}#rel17_4{
+
+}#rel17_5{
+
+}#rel17_6{
+
+}#rel17_7{
+
+}#rel17_8{
+
+} */

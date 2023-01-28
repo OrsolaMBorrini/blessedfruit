@@ -2819,23 +2819,6 @@
         </div>
 
 
-        <div class="section-title" data-aos="fade-up" data-aos-delay="250">
-          <div class="factor-text">
-            <p>TRENDS OVER TIME</p>
-          </div>
-
-          <!-- Plot container -->
-          <div class="time-series" data-num="2">
-            <!-- id displaying the plot -->
-            <div class="time-series-plot" id="time-series-general"></div>
-            <div class="control-row">
-              <!-- browser menu -->
-              Region: <select class="countrydata2">
-              </select>
-            </div>
-          </div><!-- END plot container -->
-
-        </div>
 
         <!-- Buttons for the bubblecharts and piecharts (select year)-->
         <div class="row" data-aos="fade-up" data-aos-delay="200">
@@ -2905,7 +2888,7 @@
 
                           Plotly.plot(bubble17_b, {
                             data: figureRelPreg17.data,
-                            layout: figureRelPreg17.layout,
+                            layout: Object.assign({}, figureRelPreg17.layout, {showlegend: true}),
                             frames: figureRelPreg17.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -2945,7 +2928,7 @@
 
                           Plotly.plot(gd, {
                             data: figurePregEdu17.data,
-                            layout: figurePregEdu17.layout,
+                            layout: Object.assign({}, figurePregEdu17.layout, {showlegend: true}),
                             frames: figurePregEdu17.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -2983,7 +2966,7 @@
 
                           Plotly.plot(bubble17_c, {
                             data: relEdu17.data,
-                            layout: relEdu17.layout,
+                            layout: Object.assign({}, relEdu17.layout, {showlegend: true}),
                             frames: relEdu17.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -3077,7 +3060,7 @@
 
                           Plotly.plot(bubble18_a, {
                             data: relPreg18.data,
-                            layout: relPreg18.layout,
+                            layout: Object.assign({}, relPreg18.layout, {showlegend: true}),
                             frames: relPreg18.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -3120,7 +3103,7 @@
 
                       Plotly.plot(bubble18_b, {
                         data: pregEdu18.data,
-                        layout: pregEdu18.layout,
+                        layout: Object.assign({}, pregEdu18.layout, {showlegend: true}),
                         frames: pregEdu18.frames,
                         config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                       });
@@ -3160,7 +3143,7 @@
 
                       Plotly.plot(bubble18_c, {
                         data: relEdu18.data,
-                        layout: relEdu18.layout,
+                        layout: Object.assign({}, relEdu18.layout, {showlegend: true}),
                         frames: relEdu18.frames,
                         config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                       });
@@ -3257,7 +3240,7 @@
 
                           Plotly.plot(bubble19_a, {
                             data: relPreg19.data,
-                            layout: relPreg19.layout,
+                            layout: Object.assign({}, relPreg19.layout, {showlegend: true}),
                             frames: relPreg19.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -3296,7 +3279,7 @@
 
                           Plotly.plot(bubble19_b, {
                             data: pregEdu19.data,
-                            layout: pregEdu19.layout,
+                            layout: Object.assign({}, pregEdu19.layout, {showlegend: true}),
                             frames: pregEdu19.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -3337,7 +3320,7 @@
 
                           Plotly.plot(bubble19_c, {
                             data: relEdu19.data,
-                            layout: relEdu19.layout,
+                            layout: Object.assign({}, relEdu19.layout, {showlegend: true}),
                             frames: relEdu19.frames,
                             config: { "showLink": false, "mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A" }
                           });
@@ -3385,6 +3368,41 @@
             </div>
           </div>
         </div> <!-- End of 2019 -->
+
+
+
+        <div class="section-title" data-aos="fade-up" data-aos-delay="250">
+          <div class="factor-text">
+            <p>TRENDS OVER TIME</p>
+          </div>
+
+          <p class="explanatory-text">
+          Finally, we can observe how our chosen parameters have evolved over the timespan of our study in each specific region.
+          </p>
+          <br>
+
+
+          <div class="time-series" data-num="2">
+
+
+          <!-- Plot container -->
+            <!-- id displaying the plot -->
+            <div class="time-series-plot" id="time-series-general"></div>
+
+            <!-- browser menu -->
+
+            <div class="click-instruction">
+              <span class="underlined--bg-g underlined--offset--bg-g"><b>Select a region!</b></span>
+            </div>
+
+            <div class="control-row">
+              <select class="countrydata2">
+                <!-- <option value="">Select Region</option> -->
+              </select>
+            </div>
+          </div><!-- END plot container -->
+
+        </div>
 
       </div>
     </section><!-- End Visualizations Section -->
@@ -3637,7 +3655,7 @@
   <script src="assets/js/plotly_graphs/time-series-general.js"></script>
 
 
-  <script src="assets/js/pie_charts/pie-19-nord.js"></script>
+  <script src="assets/js/pie_charts/pie-total.js"></script>
 
   <script src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/plotlyjs-bundle.js"></script>
   <script type="text/javascript" src="assets/js/plotly_graphs/bubble-charts/bubble-chart-17-edu-preg (1)/figure.js"></script>

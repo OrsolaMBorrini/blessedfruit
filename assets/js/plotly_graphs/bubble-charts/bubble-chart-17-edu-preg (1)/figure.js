@@ -239,7 +239,8 @@ var figurePregEdu17 = {
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i>"
@@ -1097,7 +1098,9 @@ var figureRelPreg17 = {
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
+
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i>"
@@ -1953,7 +1956,9 @@ var relEdu17 ={
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
+
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i>"
@@ -2811,7 +2816,8 @@ var relEdu18 =
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i><br>"
@@ -3673,7 +3679,8 @@ var pregEdu18 =
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
         }
       ],
       "hovertemplate": ""
@@ -4537,7 +4544,8 @@ var relPreg18 =
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i><br>"
@@ -5399,7 +5407,8 @@ var pregEdu19 =
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i><br>"
@@ -6258,7 +6267,9 @@ var relEdu19 ={
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
+
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i><br>"
@@ -7119,7 +7130,9 @@ var relPreg19 =
           "fitfunction": "m*x + b",
           "inputxrange": [],
           "outputxrange": [],
-          "interpolation": 50
+          "interpolation": 50,
+          "showlegend":true
+
         }
       ],
       "hovertemplate": "<i>Religious_observation %{meta[0]}</i><br>"

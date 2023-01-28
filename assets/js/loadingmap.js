@@ -27,55 +27,6 @@ $(document).ready(function() {
     rel7='#ad2831',
     rel8='#7b0d1e',
     rel9= '#38040e';
-    
-    // var legend = L.control.legend({
-    //     position: 'bottomright',
-    //     legend: {
-    //         values: [18, 20, 22, 24, 26, 28, 30, 32],
-    //         labels: ['18 or less', '20 or less', '22 or less', '24 or less', '26 or less', '28 or less', '30 or less', '32 or less'],
-    //         colors: [rel1, rel2, rel3, rel4, rel5, rel6, rel7, rel8, rel9]
-    //     }
-    // });
-    // legend.addTo(map_17_rel);
-
-    // LIGHT TO dark
-
-
-    //
-    // // When the layer is added to the map
-    // // When the layer is added to the map
-    // legend.onAdd = function() {
-    // //
-    //   var div = L.DomUtil.create("div", "legend");
-    //   div.className += "legend-item";
-    //   // Add the legend items and their corresponding colors
-    //   div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #FFE6CB;'></div> <div class='legend-text'>Religious observance %</div></div>";
-    //   div.innerHTML += "<div class='legend-item'><div class='legend-color' style='background-color: #BD0026;'></div> <div class='legend-text'>Age-group: 18-24</div></div>";
-    //
-    //   return div;
-    // }
-    // legend.addTo(map_17_rel);
-    //
-    // var legend = L.control.legend({
-    //     position: 'bottomright',
-    //     legend: {
-    //         values: [18, 20, 22, 24, 26, 28, 30, 32],
-    //         labels: ['18 or less', '20 or less', '22 or less', '24 or less', '26 or less', '28 or less', '30 or less', '32 or less'],
-    //         colors: [rel1, rel2, rel3, rel4, rel5, rel6, rel7, rel8, rel9]
-    //     }
-    // });
-    // legend.addTo(map_17_rel);
-
-  // // GetColor function RELIGION  //
-
-              // Hex	RGB CHERRY
-              // #e5bbbb	(229,187,187)
-              // #df9f9f	(223,159,159)
-              // #ce7676	(206,118,118)
-              // #b85a5a	(184,90,90)
-              // #9a3e3e	(154,62,62)
-
-
 
 
 
@@ -91,6 +42,55 @@ $(document).ready(function() {
                   rel9;
                  ;
       }
+
+      // Create a new div element for the legend
+      // Add the legend to the map
+      // var legend17rel = L.control({ position: "bottomright" });
+      // legend17rel.onAdd = function(map_17_rel) {
+      //   var div = L.DomUtil.create("div", "legend");
+      //   div.innerHTML = `
+      //     <div>
+      //       <div class="legend-item" id="rel17_1" style="background: ${rel1}"></div>
+      //       <span>0 - 18</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_2" style="background: ${rel2}"></div>
+      //       <span>18 - 20</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_3" style="background: ${rel3}"></div>
+      //       <span>20 - 22</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_4" style="background: ${rel4}"></div>
+      //       <span>22 - 24</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_5" style="background: ${rel5}"></div>
+      //       <span>24 - 26</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item"id="rel17_6" style="background: ${rel6}"></div>
+      //       <span>26 - 28</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_7"style="background: ${rel7}"></div>
+      //       <span>28 - 30</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_8"style="background: ${rel8}"></div>
+      //       <span>30 - 32</span>
+      //     </div>
+      //     <div>
+      //       <div class="legend-item" id="rel17_9"style="background: ${rel9}"></div>
+      //       <span>32 +</span>
+      //     </div>
+      //   `;
+      //   return div;
+      // };
+      // legend17rel.addTo(map_17_rel);
+
+
 
 
 

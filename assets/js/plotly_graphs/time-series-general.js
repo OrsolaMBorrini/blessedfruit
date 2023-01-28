@@ -32,7 +32,8 @@ $(document).ready(function() {
                 currentLiveBirths.push(allLiveBirths[i]);
                 currentAbortions.push(allAbortions[i]);
                 currentMiscarriages.push(allMiscarriages[i]);
-                currentYear.push(allYear[i]);
+                currentYear.push(parseInt(allYear[i], 10));
+
             }
         }
     };
@@ -49,10 +50,11 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Religious observance',
             marker: {
-                size: 14,
+                size: 12,
                 opacity: 0.7
             },
-            line: { color: '#52A84C' }
+            line: { color: '#52A84C',
+                    width: 3}
         };
         var trace2 = {
             x: currentYear,
@@ -60,10 +62,11 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Pregnancies',
             marker: {
-                size: 14,
+                size: 12,
                 opacity: 0.7
             },
-            line: { color: '#C70C43' }
+            line: { color: '#C70C43',
+                    width: 3}
         };
         var trace3 = {
             x: currentYear,
@@ -71,10 +74,11 @@ $(document).ready(function() {
             mode: 'lines+markers',
             name: 'Female Early Leavers of Education',
             marker: {
-                size: 14,
+                size: 12,
                 opacity: 0.7
             },
-            line: { color: '#DD8301' }
+            line: { color: '#DD8301',
+                    width: 3}
         };
 
         var data = [trace1, trace2, trace3];
