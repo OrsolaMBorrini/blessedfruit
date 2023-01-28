@@ -856,14 +856,20 @@ section {
   margin-right: 0;
 }
 
+.year-result-text {
+  font-family: 'Raleway';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .factor-text {
   font-family: 'Raleway';
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.factor-text p::before,
-.factor-text p::after {
+.factor-text::before,
+.factor-text::after {
   content: "";
   width: 20px;
   height: 1px;
@@ -871,11 +877,11 @@ section {
   display: inline-block;
 }
 
-.factor-text p::before {
+.factor-text::before {
   margin: 0 5px 5px 0;
 }
 
-.factor-text p::after {
+.factor-text::after {
   margin: 0 0 5px 5px;
 }
 
