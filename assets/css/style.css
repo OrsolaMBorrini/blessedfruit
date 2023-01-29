@@ -2148,13 +2148,17 @@ h3.analysis-second-title {
   width:100%;
 }
 
-.time-series-plot{
+
+#time-series-general{
   width: 100%!important;
-  height: 400px!important;
-  }
-.plot-container-plotly{
-  width:100%!important;
+  height: 500px!important;
+  margin-right:0;
 }
+
+.plot-container-plotly{
+  width:100%;
+}
+
 
 .bubble-graph{
   width: 100%!important;
@@ -2179,7 +2183,7 @@ h3.analysis-second-title {
 
 
   /* MAP LEGEND COLORS FOR RELIGION */
-/* 
+/*
 #rel17_1 span{
   background-color:#FFF2EB!important;
 
