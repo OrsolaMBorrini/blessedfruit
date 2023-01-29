@@ -68,40 +68,6 @@
     https://cdn.jsdelivr.net/npm/esri-leaflet-legend@2.0.1/dist/esri-leaflet-legend.min.js
     "></script>
 
-  <!-- <script src="https://d3js.org/d3.v4.min.js"></script>
-
-  <script>
-
-    d3.queue()
-      .defer(d3.csv, "data/mashupDS/MD_17_religion.csv")
-      .defer(d3.csv, "data/mashupDS/MD2_17.csv")
-      .defer(d3.csv, "data/mashupDS/MD3_17.csv")
-      .await(function (error, data1, data2, data3) {
-        if (error) { console.error(error); return; }
-
-
-        // select specific columns from each file
-        var data = data1.map(function (d, i) {
-          return { x: +d["Percentage"], y: +data2[i]["Total"], r: +data3[i]["Female Early Leavers"] };
-        });
-
-        // use the data to create the chart
-        var svg = d3.select("bubble")
-          .append("svg")
-          .attr("width", 1000)
-          .attr("height", 700);
-
-
-        var bubbles = svg.selectAll("circle")
-          .data(data)
-          .enter()
-          .append("circle")
-          .attr("cx", function (d) { return d.x; })
-          .attr("cy", function (d) { return d.y; })
-          .attr("r", function (d) { return d.r; });
-      });
-  </script> -->
-
 
   <!-- =======================================================
   * Template Name: Vesperr - v4.10.0
