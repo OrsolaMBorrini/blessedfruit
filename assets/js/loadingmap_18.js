@@ -157,27 +157,21 @@ $(document).ready(function() {
     }
     // legend.addTo(map_18_preg);
 
-
-
-    var preg1="#F2DAAF",
-        preg2="#EEBF99",
-        preg3="#F07000",
-        preg4="#E07058",
-        preg5="#F59C1F";
+    var preg1="#FEE68E",
+        preg2="#F7C979",
+        preg3="#fc9f1c",
+        preg4="#F07000",
+        preg5 ='#BC4418',
+        preg6='#580000';
 // E78B4B
   // // GetColor function  //
       function getColor(value) {
-          return value < 1     ? preg1 :
-                 // value < 3     ? preg3 :
-                 // value < 2.4     ? '#D7BB9F' :
-                 // value < 2.8   ? '#CB895E' :
-                 // value < 3    ? '#BC4418' :
-                 value < 1.3    ? '#F7C979' :
-                 value < 1.6    ?  preg3:
-                 value < 1.9    ?  preg5:
-                 value < 2.2    ? '#BC4418':
-                 // value <       ? :
-                    '#580000'         ;
+          return value < 1      ? preg1 :
+                 value < 1.3    ? preg2 :
+                 value < 1.6    ? preg3 :
+                 value < 1.9    ? preg4 :
+                 value < 2.2    ? preg5 :
+                    preg6 ;
       }
       // Fetch the GeoJSON data
       fetch("visualisations/scripts/map_edit2018/pregnancy_religion_education_18.geojson")
@@ -264,17 +258,25 @@ $(document).ready(function() {
             }
             // legend.addTo(map_18_edu);
 
+            var edu1 ='#eaf4f4',
+            edu2 ='#bcdad3',
+            edu3 = '#95b9a5',
+            edu4 = '#5c8565',
+            edu5 = '#01734c',
+            edu6 = '#01573a',
+            edu7 = '#013824';
+
 
 
             // // GetColor function  //
             function getColor(value) {
-                return value < 3     ? '#eaf4f4' :
-                       value < 4     ? '#cce3de' :
-                       value < 5     ? '#a4c3b2' :
-                       value < 6   ? '#84a98c' :
-                       value < 7    ? '#52796f' :
-                       value < 8    ? '#015A3B' :
-                                   '#013824';
+                return value < 3     ? edu1 :
+                       value < 4     ? edu2 :
+                       value < 5     ? edu3 :
+                       value < 6     ? edu4 :
+                       value < 7     ? edu5 :
+                       value < 8     ? edu6 :
+                                   edu7;
 
                 }
 

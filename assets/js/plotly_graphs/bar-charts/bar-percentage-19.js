@@ -131,13 +131,16 @@ layout = {
           itemsizing: 'trace',
           traceorder: 'normal',
           orientation: 'h'
-        },
-
+      },
+      margin: {
+        b: 100,
+        t: 100
+      },
         barmode: 'group',
         barnorm: '',
         modebar: {orientation: 'h'},
         autosize: false,
-        width: 900,
+        width: 800,
         height: 500,
         template: {
           data: {
