@@ -624,11 +624,12 @@ section {
 
 .centered-subtitle {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1.5em;
 }
 
 .bubblecharts-text {
-  padding: 3em 4em 0 0;;
+  padding: 1em 4em 0 0;
+  line-height: 2em;
 }
 
 .explanatory-text {
