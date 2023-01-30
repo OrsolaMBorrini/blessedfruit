@@ -118,6 +118,9 @@ $(document).ready(function() {
            $('.map-li').on('click', function() {
              map_18_rel.invalidateSize();
           });
+          map_18_rel.scrollWheelZoom.disable();
+
+
          });
 
 
@@ -223,6 +226,8 @@ $(document).ready(function() {
            $('.map-li').on('click', function() {
              map_18_preg.invalidateSize();
           });
+          map_18_preg.scrollWheelZoom.disable();
+
          });
 
 
@@ -311,10 +316,10 @@ $(document).ready(function() {
                         });
                       });
                       // Add the zoom functionality
-                      layer.on("click", function() {
+                      map_18_edu.on("click", function() {
                         map_18_edu.zoomIn(0.4);
                       });
-                      layer.on("mouseout", function() {
+                      map_18_edu.on("mouseout", function() {
                         map_18_edu.zoomOut(0.4);
                       });
                       // Add the original popup content
@@ -331,6 +336,9 @@ $(document).ready(function() {
                    $('.map-li').on('click', function() {
                      map_18_edu.invalidateSize();
                   });
+
+                  map_18_edu.scrollWheelZoom.disable();
+
                  });
 
 

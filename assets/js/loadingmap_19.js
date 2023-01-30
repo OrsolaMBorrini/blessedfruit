@@ -104,6 +104,9 @@ $(document).ready(function() {
            $('.map-li').on('click', function() {
              map_19_rel.invalidateSize();
           });
+
+          map_19_rel.scrollWheelZoom.disable();
+
          });
 
 
@@ -212,6 +215,9 @@ $(document).ready(function() {
            $('.map-li').on('click', function() {
              map_19_preg.invalidateSize();
           });
+
+          map_19_preg.scrollWheelZoom.disable();
+
          });
 
 
@@ -314,6 +320,8 @@ $(document).ready(function() {
                    $('.map-li').on('click', function() {
                      map_19_edu.invalidateSize();
                   });
+                  map_19_preg.scrollWheelZoom.disable();
+
                  });
 
 
