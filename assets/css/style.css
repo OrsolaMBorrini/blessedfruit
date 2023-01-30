@@ -627,8 +627,13 @@ section {
   padding-top: 1em;
 }
 
-.explanatory-text {
+.bubblecharts-text {
   padding: 3em 4em 0 0;;
+}
+
+.explanatory-text {
+  padding: 1em 1em 0 1em;
+  margin: 0;
 }
 
 /*--------------------------------------------------------------
