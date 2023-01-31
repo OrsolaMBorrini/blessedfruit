@@ -847,7 +847,6 @@ section {
   border-radius: 3px;
 }
 
-
 .results-item {
   margin-bottom: 30px;
 }
@@ -901,6 +900,9 @@ section {
   left: 12vw;
 }
 
+blockquote {
+  margin: 0 6rem 0 6rem;
+}
 
 /*--------------------------------------------------------------
 # Datasets
