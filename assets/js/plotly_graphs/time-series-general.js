@@ -53,7 +53,7 @@ $(document).ready(function() {
                 size: 12,
                 opacity: 0.7
             },
-            line: { color: '#52A84C',
+            line: { color: '#C70C43',
                     width: 3}
         };
         var trace2 = {
@@ -65,7 +65,7 @@ $(document).ready(function() {
                 size: 12,
                 opacity: 0.7
             },
-            line: { color: '#C70C43',
+            line: { color: '#DD8301',
                     width: 3}
         };
         var trace3 = {
@@ -77,14 +77,26 @@ $(document).ready(function() {
                 size: 12,
                 opacity: 0.7
             },
-            line: { color: '#DD8301',
-                    width: 3}
+            line: { color: '#52A84C',
+                    width: 3},
         };
 
         var data = [trace1, trace2, trace3];
 
         var layout = {
-            title: chosenCountry
+
+            title: {
+              text:chosenCountry},
+
+
+            legend: {
+              "orientation": "h",
+              x: -0.022,
+              y: -0.2
+              // automargin:false,
+              // margin-left:12
+              // position: "bottomright"
+            }
         };
 
         Plotly.newPlot('time-series-general', data, layout, {showSendToCloud: true});

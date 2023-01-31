@@ -2158,14 +2158,17 @@ h3.analysis-second-title {
 
 
 #time-series-general{
+  align-self: center;
+  align-content: center;
+  align-content: center;
   width: 100%!important;
   height: 500px!important;
   margin-right:0;
 }
-
+/* 
 .plot-container-plotly{
-  width:100%;
-}
+  width:50% !important;
+} */
 
 
 .bubble-graph{
@@ -2183,6 +2186,7 @@ h3.analysis-second-title {
    font-family: "Raleway";
    font-size: 18px;
    font-weight: 600;
+   text-align:center;
    color: black;
    line-height: 1;
    border: 3px;

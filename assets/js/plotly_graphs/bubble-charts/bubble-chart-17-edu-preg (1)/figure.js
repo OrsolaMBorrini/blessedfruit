@@ -933,8 +933,8 @@ var figureRelPreg17 = {
           }
         },
         "symbol": "circle",
-        "sizemin": 1,
-        "sizeref": 0.2,
+        "sizemin": 0,
+        "sizeref": 0.15,
         "sizesrc": "chloepap:25:9d7e81",
         "size": [
           "3.709522562625469",
@@ -1794,7 +1794,7 @@ var relEdu17 ={
         },
         "symbol": "circle",
         "sizemin": 0,
-        "sizeref": 0.2,
+        "sizeref": 0.15,
         "sizesrc": "chloepap:25:9d7e81",
         "size": [
           "3.709522562625469",
@@ -2653,7 +2653,7 @@ var relEdu18 =
         },
         "symbol": "circle",
         "sizemin": 0,
-        "sizeref": 0.16666666666666666,
+        "sizeref": 0.15,
         "sizesrc": "chloepap:25:9d7e81",
         "size": [
           "3.709522562625469",
@@ -3512,7 +3512,7 @@ var pregEdu18 =
         },
         "symbol": "circle",
         "sizemin": 0,
-        "sizeref": 0.16666666666666666,
+        "sizeref": 0.15,
         "sizesrc": "chloepap:25:9d7e81",
         "size": [
           "3.709522562625469",
@@ -6099,8 +6099,8 @@ var relEdu19 ={
           }
         },
         "symbol": "circle",
-        "sizemin": 1,
-        "sizeref": 0.1,
+        "sizemin": 0,
+        "sizeref": 0.08,
         "sizesrc": "chloepap:33:9156de",
         "size": [
           "1.8063791182865787",
