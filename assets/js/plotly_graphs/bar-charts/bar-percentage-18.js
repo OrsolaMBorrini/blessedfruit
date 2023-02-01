@@ -123,8 +123,8 @@ layout = {
         },
         bargap: 0.12,
         legend: {
-          x: 0.35000000000000002,
-          y: -0.6,
+          x: 0.3100000000000002,
+          y: -0.52,
           valign: 'top',
           xanchor: 'center',
           yanchor: 'bottom',
@@ -136,7 +136,7 @@ layout = {
         barnorm: '',
         modebar: {orientation: 'h'},
         autosize: false,
-        width: 900,
+        width: 1000,
         height: 500,
         template: {
           data: {
