@@ -22,6 +22,7 @@ def viz_religion(csv_path,new_path):  #get only religious observance values
 
 
 #ADDITIONAL SCRIPT FOR STANDARDIZING THE VALUES
+# Note: this was not implemented
 from pandas import *
 import scipy
 from scipy import stats
@@ -65,14 +66,14 @@ def standardize_all(md1,md2,md3,path):
 
     final_df=final_df.astype({'Population':float, 'Time':int, 'Religious_observation':float,'Live_births':float, 'Miscarriages':float, 'Abortions':float, 'Total_Pregnancies':float, 'Female Early Leavers':float})
 
-    # #there is a nan showing up, let's fix by giving it the mean value
-    # final_df['Female Early Leavers'].fillna(final_df['Female Early Leavers'].mean(), inplace=True)
-    # final_df['Total_Pregnancies'].fillna(final_df['Total_Pregnancies'].mean(), inplace=True)
-    # final_df['Religious_observation'].fillna(final_df['Religious_observation'].mean(), inplace=True)
+    #there is a nan showing up, let's fix by giving it the mean value
+    final_df['Female Early Leavers'].fillna(final_df['Female Early Leavers'].mean(), inplace=True)
+    final_df['Total_Pregnancies'].fillna(final_df['Total_Pregnancies'].mean(), inplace=True)
+    final_df['Religious_observation'].fillna(final_df['Religious_observation'].mean(), inplace=True)
 
-    # final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
-    # final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
-    # final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
+    final_df['Female Early Leavers'] = stats.zscore(final_df['Female Early Leavers'])
+    final_df['Total_Pregnancies'] = stats.zscore(final_df['Total_Pregnancies'])
+    final_df['Religious_observation'] = stats.zscore(final_df['Religious_observation'])
 
 
     final_df.to_csv(path)
@@ -81,7 +82,6 @@ def standardize_all(md1,md2,md3,path):
 
 
 print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','bar_edit17.csv'))
-
 print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','bar_edit18.csv'))
 print(standardize_all('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','bar_edit19.csv'))
 
@@ -219,21 +219,21 @@ def add_education(json_file_path,csv_path,new_json_path):
 #Run for 2017
 
 
-print(add_rel_data('visualisations/scripts/italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_17.csv','visualisations/scripts/relig_obv_17.geojson'))
-print(add_pregnancy_data('visualisations/scripts/relig_obv_17.geojson', '/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2017.csv','visualisations/scripts/pregnancy_religion_17.geojson'))
-print(add_education('visualisations/scripts/pregnancy_religion_17.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','pregnancy_religion_education_17.geojson'))
+print(add_rel_data('visualisations/scripts/additional_files//italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_17.csv','visualisations/scripts/additional_files/relig_obv_17.geojson'))
+print(add_pregnancy_data('visualisations/scripts/additional_files//relig_obv_17.geojson', '/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2017.csv','visualisations/scripts/additional_files/pregnancy_religion_17.geojson'))
+print(add_education('visualisations/scripts/additional_files//pregnancy_religion_17.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','visualisations/scripts/additional_files/pregnancy_religion_education_17.geojson'))
 
 
 # #Let's do the same for 2018
 
-print(add_rel_data('visualisations/scripts/italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18.csv',"visualisations/scripts/relig_obv_18.geojson"))
-print(add_pregnancy_data('visualisations/scripts/relig_obv_18.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2018.csv','visualisations/scripts/pregnancy_religion_18.geojson'))
-print(add_education('visualisations/scripts/pregnancy_religion_18.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','pregnancy_religion_education_18.geojson'))
+print(add_rel_data('visualisations/scripts/additional_files/italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18.csv',"visualisations/scripts/relig_obv_18.geojson"))
+print(add_pregnancy_data('visualisations/scripts/additional_files/relig_obv_18.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2018.csv','visualisations/scripts/additional_files/pregnancy_religion_18.geojson'))
+print(add_education('visualisations/scripts/additional_files/pregnancy_religion_18.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','visualisations/scripts/additional_files/pregnancy_religion_education_18.geojson'))
 
 
 
 # #Let's do the same for 2019
 
-print(add_rel_data('visualisations/scripts/italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19.csv',"visualisations/scripts/relig_obv_19.geojson"))
-print(add_pregnancy_data('visualisations/scripts/relig_obv_19.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2019.csv','visualisations/scripts/pregnancy_religion_19.geojson'))
-print(add_education('visualisations/scripts/pregnancy_religion_19.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','pregnancy_religion_education_19.geojson'))
+print(add_rel_data('visualisations/scripts/additional_files/italy-with-regions_1458.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19.csv',"visualisations/scripts/relig_obv_19.geojson"))
+print(add_pregnancy_data('visualisations/scripts/additional_files/relig_obv_19.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2-ASS-2019.csv','visualisations/scripts/additional_files/pregnancy_religion_19.geojson'))
+print(add_education('visualisations/scripts/additional_files/pregnancy_religion_19.geojson','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','visualisations/scripts/additional_files/pregnancy_religion_education_19.geojson'))

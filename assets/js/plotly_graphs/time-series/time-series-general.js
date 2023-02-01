@@ -1,19 +1,19 @@
 $(document).ready(function() {
-  Plotly.d3.csv('full_time_series_edit.csv', function(err, rows){
+  Plotly.d3.csv('assets/js/plotly_graphs/time-series/full_time_series_edit.csv', function(err, rows){
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
     }
 
     var allCountryNames = unpack(rows, 'Region'),
         allYear = unpack(rows, 'Time'),
-        allLiveBirths = unpack(rows, 'Religious observation'),
-        allAbortions = unpack(rows, 'Total'),
-        allMiscarriages = unpack(rows, 'Female Early Leavers'),
+        allReligion = unpack(rows, 'Religious observation'),
+        allPregnancies = unpack(rows, 'Total'),
+        allEducation = unpack(rows, 'Female Early Leavers'),
         listofCountries = [],
         currentCountry,
-        currentLiveBirths = [],
-        currentAbortions = [],
-        currentMiscarriages = [],
+        currentReligion = [],
+        currentPregnancies = [],
+        currentEducation = [],
         currentYear = [];
 
     for (var i = 0; i < allCountryNames.length; i++ ){
@@ -23,15 +23,15 @@ $(document).ready(function() {
     }
 
     function getCountryData(chosenCountry) {
-        currentLiveBirths = [];
-        currentAbortions = [];
-        currentMiscarriages = [];
+        currentReligion = [];
+        currentPregnancies = [];
+        currentEducation = [];
         currentYear = [];
         for (var i = 0 ; i < allCountryNames.length ; i++){
             if ( allCountryNames[i] === chosenCountry ) {
-                currentLiveBirths.push(allLiveBirths[i]);
-                currentAbortions.push(allAbortions[i]);
-                currentMiscarriages.push(allMiscarriages[i]);
+                currentReligion.push(allReligion[i]);
+                currentPregnancies.push(allPregnancies[i]);
+                currentEducation.push(allEducation[i]);
                 currentYear.push(parseInt(allYear[i], 10));
 
             }
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
         var trace1 = {
             x: currentYear,
-            y: currentLiveBirths,
+            y: currentReligion,
             mode: 'lines+markers',
             name: 'Religious observance',
             marker: {
@@ -58,7 +58,7 @@ $(document).ready(function() {
         };
         var trace2 = {
             x: currentYear,
-            y: currentAbortions,
+            y: currentPregnancies,
             mode: 'lines+markers',
             name: 'Pregnancies',
             marker: {
@@ -70,7 +70,7 @@ $(document).ready(function() {
         };
         var trace3 = {
             x: currentYear,
-            y: currentMiscarriages,
+            y: currentEducation,
             mode: 'lines+markers',
             name: 'Female Early Leavers of Education',
             marker: {

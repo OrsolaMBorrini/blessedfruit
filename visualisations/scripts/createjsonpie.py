@@ -52,7 +52,7 @@ def create_json(csv_path):
 
         json_data19.append(json_object)
 
-    path= "pie-charts-json"
+    path= "visualisations/scripts/additional_files/pie-charts-json"
     os.makedirs(path, exist_ok=True)
 
 #save data
@@ -68,4 +68,4 @@ def create_json(csv_path):
 
     return True
 
-print(create_json('/Users/macuser/Desktop/openaccrepo/blessedfruit/full_time_series_edit.csv'))
+print(create_json('/Users/macuser/Desktop/openaccrepo/blessedfruit/visualisations/scripts/additional_files/full_time_series_edit.csv'))

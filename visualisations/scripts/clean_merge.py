@@ -34,7 +34,7 @@ def viz_time_series(md1,md2,md3,path):
     # df1.loc[df1["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
     df1.loc[df1["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
 
-    
+
     # df3.loc[df3["Region"] == "Valle D'Aosta/Vallée D'Aoste", "Region"] = "Valle D'Aosta / Vallée D'Aoste"
     df3.loc[df3["Region"] == "Trentino-Alto Adige/Südtirol", "Region"] = "Trentino Alto Adige / Südtirol"
 
@@ -49,24 +49,23 @@ def viz_time_series(md1,md2,md3,path):
             if col=="Region code_GENERAL":
                 dframe.rename(columns={col:"Region code"}, inplace=True)
 
-            
+
             if col=="Time_GENERAL":
                 dframe.rename(columns={col:"Time"}, inplace=True)
 
-                
+
     merged_df = merge(df1, df2, on="Region code")
     final_df= merge(merged_df, df3, on="Region code")
-    
+
     final_df.to_csv(path)
 
     return path
 
 # print(viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','full_df_17.csv'))
-
 def merge_datasets(path):
-    year_17=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','full_df_17_1.csv')
-    year_18=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','full_df_18_1.csv')
-    year_19=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','full_df_19_1.csv')
+    year_17=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD_17_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_17.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_17.csv','visualisations/scripts/additional_files/full_df_17_1.csv')
+    year_18=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_18_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_18.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_18.csv','visualisations/scripts/additional_files/full_df_18_1.csv')
+    year_19=viz_time_series('/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD1_19_religion.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD2_19.csv','/Users/macuser/Desktop/openaccrepo/blessedfruit/data/mashupDS/MD3_19.csv','visualisations/scripts/additional_files/full_df_19_1.csv')
 
     df1=read_csv(year_17)
     df2=read_csv(year_18)
@@ -81,4 +80,4 @@ def merge_datasets(path):
     return df_full
 
 
-print(merge_datasets("full_time_series_edit.csv"))
+print(merge_datasets("visualisations/scripts/additional_files/full_time_series_edit.csv"))
