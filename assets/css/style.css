@@ -1199,7 +1199,7 @@ h3.analysis-second-title {
 /* Ethical image */
 #ethics {
   float: left;
-  width: 33%;
+  width: 30%;
 }
 
 /* Technical analysis tabs */
@@ -2165,7 +2165,7 @@ h3.analysis-second-title {
   height: 500px!important;
   margin-right:0;
 }
-/* 
+/*
 .plot-container-plotly{
   width:50% !important;
 } */
