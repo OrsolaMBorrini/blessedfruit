@@ -39,9 +39,9 @@
             prov:wasGeneratedBy <https://github.com/OrsolaMBorrini/blessedfruit/activity/mashup> ;
             prov:wasDerivedFrom <https://demo.istat.it/app/?i=RIC&l=en>,
                                 <http://dati.istat.it/index.aspx?queryid=24349> .
-            #missing license?
+          
 
-<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1> #should I add all compulsory parts?
+<https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1>
                a dcatapit:Dataset, dcat:Dataset ;
                dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series>;
                dct:hasPart     <https://github.com/OrsolaMBorrini/blessedfruit/resource/dataset/MD1_17> ;
