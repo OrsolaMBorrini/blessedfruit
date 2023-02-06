@@ -76,7 +76,7 @@
 <https://github.com/OrsolaMBorrini/blessedfruit/distribution/MD22017-csv>
             a   dcatapit:distribution,
                 dcat:Distribution  ;
-            dct:title  "CSV distribution of blessed be the fruit MD2 for the year 2017"@en  ;  #finish the description bit
+            dct:title  "CSV distribution of blessed be the fruit MD2 for the year 2017"@en  ;  
             dct:description "" ; 
             dct:format <http://publications.europa.eu/resource/authority/file-type/CSV/> ;
             dcat:accessURL <https://orsolamborrini.github.io/blessedfruit/> ;
@@ -92,6 +92,3 @@
 
 
 
-  
-
-#MD3 - Education rates in young women'''
